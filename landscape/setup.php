@@ -1,13 +1,15 @@
-<?php 
-session_start ();
-if(!isset($_SESSION["login"]))
 
-	header("location:login.php"); 
+
+<?php include('includes/database.php'); ?>
+<?php
+  //Create the select query
+  $query ="SELECT * FROM setup
+        order by no
+       ";
+  //Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
-
-
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -15,7 +17,7 @@ if(!isset($_SESSION["login"]))
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>Taimoor's Dashboard</title>
+    <title>ISE Landscape Testing</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,27 +46,54 @@ if(!isset($_SESSION["login"]))
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
-	    <li role="presentation"><a href="setup.php">Setup</a></li>
-	    <li role="presentation"><a href="authz.php">AuthZ</a></li>
-            <li role="presentation"><a href="dacl.php">DACL</a></li>
-            <li role="presentation"><a href="ap.php">Allowed Protocol</a></li>
-	    <li role="presentation"><a href="nadgroup.php">NAD Group</a></li>
+
 	    </ul>
         </nav>
-        <h3 class="text-muted">Taimoor Ahmed Landscape Testing</h3>
+        <h3 class="text-muted">Taiahmed ISE Landscape Testing</h3>
       </div>
 
       <div class="row marketing">
 
         <div class="col-lg-6">
-          <h2> Landing Page only </h2>
+          <h2> Node Setup </h2>
 
+    <table  width="1000" class="table table-striped" >
+    <tr>
+		<th> No </th>
+		<th> Source Node </th>
+		<th> Destination Node </th>
+    		<th> Time </th>
+    		<th> Base64 Credentials </th>
+		<th> </th>
+		</tr>
+    <?php
+        //Check if at least one row is found
+        if($result->num_rows > 0) {
+        //Loop through results
+        while($row = $result->fetch_assoc()){
+          //Display customer info
+          $output ='<tr>';
+          $output .='<td>'.$row['no'].' '.'</td>';
+          $output .='<td>'.$row['src'].' '.'</td>';
+          $output .='<td>'.$row['dst'].' '.'</td>';
+          $output .='<td>'.$row['time'].' '.'</td>';
+          $output .='<td>'.$row['auth'].' '.'</td>';
+          $output .='<td><a href="edit_node.php?no='.$row['no'].'" class="btn btn-success"">Edit</a></td>';
+          $output .='</tr>';
+          //Echo output
+          echo $output;
+        }
+      } else {
+        echo "Sorry, no nodes were found";
+      }
+      ?>
 
+ 		</table>
 
 
 
       <footer class="footer">
-        <p>&copy; 2023 Company, Inc.</p>
+        <p>&copy; 2016 Company, Inc.</p>
       </footer>
 
     </div> <!-- /container -->
