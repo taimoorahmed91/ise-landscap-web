@@ -67,6 +67,7 @@
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
 	    <li role="presentation"><a href="add_ap.php">Add Allowed Protocol</a></li>
+            <li role="presentation"><a href="one_stop-ap.php">Run Script</a></li>
 
 	    </ul>
         </nav>
@@ -100,7 +101,6 @@
 	  $output .='<td>'.$row['expired'].'</td>';
 	  $output .='<td>'.$row['code_post'].'</td>';
 	  $output .='<td>'.$row['code_put'].'</td>';
-	  $output .='<td><a href="run_script_ap.php?id='.$row['no'].'" class="btn btn-success"">Script</a></td>';
 	  $output .='</tr>';
           
           //Echo output

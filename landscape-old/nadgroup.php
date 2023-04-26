@@ -2,7 +2,7 @@
 
 <?php
   //Create the select query
-  $query ="SELECT * from ap ORDER BY no";
+  $query ="SELECT * from nadgroup ORDER BY no";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -39,7 +39,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
 
-    <title>Store Dashboard</title>
+    <title>Taiahmed Landscape Testing</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -66,8 +66,7 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
-	    <li role="presentation"><a href="add_ap.php">Add Allowed Protocol</a></li>
-
+	    <li role="presentation"><a href="nadgroup_resync.php">Re-Sync Script</a></li>
 	    </ul>
         </nav>
         <h3 class="text-muted">Taiahmed ISE Landscape Testing</h3>
@@ -76,13 +75,12 @@
       <div class="row marketing">
 
         <div class="col-lg-12">
-          <h2> Allowed Protocol Status </h2>
+          <h2> NAD Group Sync Status </h2>
 		<table class="table table-striped">
     <tr>
 		<th> No </th>
-		<th> Allowed Protocol </th>
 		<th> Time </th>
-		<th> Expired </th>
+		<th> Name </th>
 		<th> Post HTTP Code </th>
                 <th> Put HTTP code </th>
 		<th> </th>
@@ -95,12 +93,10 @@
           //Display customer info
           $output ='<tr>';
           $output .='<td>'.$row['no'].'</td>';
-	  $output .='<td>'.$row['ap'].'</td>';
 	  $output .='<td>'.$row['time'].'</td>';
-	  $output .='<td>'.$row['expired'].'</td>';
+	  $output .='<td>'.$row['name'].'</td>';
 	  $output .='<td>'.$row['code_post'].'</td>';
 	  $output .='<td>'.$row['code_put'].'</td>';
-	  $output .='<td><a href="run_script_ap.php?id='.$row['no'].'" class="btn btn-success"">Script</a></td>';
 	  $output .='</tr>';
           
           //Echo output
