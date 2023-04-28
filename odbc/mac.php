@@ -1,8 +1,16 @@
 <?php include('includes/database.php'); ?>
+<?php
+session_start ();
+if(!isset($_SESSION["login"]))
+
+        header("location:login.php");
+?>
+
+
 
 <?php
   //Create the select query
-  $query ="SELECT * from authz ORDER BY no";
+  $query ="SELECT * from odbc ORDER BY id";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -10,17 +18,6 @@
 <html lang="en">
   <head >
 
-          <script type="text/javascript">
-        function startTime()
-        {
-            var d=new Date();
-            var h=d.getHours();
-            var m=d.getMinutes();
-            var s=d.getSeconds();
-            document.getElementById("txt").innerHTML=h+" : "+m+" : "+s;
-            setTimeout('startTime()',1000);
-        }
-        </script>
         <style type="text/css">
             h1
             {
@@ -66,8 +63,8 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
-	    <li role="presentation"><a href="add_authz.php">Add Authz</a></li>
-	    </ul>
+            <li role="presentation"><a href="add_mac.php">Add Endpoint</a></li>
+            </ul>
         </nav>
         <h3 class="text-muted">Taiahmed ISE Landscape Testing</h3>
       </div>
@@ -75,17 +72,24 @@
       <div class="row marketing">
 
         <div class="col-lg-12">
-          <h2> Authorization Profiles Status </h2>
-		<table class="table table-striped">
+          <h2> Endpoint Asset Table </h2>
+                <table class="table table-striped">
     <tr>
-		<th> No </th>
-		<th> Authorization Profile </th>
-		<th> Time </th>
-		<th> Expired </th>
-		<th> Post HTTP Code </th>
-                <th> Put HTTP Code </th>
+                <th> ID </th>
+                <th> MAC </th>
+                <th> Allow List </th>
+                <th> Allow Lifetime </th>
+                <th> Project Name </th>
+                <th> iPSK Value </th>
+                <th> SGT </th>
+                <th> Crtical </th>
+                <th> Timestamp </th>
+		<th> Expiry</th>
+		<th> CoA Code </th>       
 		<th> </th>
-		</tr>
+		<th> </th>
+                <th> </th>
+                </tr>
     <?php 
         //Check if at least one row is found
         if($result->num_rows > 0) {
@@ -93,13 +97,20 @@
         while($row = $result->fetch_assoc()){
           //Display customer info
           $output ='<tr>';
-          $output .='<td>'.$row['no'].'</td>';
-	  $output .='<td>'.$row['authz'].'</td>';
-	  $output .='<td>'.$row['time'].'</td>';
-          $output .='<td>'.$row['expired'].'</td>';
-	  $output .='<td>'.$row['code_post'].'</td>';
-	  $output .='<td>'.$row['code_put'].'</td>';
-	  $output .='<td><a href="run_script_authz.php?id='.$row['no'].'" class="btn btn-success"">Script</a></td>';
+          $output .='<td>'.$row['id'].'</td>';
+          $output .='<td>'.$row['mac'].'</td>';
+          $output .='<td>'.$row['allow'].'</td>';
+          $output .='<td>'.$row['allow_life'].'</td>';
+          $output .='<td>'.$row['project'].'</td>';
+          $output .='<td>'.$row['ipsk'].'</td>';
+          $output .='<td>'.$row['sgt'].'</td>';
+          $output .='<td>'.$row['critical'].'</td>';
+          $output .='<td>'.$row['time'].'</td>';
+	  $output .='<td>'.$row['expired'].'</td>';
+          $output .='<td>'.$row['coa_code'].'</td>';
+          $output .='<td><a href="coa.php?id='.$row['id'].'" class="btn btn-success"">CoA</a></td>';
+	  $output .='<td><a href="expired.php?id='.$row['id'].'" class="btn btn-success"">Expired</a></td>';
+	  $output .='<td><a href="delete_mac.php?id='.$row['id'].'" class="btn btn-success"">Delete</a></td>';
 	  $output .='</tr>';
           
           //Echo output
@@ -109,13 +120,12 @@
         echo "Sorry, no entries were found";
       }
       ?>
-		 
- 		</table>
+                 
+                </table>
 
-            <form method="post" action="export_authz.php" align="center">  
+            <form method="post" action="export_endpoint.php" align="center">  
                      <input type="submit" name="export" value="CSV Export" class="btn btn-success" />  
-		</form>  
- 
+                </form>   
 
       <footer class="footer">
         <p>&copy; 2023 TaiAhmed Labwork</p>
