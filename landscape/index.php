@@ -49,6 +49,7 @@ if(!isset($_SESSION["login"]))
             <li role="presentation"><a href="dacl.php">DACL</a></li>
             <li role="presentation"><a href="ap.php">Allowed Protocol</a></li>
 	    <li role="presentation"><a href="nadgroup.php">NAD Group</a></li>
+	    <li role="presentation"><a href="policyset.php">Policy Sets</a></li>
 	    </ul>
         </nav>
         <h3 class="text-muted">Taimoor Ahmed Landscape Testing</h3>
