@@ -112,10 +112,38 @@
 		 
  		</table>
 
-            <form method="post" action="export_authz.php" align="center">  
+
+
+
+	 <p> </p>
+	 <p> </p>
+	 <p> </p>
+            <form method="post" action="export_authz.php">  
                      <input type="submit" name="export" value="CSV Export" class="btn btn-success" />  
 		</form>  
- 
+
+         <p> </p>
+         <p> </p>
+         <p> </p>
+
+           <form method="post" action="fetch_all.php">
+                     <input type="submit" name="export" value="Fetch All From Source" class="btn btn-success" />
+		</form>
+
+         <p> </p>
+         <p> </p>
+         <p> </p>
+
+           <form method="post" action="run_all.php">
+                     <input type="submit" name="export" value="Run all Pending" class="btn btn-success" />
+                </form>
+
+         <p> </p>
+         <p> </p>
+	 <p> </p>
+         <p> </p>
+         <p> </p>
+	 <p> </p>
 
       <footer class="footer">
         <p>&copy; 2023 TaiAhmed Labwork</p>

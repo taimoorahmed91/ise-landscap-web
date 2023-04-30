@@ -10,16 +10,6 @@
 <html lang="en">
   <head >
 
-          <script type="text/javascript">
-        function startTime()
-        {
-            var d=new Date();
-            var h=d.getHours();
-            var m=d.getMinutes();
-            var s=d.getSeconds();
-            document.getElementById("txt").innerHTML=h+" : "+m+" : "+s;
-            setTimeout('startTime()',1000);
-        }
         </script>
         <style type="text/css">
             h1
@@ -101,6 +91,7 @@
 	  $output .='<td>'.$row['expired'].'</td>';
 	  $output .='<td>'.$row['code_post'].'</td>';
 	  $output .='<td>'.$row['code_put'].'</td>';
+	  $output .='<td><a href="run_script_dacl.php?id='.$row['no'].'" class="btn btn-success"">Script</a></td>';
 	  $output .='</tr>';
           
           //Echo output
@@ -112,6 +103,40 @@
       ?>
 		 
  		</table>
+
+
+         <p> </p>
+         <p> </p>
+         <p> </p>
+            <form method="post" action="export_dacl.php">  
+                     <input type="submit" name="export" value="CSV Export" class="btn btn-success" />  
+                </form>  
+
+         <p> </p>
+         <p> </p>
+         <p> </p>
+
+           <form method="post" action="fetch_all_dacl.php">
+                     <input type="submit" name="export" value="Fetch All From Source" class="btn btn-success" />
+                </form>
+
+         <p> </p>
+         <p> </p>
+         <p> </p>
+
+           <form method="post" action="run_all_dacl.php">
+                     <input type="submit" name="export" value="Run all Pending" class="btn btn-success" />
+                </form>
+
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+
+
+
 
        
 
