@@ -1,4 +1,9 @@
+<?php
+session_start ();
+if(!isset($_SESSION["login"]))
 
+        header("location:login.php");
+?>
 
 <?php include('includes/database.php'); ?>
 <?php

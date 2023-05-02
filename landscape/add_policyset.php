@@ -36,7 +36,8 @@
       </div>
       <div class="row marketing">
         <div class="col-lg-12">
-          <h2> Add - Allowed Protocols </h2>
+	  <h2> Add - Policy Set </h2>
+<p> Please use this only if your source and destination policy set have the same name only </p>
 	        <form role="form" method="post" action="add_policyset.php">
       <div class="form-group">
         <label>Policy Set profile Name</label>

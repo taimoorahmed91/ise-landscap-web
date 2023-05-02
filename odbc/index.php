@@ -43,7 +43,7 @@ if(!isset($_SESSION["login"]))
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="index.php">Home</a></li>
+            <li role="presentation" class="active"><a href="http://landscape.taimoorlab.pk">Home</a></li>
 	    <li role="presentation"><a href="add_mac.php">ADD MAC</a></li>
 		<li role="presentation"><a href="mac.php">Endpoints</a></li>
 	    <li role="presentation"><a href="edda.php">EDDA</a></li>
