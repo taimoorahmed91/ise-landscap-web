@@ -5,7 +5,7 @@
     $con = mysqli_connect("localhost","root","C1sc0123@","landscape");
      
     // Get all the categories from category table
-    $sql = "SELECT *,CONCAT(authenticationname,'-',fetchedfrom,'-',sourceise) AS entries FROM `authentications`";
+    $sql = "SELECT *,CONCAT(id,'-',authenticationname,'-',fetchedfrom,'-',sourceise) AS entries FROM `authentications`";
     $all_authentications = mysqli_query($con,$sql);
 
 
