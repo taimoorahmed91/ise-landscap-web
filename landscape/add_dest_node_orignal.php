@@ -1,14 +1,5 @@
 <?php include('includes/database.php'); ?>
 <?php
-
-  // Connect to database
-    $con = mysqli_connect("localhost","root","C1sc0123@","landscape");
-     
-    // Get all the categories from category table
-    $sql = "SELECT *,CONCAT(authenticationname,'-',fetchedfrom,'-',sourceise) AS entries FROM `authentications`";
-    $all_authentications = mysqli_query($con,$sql);
-
-
   if($_POST){
     //Get variables from post array
           $dstise = $_POST['dstise'];
@@ -59,34 +50,10 @@
         <label>Policy Set profile Name</label>
         <input name="dstpolicyset" type="text" class="form-control" placeholder="Enter Policy Set Name">
       </div>
-
-
-       <div class="form-group">
-        <label>Source Authentication File</label>
-        <select name="sourceauthentication">
-            <?php
-                // use a while loop to fetch data
-                // from the $all_categories variable
-                // and individually display as an option
-                while ($category = mysqli_fetch_array(
-                        $all_authentications,MYSQLI_ASSOC)):;
-            ?>
-                <option value="<?php echo $category["id"];
-                    // The value we usually set is the primary key
-                ?>">
-                    <?php echo $category["entries"];
-                        // To show the category name to the user
-                    ?>
-                </option>
-            <?php
-                endwhile;
-                // While loop must be terminated
-            ?>
-        </select>
+         <div class="form-group">
+        <label>Source Authentication ID</label>
+        <input name="sourceauthentication" type="text" class="form-control" placeholder="Enter ID from the source profile">
       </div>
-
-
-
       <input type="submit" class="btn btn-default" value="Add replication info" />
     </form>
         </div>

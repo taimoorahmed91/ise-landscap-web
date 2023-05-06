@@ -2,8 +2,7 @@
 
 <?php
   //Create the select query
-  $query ="SELECT replicateauthentication.id, replicateauthentication.dstise, replicateauthentication.dstpolicyset, replicateauthentication.sourceauthentication, authentications.authenticationname, authentications.authenticationid,replicateauthentication.code_post, replicateauthentication.code_put, replicateauthentication.time from replicateauthentication INNER JOIN authentications ON authentications.id = replicateauthentication.sourceauthentication
-";
+  $query ="SELECT * from replicateauthentication";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -57,7 +56,7 @@
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
 	    <li role="presentation"><a href="policyset.php"> Policy Set</a></li>
-            <li role="presentation"><a href="add_dest_node.php"> Add Push from Fetch</a></li>
+            <li role="presentation"><a href="add_dest_node_file.php"> Add Push from File</a></li>
 	    </ul>
         </nav>
         <h3 class="text-muted">Taiahmed ISE Landscape Testing</h3>
@@ -66,16 +65,14 @@
       <div class="row marketing">
 
         <div class="col-lg-12">
-	  <h2> Policy Sets Status (Fetch)</h2>
+	  <h2> Policy Sets Status (File)</h2>
 		<p> Please use this page to fetch authentication Policies from the profile </p>
 		<table class="table table-striped">
     <tr>
 		<th> ID </th>
 		<th> Target ISE </th>
 		<th> Target Policy Set </th>
-		<th> Source ID </th>
-		<th> Source Profile Name </th>
-                <th> Source Profile ID </th>
+		<th> Source File </th>
 		<th> POST Code</th>
                 <th> PUT Code</th>
 		<th> Time</th>
@@ -92,14 +89,12 @@
           $output .='<td>'.$row['id'].'</td>';
 	  $output .='<td>'.$row['dstise'].'</td>';
 	  $output .='<td>'.$row['dstpolicyset'].'</td>';
-	  $output .='<td>'.$row['sourceauthentication'].'</td>';
-	  $output .='<td>'.$row['authenticationname'].'</td>';
-	  $output .='<td>'.$row['authenticationid'].'</td>';
+	  $output .='<td>'.$row['sourceauthenticationid'].'</td>';
 	  $output .='<td>'.$row['code_post'].'</td>';
 	  $output .='<td>'.$row['code_put'].'</td>';
 
 	  $output .='<td>'.$row['time'].'</td>';
-	            $output .='<td><a href="run_replicateauthentication.php?id='.$row['id'].'" class="btn btn-success"">Push</a></td>';
+	            $output .='<td><a href="run_replicateauthentication_file.php?id='.$row['id'].'" class="btn btn-success"">Push</a></td>';
 	  $output .='</tr>';
 
           

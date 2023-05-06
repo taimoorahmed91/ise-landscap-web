@@ -1,29 +1,20 @@
 <?php include('includes/database.php'); ?>
 <?php
-
-  // Connect to database
-    $con = mysqli_connect("localhost","root","C1sc0123@","landscape");
-     
-    // Get all the categories from category table
-    $sql = "SELECT *,CONCAT(authenticationname,'-',fetchedfrom,'-',sourceise) AS entries FROM `authentications`";
-    $all_authentications = mysqli_query($con,$sql);
-
-
   if($_POST){
     //Get variables from post array
           $dstise = $_POST['dstise'];
           $dstpolicyset = $_POST['dstpolicyset'];
-          $sourceauthentication  = $_POST['sourceauthentication'];
+          $sourceauthenticationid  = $_POST['sourceauthenticationid'];
     
     //Create customer query
-    $query ="INSERT INTO replicateauthentication (dstise,dstpolicyset,sourceauthentication)
-                VALUES ('$dstise','$dstpolicyset','$sourceauthentication')";
+    $query ="INSERT INTO replicateauthentication (dstise,dstpolicyset,sourceauthenticationid)
+                VALUES ('$dstise','$dstpolicyset','$sourceauthenticationid')";
     //Run query
     $mysqli->query($query);
     
     
     $msg='Entry Added';
-    header('Location: replicateauthentication.php');
+    header('Location: replicateauthentication_file.php');
     exit;
     }
 ?>
@@ -50,7 +41,7 @@
         <div class="col-lg-12">
           <h2> Add - Authentication Replication Info </h2>
 <p> Please use this to add your destination ISE node that will accept the JSON Data  </p>
-                <form role="form" method="post" action="add_dest_node.php">
+                <form role="form" method="post" action="add_dest_node_file.php">
       <div class="form-group">
         <label>ISE Node FQDN</label>
         <input name="dstise" type="text" class="form-control" placeholder="Enter ISE node FQDN">
@@ -59,34 +50,10 @@
         <label>Policy Set profile Name</label>
         <input name="dstpolicyset" type="text" class="form-control" placeholder="Enter Policy Set Name">
       </div>
-
-
-       <div class="form-group">
+         <div class="form-group">
         <label>Source Authentication File</label>
-        <select name="sourceauthentication">
-            <?php
-                // use a while loop to fetch data
-                // from the $all_categories variable
-                // and individually display as an option
-                while ($category = mysqli_fetch_array(
-                        $all_authentications,MYSQLI_ASSOC)):;
-            ?>
-                <option value="<?php echo $category["id"];
-                    // The value we usually set is the primary key
-                ?>">
-                    <?php echo $category["entries"];
-                        // To show the category name to the user
-                    ?>
-                </option>
-            <?php
-                endwhile;
-                // While loop must be terminated
-            ?>
-        </select>
+        <input name="sourceauthenticationid" type="text" class="form-control" placeholder="Enter File Name that was uploaded on FTP">
       </div>
-
-
-
       <input type="submit" class="btn btn-default" value="Add replication info" />
     </form>
         </div>

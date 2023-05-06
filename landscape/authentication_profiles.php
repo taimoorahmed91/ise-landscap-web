@@ -56,8 +56,8 @@
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
 	    <li role="presentation"><a href="policyset.php"> Policy Set</a></li>
-	            <li role="presentation"><a href="add_dest_node.php"> Add Replication Destination</a></li>
-		<li role="presentation"><a href="replicateauthentication.php"> Replicate</a></li>
+		<li role="presentation"><a href="replicateauthentication.php"> Replicate By Fetch </a></li>
+                <li role="presentation"><a href="replicateauthentication_file.php"> Replicate By File</a></li>
 	    </ul>
         </nav>
         <h3 class="text-muted">Taiahmed ISE Landscape Testing</h3>
