@@ -2,7 +2,8 @@
 
 <?php
   //Create the select query
-  $query ="SELECT * from policynameid ORDER BY id";
+  $query ="SELECT replicateauthentication.id, replicateauthentication.dstise, replicateauthentication.dstpolicyset, replicateauthentication.sourceauthentication, authentications.authenticationname, authentications.authenticationid,replicateauthentication.code_post, replicateauthentication.code_put, replicateauthentication.time from replicateauthentication INNER JOIN authentications ON authentications.id = replicateauthentication.sourceauthentication
+";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -55,8 +56,7 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
-	    <li role="presentation"><a href="add_policyset.php">Add Policy Set</a></li>
-            <li role="presentation"><a href="authentication_profiles.php">Authentication Profiles</a></li>
+	    <li role="presentation"><a href="policyset.php"> Policy Set</a></li>
 	    </ul>
         </nav>
         <h3 class="text-muted">Taiahmed ISE Landscape Testing</h3>
@@ -70,10 +70,16 @@
 		<table class="table table-striped">
     <tr>
 		<th> ID </th>
-		<th> FQDN of Source ISE </th>
-		<th> Policy Name </th>
-		<th> </th>
-                <th> </th>
+		<th> Target ISE </th>
+		<th> Target Policy Set </th>
+		<th> Source ID </th>
+		<th> Source Profile Name </th>
+                <th> Source Profile ID </th>
+		<th> POST Code</th>
+                <th> PUT Code</th>
+		<th> Time</th>
+		<th></th>
+                <th></th>
 		</tr>
     <?php 
         //Check if at least one row is found
@@ -83,11 +89,18 @@
           //Display customer info
           $output ='<tr>';
           $output .='<td>'.$row['id'].'</td>';
-	  $output .='<td>'.$row['isename'].'</td>';
-	  $output .='<td>'.$row['name'].'</td>';
+	  $output .='<td>'.$row['dstise'].'</td>';
+	  $output .='<td>'.$row['dstpolicyset'].'</td>';
+	  $output .='<td>'.$row['sourceauthentication'].'</td>';
+	  $output .='<td>'.$row['authenticationname'].'</td>';
+	  $output .='<td>'.$row['authenticationid'].'</td>';
+	  $output .='<td>'.$row['code_post'].'</td>';
+	  $output .='<td>'.$row['code_put'].'</td>';
+
 	  $output .='<td>'.$row['time'].'</td>';
-	  $output .='<td><a href="fetch_authentication_profile.php?id='.$row['id'].'" class="btn btn-success"">Fetch Authentications</a></td>';
+	            $output .='<td><a href="run_replicateauthentication.php?id='.$row['id'].'" class="btn btn-success"">Push</a></td>';
 	  $output .='</tr>';
+
           
           //Echo output
           echo $output;

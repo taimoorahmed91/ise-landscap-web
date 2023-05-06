@@ -2,7 +2,7 @@
 
 <?php
   //Create the select query
-  $query ="SELECT * from policynameid ORDER BY id";
+  $query ="SELECT * from authentications ORDER BY id";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -55,8 +55,9 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
-	    <li role="presentation"><a href="add_policyset.php">Add Policy Set</a></li>
-            <li role="presentation"><a href="authentication_profiles.php">Authentication Profiles</a></li>
+	    <li role="presentation"><a href="policyset.php"> Policy Set</a></li>
+	            <li role="presentation"><a href="add_dest_node.php"> Add Replication Destination</a></li>
+		<li role="presentation"><a href="replicateauthentication.php"> Replicate</a></li>
 	    </ul>
         </nav>
         <h3 class="text-muted">Taiahmed ISE Landscape Testing</h3>
@@ -70,10 +71,13 @@
 		<table class="table table-striped">
     <tr>
 		<th> ID </th>
-		<th> FQDN of Source ISE </th>
-		<th> Policy Name </th>
-		<th> </th>
-                <th> </th>
+		<th> Authentication Profile Name </th>
+                <th> Authentication Profile ID </th>
+		<th> Source Policy Set </th>
+                <th> Source ISE FQDN </th>
+		<th> HTTP GET Code</th>
+		<th> Time</th>
+		<th></th>
 		</tr>
     <?php 
         //Check if at least one row is found
@@ -83,11 +87,14 @@
           //Display customer info
           $output ='<tr>';
           $output .='<td>'.$row['id'].'</td>';
-	  $output .='<td>'.$row['isename'].'</td>';
-	  $output .='<td>'.$row['name'].'</td>';
+	  $output .='<td>'.$row['authenticationname'].'</td>';
+	  $output .='<td>'.$row['authenticationid'].'</td>';
+	  $output .='<td>'.$row['fetchedfrom'].'</td>';
+	            $output .='<td>'.$row['sourceise'].'</td>';
+	  $output .='<td>'.$row['code'].'</td>';
 	  $output .='<td>'.$row['time'].'</td>';
-	  $output .='<td><a href="fetch_authentication_profile.php?id='.$row['id'].'" class="btn btn-success"">Fetch Authentications</a></td>';
 	  $output .='</tr>';
+
           
           //Echo output
           echo $output;
