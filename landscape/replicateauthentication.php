@@ -99,7 +99,9 @@
 	  $output .='<td>'.$row['code_put'].'</td>';
 
 	  $output .='<td>'.$row['time'].'</td>';
-	            $output .='<td><a href="run_replicateauthentication.php?id='.$row['id'].'" class="btn btn-success"">Push</a></td>';
+	  $output .='<td><a href="run_replicateauthentication.php?id='.$row['id'].'" class="btn btn-success"">Post</a></td>';
+	  $output .='<td><a href="run_replicateauthentication_put.php?id='.$row['id'].'" class="btn btn-success"">Put</a></td>';
+
 	  $output .='</tr>';
 
           
