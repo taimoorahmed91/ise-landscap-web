@@ -93,6 +93,7 @@
 	            $output .='<td>'.$row['sourceise'].'</td>';
 	  $output .='<td>'.$row['code'].'</td>';
 	  $output .='<td>'.$row['time'].'</td>';
+	  $output .='<td><a href="./authentications/'.$row['authenticationid'].'" class="btn btn-success"">View</a></td>';
 	  $output .='</tr>';
 
           
