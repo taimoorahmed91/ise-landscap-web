@@ -43,14 +43,14 @@ if(!isset($_SESSION["login"]))
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-	    <li role="presentation" class="active"><a href="http://landscape.taimoorlab.pk">Home</a></li>
-	    <li role="presentation"><a href="provision.php"> Provision</a></li>
-	    <li role="presentation"><a href="deployments.php"> Deployment</a></li>
-            <li role="presentation"><a href="dacl.php"> DACL</a></li>
-            <li role="presentation"><a href="upload.php"> Upload</a></li>
+            <li role="presentation" class="active"><a href="http://landscape.taimoorlab.pk">Home</a></li>
+	    <li role="presentation"><a href="setup.php">Setup</a></li>
+	    <li role="presentation"><a href="authz.php">AuthZ</a></li>
+            <li role="presentation"><a href="dacl.php">DACL</a></li>
+            <li role="presentation"><a href="ap.php">Allowed Protocol</a></li>
+	    <li role="presentation"><a href="nadgroup.php">NAD Group</a></li>
+	    <li role="presentation"><a href="policyset.php">Policy Sets</a></li>
 	    </ul>
-
-
         </nav>
         <h3 class="text-muted">Taimoor Ahmed Landscape Testing</h3>
       </div>

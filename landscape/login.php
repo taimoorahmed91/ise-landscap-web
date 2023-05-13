@@ -6,7 +6,7 @@
 <legend>Login </legend>
 <form action="loginprocess.php" method="POST"><br><br>
 Username:<input type="text" required="" name="username"><br><br>
-Password:<input type="text" required="" name="password"><br><br>
+Password:<input type="password" required="" name="password"><br><br>
 <input type="submit" value="Login" name="sub">
 <br>
 <?php 

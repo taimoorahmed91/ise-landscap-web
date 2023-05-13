@@ -1,7 +1,7 @@
 <?php
 //Connect to Database
 $db_host = 'localhost';
-$db_name = 'mise';
+$db_name = 'landscape';
 $db_user = 'root';
 $db_pass = 'C1sc0123@';
 
