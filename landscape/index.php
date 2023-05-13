@@ -46,9 +46,16 @@ if(!isset($_SESSION["login"]))
 	    <li role="presentation" class="active"><a href="http://landscape.taimoorlab.pk">Home</a></li>
 	    <li role="presentation"><a href="provision.php"> Provision</a></li>
 	    <li role="presentation"><a href="deployments.php"> Deployment</a></li>
+            <li role="presentation"><a href="policyset.php"> Policy Set</a></li>
             <li role="presentation"><a href="dacl.php"> DACL</a></li>
             <li role="presentation"><a href="upload.php"> Upload</a></li>
-	    </ul>
+            <li role="presentation"><a href="authz.php"> AuthZ</a></li>
+	            <li role="presentation"><a href="sgt.php"> SGT</a></li>    
+                    <li role="presentation"><a href="ap.php"> AP</a></li>	
+
+		    <li role="presentation"><a href="nad.php">NAD Group</a></li>
+</ul>
+
 
 
         </nav>

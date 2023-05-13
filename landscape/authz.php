@@ -2,7 +2,7 @@
 
 <?php
   //Create the select query
-  $query ="SELECT * from deployments ORDER BY id";
+  $query ="SELECT * from authz ORDER BY id";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -63,20 +63,19 @@
       <div class="row marketing">
 
         <div class="col-lg-12">
-          <h2> ISE Deployments Added </h2>
-                <p> Please use this page to provision MISE to fetch information from your ISE Policy </p>
+          <h2> AuthZ which were fetched </h2>
                 <table class="table table-striped">
     <tr>
                 <th> ID </th>
-                <th> ISE FQDN </th>
-                <th> Added Date </th>
-                <th> Fetched</th>
-                <th> Fetched Date</th>
-		<th> DST </th>
-                <th> SRC </th>        
-		<th> </th>
-	                <th> </th> 
-		<th> </th>
+                <th> AuthZ Name </th>
+                <th> SRC ISE FQDN </th>
+                <th> Queue </th>
+                <th> GET Code</th>
+                <th> POST Code</th>
+                <th> PUT Code </th>       
+                <th> Queue</th>
+                <th> </th>
+               <th> </th>
                 </tr>
     <?php 
         //Check if at least one row is found
@@ -86,16 +85,15 @@
           //Display customer info
           $output ='<tr>';
           $output .='<td>'.$row['id'].'</td>';
-          $output .='<td>'.$row['fqdn'].'</td>';
-          $output .='<td>'.$row['time'].'</td>';
-          $output .='<td>'.$row['fetched'].'</td>';
-          $output .='<td>'.$row['fetchedon'].'</td>';
-	  $output .='<td>'.$row['dest'].'</td>';
-	  $output .='<td>'.$row['src'].'</td>';
-	  $output .='<td><a href="populate.php?id='.$row['id'].'" class="btn btn-success"">Populate</a></td>';
-	  $output .='<td><a href="marked.php?id='.$row['id'].'" class="btn btn-success"">DST</a></td>';
-	  $output .='<td><a href="marked_src.php?id='.$row['id'].'" class="btn btn-success"">SRC</a></td>';
-	  $output .='</tr>';
+          $output .='<td> <a href="./configs/authz/'.$row['authzid'].'"">'.$row['authz'].'</a></td>';
+          $output .='<td>'.$row['isename'].'</td>';
+          $output .='<td>'.$row['queue'].'</td>';
+          $output .='<td>'.$row['get_code'].'</td>';
+          $output .='<td>'.$row['post_code'].'</td>';
+          $output .='<td>'.$row['put_code'].'</td>';
+          $output .='<td><a href="authz_add_queue.php?id='.$row['id'].'" class="btn btn-success"">+</a> <a href="authz_remove_queue.php?id='.$row['id'].'" class="btn btn-success"">-</a></td>';
+          $output .='<td><a href="download_authz.php?id='.$row['authzid'].'" class="btn btn-success"">Download</a></td>';
+          $output .='</tr>';
           
           //Echo output
           echo $output;

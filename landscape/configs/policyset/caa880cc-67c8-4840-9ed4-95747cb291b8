@@ -1,0 +1,20 @@
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : true,
+    "id" : "caa880cc-67c8-4840-9ed4-95747cb291b8",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 4,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/caa880cc-67c8-4840-9ed4-95747cb291b8",
+      "type" : "application/json"
+    }
+  }
+}

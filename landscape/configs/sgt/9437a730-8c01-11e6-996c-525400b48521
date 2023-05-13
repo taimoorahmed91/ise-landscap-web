@@ -1,0 +1,15 @@
+{
+  "Sgt" : {
+    "id" : "9437a730-8c01-11e6-996c-525400b48521",
+    "name" : "Production_Users",
+    "description" : "Production User Security Group",
+    "value" : 7,
+    "generationId" : "0",
+    "propogateToApic" : true,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt/9437a730-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}

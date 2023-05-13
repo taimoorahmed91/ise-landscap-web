@@ -28,17 +28,27 @@
 system("sudo -S python3 /root/ise-landscape/mise/dacl_data.py $fqdn");
 
 #### script to pull allowed protocol
-#system("sudo -S python3 /patchofscript $fqdn");
+system("sudo -S python3 /root/ise-landscape/mise/ap_data.py $fqdn");
 
 ### script to pull authz
-#system("sudo -S python3 /patchofscript $fqdn");
+system("sudo -S python3 /root/ise-landscape/mise/authz_data.py $fqdn");
 
-### script to pull policy sets
-#system("sudo -S python3 /patchofscript $fqdn");
+### script to pull nad group sets
+system("sudo -S python3 /root/ise-landscape/mise/nad_data.py $fqdn");
+
+
+
+### script to pull nad group sets
+system("sudo -S python3 /root/ise-landscape/mise/sgt_data.py $fqdn");
+
+
+### script to pull policysets
+system("sudo -S python3 /root/ise-landscape/mise/policyset_data.py $fqdn");
 
 ### script to set fetched to yes
 system("sudo -S python3 /root/ise-landscape/mise/fetched_yes.py $id"); 
 
 
+
+
 ## this file is called populate.php
-?>
