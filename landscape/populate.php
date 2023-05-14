@@ -43,12 +43,36 @@ system("sudo -S python3 /root/ise-landscape/mise/sgt_data.py $fqdn");
 
 
 ### script to pull policysets
-system("sudo -S python3 /root/ise-landscape/mise/policyset_data.py $fqdn");
+system("sudo -S python3 /root/ise-landscape/mise/policyset_data.py $fqdn $id");
+
+
+
+### script to fetch policyset authentication
+//Create the select query
+  $query ="SELECT * from policyset WHERE inheritid = $id ";
+  //Get results
+    $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+        if($result = $mysqli->query($query)){
+                //Fetch object array
+                while($row = $result->fetch_assoc()) {
+                        $isename = $row['isename'];
+                        $policysetid = $row['policysetid'];
+                        $policyset = $row['policyset'];
+
+                        system("sudo -S python3  /root/ise-landscape/mise/authentication.py  '$isename' '$policysetid' '$policyset'");
+                }
+                //Free Result set
+                $result->close();
+        }
+
 
 ### script to set fetched to yes
 system("sudo -S python3 /root/ise-landscape/mise/fetched_yes.py $id"); 
 
 
-
-
-## this file is called populate.php
+### script to cleanup inheritit
+//Create the select query
+  $query ="UPDATE policyset set inheritid = NULL ";
+  //Get results
+    $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+                //Free Result set
