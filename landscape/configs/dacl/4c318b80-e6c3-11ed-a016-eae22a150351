@@ -1,0 +1,14 @@
+{
+  "DownloadableAcl" : {
+    "id" : "4c318b80-e6c3-11ed-a016-eae22a150351",
+    "name" : "dacl3",
+    "description" : "sample dacl3",
+    "dacl" : "deny ip any any",
+    "daclType" : "IPV4",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl/4c318b80-e6c3-11ed-a016-eae22a150351",
+      "type" : "application/json"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "29fdc510-d14c-11ed-a016-eae22a150351",
+    "name" : "LAB#LAB",
+    "description" : "This is lab equipment",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/networkdevicegroup/29fdc510-d14c-11ed-a016-eae22a150351",
+      "type" : "application/json"
+    },
+    "othername" : "LAB"
+  }
+}

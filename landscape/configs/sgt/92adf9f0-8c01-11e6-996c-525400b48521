@@ -1,0 +1,15 @@
+{
+  "Sgt" : {
+    "id" : "92adf9f0-8c01-11e6-996c-525400b48521",
+    "name" : "Unknown",
+    "description" : "Unknown Security Group",
+    "value" : 0,
+    "generationId" : "0",
+    "propogateToApic" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/sgt/92adf9f0-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}

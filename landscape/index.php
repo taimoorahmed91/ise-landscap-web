@@ -53,6 +53,9 @@ if(!isset($_SESSION["login"]))
 	            <li role="presentation"><a href="sgt.php"> SGT</a></li>    
                     <li role="presentation"><a href="ap.php"> AP</a></li>	
 
+
+                    <li role="presentation"><a href="authentication.php"> Authentication</a></li>
+                    <li role="presentation"><a href="authorization.php"> Authorization</a></li>
 		    <li role="presentation"><a href="nad.php">NAD Group</a></li>
 </ul>
 

@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "2a7b5980-d14c-11ed-a016-eae22a150351",
+    "name" : "Location#All Locations#Krakow",
+    "description" : "Krakow Location",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/networkdevicegroup/2a7b5980-d14c-11ed-a016-eae22a150351",
+      "type" : "application/json"
+    },
+    "othername" : "Location"
+  }
+}

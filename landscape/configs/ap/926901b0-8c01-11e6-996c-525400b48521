@@ -1,0 +1,29 @@
+{
+  "AllowedProtocols" : {
+    "id" : "926901b0-8c01-11e6-996c-525400b48521",
+    "name" : "Default Device Admin",
+    "description" : "Default Allowed Protocol Service Device Admin",
+    "processHostLookup" : false,
+    "allowPapAscii" : true,
+    "allowChap" : true,
+    "allowMsChapV1" : true,
+    "allowMsChapV2" : false,
+    "allowEapMd5" : false,
+    "allowLeap" : false,
+    "allowEapTls" : false,
+    "allowEapTtls" : false,
+    "allowEapFast" : false,
+    "allowPeap" : false,
+    "allowTeap" : false,
+    "allowPreferredEapProtocol" : false,
+    "eapTlsLBit" : false,
+    "allowWeakCiphersForEap" : false,
+    "fiveG" : false,
+    "requireMessageAuth" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}

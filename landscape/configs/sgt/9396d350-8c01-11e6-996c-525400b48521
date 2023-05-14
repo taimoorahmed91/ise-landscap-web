@@ -1,0 +1,15 @@
+{
+  "Sgt" : {
+    "id" : "9396d350-8c01-11e6-996c-525400b48521",
+    "name" : "Development_Servers",
+    "description" : "Development Servers Security Group",
+    "value" : 12,
+    "generationId" : "0",
+    "propogateToApic" : true,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/sgt/9396d350-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}

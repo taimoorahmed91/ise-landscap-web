@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "2e755ef0-d156-11ed-a016-eae22a150351",
+    "name" : "LAB#LAB#KRK",
+    "description" : "Testing Lab",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/networkdevicegroup/2e755ef0-d156-11ed-a016-eae22a150351",
+      "type" : "application/json"
+    },
+    "othername" : "LAB"
+  }
+}
