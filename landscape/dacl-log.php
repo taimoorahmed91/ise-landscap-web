@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Apache2 Logs Viewer</title>
+    <title>MISE Logs Viewer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
