@@ -1,0 +1,25 @@
+{
+  "AuthorizationProfile" : {
+    "id" : "9859b290-8c01-11e6-996c-525400b48521",
+    "name" : "Cisco_WebAuth",
+    "description" : "Default Profile used to redirect users to the CWA portal.",
+    "accessType" : "ACCESS_ACCEPT",
+    "authzProfileType" : "SWITCH",
+    "webRedirection" : {
+      "WebRedirectionType" : "CentralizedWebAuth",
+      "acl" : "ACL_WEBAUTH_REDIRECT",
+      "portalName" : "Self-Registered Guest Portal (default)",
+      "displayCertificatesRenewalMessages" : false
+    },
+    "trackMovement" : false,
+    "agentlessPosture" : false,
+    "serviceTemplate" : false,
+    "easywiredSessionCandidate" : false,
+    "profileName" : "Cisco",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/authorizationprofile/9859b290-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}

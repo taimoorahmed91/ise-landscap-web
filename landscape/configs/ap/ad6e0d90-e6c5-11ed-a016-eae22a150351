@@ -1,8 +1,8 @@
 {
   "AllowedProtocols" : {
-    "id" : "92613980-8c01-11e6-996c-525400b48521",
-    "name" : "Default Network Access",
-    "description" : "Default Allowed Protocol Service",
+    "id" : "ad6e0d90-e6c5-11ed-a016-eae22a150351",
+    "name" : "sample3",
+    "description" : "",
     "eapTls" : {
       "allowEapTlsAuthOfExpiredCerts" : false,
       "eapTlsEnableStatelessSessionResume" : false
@@ -11,9 +11,7 @@
       "allowPeapEapMsChapV2" : true,
       "allowPeapEapMsChapV2PwdChange" : true,
       "allowPeapEapMsChapV2PwdChangeRetries" : 1,
-      "allowPeapEapGtc" : true,
-      "allowPeapEapGtcPwdChange" : true,
-      "allowPeapEapGtcPwdChangeRetries" : 1,
+      "allowPeapEapGtc" : false,
       "allowPeapEapTls" : true,
       "allowPeapEapTlsAuthOfExpiredCerts" : false,
       "requireCryptobinding" : false,
@@ -22,26 +20,20 @@
     "eapFast" : {
       "allowEapFastEapMsChapV2" : true,
       "allowEapFastEapMsChapV2PwdChange" : true,
-      "allowEapFastEapMsChapV2PwdChangeRetries" : 3,
+      "allowEapFastEapMsChapV2PwdChangeRetries" : 1,
       "allowEapFastEapGtc" : true,
       "allowEapFastEapGtcPwdChange" : true,
-      "allowEapFastEapGtcPwdChangeRetries" : 3,
+      "allowEapFastEapGtcPwdChangeRetries" : 1,
       "allowEapFastEapTls" : true,
       "allowEapFastEapTlsAuthOfExpiredCerts" : false,
       "eapFastUsePacs" : true,
       "eapFastUsePacsTunnelPacTtl" : 90,
       "eapFastUsePacsTunnelPacTtlUnits" : "DAYS",
-      "eapFastUsePacsUseProactivePacUpdatePrecentage" : 90,
+      "eapFastUsePacsUseProactivePacUpdatePrecentage" : 10,
       "eapFastUsePacsAllowAnonymProvisioning" : false,
-      "eapFastUsePacsAllowAuthenProvisioning" : true,
-      "eapFastUsePacsServerReturns" : true,
-      "eapFastUsePacsAcceptClientCert" : false,
-      "eapFastUsePacsAllowMachineAuthentication" : true,
-      "eapFastUsePacsMachinePacTtl" : 1,
-      "eapFastUsePacsMachinePacTtlUnits" : "WEEKS",
-      "eapFastUsePacsStatelessSessionResume" : true,
-      "eapFastUsePacsAuthorizationPacTtl" : 1,
-      "eapFastUsePacsAuthorizationPacTtlUnits" : "HOURS",
+      "eapFastUsePacsAllowAuthenProvisioning" : false,
+      "eapFastUsePacsAllowMachineAuthentication" : false,
+      "eapFastUsePacsStatelessSessionResume" : false,
       "eapFastEnableEAPChaining" : false
     },
     "eapTtls" : {
@@ -83,7 +75,7 @@
     "requireMessageAuth" : false,
     "link" : {
       "rel" : "self",
-      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/ad6e0d90-e6c5-11ed-a016-eae22a150351",
       "type" : "application/json"
     }
   }

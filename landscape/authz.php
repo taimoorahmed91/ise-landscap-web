@@ -113,7 +113,7 @@
          <p> </p>
          <p> </p>
 
-           <form method="post" action="fetch_all_XX.php">
+           <form method="post" action="fetch_all_authz.php">
                      <input type="submit" name="export" value="Fetch All From Source" class="btn btn-success" />
                 </form>
             
