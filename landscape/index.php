@@ -133,7 +133,8 @@ if(!isset($_SESSION["login"]))
                 <ul>
 		    <li><a href="apache.php">Apache Error</a></li>
                     <li><a href="apache2.php">Apache Access</a></li>
-                    <li><a href="mysql.php">MySQL</a></li>
+		    <li><a href="mysql.php">MySQL</a></li>
+                    <li><a href="dacl-log.php">DACL Logs</a></li>
                 </ul>
            </div>
 	</div>

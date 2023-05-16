@@ -1,0 +1,325 @@
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:collective_dacl' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:collective_dacl' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DENY_ALL_IPV6_TRAFFIC' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:PERMIT_ALL_IPV4_TRAFFIC' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:local_dacl' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:my_dacl_tai' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DENY_ALL_IPV4_TRAFFIC' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DENY_ALL_IPV6_TRAFFIC' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dACL_sample' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:dacl3' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:collective_dacl' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-16 23:00:43
+2023-05-16 23:02:09
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:collective_dacl' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}
