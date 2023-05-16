@@ -84,7 +84,6 @@
           $output .='<td> <a href="./configs/policyset/'.$row['policysetid'].'"">'.$row['policyset'].'</a></td>';
           $output .='<td>'.$row['isename'].'</td>';
           $output .='<td>'.$row['get_code'].'</td>';
-          $output .='<td><a href="fetch-auth_policyset.php?id='.$row['policysetid'].'" class="btn btn-success"">Fetch</a></td>';
           $output .='<td><a href="download_policyset.php?id='.$row['policysetid'].'" class="btn btn-success"">Download</a></td>';
           $output .='</tr>';
           

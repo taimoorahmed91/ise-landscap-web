@@ -1,12 +1,3 @@
-<?php
-session_start ();
-if(!isset($_SESSION["login"]))
-
-        header("location:login.php");
-?>
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -95,18 +86,18 @@ if(!isset($_SESSION["login"]))
             <div class="box">
                 <h2>Deployment</h2>
                 <ul>
-                    <li><a href="provision.php">Add a new Deployment</a></li>
-                    <li><a href="deployments.php">View existing Deployments</a></li>
+                    <li><a href="#">Add a new Deployment</a></li>
+                    <li><a href="#">View existing Deployments</a></li>
                 </ul>
             </div>
             <div class="box">
                 <h2>Policy Results</h2>
                 <ul>
-                    <li><a href="ap.php">Allowed Protocols</a></li>
-                    <li><a href="dacl.php">Downloadable ACLs</a></li>
-		    <li><a href="authz.php">Authorization Profiles</a></li>
-		    <li><a href="sgt.php">SGT(Security Group Tags)</a></li>
-                    <li><a href="nad.php">NAD Groups</a></li>
+                    <li><a href="#">Allowed Protocols</a></li>
+                    <li><a href="#">Downloadable ACLs</a></li>
+		    <li><a href="#">Authorization Profiles</a></li>
+		    <li><a href="#">SGT(Security Group Tags)</a></li>
+                    <li><a href="#">NAD Groups</a></li>
                 </ul>
             </div>
         </div>
@@ -114,16 +105,16 @@ if(!isset($_SESSION["login"]))
             <div class="box">
                 <h2>Policy Sets</h2>
                 <ul>
-                    <li><a href="policyset.php">Policy Set</a></li>
-                    <li><a href="authentication.php">Authentication Rules</a></li>
-                    <li><a href="authorization.php">Authorization Rules</a></li>
+                    <li><a href="#">Policy Set</a></li>
+                    <li><a href="#">Authentication Rules</a></li>
+                    <li><a href="#">Authorization Rules</a></li>
                 </ul>
             </div>
             <div class="box">
                 <h2>Management</h2>
                 <ul>
-                    <li><a href="checkout.php">Checkout</a></li>
-		    <li><a href="upload.php">Uploads</a></li>
+                    <li><a href="#">Checkout</a></li>
+		    <li><a href="#">Uploads</a></li>
 		</ul>
 	   </div>
 
@@ -131,9 +122,8 @@ if(!isset($_SESSION["login"]))
 	   <div class="box">
                 <h2>Logs</h2>
                 <ul>
-		    <li><a href="apache.php">Apache Error</a></li>
-                    <li><a href="apache2.php">Apache Access</a></li>
-                    <li><a href="mysql.php">MySQL</a></li>
+                    <li><a href="#">Apache</a></li>
+                    <li><a href="#">MySQL</a></li>
                 </ul>
            </div>
 	</div>

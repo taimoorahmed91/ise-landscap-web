@@ -70,7 +70,8 @@
                 <th> ID </th>
                 <th> File Name </th>
                 <th> Description </th>
-                <th> Upload Time</th>
+                <th> Category</th>      
+		<th> Upload Time</th>
                 </tr>
     <?php 
         //Check if at least one row is found
@@ -80,9 +81,10 @@
           //Display customer info
           $output ='<tr>';
           $output .='<td>'.$row['id'].'</td>';
-          $output .='<td> <a href="./'.$row['directory'].'"">'.$row['name'].'</a></td>';
+	  $output .='<td> <a href="./'.$row['directory'].'"">'.$row['name'].'</a></td>';
           $output .='<td>'.$row['description'].'</td>';
-          $output .='<td>'.$row['time'].'</td>';
+	  $output .='<td>'.$row['folder'].'</td>';
+	  $output .='<td>'.$row['time'].'</td>';
 
           $output .='</tr>';
           
@@ -134,7 +136,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         if (move_uploaded_file($file["tmp_name"], $targetFile)) {
             // File uploaded successfully, insert data into the database
-            $sql = "INSERT INTO uploads (name, description, directory) VALUES ('$name', '$description', '$targetFile')";
+            $sql = "INSERT INTO uploads (name, description, directory, folder) VALUES ('$name', '$description', '$targetFile', '$uploadDirectory')";
 
             if (mysqli_query($conn, $sql)) {
                 echo "File uploaded and data inserted successfully.";

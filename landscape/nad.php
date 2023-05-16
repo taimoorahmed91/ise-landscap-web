@@ -121,9 +121,6 @@
          <p> </p>
          <p> </p>
         
-           <form method="post" action="run_all_XX.php">
-                     <input type="submit" name="export" value="Post All To Destination" class="btn btn-success" />
-                </form>
 
          <p> </p>
          <p> </p>

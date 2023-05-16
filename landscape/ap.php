@@ -63,7 +63,7 @@
       <div class="row marketing">
 
         <div class="col-lg-12">
-          <h2> aps which were fetched </h2>
+          <h2> Allowed Protocols which were fetched </h2>
                 <table class="table table-striped">
     <tr>
                 <th> ID </th>
@@ -121,9 +121,6 @@
          <p> </p>
          <p> </p>
         
-           <form method="post" action="run_all_XX.php">
-                     <input type="submit" name="export" value="Post All To Destination" class="btn btn-success" />
-                </form>
 
          <p> </p>
          <p> </p>
