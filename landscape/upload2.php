@@ -80,7 +80,7 @@
           //Display customer info
           $output ='<tr>';
           $output .='<td>'.$row['id'].'</td>';
-          $output .='<td> <a href="./'.$row['directory'].'"">'.$row['name'].'</a></td>';
+          $output .='<td> <a href="./configs/uploads/'.$row['name'].'"">'.$row['name'].'</a></td>';
           $output .='<td>'.$row['description'].'</td>';
           $output .='<td>'.$row['time'].'</td>';
 
@@ -118,7 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $file = $_FILES["file"];
 
     // File upload
-    $targetDirectory = "configs/" . $uploadDirectory . "/";
+    $targetDirectory = "configs/uploads/" . $uploadDirectory . "/";
     $targetFile = $targetDirectory . basename($file["name"]);
     $uploadOk = 1;
     $imageFileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
@@ -165,15 +165,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <label for="upload_directory">Upload Directory:</label>
         <select name="upload_directory" id="upload_directory">
-            <option value="authentications">Authentications</option>
-            <option value="authorizations">Authorization Policies</option>
-            <option value="authz">Authorization Results</option>
-            <option value="conditions">Conditions</option>
-            <option value="dacl">DACL</option>
-            <option value="nad">NAD</option>
-            <option value="policyset">Policy Set</option>
-            <option value="sgt">SGT</option>
-
+            <option value="directory1">Directory 1</option>
+            <option value="directory2">Directory 2</option>
+            <option value="directory3">Directory 3</option>
         </select><br><br>
 
         <label for="file">File:</label>

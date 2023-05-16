@@ -7,7 +7,7 @@
     "daclType" : "IPV6",
     "link" : {
       "rel" : "self",
-      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+      "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
       "type" : "application/json"
     }
   }

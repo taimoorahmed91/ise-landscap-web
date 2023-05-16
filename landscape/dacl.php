@@ -105,7 +105,36 @@
                  
                 </table>
 
-       
+
+
+
+
+
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+
+           <form method="post" action="fetch_all_XX.php">
+                     <input type="submit" name="export" value="Fetch All From Source" class="btn btn-success" />
+                </form>
+
+         <p> </p>
+         <p> </p>
+         <p> </p>
+
+           <form method="post" action="run_all_XX.php">
+                     <input type="submit" name="export" value="Post All To Destination" class="btn btn-success" />
+                </form>
+
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
 
       <footer class="footer">
         <p>&copy; 2023 TaiAhmed Labwork</p>

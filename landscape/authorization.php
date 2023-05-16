@@ -50,7 +50,7 @@
     <![endif]-->
   </head>
   <body>
-  <div class="container">
+  <div class="container" style=" width: 1600px; ">
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
@@ -64,7 +64,7 @@
 
         <div class="col-lg-12">
           <h2> Authorizations which were fetched </h2>
-                <table class="table table-striped">
+                <table class="table table-striped w-auto" width = "100px">
     <tr>
                 <th> ID </th>
                 <th> authorization Name </th>
@@ -107,7 +107,32 @@
                  
                 </table>
 
-       
+      
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+
+           <form method="post" action="fetch_all_XX.php">
+                     <input type="submit" name="export" value="Fetch All From Source" class="btn btn-success" />
+                </form>
+            
+         <p> </p>
+         <p> </p>
+         <p> </p>
+        
+           <form method="post" action="run_all_XX.php">
+                     <input type="submit" name="export" value="Post All To Destination" class="btn btn-success" />
+                </form>
+
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p>
+         <p> </p> 
 
       <footer class="footer">
         <p>&copy; 2023 TaiAhmed Labwork</p>
