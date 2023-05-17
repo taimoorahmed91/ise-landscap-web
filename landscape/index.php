@@ -109,7 +109,29 @@ if(!isset($_SESSION["login"]))
                     <li><a href="nad.php">NAD Groups</a></li>
                 </ul>
             </div>
-        </div>
+	
+            <div class="box">
+                <h2>MISE Logs</h2>
+                <ul>
+		    <li><a href="ap-log.php">AP Logs</a></li>
+		    <li><a href="dacl-log.php">DACL Logs</a></li>
+                    <li><a href="authz-log.php">AuthZ Logs</a></li>
+                    <li><a href="sgt-log.php">SGT Logs</a></li>
+		   <li><a href="nad-log.php">NAD Logs</a></li>
+		    <li><a href="policyset-log.php">PolicySet Logs</a></li>
+                </ul>
+            </div>
+
+
+
+
+
+
+
+
+
+
+	</div>
         <div class="quadrant">
             <div class="box">
                 <h2>Policy Sets</h2>
@@ -127,18 +149,19 @@ if(!isset($_SESSION["login"]))
 		</ul>
 	   </div>
 
-
 	   <div class="box">
-                <h2>Logs</h2>
+                <h2> Application Logs</h2>
                 <ul>
 		    <li><a href="apache.php">Apache Error</a></li>
                     <li><a href="apache2.php">Apache Access</a></li>
 		    <li><a href="mysql.php">MySQL</a></li>
-                    <li><a href="dacl-log.php">DACL Logs</a></li>
                 </ul>
            </div>
 	</div>
 	</div>
+
+
+
 
 </body>
 </html>
