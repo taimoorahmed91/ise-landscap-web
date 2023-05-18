@@ -93,6 +93,7 @@
           $output .='<td>'.$row['put_code'].'</td>';
           $output .='<td><a href="dacl_add_queue.php?id='.$row['id'].'" class="btn btn-success"">+</a> <a href="dacl_remove_queue.php?id='.$row['id'].'" class="btn btn-success"">-</a></td>';
 	  $output .='<td><a href="download_dacl.php?id='.$row['daclid'].'" class="btn btn-success"">Download</a></td>';
+          $output .='<td><a href="resync_dacl.php?id='.$row['id'].'" class="btn btn-success"">Resync</a></td>';
 	  $output .='</tr>';
           
           //Echo output

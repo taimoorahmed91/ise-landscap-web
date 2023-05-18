@@ -271,3 +271,864 @@
     } ]
   }
 }2023-05-17 19:09:18
+2023-05-18 08:38:40
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 08:49:57
+{
+  "SearchResult" : {
+    "total" : 4,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "72bbfff0-de40-11ed-a016-eae22a150351",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/72bbfff0-de40-11ed-a016-eae22a150351",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "53219a80-f4e6-11ed-a016-eae22a150351",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/53219a80-f4e6-11ed-a016-eae22a150351",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 08:51:30
+{
+  "SearchResult" : {
+    "total" : 4,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "72bbfff0-de40-11ed-a016-eae22a150351",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/72bbfff0-de40-11ed-a016-eae22a150351",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "53219a80-f4e6-11ed-a016-eae22a150351",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/53219a80-f4e6-11ed-a016-eae22a150351",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 08:51:56
+{
+  "SearchResult" : {
+    "total" : 4,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "72bbfff0-de40-11ed-a016-eae22a150351",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/72bbfff0-de40-11ed-a016-eae22a150351",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "53219a80-f4e6-11ed-a016-eae22a150351",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-proxy2.taimoorlab.local/ers/config/allowedprotocols/53219a80-f4e6-11ed-a016-eae22a150351",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 14:03:50
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 14:04:10
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 14:11:00
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 14:48:09
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 14:57:35
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 14:59:08
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 15:00:32
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 15:04:23
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-18 16:09:02
+{
+  "AllowedProtocols" : {
+    "id" : "926901b0-8c01-11e6-996c-525400b48521",
+    "name" : "Default Device Admin",
+    "description" : "Default Allowed Protocol Service Device Admin",
+    "processHostLookup" : false,
+    "allowPapAscii" : true,
+    "allowChap" : true,
+    "allowMsChapV1" : true,
+    "allowMsChapV2" : false,
+    "allowEapMd5" : false,
+    "allowLeap" : false,
+    "allowEapTls" : false,
+    "allowEapTtls" : false,
+    "allowEapFast" : false,
+    "allowPeap" : false,
+    "allowTeap" : false,
+    "allowPreferredEapProtocol" : false,
+    "eapTlsLBit" : false,
+    "allowWeakCiphersForEap" : false,
+    "fiveG" : false,
+    "requireMessageAuth" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}2023-05-18 16:24:39
+{
+  "AllowedProtocols" : {
+    "id" : "04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+    "name" : "ap_sample",
+    "description" : "",
+    "eapTls" : {
+      "allowEapTlsAuthOfExpiredCerts" : false,
+      "eapTlsEnableStatelessSessionResume" : false
+    },
+    "peap" : {
+      "allowPeapEapMsChapV2" : true,
+      "allowPeapEapMsChapV2PwdChange" : true,
+      "allowPeapEapMsChapV2PwdChangeRetries" : 1,
+      "allowPeapEapGtc" : false,
+      "allowPeapEapTls" : true,
+      "allowPeapEapTlsAuthOfExpiredCerts" : false,
+      "requireCryptobinding" : false,
+      "allowPeapV0" : false
+    },
+    "eapFast" : {
+      "allowEapFastEapMsChapV2" : true,
+      "allowEapFastEapMsChapV2PwdChange" : true,
+      "allowEapFastEapMsChapV2PwdChangeRetries" : 1,
+      "allowEapFastEapGtc" : true,
+      "allowEapFastEapGtcPwdChange" : true,
+      "allowEapFastEapGtcPwdChangeRetries" : 1,
+      "allowEapFastEapTls" : true,
+      "allowEapFastEapTlsAuthOfExpiredCerts" : false,
+      "eapFastUsePacs" : true,
+      "eapFastUsePacsTunnelPacTtl" : 90,
+      "eapFastUsePacsTunnelPacTtlUnits" : "DAYS",
+      "eapFastUsePacsUseProactivePacUpdatePrecentage" : 10,
+      "eapFastUsePacsAllowAnonymProvisioning" : false,
+      "eapFastUsePacsAllowAuthenProvisioning" : false,
+      "eapFastUsePacsAllowMachineAuthentication" : false,
+      "eapFastUsePacsStatelessSessionResume" : false,
+      "eapFastEnableEAPChaining" : false
+    },
+    "eapTtls" : {
+      "eapTtlsPapAscii" : true,
+      "eapTtlsChap" : true,
+      "eapTtlsMsChapV1" : true,
+      "eapTtlsMsChapV2" : true,
+      "eapTtlsEapMd5" : true,
+      "eapTtlsEapMsChapV2" : true,
+      "eapTtlsEapMsChapV2PwdChange" : true,
+      "eapTtlsEapMsChapV2PwdChangeRetries" : 1
+    },
+    "teap" : {
+      "allowTeapEapMsChapV2" : true,
+      "allowTeapEapMsChapV2PwdChange" : true,
+      "allowTeapEapMsChapV2PwdChangeRetries" : 3,
+      "allowTeapEapTls" : true,
+      "allowTeapEapTlsAuthOfExpiredCerts" : false,
+      "acceptClientCertDuringTunnelEst" : true,
+      "enableEapChaining" : false,
+      "allowDowngradeMsk" : true
+    },
+    "processHostLookup" : false,
+    "allowPapAscii" : true,
+    "allowChap" : false,
+    "allowMsChapV1" : false,
+    "allowMsChapV2" : false,
+    "allowEapMd5" : true,
+    "allowLeap" : false,
+    "allowEapTls" : true,
+    "allowEapTtls" : true,
+    "allowEapFast" : true,
+    "allowPeap" : true,
+    "allowTeap" : true,
+    "allowPreferredEapProtocol" : false,
+    "eapTlsLBit" : false,
+    "allowWeakCiphersForEap" : true,
+    "fiveG" : true,
+    "requireMessageAuth" : true,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/04bb39c0-cb04-11ed-a198-ae96a26dba0a",
+      "type" : "application/json"
+    }
+  }
+}2023-05-18 16:28:59
+{
+  "AllowedProtocols" : {
+    "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+    "name" : "sample3",
+    "description" : "",
+    "eapTls" : {
+      "allowEapTlsAuthOfExpiredCerts" : false,
+      "eapTlsEnableStatelessSessionResume" : false
+    },
+    "peap" : {
+      "allowPeapEapMsChapV2" : true,
+      "allowPeapEapMsChapV2PwdChange" : true,
+      "allowPeapEapMsChapV2PwdChangeRetries" : 1,
+      "allowPeapEapGtc" : false,
+      "allowPeapEapTls" : true,
+      "allowPeapEapTlsAuthOfExpiredCerts" : false,
+      "requireCryptobinding" : false,
+      "allowPeapV0" : false
+    },
+    "eapFast" : {
+      "allowEapFastEapMsChapV2" : true,
+      "allowEapFastEapMsChapV2PwdChange" : true,
+      "allowEapFastEapMsChapV2PwdChangeRetries" : 1,
+      "allowEapFastEapGtc" : true,
+      "allowEapFastEapGtcPwdChange" : true,
+      "allowEapFastEapGtcPwdChangeRetries" : 1,
+      "allowEapFastEapTls" : true,
+      "allowEapFastEapTlsAuthOfExpiredCerts" : false,
+      "eapFastUsePacs" : true,
+      "eapFastUsePacsTunnelPacTtl" : 90,
+      "eapFastUsePacsTunnelPacTtlUnits" : "DAYS",
+      "eapFastUsePacsUseProactivePacUpdatePrecentage" : 10,
+      "eapFastUsePacsAllowAnonymProvisioning" : false,
+      "eapFastUsePacsAllowAuthenProvisioning" : false,
+      "eapFastUsePacsAllowMachineAuthentication" : false,
+      "eapFastUsePacsStatelessSessionResume" : false,
+      "eapFastEnableEAPChaining" : false
+    },
+    "eapTtls" : {
+      "eapTtlsPapAscii" : true,
+      "eapTtlsChap" : true,
+      "eapTtlsMsChapV1" : true,
+      "eapTtlsMsChapV2" : true,
+      "eapTtlsEapMd5" : true,
+      "eapTtlsEapMsChapV2" : true,
+      "eapTtlsEapMsChapV2PwdChange" : true,
+      "eapTtlsEapMsChapV2PwdChangeRetries" : 1
+    },
+    "teap" : {
+      "allowTeapEapMsChapV2" : true,
+      "allowTeapEapMsChapV2PwdChange" : true,
+      "allowTeapEapMsChapV2PwdChangeRetries" : 3,
+      "allowTeapEapTls" : true,
+      "allowTeapEapTlsAuthOfExpiredCerts" : false,
+      "acceptClientCertDuringTunnelEst" : true,
+      "enableEapChaining" : false,
+      "allowDowngradeMsk" : true
+    },
+    "processHostLookup" : true,
+    "allowPapAscii" : true,
+    "allowChap" : false,
+    "allowMsChapV1" : false,
+    "allowMsChapV2" : false,
+    "allowEapMd5" : true,
+    "allowLeap" : false,
+    "allowEapTls" : true,
+    "allowEapTtls" : true,
+    "allowEapFast" : true,
+    "allowPeap" : true,
+    "allowTeap" : true,
+    "allowPreferredEapProtocol" : false,
+    "eapTlsLBit" : false,
+    "allowWeakCiphersForEap" : false,
+    "fiveG" : false,
+    "requireMessageAuth" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "type" : "application/json"
+    }
+  }
+}2023-05-18 16:45:28
+{
+  "AllowedProtocols" : {
+    "id" : "6290ccc0-e465-11ed-a198-ae96a26dba0a",
+    "name" : "sample3",
+    "description" : "",
+    "eapTls" : {
+      "allowEapTlsAuthOfExpiredCerts" : false,
+      "eapTlsEnableStatelessSessionResume" : false
+    },
+    "peap" : {
+      "allowPeapEapMsChapV2" : true,
+      "allowPeapEapMsChapV2PwdChange" : true,
+      "allowPeapEapMsChapV2PwdChangeRetries" : 1,
+      "allowPeapEapGtc" : false,
+      "allowPeapEapTls" : true,
+      "allowPeapEapTlsAuthOfExpiredCerts" : false,
+      "requireCryptobinding" : false,
+      "allowPeapV0" : false
+    },
+    "eapFast" : {
+      "allowEapFastEapMsChapV2" : true,
+      "allowEapFastEapMsChapV2PwdChange" : true,
+      "allowEapFastEapMsChapV2PwdChangeRetries" : 1,
+      "allowEapFastEapGtc" : true,
+      "allowEapFastEapGtcPwdChange" : true,
+      "allowEapFastEapGtcPwdChangeRetries" : 1,
+      "allowEapFastEapTls" : true,
+      "allowEapFastEapTlsAuthOfExpiredCerts" : false,
+      "eapFastUsePacs" : true,
+      "eapFastUsePacsTunnelPacTtl" : 90,
+      "eapFastUsePacsTunnelPacTtlUnits" : "DAYS",
+      "eapFastUsePacsUseProactivePacUpdatePrecentage" : 10,
+      "eapFastUsePacsAllowAnonymProvisioning" : false,
+      "eapFastUsePacsAllowAuthenProvisioning" : false,
+      "eapFastUsePacsAllowMachineAuthentication" : false,
+      "eapFastUsePacsStatelessSessionResume" : false,
+      "eapFastEnableEAPChaining" : false
+    },
+    "eapTtls" : {
+      "eapTtlsPapAscii" : true,
+      "eapTtlsChap" : true,
+      "eapTtlsMsChapV1" : true,
+      "eapTtlsMsChapV2" : true,
+      "eapTtlsEapMd5" : true,
+      "eapTtlsEapMsChapV2" : true,
+      "eapTtlsEapMsChapV2PwdChange" : true,
+      "eapTtlsEapMsChapV2PwdChangeRetries" : 1
+    },
+    "teap" : {
+      "allowTeapEapMsChapV2" : true,
+      "allowTeapEapMsChapV2PwdChange" : true,
+      "allowTeapEapMsChapV2PwdChangeRetries" : 3,
+      "allowTeapEapTls" : true,
+      "allowTeapEapTlsAuthOfExpiredCerts" : false,
+      "acceptClientCertDuringTunnelEst" : true,
+      "enableEapChaining" : false,
+      "allowDowngradeMsk" : true
+    },
+    "processHostLookup" : true,
+    "allowPapAscii" : true,
+    "allowChap" : false,
+    "allowMsChapV1" : false,
+    "allowMsChapV2" : false,
+    "allowEapMd5" : true,
+    "allowLeap" : false,
+    "allowEapTls" : true,
+    "allowEapTtls" : true,
+    "allowEapFast" : true,
+    "allowPeap" : true,
+    "allowTeap" : true,
+    "allowPreferredEapProtocol" : false,
+    "eapTlsLBit" : false,
+    "allowWeakCiphersForEap" : false,
+    "fiveG" : false,
+    "requireMessageAuth" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/6290ccc0-e465-11ed-a198-ae96a26dba0a",
+      "type" : "application/json"
+    }
+  }
+}

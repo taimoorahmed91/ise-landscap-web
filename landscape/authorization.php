@@ -95,7 +95,8 @@
           $output .='<td>'.$row['put_code'].'</td>';
           $output .='<td><a href="authorization_add_queue.php?id='.$row['id'].'" class="btn btn-success"">+</a> <a href="authorization_remove_queue.php?id='.$row['id'].'" class="btn btn-success"">-</a></td>';
           $output .='<td><a href="download_authorization.php?id='.$row['authorizationid'].'" class="btn btn-success"">Download</a></td>';
-          $output .='</tr>';
+          $output .='<td><a href="resync_authorization.php?id='.$row['id'].'" class="btn btn-success"">Resync</a></td>';
+	  $output .='</tr>';
           
           //Echo output
           echo $output;

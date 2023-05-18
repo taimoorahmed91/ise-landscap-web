@@ -143,9 +143,11 @@ if(!isset($_SESSION["login"]))
             </div>
             <div class="box">
                 <h2>Management</h2>
-                <ul>
+		<ul>
+                    <li><a href="instructions.php">Instructions</a></li>
                     <li><a href="checkout.php">Checkout</a></li>
 		    <li><a href="upload.php">Uploads</a></li>
+                    <li><a href="external_auth.php">External Auth</a></li>
 		</ul>
 	   </div>
 

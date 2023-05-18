@@ -74,6 +74,7 @@
                 <th> POST Code</th>
                 <th> PUT Code </th>       
                 <th> Queue</th>
+		<th> </th>
                 <th> </th>
                <th> </th>
                 </tr>
@@ -93,7 +94,8 @@
           $output .='<td>'.$row['put_code'].'</td>';
           $output .='<td><a href="ap_add_queue.php?id='.$row['id'].'" class="btn btn-success"">+</a> <a href="ap_remove_queue.php?id='.$row['id'].'" class="btn btn-success"">-</a></td>';
           $output .='<td><a href="download_ap.php?id='.$row['apid'].'" class="btn btn-success"">Download</a></td>';
-          $output .='</tr>';
+	  $output .='<td><a href="resync_ap.php?id='.$row['id'].'" class="btn btn-success"">Resync</a></td>';
+	  $output .='</tr>';
           
           //Echo output
           echo $output;

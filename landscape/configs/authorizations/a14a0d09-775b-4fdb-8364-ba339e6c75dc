@@ -5,7 +5,7 @@
       "default" : false,
       "id" : "a14a0d09-775b-4fdb-8364-ba339e6c75dc",
       "name" : "Basic_Authenticated_Access",
-      "hitCounts" : 0,
+      "hitCounts" : 11,
       "rank" : 10,
       "state" : "enabled",
       "condition" : {
@@ -17,7 +17,7 @@
         "description" : "Default condition used for basic Network Access requiring that authentication was successful."
       }
     },
-    "profile" : [ "PermitAccess" ],
+    "profile" : [ "landscape_permit" ],
     "securityGroup" : null,
     "link" : {
       "rel" : "self",

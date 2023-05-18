@@ -93,6 +93,7 @@
           $output .='<td>'.$row['put_code'].'</td>';
           $output .='<td><a href="nad_add_queue.php?id='.$row['id'].'" class="btn btn-success"">+</a> <a href="nad_remove_queue.php?id='.$row['id'].'" class="btn btn-success"">-</a></td>';
           $output .='<td><a href="download_nad.php?id='.$row['nadid'].'" class="btn btn-success"">Download</a></td>';
+	            $output .='<td><a href="resync_nad.php?id='.$row['id'].'" class="btn btn-success"">Resync</a></td>';
           $output .='</tr>';
           
           //Echo output

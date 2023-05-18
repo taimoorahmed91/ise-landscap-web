@@ -2,7 +2,7 @@
 
 <?php
   //Create the select query
-  $query ="SELECT * from authentication ORDER BY id";
+  $query ="SELECT * from radius ORDER BY id";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -50,12 +50,13 @@
     <![endif]-->
   </head>
   <body>
-  <div class="container"  style = "width: 1600px;">
+  <div class="container">
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
-            </ul>
+	            <li role="presentation" ><a href="add_radius.php">ADD RADIUS</a></li>    
+	</ul>
         </nav>
         <h3 class="text-muted">Taiahmed ISE Landscape Testing</h3>
       </div>
@@ -63,20 +64,15 @@
       <div class="row marketing">
 
         <div class="col-lg-12">
-          <h2> Authentications which were fetched </h2>
+          <h2> ISE Deployments Added </h2>
+                <p> Please use this page to add external RADIUS Servvers to MISE </p>
                 <table class="table table-striped">
     <tr>
                 <th> ID </th>
-                <th> Authentication Name </th>
-                <th> SRC Policy Set </th>
-                <th> SRC ISE FQDN </th>
-                <th> Queue </th>
-                <th> GET Code</th>
-                <th> POST Code</th>
-                <th> PUT Code </th>       
-                <th> Queue</th>
-                <th> </th>
-               <th> </th>
+                <th> RADIUS IP </th>
+                <th> Secret </th>
+                <th> Active </th> 
+                <th>  </th>
                 </tr>
     <?php 
         //Check if at least one row is found
@@ -86,17 +82,11 @@
           //Display customer info
           $output ='<tr>';
           $output .='<td>'.$row['id'].'</td>';
-          $output .='<td> <a href="./configs/authentications/'.$row['authenticationid'].'"">'.$row['authentication'].'</a></td>';
-          $output .='<td>'.$row['policyset'].'</td>';
-          $output .='<td>'.$row['isename'].'</td>';
-          $output .='<td>'.$row['queue'].'</td>';
-          $output .='<td>'.$row['get_code'].'</td>';
-          $output .='<td>'.$row['post_code'].'</td>';
-          $output .='<td>'.$row['put_code'].'</td>';
-          $output .='<td><a href="authentication_add_queue.php?id='.$row['id'].'" class="btn btn-success"">+</a> <a href="authentication_remove_queue.php?id='.$row['id'].'" class="btn btn-success"">-</a></td>';
-          $output .='<td><a href="download_authentication.php?id='.$row['authenticationid'].'" class="btn btn-success"">Download</a></td>';
-          $output .='<td><a href="resync_authentication.php?id='.$row['id'].'" class="btn btn-success"">Resync</a></td>';
-	  $output .='</tr>';
+          $output .='<td>'.$row['hostname'].'</td>';
+          $output .='<td>'.$row['radiuskey'].'</td>';
+          $output .='<td>'.$row['active'].'</td>';
+          $output .='<td><a href="radius_active.php?id='.$row['id'].'" class="btn btn-success"">Make Active</a></td>';
+          $output .='</tr>';
           
           //Echo output
           echo $output;
@@ -108,29 +98,7 @@
                  
                 </table>
 
-      
-         <p> </p>
-         <p> </p>
-         <p> </p>
-         <p> </p>
-         <p> </p>
-         <p> </p>
-
-           <form method="post" action="fetch_all_authentication.php">
-                     <input type="submit" name="export" value="Fetch All From Source" class="btn btn-success" />
-                </form>
-            
-         <p> </p>
-         <p> </p>
-         <p> </p>
-        
-
-         <p> </p>
-         <p> </p>
-         <p> </p>
-         <p> </p>
-         <p> </p>
-         <p> </p> 
+       
 
       <footer class="footer">
         <p>&copy; 2023 TaiAhmed Labwork</p>

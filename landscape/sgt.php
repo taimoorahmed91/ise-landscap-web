@@ -93,7 +93,8 @@
           $output .='<td>'.$row['put_code'].'</td>';
           $output .='<td><a href="sgt_add_queue.php?id='.$row['id'].'" class="btn btn-success"">+</a> <a href="sgt_remove_queue.php?id='.$row['id'].'" class="btn btn-success"">-</a></td>';
           $output .='<td><a href="download_sgt.php?id='.$row['sgtid'].'" class="btn btn-success"">Download</a></td>';
-          $output .='</tr>';
+          $output .='<td><a href="resync_sgt.php?id='.$row['id'].'" class="btn btn-success"">Resync</a></td>';
+	  $output .='</tr>';
           
           //Echo output
           echo $output;

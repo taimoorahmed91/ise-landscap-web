@@ -93,7 +93,8 @@
           $output .='<td>'.$row['put_code'].'</td>';
           $output .='<td><a href="authz_add_queue.php?id='.$row['id'].'" class="btn btn-success"">+</a> <a href="authz_remove_queue.php?id='.$row['id'].'" class="btn btn-success"">-</a></td>';
           $output .='<td><a href="download_authz.php?id='.$row['authzid'].'" class="btn btn-success"">Download</a></td>';
-          $output .='</tr>';
+          $output .='<td><a href="resync_authz.php?id='.$row['id'].'" class="btn btn-success"">Resync</a></td>';
+	  $output .='</tr>';
           
           //Echo output
           echo $output;
