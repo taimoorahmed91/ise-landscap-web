@@ -187,8 +187,10 @@ echo '<tr><td colspan="3">Sorry, no entries were found</td></tr>';
     <p> </p>
     <p> </p>
 
-    <form method="post" action="checkout_run.php">
-        <input type="submit" name="export" value="Check Out and Push to Desitnation" class="btn btn-success" />
+
+
+    <form method="post" action="deployment_phase1.php">
+        <input type="submit" name="export" value="Deployment Page" class="btn btn-success" />
     </form>
 
     <p> </p>

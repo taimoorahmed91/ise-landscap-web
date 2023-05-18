@@ -72,7 +72,6 @@
                 <th> Added Date </th>
                 <th> Fetched</th>
                 <th> Fetched Date</th>
-		<th> DST </th>
                 <th> SRC </th>        
 		<th> </th>
 	                <th> </th> 
@@ -90,10 +89,8 @@
           $output .='<td>'.$row['time'].'</td>';
           $output .='<td>'.$row['fetched'].'</td>';
           $output .='<td>'.$row['fetchedon'].'</td>';
-	  $output .='<td>'.$row['dest'].'</td>';
 	  $output .='<td>'.$row['src'].'</td>';
 	  $output .='<td><a href="populate.php?id='.$row['id'].'" class="btn btn-success"">Populate</a></td>';
-	  $output .='<td><a href="marked.php?id='.$row['id'].'" class="btn btn-success"">DST</a></td>';
 	  $output .='<td><a href="marked_src.php?id='.$row['id'].'" class="btn btn-success"">SRC</a></td>';
 	  $output .='</tr>';
           
