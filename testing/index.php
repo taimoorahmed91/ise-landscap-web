@@ -1,14 +1,23 @@
+<?php
+session_start ();
+if(!isset($_SESSION["login"]))
+
+        header("location:login.php");
+?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Beautiful Boxes</title>
+    <title>MISE Landing Page</title>
     <style>
         body {
             background-image: url('background.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
-            font-family: Arial, sans-serif;
+            font-family: Copperplate, serif;
             margin: 0;
             padding: 0;
         }
@@ -36,8 +45,8 @@
         }
 
         .box {
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
             background-color: rgba(255, 255, 255, 0.7);
             border-radius: 10px;
             margin: 10px;
@@ -48,12 +57,12 @@
         }
 
         .box:hover {
-            transform: scale(1.05);
+            transform: scale(1.1);
         }
 
         .box h2 {
             color: #333;
-            font-size: 20px;
+            font-size: 30px;
             margin-bottom: 20px;
         }
 
@@ -70,7 +79,8 @@
         .box li a {
             color: #555;
             text-decoration: none;
-            transition: color 0.3s ease;
+	    transition: color 0.3s ease;
+	    font-size: 20px; /* Adjust the font size as desired */
         }
 
         .box li a:hover {
@@ -80,43 +90,80 @@
 </head>
 <body>
     <div class="container">
-        <h1>Beautiful Boxes</h1>
+        <h1>Landing Page for MISE Web APP</h1>
         <div class="quadrant">
             <div class="box">
-                <h2>Box 1</h2>
+                <h2>Deployment</h2>
                 <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
+                    <li><a href="provision.php">Add a new Deployment</a></li>
+                    <li><a href="deployments.php">View existing Deployments</a></li>
                 </ul>
             </div>
             <div class="box">
-                <h2>Box 2</h2>
+                <h2>Policy Results</h2>
                 <ul>
-                    <li><a href="#">Link 4</a></li>
-                    <li><a href="#">Link 5</a></li>
-                    <li><a href="#">Link 6</a></li>
+                    <li><a href="ap.php">Allowed Protocols</a></li>
+                    <li><a href="dacl.php">Downloadable ACLs</a></li>
+		    <li><a href="authz.php">Authorization Profiles</a></li>
+		    <li><a href="sgt.php">SGT(Security Group Tags)</a></li>
+                    <li><a href="nad.php">NAD Groups</a></li>
                 </ul>
             </div>
-        </div>
+	
+            <div class="box">
+                <h2>MISE Logs</h2>
+                <ul>
+		    <li><a href="ap-log.php">AP Logs</a></li>
+		    <li><a href="dacl-log.php">DACL Logs</a></li>
+                    <li><a href="authz-log.php">AuthZ Logs</a></li>
+                    <li><a href="sgt-log.php">SGT Logs</a></li>
+		   <li><a href="nad-log.php">NAD Logs</a></li>
+		    <li><a href="policyset-log.php">PolicySet Logs</a></li>
+                </ul>
+            </div>
+
+
+
+
+
+
+
+
+
+
+	</div>
         <div class="quadrant">
             <div class="box">
-                <h2>Box 3</h2>
+                <h2>Policy Sets</h2>
                 <ul>
-                    <li><a href="#">Link 7</a></li>
-                    <li><a href="#">Link 8</a></li>
-                    <li><a href="#">Link 9</a></li>
+                    <li><a href="policyset.php">Policy Set</a></li>
+                    <li><a href="authentication.php">Authentication Rules</a></li>
+                    <li><a href="authorization.php">Authorization Rules</a></li>
                 </ul>
             </div>
             <div class="box">
-                <h2>Box 4</h2>
+                <h2>Management</h2>
+		<ul>
+                    <li><a href="instructions.php">Instructions</a></li>
+                    <li><a href="checkout.php">Checkout</a></li>
+		    <li><a href="upload.php">Uploads</a></li>
+                    <li><a href="external_auth.php">External Auth</a></li>
+		</ul>
+	   </div>
+
+	   <div class="box">
+                <h2> Application Logs</h2>
                 <ul>
-                    <li><a href="#">Link 10</a></li>
-                <li><a href="#">Link 11</a></li>
-                <li><a href="#">Link 12</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+		    <li><a href="apache.php">Apache Error</a></li>
+                    <li><a href="apache2.php">Apache Access</a></li>
+		    <li><a href="mysql.php">MySQL</a></li>
+                </ul>
+           </div>
+	</div>
+	</div>
+
+
+
+
 </body>
 </html>
