@@ -1436,4 +1436,1759 @@
       }
     } ]
   }
+}2023-05-19 17:11:40
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9e05bc20-c8c2-11ed-b4d2-72762f04cc59",
+      "name" : "Device Type#All Device Types#ASA",
+      "description" : "VPN Concentrator",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/9e05bc20-c8c2-11ed-b4d2-72762f04cc59",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "0aef3a20-da37-11ed-a198-ae96a26dba0a",
+      "name" : "Device Type#All Device Types#Proxy",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/0aef3a20-da37-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b98e6920-d145-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB",
+      "description" : "This is lab equipment",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/b98e6920-d145-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "c59aab70-d145-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB#BRU",
+      "description" : "This is lab in BRU Lab for testing on Sun",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/c59aab70-d145-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "a507f1a0-d155-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB#KRK",
+      "description" : "Testing Lab",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/a507f1a0-d155-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "99f333e0-d143-11ed-a198-ae96a26dba0a",
+      "name" : "Location#All Locations#Krakow",
+      "description" : "Krakow Location",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/99f333e0-d143-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-21 00:20:38
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:38
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:39
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:39
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:40
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:40
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:41
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:41
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:42
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:42
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:42
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:10
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:11
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:11
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:12
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:12
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:13
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:13
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:14
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:14
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:14
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:15
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:44
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:45
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:45
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:45
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:46
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:46
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:47
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:47
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:48
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:48
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:48
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:01
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:01
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:02
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:02
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:03
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:03
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:04
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:04
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:05
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:05
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:06
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:41
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:42
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:42
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:43
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:43
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:44
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:44
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:44
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:45
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:45
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:46
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:37
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:37
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:38
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:38
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:38
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:39
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:39
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:40
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:40
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:41
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:41
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:51
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:52
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:53
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:53
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:54
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:55
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:55
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:55
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:56
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:56
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:57
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:47:58
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:47:58
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:47:59
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:47:59
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:47:59
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:00
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:00
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:01
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:01
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:01
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:02
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:24
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:24
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:25
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:25
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:25
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:26
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:26
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:27
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:27
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:27
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:28
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:28
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:28
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:28
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:29
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:29
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:30
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:30
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:30
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:31
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:31
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:32
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
 }

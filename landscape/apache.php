@@ -26,7 +26,7 @@ header( "refresh:2;url=http://10.48.30.213/landscape/apache.php" );
 
 
 $logFilePath = '/var/log/apache2/error.log';
-$command = 'sudo tail -20 ' . $logFilePath;
+$command = 'sudo tail -200 ' . $logFilePath;
 $logContent = shell_exec($command);
 echo '<pre>' . htmlspecialchars($logContent) . '</pre>';
 

@@ -2,7 +2,7 @@
 <?php
   if($_POST){
     //Get variables from post array
-          $radius = $_POST['radius'];
+          $hostname = $_POST['hostname'];
           $radiuskey = $_POST['radiuskey'];
     
     //Create customer query

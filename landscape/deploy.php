@@ -3,7 +3,7 @@
 <?php
 
 
-header( "refresh:10;url=http://10.48.30.213/landscape/checkout.php" );
+header( "refresh:1;url=http://10.48.30.213/landscape/checkout.php" );
 
 // Script to fetch policyset authorization
 $query = "SELECT * FROM deployments WHERE marked = 'yes'";
@@ -20,5 +20,9 @@ if ($result = $mysqli->query($query)) {
     $result->close();
 }
 
+
+system("sudo -S python3 /root/ise-landscape/mise/clear_queue.py");
+
+system("sudo -S python3 /root/ise-landscape/mise/deployment_journal.py");
 
 ?>

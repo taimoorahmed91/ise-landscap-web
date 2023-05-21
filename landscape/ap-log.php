@@ -26,7 +26,7 @@ header( "refresh:2;url=http://10.48.30.213/landscape/ap-log.php" );
 
 
 $logFilePath = '/var/www/html/landscape/logging/ap-logs';
-$command = 'sudo tail -50 ' . $logFilePath;
+$command = 'sudo tail -500 ' . $logFilePath;
 $logContent = shell_exec($command);
 echo '<pre>' . htmlspecialchars($logContent) . '</pre>';
 

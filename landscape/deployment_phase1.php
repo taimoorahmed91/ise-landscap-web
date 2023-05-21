@@ -45,6 +45,20 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("form").submit(function() {
+                // Show the loading GIF
+                $("#loading").show();
+            });
+        });
+    </script>
+
+
+
+
 </head>
 <body>
 <div class="container">
@@ -96,6 +110,10 @@
       <form method="post" action="deploy.php">
         <input type="submit" name="export" value="Deploy" class="btn btn-success"/>
       </form>
+
+    <div id="loading" style="display: none;">
+        <img src="loading.gif" alt="Loading...">
+    </div>
 
       <footer class="footer">
         <p>&copy; 2023 TaiAhmed Labwork</p>

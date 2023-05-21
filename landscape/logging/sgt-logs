@@ -2332,4 +2332,3028 @@
       }
     } ]
   }
+}2023-05-19 17:11:52
+{
+  "SearchResult" : {
+    "total" : 19,
+    "resources" : [ {
+      "id" : "934557f0-8c01-11e6-996c-525400b48521",
+      "name" : "Auditors",
+      "description" : "Auditor Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/934557f0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "dcad2596-6995-4e5b-8f62-41dab377ae2c",
+      "name" : "bcn_known_printer",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/dcad2596-6995-4e5b-8f62-41dab377ae2c",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "935d4cc0-8c01-11e6-996c-525400b48521",
+      "name" : "BYOD",
+      "description" : "BYOD Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/935d4cc0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "e2c6982d-1350-41fa-a48e-df7b499f7267",
+      "name" : "Central_services",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/e2c6982d-1350-41fa-a48e-df7b499f7267",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9370d4c0-8c01-11e6-996c-525400b48521",
+      "name" : "Contractors",
+      "description" : "Contractor Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/9370d4c0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "93837260-8c01-11e6-996c-525400b48521",
+      "name" : "Developers",
+      "description" : "Developer Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/93837260-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9396d350-8c01-11e6-996c-525400b48521",
+      "name" : "Development_Servers",
+      "description" : "Development Servers Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/9396d350-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "93ad6890-8c01-11e6-996c-525400b48521",
+      "name" : "Employees",
+      "description" : "Employee Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/93ad6890-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "93c66ed0-8c01-11e6-996c-525400b48521",
+      "name" : "Guests",
+      "description" : "Guest Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/93c66ed0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "93e1bf00-8c01-11e6-996c-525400b48521",
+      "name" : "Network_Services",
+      "description" : "Network Services Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/93e1bf00-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "93f91790-8c01-11e6-996c-525400b48521",
+      "name" : "PCI_Servers",
+      "description" : "PCI Servers Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/93f91790-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "940facd0-8c01-11e6-996c-525400b48521",
+      "name" : "Point_of_Sale_Systems",
+      "description" : "Point of Sale Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/940facd0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9423aa00-8c01-11e6-996c-525400b48521",
+      "name" : "Production_Servers",
+      "description" : "Production Servers Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/9423aa00-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9437a730-8c01-11e6-996c-525400b48521",
+      "name" : "Production_Users",
+      "description" : "Production User Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/9437a730-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "944b2f30-8c01-11e6-996c-525400b48521",
+      "name" : "Quarantined_Systems",
+      "description" : "Quarantine Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/944b2f30-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "84dc5450-53b0-406e-84ef-37eba3688669",
+      "name" : "Staging_clients",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/84dc5450-53b0-406e-84ef-37eba3688669",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "94621290-8c01-11e6-996c-525400b48521",
+      "name" : "Test_Servers",
+      "description" : "Test Servers Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/94621290-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "947832a0-8c01-11e6-996c-525400b48521",
+      "name" : "TrustSec_Devices",
+      "description" : "TrustSec Devices Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/947832a0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92adf9f0-8c01-11e6-996c-525400b48521",
+      "name" : "Unknown",
+      "description" : "Unknown Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/sgt/92adf9f0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-21 00:20:43
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:43
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:44
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:44
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:45
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:45
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:46
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:46
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:47
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:47
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:47
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:48
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:49
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:49
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:49
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:50
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:51
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:51
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:20:51
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Validation Error - Mandatory fields missing: [Value]",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:15
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:16
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:16
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:17
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:17
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:18
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:18
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:19
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:19
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:20
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:20
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:20
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:21
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:21
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:22
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:22
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:23
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:23
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:22:24
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Validation Error - Mandatory fields missing: [Value]",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:49
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:49
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:50
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:50
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:51
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:51
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:52
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:52
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:53
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:53
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:54
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:54
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:55
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:55
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:55
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:56
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:56
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:57
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:23:57
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Validation Error - Mandatory fields missing: [Value]",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:06
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:07
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:07
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:07
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:08
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:08
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:09
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:09
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:10
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:10
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:11
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:11
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:12
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:12
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:12
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:13
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:13
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:14
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:14
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Validation Error - Mandatory fields missing: [Value]",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:46
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:47
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:47
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:47
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:48
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:48
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:49
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:49
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:50
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:50
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:51
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:51
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:52
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:52
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:53
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:53
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:54
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:54
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:26:55
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Validation Error - Mandatory fields missing: [Value]",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:41
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:42
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:42
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:43
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:43
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:44
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:44
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:45
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:45
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:45
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:46
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:46
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:47
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:47
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:48
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:48
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:48
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:49
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:27:49
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Validation Error - Mandatory fields missing: [Value]",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:57
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:58
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:58
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:59
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:39:59
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:00
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:00
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:01
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:01
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:02
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:02
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:03
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:03
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:04
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:04
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:05
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:05
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:05
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 00:40:06
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Validation Error - Mandatory fields missing: [Value]",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:02
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:03
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:03
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:04
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:04
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:04
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:05
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:05
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:06
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:06
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:06
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:07
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:07
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:08
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:08
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:09
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:09
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:09
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 13:48:10
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Validation Error - Mandatory fields missing: [Value]",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:28
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:29
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:29
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:30
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:30
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:30
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:31
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:31
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:32
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:32
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:32
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:33
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:33
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:34
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:34
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:35
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:35
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:35
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:44:36
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Validation Error - Mandatory fields missing: [Value]",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:32
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:32
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:33
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:33
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:34
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:34
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:35
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:35
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:35
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:36
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:36
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:37
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:37
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:37
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:38
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:38
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:39
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:39
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-21 15:47:39
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Validation Error - Mandatory fields missing: [Value]",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
 }
