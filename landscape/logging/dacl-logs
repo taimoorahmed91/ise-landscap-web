@@ -3377,4 +3377,469 @@
       "type" : "application/xml"
     }
   }
+}2023-05-22 16:12:53
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+      "name" : "collective_dacl",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fcc80540-c95a-11ed-bc44-76b9615eaad3",
+      "name" : "dACL_sample",
+      "description" : "sample DACL used for API testing",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fcc80540-c95a-11ed-bc44-76b9615eaad3",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+      "name" : "dACL_sample2",
+      "description" : "sample2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "84354a70-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "dacl3",
+      "description" : "sample dacl3",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/84354a70-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+      "name" : "local_dacl",
+      "description" : "name",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+      "name" : "my_dacl_tai",
+      "description" : "taimoor's DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+      "name" : "sample_18",
+      "description" : "sample_18 DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-22 20:31:44
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+      "name" : "collective_dacl",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fcc80540-c95a-11ed-bc44-76b9615eaad3",
+      "name" : "dACL_sample",
+      "description" : "sample DACL used for API testing",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fcc80540-c95a-11ed-bc44-76b9615eaad3",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+      "name" : "dACL_sample2",
+      "description" : "sample2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "84354a70-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "dacl3",
+      "description" : "sample dacl3",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/84354a70-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+      "name" : "local_dacl",
+      "description" : "name",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+      "name" : "my_dacl_tai",
+      "description" : "taimoor's DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+      "name" : "sample_18",
+      "description" : "sample_18 DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-22 20:38:15
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+      "name" : "collective_dacl",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fcc80540-c95a-11ed-bc44-76b9615eaad3",
+      "name" : "dACL_sample",
+      "description" : "sample DACL used for API testing",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fcc80540-c95a-11ed-bc44-76b9615eaad3",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+      "name" : "dACL_sample2",
+      "description" : "sample2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "84354a70-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "dacl3",
+      "description" : "sample dacl3",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/84354a70-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+      "name" : "local_dacl",
+      "description" : "name",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+      "name" : "my_dacl_tai",
+      "description" : "taimoor's DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+      "name" : "sample_18",
+      "description" : "sample_18 DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-24 09:44:51
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:collective_dacl' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-24 17:39:54
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DENY_ALL_IPV4_TRAFFIC' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-24 17:39:54
+2023-05-24 20:08:23
+{
+  "SearchResult" : {
+    "total" : 4,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://farhan.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d51e3b40-f945-11eb-953e-0050568fa723",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://farhan.taimoorlab.local/ers/config/downloadableacl/d51e3b40-f945-11eb-953e-0050568fa723",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://farhan.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d51d02c0-f945-11eb-953e-0050568fa723",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://farhan.taimoorlab.local/ers/config/downloadableacl/d51d02c0-f945-11eb-953e-0050568fa723",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-24 20:09:34
+2023-05-24 20:09:35
+2023-05-24 20:09:35
+2023-05-24 20:09:36
+2023-05-25 22:27:08
+{
+  "SearchResult" : {
+    "total" : 4,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo2.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo2.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo2.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo2.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-25 22:43:02
+2023-05-25 22:45:29
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:collective_dacl' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-demo2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2023-05-25 22:46:20
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:collective_dacl' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-demo2.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
 }

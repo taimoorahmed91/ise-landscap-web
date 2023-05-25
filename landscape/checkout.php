@@ -20,6 +20,12 @@ $result_sgt = $mysqli->query($query_sgt) or die($mysqli->error.__LINE__);
 // Query for NADs
 $query_nad = "SELECT * FROM nad WHERE queue = 'yes'";
 $result_nad = $mysqli->query($query_nad) or die($mysqli->error.__LINE__);
+
+
+// Query for Uploadss
+$query_uploads = "SELECT * FROM uploads WHERE queue = 'yes'";
+$result_uploads = $mysqli->query($query_uploads) or die($mysqli->error.__LINE__);
+
 ?>
 
 <!DOCTYPE html>
@@ -179,6 +185,31 @@ echo '<tr><td colspan="3">Sorry, no entries were found</td></tr>';
 ?>
 </table>
 </div>
+
+    <div class="col-lg-12">
+        <h2> Uploaded files which were added to queue </h2>
+        <table class="table table-striped">
+            <tr>
+                <th> ID </th>
+                <th> NAD Name </th>
+                <th> Description </th>
+            </tr>
+            <?php
+            if ($result_uploads->num_rows > 0) {
+            while ($row = $result_uploads->fetch_assoc()) {
+            echo '<tr>';
+            echo '<td>' . $row['id'] . '</td>';
+            echo '<td> <a href="'. $row['directory'] . '">' . $row['name'] . '</a></td>';
+            echo '<td>' . $row['description'] . '</td>';
+            echo '</tr>';
+        }
+            } else {
+echo '<tr><td colspan="3">Sorry, no entries were found</td></tr>';
+}
+?>
+</table>
+</div>
+
 
     <p> </p>
     <p> </p>

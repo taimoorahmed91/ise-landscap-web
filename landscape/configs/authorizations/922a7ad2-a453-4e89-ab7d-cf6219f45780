@@ -1,0 +1,40 @@
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "922a7ad2-a453-4e89-ab7d-cf6219f45780",
+      "name" : "NonCompliant_Devices_Redirect",
+      "hitCounts" : 0,
+      "rank" : 4,
+      "state" : "disabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAndBlock",
+        "isNegate" : false,
+        "children" : [ {
+          "link" : null,
+          "conditionType" : "ConditionReference",
+          "isNegate" : false,
+          "name" : "Network_Access_Authentication_Passed",
+          "id" : "f7bf524f-234a-42b5-bc76-4a3e60d3f6a9",
+          "description" : "Default condition used for basic Network Access requiring that authentication was successful."
+        }, {
+          "link" : null,
+          "conditionType" : "ConditionReference",
+          "isNegate" : false,
+          "name" : "Non_Compliant_Devices",
+          "id" : "a934c2b2-2897-4c48-a5f8-9bdcc0d06e34",
+          "description" : "Default condition for non-compliant devices"
+        } ]
+      }
+    },
+    "profile" : [ "Cisco_Temporal_Onboard" ],
+    "securityGroup" : null,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://farhan.taimoorlab.local/api/v1/policy/network-access/policy-set/2d7241cb-03b9-4871-bac6-a874d22978ef/authorization/922a7ad2-a453-4e89-ab7d-cf6219f45780",
+      "type" : "application/json"
+    }
+  }
+}

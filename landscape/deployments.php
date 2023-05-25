@@ -76,6 +76,7 @@
 		<th> </th>
 	                <th> </th> 
 		<th> </th>
+                <th> </th>
                 </tr>
     <?php 
         //Check if at least one row is found
@@ -90,7 +91,9 @@
           $output .='<td>'.$row['fetched'].'</td>';
           $output .='<td>'.$row['fetchedon'].'</td>';
 	  $output .='<td>'.$row['src'].'</td>';
+	  $output .='<td><a href="verify_deployment.php?id='.$row['id'].'" class="btn btn-success"">Verify Deployment</a></td>';
 	  $output .='<td><a href="populate.php?id='.$row['id'].'" class="btn btn-success"">Populate</a></td>';
+
 	  $output .='<td><a href="marked_src.php?id='.$row['id'].'" class="btn btn-success"">SRC</a></td>';
 	  $output .='</tr>';
           

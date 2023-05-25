@@ -1,0 +1,54 @@
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "1bc79e59-a39b-4147-a895-9394252f4d7e",
+      "name" : "Employee_EAP-TLS",
+      "hitCounts" : 0,
+      "rank" : 6,
+      "state" : "disabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAndBlock",
+        "isNegate" : false,
+        "children" : [ {
+          "link" : null,
+          "conditionType" : "ConditionReference",
+          "isNegate" : false,
+          "name" : "Wireless_802.1X",
+          "id" : "3896f040-515e-4b1d-a12a-6d885483071c",
+          "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+        }, {
+          "link" : null,
+          "conditionType" : "ConditionReference",
+          "isNegate" : false,
+          "name" : "BYOD_is_Registered",
+          "id" : "fda7ccce-9335-44ab-9a1e-7e1ac6251f48",
+          "description" : "Default condition for BYOD flow for any device that has passed the NSP process"
+        }, {
+          "link" : null,
+          "conditionType" : "ConditionReference",
+          "isNegate" : false,
+          "name" : "EAP-TLS",
+          "id" : "9b7f7b7e-3c56-4c45-9b94-b651e4626774",
+          "description" : "Default condition for BYOD flow for any device that has passed the NSP process"
+        }, {
+          "link" : null,
+          "conditionType" : "ConditionReference",
+          "isNegate" : false,
+          "name" : "MAC_in_SAN",
+          "id" : "2fe6b740-0875-40a6-befe-6f0fde0ce9b8",
+          "description" : "Default condition for BYOD flow for any device that has passed the NSP process"
+        } ]
+      }
+    },
+    "profile" : [ "PermitAccess" ],
+    "securityGroup" : "BYOD",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://farhan.taimoorlab.local/api/v1/policy/network-access/policy-set/2d7241cb-03b9-4871-bac6-a874d22978ef/authorization/1bc79e59-a39b-4147-a895-9394252f4d7e",
+      "type" : "application/json"
+    }
+  }
+}

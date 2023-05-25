@@ -71,7 +71,9 @@
                 <th> File Name </th>
                 <th> Description </th>
                 <th> Category</th>      
+               <th> Queue</th>
 		<th> Upload Time</th>
+                <th> Queue</th>
                 </tr>
     <?php 
         //Check if at least one row is found
@@ -84,8 +86,10 @@
 	  $output .='<td> <a href="./'.$row['directory'].'"">'.$row['name'].'</a></td>';
           $output .='<td>'.$row['description'].'</td>';
 	  $output .='<td>'.$row['folder'].'</td>';
+	  $output .='<td>'.$row['queue'].'</td>';
 	  $output .='<td>'.$row['time'].'</td>';
 
+	  $output .='<td><a href="upload_add_queue.php?id='.$row['id'].'" class="btn btn-success"">+</a> <a href="upload_remove_queue.php?id='.$row['id'].'" class="btn btn-success"">-</a></td>';
           $output .='</tr>';
           
           //Echo output
