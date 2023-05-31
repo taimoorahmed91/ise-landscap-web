@@ -97,6 +97,7 @@ if(!isset($_SESSION["login"]))
                 <ul>
                     <li><a href="provision.php">Add a new Deployment</a></li>
                     <li><a href="deployments.php">View existing Deployments</a></li>
+                    <li><a href="deploy-history.php"> Deployment History</a></li>
                 </ul>
             </div>
             <div class="box">
@@ -147,7 +148,8 @@ if(!isset($_SESSION["login"]))
                     <li><a href="instructions.php">Instructions</a></li>
                     <li><a href="checkout.php">Checkout</a></li>
 		    <li><a href="upload.php">Uploads</a></li>
-                    <li><a href="external_auth.php">External Auth</a></li>
+		    <li><a href="external_auth.php">External Auth</a></li>
+                    <li><a href="patch.php">Patch</a></li>
 		</ul>
 	   </div>
 

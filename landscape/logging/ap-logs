@@ -4906,3 +4906,70 @@
 }2023-05-25 22:29:31
 2023-05-25 22:29:32
 2023-05-25 22:29:32
+2023-05-26 20:00:36
+{
+  "SearchResult" : {
+    "total" : 3,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.157/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.157/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9b988f80-de75-11ed-bda0-6a78b0da21e5",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.157/ers/config/allowedprotocols/9b988f80-de75-11ed-bda0-6a78b0da21e5",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-05-26 20:06:54
+{
+  "SearchResult" : {
+    "total" : 3,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.157/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.157/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9b988f80-de75-11ed-bda0-6a78b0da21e5",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.157/ers/config/allowedprotocols/9b988f80-de75-11ed-bda0-6a78b0da21e5",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}
