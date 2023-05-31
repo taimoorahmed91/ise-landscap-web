@@ -58,13 +58,13 @@
             <li role="presentation" ><a href="gitpull.php">GIT RESYNC</a></li>
             </ul>
         </nav>
-        <h3 class="text-muted">Taiahmed ISE Landscape Testing</h3>
+        <h3 class="text-muted">MISE Testing</h3>
       </div>
 
       <div class="row marketing">
 
         <div class="col-lg-12">
-          <h2> Files Added History </h2>
+          <h2> Patch Uploaded History </h2>
 
                 <table class="table table-striped">
     <tr>
