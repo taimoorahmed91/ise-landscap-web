@@ -8,7 +8,7 @@ $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 
 // Check if the query result is empty
 if ($result->num_rows > 0) {
-    header("refresh:1;url=http://10.48.30.213/landscape/checkout.php");
+    header("refresh:10;url=http://10.48.30.213/landscape/checkout.php");
 
     // Fetch object array
     while ($row = $result->fetch_assoc()) {

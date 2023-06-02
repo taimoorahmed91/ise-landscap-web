@@ -220,8 +220,8 @@ echo '<tr><td colspan="3">Sorry, no entries were found</td></tr>';
 
 
 
-    <form method="post" action="deployment_phase1.php">
-        <input type="submit" name="export" value="Deployment Page" class="btn btn-success" />
+    <form  action="deployment_phase3.php">
+        <input type="submit" value="Deployment Page" class="btn btn-success" />
     </form>
 
 

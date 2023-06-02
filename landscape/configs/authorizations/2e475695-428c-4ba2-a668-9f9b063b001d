@@ -3,9 +3,9 @@
   "response" : {
     "rule" : {
       "default" : false,
-      "id" : "a14a0d09-775b-4fdb-8364-ba339e6c75dc",
+      "id" : "2e475695-428c-4ba2-a668-9f9b063b001d",
       "name" : "Basic_Authenticated_Access",
-      "hitCounts" : 56,
+      "hitCounts" : 0,
       "rank" : 10,
       "state" : "enabled",
       "condition" : {
@@ -13,15 +13,15 @@
         "conditionType" : "ConditionReference",
         "isNegate" : false,
         "name" : "Network_Access_Authentication_Passed",
-        "id" : "e13837fd-1021-4228-a924-c140fa333d90",
+        "id" : "0b816fbf-0667-486f-9609-d52066afb957",
         "description" : "Default condition used for basic Network Access requiring that authentication was successful."
       }
     },
-    "profile" : [ "landscape_permit" ],
+    "profile" : [ "PermitAccess" ],
     "securityGroup" : null,
     "link" : {
       "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/caa880cc-67c8-4840-9ed4-95747cb291b8/authorization/a14a0d09-775b-4fdb-8364-ba339e6c75dc",
+      "href" : "https://ise-demo1.taimoorlab.local/api/v1/policy/network-access/policy-set/68d2093d-25dd-4ab7-a522-5f0a54f429eb/authorization/2e475695-428c-4ba2-a668-9f9b063b001d",
       "type" : "application/json"
     }
   }

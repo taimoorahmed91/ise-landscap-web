@@ -1,6 +1,6 @@
 <?php
 
-  header( "refresh:1;url=http://10.48.30.213/landscape/deployment_phase1.php" );
+  header( "refresh:1;url=http://10.48.30.213/landscape/deployment_phase3.php" );
 
 // Replace the database credentials with your own
 $servername = "localhost";

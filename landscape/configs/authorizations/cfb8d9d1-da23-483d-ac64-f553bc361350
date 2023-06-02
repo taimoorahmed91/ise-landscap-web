@@ -5,7 +5,7 @@
       "default" : false,
       "id" : "cfb8d9d1-da23-483d-ac64-f553bc361350",
       "name" : "Basic_Authenticated_Access",
-      "hitCounts" : 0,
+      "hitCounts" : 3,
       "rank" : 10,
       "state" : "enabled",
       "condition" : {

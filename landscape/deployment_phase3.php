@@ -81,6 +81,7 @@
           <th>ISE FQDN</th>
           <th>Added Date</th>
           <th>Marked for deployment</th>
+	  <th></th>
 
         </tr>
         <?php
@@ -94,6 +95,7 @@
             $output .= '<td>' . $row['fqdn'] . '</td>';
 	    $output .= '<td>' . $row['time'] . '</td>';
 	    $output .= '<td>' . $row['marked'] . '</td>';
+	    $output .='<td><a href="mark_deployment.php?id='.$row['id'].'" class="btn btn-success"">Mark/Un-Mark</a></td>';
             $output .= '</tr>';
 
             // Echo output
@@ -105,13 +107,11 @@
         ?>
       </table>
 
-      <form method="post" action="deploy.php">
-        <input type="submit" name="export" value="Deploy" class="btn btn-success"/>
-      </form>
 
-    <div id="loading" style="display: none;">
-        <img src="loading.gif" alt="Loading...">
-    </div>
+
+   <form  action="deployment_phase2.php">
+        <input type="submit" value="Deployment Page" class="btn btn-success" />
+    </form>
 
       <footer class="footer">
         <p>&copy; 2023 TaiAhmed Labwork</p>
