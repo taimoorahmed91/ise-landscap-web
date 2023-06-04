@@ -180,4 +180,50 @@
       "type" : "application/json"
     }
   }
+}2023-06-04 19:36:11
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "3afd778b-3f6d-46aa-9cf7-0a4afb1e5621",
+      "name" : "Authentication Rule 1",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionOrBlock",
+        "isNegate" : false,
+        "children" : [ {
+          "link" : null,
+          "conditionType" : "ConditionAttributes",
+          "isNegate" : false,
+          "dictionaryName" : "Radius",
+          "attributeName" : "Called-Station-ID",
+          "operator" : "equals",
+          "dictionaryValue" : null,
+          "attributeValue" : "SSID-1"
+        }, {
+          "link" : null,
+          "conditionType" : "ConditionAttributes",
+          "isNegate" : false,
+          "dictionaryName" : "Radius",
+          "attributeName" : "Called-Station-ID",
+          "operator" : "equals",
+          "dictionaryValue" : null,
+          "attributeValue" : "SSID-4"
+        } ]
+      }
+    },
+    "identitySourceName" : "ADJoin",
+    "ifAuthFail" : "REJECT",
+    "ifUserNotFound" : "REJECT",
+    "ifProcessFail" : "DROP",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo1.taimoorlab.local/api/v1/policy/network-access/policy-set/6c9d3bf9-51e5-47a3-aba4-edd524a7165e/authentication/3afd778b-3f6d-46aa-9cf7-0a4afb1e5621",
+      "type" : "application/json"
+    }
+  }
 }

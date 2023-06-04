@@ -5535,4 +5535,202 @@
       }
     } ]
   }
+}2023-06-04 18:33:09
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-04 18:38:04
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "a7740170-fb4b-11ed-b5d0-2612d26369d2",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols/a7740170-fb4b-11ed-b5d0-2612d26369d2",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "a7c15e20-fb4b-11ed-b5d0-2612d26369d2",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols/a7c15e20-fb4b-11ed-b5d0-2612d26369d2",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "a801c280-fb4b-11ed-b5d0-2612d26369d2",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols/a801c280-fb4b-11ed-b5d0-2612d26369d2",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-04 18:44:32
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-allowedprotocols",
+    "messages" : [ {
+      "title" : "Allowed Protocols: Failed to create, please check the log for error.com.cisco.cpm.acs.bl.impl.config.exceptions.ObjectAlreadyExistsException: Object already exists in the database",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols",
+      "type" : "application/xml"
+    }
+  }
+}2023-06-04 18:44:32
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-allowedprotocols",
+    "messages" : [ {
+      "title" : "Allowed Protocols: Failed to create, please check the log for error.com.cisco.cpm.acs.bl.impl.config.exceptions.ObjectAlreadyExistsException: Object already exists in the database",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols",
+      "type" : "application/xml"
+    }
+  }
+}2023-06-04 18:44:33
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-allowedprotocols",
+    "messages" : [ {
+      "title" : "Allowed Protocols: Failed to create, please check the log for error.com.cisco.cpm.acs.bl.impl.config.exceptions.ObjectAlreadyExistsException: Object already exists in the database",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols",
+      "type" : "application/xml"
+    }
+  }
+}2023-06-04 18:56:45
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "a7740170-fb4b-11ed-b5d0-2612d26369d2",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols/a7740170-fb4b-11ed-b5d0-2612d26369d2",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "a7c15e20-fb4b-11ed-b5d0-2612d26369d2",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols/a7c15e20-fb4b-11ed-b5d0-2612d26369d2",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "a801c280-fb4b-11ed-b5d0-2612d26369d2",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols/a801c280-fb4b-11ed-b5d0-2612d26369d2",
+        "type" : "application/json"
+      }
+    } ]
+  }
 }

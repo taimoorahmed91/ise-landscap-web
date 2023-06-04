@@ -69,7 +69,8 @@
     <tr>
                 <th> ID </th>
                 <th> File Name </th>
-                <th> Deployed Time </th>
+		<th> Deployed Time </th>
+		<th> Comments </th>
                 </tr>
     <?php 
         //Check if at least one row is found
@@ -80,6 +81,7 @@
           $output ='<tr>';
           $output .='<td>'.$row['id'].'</td>';
 	  $output .='<td> <a href="./'.$row['path'].'"">'.$row['name'].'</a></td>';
+	  $output .='<td>'.$row['comments'].'</td>';
           $output .='<td>'.$row['time'].'</td>';
 
           $output .='</tr>';
