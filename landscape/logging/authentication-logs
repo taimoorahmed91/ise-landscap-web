@@ -140,4 +140,44 @@
       "type" : "application/json"
     }
   }
+}2023-06-03 01:01:08
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Rule name is already used in this policy table: ASA VPN RADIUS"
+}2023-06-03 01:01:46
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Rule name is already used in this policy table: ASA VPN RADIUS"
+}2023-06-03 01:02:22
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "56c8fc37-b386-4444-8535-7fe0e4327c92",
+      "name" : "ASA VPN RADIUS",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "DEVICE",
+        "attributeName" : "Device Type",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "All Device Types#ASA"
+      }
+    },
+    "identitySourceName" : "AD_Jump",
+    "ifAuthFail" : "REJECT",
+    "ifUserNotFound" : "REJECT",
+    "ifProcessFail" : "DROP",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo1.taimoorlab.local/api/v1/policy/network-access/policy-set/1ea721ab-8ace-481e-80dd-914fb13d1fd2/authentication/56c8fc37-b386-4444-8535-7fe0e4327c92",
+      "type" : "application/json"
+    }
+  }
 }

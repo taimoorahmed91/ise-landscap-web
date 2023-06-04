@@ -1,0 +1,25 @@
+{
+  "AuthorizationProfile" : {
+    "id" : "98630160-8c01-11e6-996c-525400b48521",
+    "name" : "NSP_Onboard",
+    "description" : "Onboard the device with Native Supplicant Provisioning",
+    "accessType" : "ACCESS_ACCEPT",
+    "authzProfileType" : "SWITCH",
+    "webRedirection" : {
+      "WebRedirectionType" : "NativeSupplicanProvisioning",
+      "acl" : "ACL_WEBAUTH_REDIRECT",
+      "portalName" : "BYOD Portal (default)"
+    },
+    "trackMovement" : false,
+    "agentlessPosture" : false,
+    "serviceTemplate" : false,
+    "easywiredSessionCandidate" : false,
+    "daclName" : "PERMIT_ALL_IPV4_TRAFFIC",
+    "profileName" : "Cisco",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo1.taimoorlab.local/ers/config/authorizationprofile/98630160-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}

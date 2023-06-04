@@ -1,0 +1,21 @@
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : true,
+      "id" : "8af697e1-9cca-4a95-87b2-409258cce774",
+      "name" : "Default",
+      "hitCounts" : 0,
+      "rank" : 11,
+      "state" : "enabled",
+      "condition" : null
+    },
+    "profile" : [ "DenyAccess" ],
+    "securityGroup" : null,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo1.taimoorlab.local/api/v1/policy/network-access/policy-set/68d2093d-25dd-4ab7-a522-5f0a54f429eb/authorization/8af697e1-9cca-4a95-87b2-409258cce774",
+      "type" : "application/json"
+    }
+  }
+}

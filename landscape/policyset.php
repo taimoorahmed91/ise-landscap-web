@@ -68,10 +68,15 @@
     <tr>
                 <th> ID </th>
                 <th> Policyset Name </th>
-                <th> SRC ISE FQDN </th>
-                <th> GET Code</th>
+		<th> SRC ISE FQDN </th>
+                <th> Queue </th>
+		<th> GET Code</th>
+                <th> POST Code</th>
+                <th> PUT Code </th>
+                <th> Queue</th>
                 <th> </th>
-			    <th> </th>
+                <th> </th>
+               <th> </th>
                 </tr>
     <?php 
         //Check if at least one row is found
@@ -82,9 +87,14 @@
           $output ='<tr>';
           $output .='<td>'.$row['id'].'</td>';
           $output .='<td> <a href="./configs/policyset/'.$row['policysetid'].'"">'.$row['policyset'].'</a></td>';
-          $output .='<td>'.$row['isename'].'</td>';
-          $output .='<td>'.$row['get_code'].'</td>';
-          $output .='<td><a href="download_policyset.php?id='.$row['policysetid'].'" class="btn btn-success"">Download</a></td>';
+	  $output .='<td>'.$row['isename'].'</td>';
+	  $output .='<td>'.$row['queue'].'</td>';
+	  $output .='<td>'.$row['get_code'].'</td>';
+	  $output .='<td>'.$row['post_code'].'</td>';
+	  $output .='<td>'.$row['put_code'].'</td>';
+	  $output .='<td><a href="policyset_add_queue.php?id='.$row['id'].'" class="btn btn-success"">+</a> <a href="policyset_remove_queue.php?id='.$row['id'].'" class="btn btn-success"">-</a></td>';
+	  $output .='<td><a href="download_policyset.php?id='.$row['policysetid'].'" class="btn btn-success"">Download</a></td>';
+	  $output .='<td><a href="resync_ap.php?id='.$row['id'].'" class="btn btn-success"">Resync</a></td>';
           $output .='</tr>';
           
           //Echo output

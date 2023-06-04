@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "9e05bc20-c8c2-11ed-b4d2-72762f04cc59",
+    "name" : "Device Type#All Device Types#ASA",
+    "description" : "VPN Concentrator",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/9e05bc20-c8c2-11ed-b4d2-72762f04cc59",
+      "type" : "application/json"
+    },
+    "othername" : "Device Type"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Sgt" : {
+    "id" : "93837260-8c01-11e6-996c-525400b48521",
+    "name" : "Developers",
+    "description" : "Developer Security Group",
+    "value" : 8,
+    "generationId" : "0",
+    "propogateToApic" : true,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo1.taimoorlab.local/ers/config/sgt/93837260-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}

@@ -26,6 +26,10 @@ $result_nad = $mysqli->query($query_nad) or die($mysqli->error.__LINE__);
 $query_uploads = "SELECT * FROM uploads WHERE queue = 'yes'";
 $result_uploads = $mysqli->query($query_uploads) or die($mysqli->error.__LINE__);
 
+
+// Query for policysets
+$query_policyset = "SELECT * FROM policyset WHERE queue = 'yes'";
+$result_policyset = $mysqli->query($query_policyset) or die($mysqli->error.__LINE__);
 ?>
 
 <!DOCTYPE html>
@@ -211,6 +215,29 @@ echo '<tr><td colspan="3">Sorry, no entries were found</td></tr>';
 </div>
 
 
+    <div class="col-lg-12">
+        <h2> Policysets which were added to queue </h2>
+        <table class="table table-striped">
+            <tr>
+                <th> ID </th>
+                <th> PolicySet Name </th>
+                <th> SRC ISE FQDN </th>
+            </tr>
+            <?php
+            if ($result_policyset->num_rows > 0) {
+            while ($row = $result_policyset->fetch_assoc()) {
+            echo '<tr>';
+            echo '<td>' . $row['id'] . '</td>';
+            echo '<td> <a href="./configs/policyset/' . $row['policysetid'] . '">' . $row['policyset'] . '</a></td>';
+            echo '<td>' . $row['isename'] . '</td>';
+            echo '</tr>';
+        }
+            } else {
+echo '<tr><td colspan="3">Sorry, no entries were found this</td></tr>';
+}
+?>
+</table>
+</div>
     <p> </p>
     <p> </p>
     <p> </p>

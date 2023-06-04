@@ -4216,4 +4216,736 @@
       }
     } ]
   }
+}2023-06-03 00:16:08
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+      "name" : "collective_dacl",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fcc80540-c95a-11ed-bc44-76b9615eaad3",
+      "name" : "dACL_sample",
+      "description" : "sample DACL used for API testing",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fcc80540-c95a-11ed-bc44-76b9615eaad3",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+      "name" : "dACL_sample2",
+      "description" : "sample2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "84354a70-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "dacl3",
+      "description" : "sample dacl3",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/84354a70-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+      "name" : "local_dacl",
+      "description" : "name",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+      "name" : "my_dacl_tai",
+      "description" : "taimoor's DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+      "name" : "sample_18",
+      "description" : "sample_18 DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-04 12:09:00
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+      "name" : "collective_dacl",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fcc80540-c95a-11ed-bc44-76b9615eaad3",
+      "name" : "dACL_sample",
+      "description" : "sample DACL used for API testing",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fcc80540-c95a-11ed-bc44-76b9615eaad3",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+      "name" : "dACL_sample2",
+      "description" : "sample2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "84354a70-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "dacl3",
+      "description" : "sample dacl3",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/84354a70-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+      "name" : "local_dacl",
+      "description" : "name",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+      "name" : "my_dacl_tai",
+      "description" : "taimoor's DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+      "name" : "sample_18",
+      "description" : "sample_18 DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-04 12:33:21
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+      "name" : "collective_dacl",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fcc80540-c95a-11ed-bc44-76b9615eaad3",
+      "name" : "dACL_sample",
+      "description" : "sample DACL used for API testing",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fcc80540-c95a-11ed-bc44-76b9615eaad3",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+      "name" : "dACL_sample2",
+      "description" : "sample2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "84354a70-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "dacl3",
+      "description" : "sample dacl3",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/84354a70-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+      "name" : "local_dacl",
+      "description" : "name",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+      "name" : "my_dacl_tai",
+      "description" : "taimoor's DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+      "name" : "sample_18",
+      "description" : "sample_18 DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-04 13:15:00
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+      "name" : "collective_dacl",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fcc80540-c95a-11ed-bc44-76b9615eaad3",
+      "name" : "dACL_sample",
+      "description" : "sample DACL used for API testing",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fcc80540-c95a-11ed-bc44-76b9615eaad3",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+      "name" : "dACL_sample2",
+      "description" : "sample2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "84354a70-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "dacl3",
+      "description" : "sample dacl3",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/84354a70-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+      "name" : "local_dacl",
+      "description" : "name",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+      "name" : "my_dacl_tai",
+      "description" : "taimoor's DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+      "name" : "sample_18",
+      "description" : "sample_18 DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-04 13:16:42
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+      "name" : "collective_dacl",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fcc80540-c95a-11ed-bc44-76b9615eaad3",
+      "name" : "dACL_sample",
+      "description" : "sample DACL used for API testing",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fcc80540-c95a-11ed-bc44-76b9615eaad3",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+      "name" : "dACL_sample2",
+      "description" : "sample2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "84354a70-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "dacl3",
+      "description" : "sample dacl3",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/84354a70-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+      "name" : "local_dacl",
+      "description" : "name",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+      "name" : "my_dacl_tai",
+      "description" : "taimoor's DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+      "name" : "sample_18",
+      "description" : "sample_18 DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-04 13:18:18
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+      "name" : "collective_dacl",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/79d0fd60-d01a-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fcc80540-c95a-11ed-bc44-76b9615eaad3",
+      "name" : "dACL_sample",
+      "description" : "sample DACL used for API testing",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fcc80540-c95a-11ed-bc44-76b9615eaad3",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+      "name" : "dACL_sample2",
+      "description" : "sample2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/7f8e93d0-f5cb-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "84354a70-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "dacl3",
+      "description" : "sample dacl3",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/84354a70-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+      "name" : "local_dacl",
+      "description" : "name",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/d40d2250-d0d7-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+      "name" : "my_dacl_tai",
+      "description" : "taimoor's DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/8f2e39f0-d017-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+      "name" : "sample_18",
+      "description" : "sample_18 DACL",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/fff7d2d0-de1e-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-04 13:53:31
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "1a647690-ff0e-11ed-b5d0-2612d26369d2",
+      "name" : "Allow_DHCP_Only",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/downloadableacl/1a647690-ff0e-11ed-b5d0-2612d26369d2",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-04 14:07:49
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "1a647690-ff0e-11ed-b5d0-2612d26369d2",
+      "name" : "Allow_DHCP_Only",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/downloadableacl/1a647690-ff0e-11ed-b5d0-2612d26369d2",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630c3d20-284e-11ed-9ac6-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/downloadableacl/630c3d20-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
 }
