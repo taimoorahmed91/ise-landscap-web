@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
     system("sudo -S python3 /root/ise-landscape/mise/deployment_journal.py");
     system("sudo -S python3 /root/ise-landscape/mise/clear_queue.py");
     system("sudo -S python3 /root/ise-landscape/mise/clear_deployment.py");
-
+    system("sudo -S python3 /root/ise-landscape/mise/webex-alert.py");
 
 } else {
 	echo "<script>alert('No deployments found. Please make sure to mark the node for deployment first');</script>";	
