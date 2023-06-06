@@ -87,6 +87,8 @@ if ($result = $mysqli->query($query)) {
 ### script to set fetched to yes
 system("sudo -S python3 /root/ise-landscape/mise/fetched_yes.py $id"); 
 
+### script to send wenex after completion
+system("sudo -S python3 /root/ise-landscape/mise/webex-populate.py $id");
 
 ### script to cleanup inheritit
 //Create the select query
