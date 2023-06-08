@@ -100,7 +100,7 @@
                     </div>
                     <ul id="rootSidebar">
                         <li class="sidebar__item selected">
-                            <a tabindex="0" title="Dashboard" href="www.cisco.com">
+                            <a tabindex="0" title="Dashboard" href="dashboard.php">
                                 <span class="icon-home"></span>
                                 <span>Dashboard</span>
                             </a>
