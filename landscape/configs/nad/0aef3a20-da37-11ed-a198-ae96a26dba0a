@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "0aef3a20-da37-11ed-a198-ae96a26dba0a",
+    "name" : "Device Type#All Device Types#Proxy",
+    "description" : "",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/0aef3a20-da37-11ed-a198-ae96a26dba0a",
+      "type" : "application/json"
+    },
+    "othername" : "Device Type"
+  }
+}

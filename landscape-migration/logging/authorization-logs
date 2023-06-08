@@ -1,0 +1,73 @@
+2023-05-18 18:17:37
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "0f6e44bd-75a7-4616-87e4-aa541219aa28",
+      "name" : "Authorization Rule 1",
+      "hitCounts" : 6,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "ADJoin",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Users/networks"
+      }
+    },
+    "profile" : [ "WSA_Admin" ],
+    "securityGroup" : null,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/2fc07c49-3fcb-4d4b-a52f-bfed6da23226/authorization/0f6e44bd-75a7-4616-87e4-aa541219aa28",
+      "type" : "application/json"
+    }
+  }
+}2023-06-05 21:00:43
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Condition with specified ID was not found in DB: 32ee26b1-5442-4c16-8c85-de18ca7c58bc"
+}2023-06-05 21:02:33
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Condition with specified ID was not found in DB: 32ee26b1-5442-4c16-8c85-de18ca7c58bc"
+}2023-06-05 21:08:40
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Condition with specified ID was not found in DB: 32ee26b1-5442-4c16-8c85-de18ca7c58bc"
+}2023-06-05 21:15:39
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "432d115e-316c-470b-ae8e-4c785736393d",
+      "name" : "Authorization Rule 2",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "Network Access",
+        "attributeName" : "EapAuthentication",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "EAP-MSCHAPv2"
+      }
+    },
+    "profile" : [ "PermitAccess" ],
+    "securityGroup" : "bcn_known_printer",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo1.taimoorlab.local/api/v1/policy/network-access/policy-set/68d2093d-25dd-4ab7-a522-5f0a54f429eb/authorization/432d115e-316c-470b-ae8e-4c785736393d",
+      "type" : "application/json"
+    }
+  }
+}

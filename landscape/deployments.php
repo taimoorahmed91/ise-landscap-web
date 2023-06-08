@@ -6,117 +6,261 @@
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-  <head >
 
-        <style type="text/css">
-            h1
-            {
-             font-size:150px;   
-            }
-        </style>
-    </head>
-    <body bgcolor="#349" text="white" onload="startTime()">
-        <br>
-        <h1 align="right">
-            <span id="txt"></span>
-        </h1>
-
+<head>
     <meta charset="utf-8">
+    <meta name="description" content="The design system sponsored by Cisco Brand">
+    <meta name="image" content="http://cisco-ui.cisco.com/assets/img/uikit-1200x630%402x.png">
+    <meta itemprop="name" content="Cisco UI Kit">
+    <meta itemprop="description" content="The design system sponsored by Cisco Brand">
+    <meta itemprop="image" content="http://cisco-ui.cisco.com">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Cisco UI Kit">
+    <meta name="twitter:description" content="The design system sponsored by Cisco Brand">
+    <meta property="og:title" content="Cisco UI Kit">
+    <meta property="og:description" content="The design system sponsored by Cisco Brand">
+    <meta property="og:image" content="https://cisco-ui.cisco.com/assets/img/uikit-1200x630%402x.png">
+    <meta property="og:url" content="http://cisco-ui.cisco.com">
+    <meta property="og:site_name" content="Cisco UI Kit">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="128x128">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="application-name" content="Cisco UI Kit">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="img/mstile.png">
+    <meta name="msapplication-square70x70logo" content="img/mstile.png">
+    <meta name="msapplication-square150x150logo" content="img/mstile.png">
+    <meta name="msapplication-wide310x150logo" content="img/mstile.png">
+    <meta name="msapplication-square310x310logo" content="img/mstile.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE Dashboard</title>
+    <title>MISE &middot; Dashboard</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/cui-standard.min.css">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"
+        integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    <script src="./public/js/styleguide.js"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="css/navbar.css" rel="stylesheet">
+</head>
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+<body class="cui">
+    <nav class="header" id="styleguideheader" role="navigation">
+        <div class="container-fluid">
+            <div class="header-panels">
+                <div class="header-panel hidden-md-down">
+                    <a class="header__logo" href="https://www.cisco.com" target="_blank">
+                        <span class="icon-cisco"></span>
+                    </a>
+                    <h1 class="header__title">
+                        <span>MISE Portal</span>
+                    </h1>
+                </div>
+                <div class="header-panel header-panel--center base-margin-left base-margin-right hidden-lg-up">
+                    <a class="header__logo" href="http://www.cisco.com" target="_blank">
+                        <span class="icon-cisco"></span>
+                    </a>
+                </div>
+                <div class="header-panel header-panel--right hidden-md-down">
+                    <a href="index.html" class="header-item" title="MISE Home"><span class="icon-home"></span></a>
+                    <div id="themeSwitcher" class="dropdown dropdown--left dropdown--offset-qtr header-item">
+                        <a class="header-toolbar__link">Theme</a>
+                        <div class="dropdown__menu">
+                            <a id="theme-default" class="selected">Default</a>
+                            <a id="theme-dark">Dark</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="content content--alt">
+        <div class="container-fluid">
+            <div class="row">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-  <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="index.php">Home</a></li>
-            </ul>
-        </nav>
-        <h3 class="text-muted">Taiahmed ISE Landscape Testing</h3>
-      </div>
+                <!-- Sidebar -->
+                <nav class="col-lg-3 col-xl-2 sidebar hidden-md-down dbl-margin-top" role="navigation"
+                    style="max-width: 12%;">
+                    <div class="base-margin">
 
-      <div class="row marketing">
+                        <div class="text-bold"></div>
+                        <div></div>
 
-        <div class="col-lg-12">
-          <h2> ISE Deployments Added </h2>
-                <p> Please use this page to provision MISE to fetch information from your ISE Policy </p>
-                <table class="table table-striped">
-    <tr>
-                <th> ID </th>
-                <th> ISE FQDN </th>
-                <th> Added Date </th>
-                <th> Fetched</th>
-                <th> Fetched Date</th>
-                <th> SRC </th>        
-		<th> </th>
-	                <th> </th> 
-		<th> </th>
-                <th> </th>
-                </tr>
-    <?php 
-        //Check if at least one row is found
-        if($result->num_rows > 0) {
-        //Loop through results
-        while($row = $result->fetch_assoc()){
-          //Display customer info
-          $output ='<tr>';
-          $output .='<td>'.$row['id'].'</td>';
-          $output .='<td>'.$row['fqdn'].'</td>';
-          $output .='<td>'.$row['time'].'</td>';
-          $output .='<td>'.$row['fetched'].'</td>';
-          $output .='<td>'.$row['fetchedon'].'</td>';
-	  $output .='<td>'.$row['src'].'</td>';
-	  $output .='<td><a href="verify_deployment.php?id='.$row['id'].'" class="btn btn-success"">Verify Deployment</a></td>';
-	  $output .='<td><a href="populate.php?id='.$row['id'].'" class="btn btn-success"">Populate</a></td>';
+                    </div>
+                    <ul id="rootSidebar">
+                        <li class="sidebar__item selected">
+                            <a tabindex="0" title="Dashboard" href="www.cisco.com">
+                                <span class="icon-home"></span>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="ISE Cubes">
+                                <span class="icon-configurations"></span>
+                                <span>ISE Cubes</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="provision.php">Add New</a></li>
+                                <li class="sidebar__item"><a href="deployments.php">View Existing</a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Policy Elements">
+                                <span class="icon-features"></span>
+                                <span>Policy Elements</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="ap.php">Allowed Protocols</a></li>
+                                <li class="sidebar__item"><a href="authz.php">Authorization Profiles</a></li>
+                                <li class="sidebar__item"><a href="dacl.php">Downloadbale ACL</a></li>
+                                <li class="sidebar__item"><a href="nsd.php">NAD Groups</a></li>
+                                <li class="sidebar__item"><a href="sgt.php">Security Group TAG (SGT)</a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Policies">
+                                <span class="icon-contact-card"></span>
+                                <span>Policies</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="policyset.php">Policy Sets</a></li>
+                                <li class="sidebar__item"><a href="authentication.php">Authentication Rules</a></li>
+                                <li class="sidebar__item"><a href="authorization.php">Authorization Rules</a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Deployments">
+                                <span class="icon-sign-in"></span>
+                                <span>Deployments</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="checkout.php">Deploy</a></li>
+                                <li class="sidebar__item"><a href="deploy-history.php">Deployment History</a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Troubleshoot and Logging">
+                                <span class="icon-analysis"></span>
+                                <span>TShoot and Logs</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="ap-log.php">Allow Protocols</a></li>
+                                <li class="sidebar__item"><a href="dacl-log.php">DACL</a></li>
+                                <li class="sidebar__item"><a href="authz-log.php">Authorization</a></li>
+                                <li class="sidebar__item"><a href="sgt-log.php">SGT</a></li>
+                                <li class="sidebar__item"><a href="nad-log.php">NAD</a></li>
+                                <li class="sidebar__item"><a href="policyset-log.php">Policy</a></li>
+                                <li class="sidebar__item"><a href="apache2.php">Apache Error</a></li>
+                                <li class="sidebar__item"><a href="apache.php">Apache Access</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="section">
+                <div class="responsive-table" style="padding-left: 235px;">
+                    <table class="table table--lined table--selectable">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <label class="checkbox">
+                                        <input type="checkbox" />
+                                        <span class="checkbox__input"></span>
+                                    </label>
+                                </th>
+                                <th class="hidden-lg-down">ID</th>
+                                <th class="hidden-lg-down">ISE FQDN</th>
+                                <th class="hidden-lg-down">Added Date</th>
+                                <th class="hidden-lg-down">Fetched</th>
+                                <th class="hidden-lg-down">Fetched Date</th>
+                                <th class="hidden-lg-down">Action</th>
+                                <th class="hidden-lg-down"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php 
+                            //Check if at least one row is found
+                            if($result->num_rows > 0) {
+                            //Loop through results
+                            while($row = $result->fetch_assoc()){
+                              //Display customer info
+                              $output ='<tr>';
+                                $output .= '<td>
+                                    <label class="checkbox">
+                                      <input type="checkbox" />
+                                      <span class="checkbox__input"></span>
+                                    </label>
+                                  </td>';
+                              $output .='<td>'.$row['id'].'</td>';
+                              $output .='<td>'.$row['fqdn'].'</td>';
+                              $output .='<td>'.$row['time'].'</td>';
+                              $output .='<td>'.$row['fetched'].'</td>';
+                              $output .='<td>'.$row['fetchedon'].'</td>';
+                              $output .='<td><a href="verify_deployment.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Verify Deployment</a></td>';
+                              $output .='<td><a href="populate.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Populate</a></td>';
+                              $output .='</tr>';
+                              
+                              //Echo output
+                              echo $output;
+                            }
+                          } else {
+                            echo "Sorry, no entries were found";
+                          }
+                          ?>
 
-	  $output .='<td><a href="marked_src.php?id='.$row['id'].'" class="btn btn-success"">SRC</a></td>';
-	  $output .='</tr>';
-          
-          //Echo output
-          echo $output;
-        }
-      } else {
-        echo "Sorry, no entries were found";
-      }
-      ?>
-                 
-                </table>
-
-       
-
-      <footer class="footer">
-        <p>&copy; 2023 TaiAhmed Labwork</p>
-      </footer>
-
-    </div> <!-- /container -->
 
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+
+
+                        </tbody>
+                    </table>
+                </div>
+                <footer class="footer">
+                    <div class="footer__links">
+                        <ul class="list list--inline">
+                            <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
+                                    target="_blank">Contacts</a></li>
+                            <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ"
+                                    target="_blank">Feedback</a>
+                            </li>
+                            <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a></li>
+                            <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site Map</a>
+                            </li>
+                            <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
+                                    target="_blank">Terms & Conditions</a></li>
+                            </li>
+                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
+                                    target="_blank">Privacy Statement</a></li>
+                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
+                                    target="_blank">Cookie Policy</a></li>
+                            <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
+                                    target="_blank">Trademarks</a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+</body>
+
 </html>

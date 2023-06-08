@@ -1,0 +1,15 @@
+{
+  "Sgt" : {
+    "id" : "9370d4c0-8c01-11e6-996c-525400b48521",
+    "name" : "Contractors",
+    "description" : "Contractor Security Group",
+    "value" : 5,
+    "generationId" : "0",
+    "propogateToApic" : true,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo1.taimoorlab.local/ers/config/sgt/9370d4c0-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}

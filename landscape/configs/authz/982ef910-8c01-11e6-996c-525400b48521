@@ -1,0 +1,21 @@
+{
+  "AuthorizationProfile" : {
+    "id" : "982ef910-8c01-11e6-996c-525400b48521",
+    "name" : "Cisco_IP_Phones",
+    "description" : "Default profile used for Cisco Phones.",
+    "accessType" : "ACCESS_ACCEPT",
+    "authzProfileType" : "SWITCH",
+    "trackMovement" : false,
+    "agentlessPosture" : false,
+    "serviceTemplate" : false,
+    "easywiredSessionCandidate" : false,
+    "daclName" : "PERMIT_ALL_IPV4_TRAFFIC",
+    "voiceDomainPermission" : true,
+    "profileName" : "Cisco",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo2.taimoorlab.local/ers/config/authorizationprofile/982ef910-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}

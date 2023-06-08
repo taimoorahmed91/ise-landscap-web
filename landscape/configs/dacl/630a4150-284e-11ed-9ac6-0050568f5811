@@ -1,0 +1,14 @@
+{
+  "DownloadableAcl" : {
+    "id" : "630a4150-284e-11ed-9ac6-0050568f5811",
+    "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+    "description" : "Allow all ipv6 Traffic",
+    "dacl" : "permit ipv6 any any",
+    "daclType" : "IPV6",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo2.taimoorlab.local/ers/config/downloadableacl/630a4150-284e-11ed-9ac6-0050568f5811",
+      "type" : "application/json"
+    }
+  }
+}

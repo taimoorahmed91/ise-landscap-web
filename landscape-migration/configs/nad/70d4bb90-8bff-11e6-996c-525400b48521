@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+    "name" : "IPSEC#Is IPSEC Device",
+    "description" : "Is this a RADIUS over IPSEC Device",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo1.taimoorlab.local/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+      "type" : "application/json"
+    },
+    "ndgtype" : "IPSEC"
+  }
+}

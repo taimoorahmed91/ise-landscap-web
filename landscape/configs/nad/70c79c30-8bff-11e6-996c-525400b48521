@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+    "name" : "Device Type#All Device Types",
+    "description" : "All Device Types",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo2.taimoorlab.local/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+      "type" : "application/json"
+    },
+    "ndgtype" : "Device Type"
+  }
+}

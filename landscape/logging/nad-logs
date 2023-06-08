@@ -7194,4 +7194,220 @@
       }
     } ]
   }
+}2023-06-07 15:11:55
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9e05bc20-c8c2-11ed-b4d2-72762f04cc59",
+      "name" : "Device Type#All Device Types#ASA",
+      "description" : "VPN Concentrator",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/9e05bc20-c8c2-11ed-b4d2-72762f04cc59",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "0aef3a20-da37-11ed-a198-ae96a26dba0a",
+      "name" : "Device Type#All Device Types#Proxy",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/0aef3a20-da37-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b98e6920-d145-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB",
+      "description" : "This is lab equipment",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/b98e6920-d145-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "c59aab70-d145-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB#BRU",
+      "description" : "This is lab in BRU Lab for testing on Sun",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/c59aab70-d145-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "a507f1a0-d155-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB#KRK",
+      "description" : "Testing Lab",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/a507f1a0-d155-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "99f333e0-d143-11ed-a198-ae96a26dba0a",
+      "name" : "Location#All Locations#Krakow",
+      "description" : "Krakow Location",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/99f333e0-d143-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-07 15:14:24
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "46305ee0-01a9-11ee-b5d0-2612d26369d2",
+      "name" : "Device Type#All Device Types#ASA",
+      "description" : "VPN Concentrator",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/networkdevicegroup/46305ee0-01a9-11ee-b5d0-2612d26369d2",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo1.taimoorlab.local/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-08 20:43:27
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo2.taimoorlab.local/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo2.taimoorlab.local/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo2.taimoorlab.local/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo2.taimoorlab.local/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://ise-demo2.taimoorlab.local/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
 }
