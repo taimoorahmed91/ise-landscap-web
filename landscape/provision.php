@@ -171,6 +171,16 @@
                             </ul>
                         </li>
                         <li class="sidebar__drawer">
+                            <a tabindex="0" title="Endpoint Management">
+                                <span class="icon-pc"></span>
+                                <span>Endpoint Management</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar__drawer">
                             <a tabindex="0" title="Troubleshoot and Logging">
                                 <span class="icon-analysis"></span>
                                 <span>TShoot and Logs</span>
@@ -185,6 +195,18 @@
                                 <li class="sidebar__item"><a href="apache2.php">Apache Error</a></li>
                                 <li class="sidebar__item"><a href="apache.php">Apache Access</a></li>
                             </ul>
+                        </li>
+                        <li class="sidebar__item selected">
+                            <a tabindex="0" title="Instructions" href="instructions.php">
+                                <span class="icon-clipboard"></span>
+                                <span>Instructions</span>
+                            </a>
+                        </li>
+                        <li class="sidebar__item selected">
+                            <a tabindex="0" title="contact us" href="contact.php">
+                                <span class="icon-add-contact"></span>
+                                <span>Contact Us</span>
+                            </a>
                         </li>
                     </ul>
                 </nav>

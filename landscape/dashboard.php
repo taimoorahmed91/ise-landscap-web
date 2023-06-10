@@ -1,3 +1,137 @@
+<?php include('includes/database.php'); ?>
+
+<?php
+  // Create the select query
+  $query = "SELECT SUM(table_rows) AS percentage FROM information_schema.tables WHERE table_schema = 'mise'";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $percentage_total = $row['percentage'];
+  } else {
+    $percentage_total = 0; // Default value if no data is found
+  }
+?>
+
+
+
+<?php
+  // Create the select query
+  $query = "SELECT COUNT(*) as percentage from ap";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $percentage_ap = $row['percentage'];
+  } else {
+    $percentage_ap = 0; // Default value if no data is found
+  }
+?>
+
+
+<?php
+  // Create the select query
+  $query = "SELECT COUNT(*) as percentage from dacl";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $percentage_dacl = $row['percentage'];
+  } else {
+    $percentage_dacl = 0; // Default value if no data is found
+  }
+?>
+<?php
+  // Create the select query
+  $query = "SELECT COUNT(*) as percentage from authz";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $percentage_authz = $row['percentage'];
+  } else {
+    $percentage_authz = 0; // Default value if no data is found
+  }
+?>
+
+<?php
+  // Create the select query
+  $query = "SELECT COUNT(*) as percentage from sgt";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $percentage_sgt = $row['percentage'];
+  } else {
+    $percentage_sgt = 0; // Default value if no data is found
+  }
+?>
+
+<?php
+  // Create the select query
+  $query = "SELECT COUNT(*) as percentage from nad";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $percentage_nad = $row['percentage'];
+  } else {
+    $percentage_nad = 0; // Default value if no data is found
+  }
+?>
+<?php
+  // Create the select query
+  $query = "SELECT COUNT(*) as percentage from policyset";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $percentage_policyset = $row['percentage'];
+  } else {
+    $percentage_policyset = 0; // Default value if no data is found
+  }
+?>
+
+<?php
+  // Create the select query
+  $query = "SELECT COUNT(*) as percentage from authentication";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $percentage_authentication = $row['percentage'];
+  } else {
+    $percentage_authentication = 0; // Default value if no data is found
+  }
+?>
+
+<?php
+  // Create the select query
+  $query = "SELECT COUNT(*) as percentage from authorization";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $percentage_authorization = $row['percentage'];
+  } else {
+    $percentage_authorization = 0; // Default value if no data is found
+  }
+?>
+
+<?php
+
+
+$ap_value = round(($percentage_ap / $percentage_total) * 100);
+$dacl_value = round(($percentage_dacl / $percentage_total) * 100);
+$authz_value = round(($percentage_authz / $percentage_total) * 100);
+$sgt_value = round(($percentage_sgt / $percentage_total) * 100);
+$nad_value = round(($percentage_nad / $percentage_total) * 100);
+$policyset_value = round(($percentage_policyset / $percentage_total) * 100);
+$authentication_value = round(($percentage_authentication / $percentage_total) * 100);
+$authorization_value = round(($percentage_authorization / $percentage_total) * 100);
+?>
+
+
 <!doctype html>
 <html lang="en">
 
@@ -150,6 +284,17 @@
                             </ul>
                         </li>
                         <li class="sidebar__drawer">
+                            <a tabindex="0" title="Endpoint Management">
+                                <span class="icon-pc"></span>
+                                <span>Endpoint Management</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="sidebar__drawer">
                             <a tabindex="0" title="Troubleshoot and Logging">
                                 <span class="icon-analysis"></span>
                                 <span>TShoot and Logs</span>
@@ -165,6 +310,20 @@
                                 <li class="sidebar__item"><a href="apache.php">Apache Access</a></li>
                             </ul>
                         </li>
+                        <li class="sidebar__item selected">
+                            <a tabindex="0" title="Instructions" href="instructions.php">
+                                <span class="icon-clipboard"></span>
+                                <span>Instructions</span>
+                            </a>
+                        </li>
+                        <li class="sidebar__item selected">
+                            <a tabindex="0" title="contact us" href="contact.php">
+                                <span class="icon-add-contact"></span>
+                                <span>Contact Us</span>
+                            </a>
+                        </li>
+
+
                     </ul>
                 </nav>
 
@@ -219,8 +378,8 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="base-margin-bottom">
-                                                    <div class="subheader no-margin">Capital Expenditures</div>
-                                                    <div class="display-3">$429k</div>
+                                                    <div class="subheader no-margin">Total Number of Elements Pulled</div>
+                                                    <div class="display-3"><?php echo $percentage_total; ?></div>
                                                     <div class="text-small">total ytd</div>
                                                 </div>
                                                 <div class="progressbar progressbar--warning dbl-padding-bottom"
@@ -251,10 +410,10 @@
                                             <div class="panel panel--bordered hover-emboss--large base-margin-bottom">
                                                 <div class="half-margin-top">
                                                     <div class="text-size-16">Allowed Protocols</div>
-                                                    <div class="progressbar progressbar--success" data-percentage="88">
+                                                    <div class="progressbar progressbar--success" data-percentage="<?php echo $ap_value; ?>">
                                                         <div class="progressbar__fill"></div>
                                                         <div class="progressbar__label">
-                                                            <span class="text-right">AP no</span>
+                                                            <span class="text-right">Total Number of Allowed Protocols: <?php echo $percentage_ap; ?> </span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -263,11 +422,11 @@
                                         <div class="col-md-4">
                                             <div class="panel panel--bordered hover-emboss--large base-margin-bottom">
                                                 <div class="half-margin-top">
-                                                    <div class="text-size-16">DACLs</div>
-                                                    <div class="progressbar progressbar--warning" data-percentage="43">
+                                                    <div class="text-size-16">Downloadbale ACLs</div>
+                                                    <div class="progressbar progressbar--success" data-percentage="<?php echo $dacl_value; ?>">
                                                         <div class="progressbar__fill"></div>
                                                         <div class="progressbar__label">
-                                                            <span class="text-right">DACL no</span>
+                                                            <span class="text-right">Total Number of Downloadbale ACLs: <?php echo $percentage_dacl; ?></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -277,10 +436,10 @@
                                             <div class="panel panel--bordered hover-emboss--large base-margin-bottom">
                                                 <div class="half-margin-top">
                                                     <div class="text-size-16">Authorization Profiles</div>
-                                                    <div class="progressbar progressbar--danger" data-percentage="11">
+                                                    <div class="progressbar progressbar--success" data-percentage="<?php echo $authz_value; ?>">
                                                         <div class="progressbar__fill"></div>
                                                         <div class="progressbar__label">
-                                                            <span class="text-right">authz no</span>
+                                                            <span class="text-right">Total Number of Downloadbale ACLs: <?php echo $percentage_authz; ?></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -290,10 +449,10 @@
                                             <div class="panel panel--bordered hover-emboss--large base-margin-bottom">
                                                 <div class="half-margin-top">
                                                     <div class="text-size-16">SGT</div>
-                                                    <div class="progressbar progressbar--success" data-percentage="76">
+                                                    <div class="progressbar progressbar--success" data-percentage="<?php echo $sgt_value; ?>">
                                                         <div class="progressbar__fill"></div>
                                                         <div class="progressbar__label">
-                                                            <span class="text-right">sgt no</span>
+                                                            <span class="text-right">Total Number of Secure Group Tag (SGT): <?php echo $percentage_sgt; ?></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -303,10 +462,10 @@
                                             <div class="panel panel--bordered hover-emboss--large base-margin-bottom">
                                                 <div class="flex-fluid half-margin-top">
                                                     <div class="text-size-16">NAD Groups</div>
-                                                    <div class="progressbar progressbar--danger" data-percentage="3">
+                                                    <div class="progressbar progressbar--success" data-percentage="<?php echo $nad_value; ?>">
                                                         <div class="progressbar__fill"></div>
                                                         <div class="progressbar__label">
-                                                            <span class="text-right">nad no</span>
+                                                            <span class="text-right">Total Number of NAD Groups: <?php echo $percentage_nad; ?></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -316,10 +475,10 @@
                                             <div class="panel panel--bordered hover-emboss--large base-margin-bottom">
                                                 <div class="half-margin-top">
                                                     <div class="text-size-16">Policy Sets</div>
-                                                    <div class="progressbar progressbar--success" data-percentage="100">
+                                                    <div class="progressbar progressbar--success" data-percentage="<?php echo $policyset_value; ?>">
                                                         <div class="progressbar__fill"></div>
                                                         <div class="progressbar__label">
-                                                            <span class="text-right">policy no</span>
+                                                            <span class="text-right">Total Number of Policy Sets: <?php echo $percentage_policyset; ?></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -329,10 +488,10 @@
                                             <div class="panel panel--bordered hover-emboss--large base-margin-bottom">
                                                 <div class="half-margin-top">
                                                     <div class="text-size-16">Authentication Rules</div>
-                                                    <div class="progressbar progressbar--success" data-percentage="100">
+                                                    <div class="progressbar progressbar--success" data-percentage="<?php echo $authentication_value; ?>">
                                                         <div class="progressbar__fill"></div>
                                                         <div class="progressbar__label">
-                                                            <span class="text-right">authC no</span>
+                                                            <span class="text-right">Total Number of Authentication Policies: <?php echo $percentage_authentication; ?></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -342,10 +501,10 @@
                                             <div class="panel panel--bordered hover-emboss--large base-margin-bottom">
                                                 <div class="half-margin-top">
                                                     <div class="text-size-16">Authorization Rules</div>
-                                                    <div class="progressbar progressbar--success" data-percentage="100">
+                                                    <div class="progressbar progressbar--success" data-percentage="<?php echo $authorization_value; ?>">
                                                         <div class="progressbar__fill"></div>
                                                         <div class="progressbar__label">
-                                                            <span class="text-right">authZ no</span>
+                                                            <span class="text-right">Total Number of Authorization Policies: <?php echo $percentage_authorization; ?></span>
                                                         </div>
                                                     </div>
                                                 </div>
