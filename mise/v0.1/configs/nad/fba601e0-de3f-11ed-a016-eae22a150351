@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "fba601e0-de3f-11ed-a016-eae22a150351",
+    "name" : "Device Type#All Device Types#Proxy",
+    "description" : "",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/networkdevicegroup/fba601e0-de3f-11ed-a016-eae22a150351",
+      "type" : "application/json"
+    },
+    "othername" : "Device Type"
+  }
+}

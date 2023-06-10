@@ -1,0 +1,20 @@
+{
+  "AuthorizationProfile" : {
+    "id" : "c246e370-e6b8-11ed-a016-eae22a150351",
+    "name" : "WSA_Admin",
+    "description" : "",
+    "accessType" : "ACCESS_ACCEPT",
+    "authzProfileType" : "SWITCH",
+    "trackMovement" : false,
+    "agentlessPosture" : false,
+    "serviceTemplate" : false,
+    "easywiredSessionCandidate" : false,
+    "asaVpn" : "admin",
+    "profileName" : "Cisco",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-proxy2.taimoorlab.local/ers/config/authorizationprofile/c246e370-e6b8-11ed-a016-eae22a150351",
+      "type" : "application/json"
+    }
+  }
+}
