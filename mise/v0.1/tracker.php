@@ -1,8 +1,6 @@
 <?php include('includes/database.php'); ?>
 <?php
 
-
-
 // Get the current page URL
 $pageUrl = $_SERVER['PHP_SELF'];
 
