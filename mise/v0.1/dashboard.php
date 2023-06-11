@@ -1,6 +1,24 @@
 <?php include('includes/database.php'); ?>
 <?php include('tracker.php'); ?>
 
+<?php
+// Execute shell command to get RAM information
+$command = "free -m";
+$output = shell_exec($command);
+
+// Process the output to extract RAM details
+$lines = explode("\n", $output);
+$memoryLine = explode(" ", $lines[1]);
+$totalMemory = $memoryLine[9];
+$usedMemory = $memoryLine[8];
+$freeMemory = $memoryLine[10];
+
+// Display the RAM information
+
+?>
+
+
+
 
 <?php
   // Create the select query
@@ -341,7 +359,7 @@ $authorization_value = round(($percentage_authorization / $percentage_total) * 1
                                                             </div>
                                                         </div>
                                                         <div class="gauge__inset">
-                                                            <div class="gauge__percentage">12<sup
+                                                            <div class="gauge__percentage"><?php echo $totalMemory; ?><sup
                                                                     class="text-size-20">%</sup></div>
                                                         </div>
                                                     </div>

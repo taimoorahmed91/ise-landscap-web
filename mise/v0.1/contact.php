@@ -221,7 +221,7 @@
       ],
       [
         'name' => 'Zaid AlKurdi',
-        'email' => 'markjohnson@example.com',
+        'email' => 'zalkurdi@cisco.com',
         'title' => 'Customer Delivery Architect',
         'image' => 'zalkurdi.jpg'
       ]
