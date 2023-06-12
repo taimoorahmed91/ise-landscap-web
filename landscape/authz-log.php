@@ -17,7 +17,7 @@
     </style>
 </head>
 <body>
-    <h1>authz Error Logs</h1>
+    <h1>AUTHZ Error Logs</h1>
 
     <?php
 
@@ -26,7 +26,7 @@ header( "refresh:2;url=http://10.48.30.213/landscape/authz-log.php" );
 
 
 $logFilePath = '/var/www/html/landscape/logging/authz-logs';
-$command = 'sudo tail -500' . $logFilePath;
+$command = 'sudo tail -500 ' . $logFilePath;
 $logContent = shell_exec($command);
 echo '<pre>' . htmlspecialchars($logContent) . '</pre>';
 

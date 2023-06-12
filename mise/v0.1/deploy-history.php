@@ -4,7 +4,7 @@
 
 <?php
   //Create the select query
-  $query ="SELECT * from deployments ORDER BY id";
+  $query ="SELECT * from deployhistory ORDER BY id";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -234,18 +234,15 @@
             <div class="section">
                 <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
                     <table class="table table--lined table--selectable">
-                        <h2> ISE Cube Info</h2>
+                        <h2> Deployment History</h2>
                         <thead>
                             <tr>
  
                                 <th class="hidden-lg-down">ID</th>
-                                <th class="hidden-lg-down">ISE FQDN</th>
-                                <th class="hidden-lg-down">Added Date</th>
-                                <th class="hidden-lg-down">Fetched</th>
-                                <th class="hidden-lg-down">Fetched Date</th>
-                                <th class="hidden-lg-down">Reachable</th>
-                                <th class="hidden-lg-down">Action</th>
-                                <th class="hidden-lg-down"></th>
+                                <th class="hidden-lg-down">File Name</th>
+                                <th class="hidden-lg-down">Deployed</th>
+                                <th class="hidden-lg-down">Comments</th>
+ 
                             </tr>
                         </thead>
                         <tbody>
@@ -254,20 +251,17 @@
                             if($result->num_rows > 0) {
                             //Loop through results
                             while($row = $result->fetch_assoc()){
-                              //Display customer info
-                              $output ='<tr>';
-                              $output .='<td>'.$row['id'].'</td>';
-                              $output .='<td>'.$row['fqdn'].'</td>';
-                              $output .='<td>'.$row['time'].'</td>';
-                              $output .='<td>'.$row['fetched'].'</td>';
-                              $output .='<td>'.$row['fetchedon'].'</td>';
-                              $output .='<td>'.$row['reachable'].'</td>';
-                              $output .='<td><a href="verify_deployment.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Verify Deployment</a></td>';
-                              $output .='<td><a href="populate.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Populate</a></td>';
-                              $output .='</tr>';
-                              
-                              //Echo output
-                              echo $output;
+                             //Display customer info
+                            $output ='<tr>';
+                            $output .='<td>'.$row['id'].'</td>';
+                            $output .='<td> <a href="./'.$row['path'].'"">'.$row['name'].'</a></td>';
+                            $output .='<td>'.$row['comments'].'</td>';
+                            $output .='<td>'.$row['time'].'</td>';
+    
+                            $output .='</tr>';
+              
+              //Echo output
+              echo $output;;
                             }
                           } else {
                             echo "Sorry, no entries were found";

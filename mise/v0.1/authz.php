@@ -56,7 +56,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Dashboard</title>
+    <title>MISE &middot; Authorization Profiles </title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 
@@ -117,6 +117,16 @@
                             </a>
                         </li>
                         <li class="sidebar__drawer">
+                            <a tabindex="0" title="Administration">
+                                <span class="icon-profile-settings"></span>
+                                <span>Administration</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="webex-integration.php">WEBEX Integration</a></li>
+                                <li class="sidebar__item"><a href="TBD">Email configurations</a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar__drawer">
                             <a tabindex="0" title="ISE Cubes">
                                 <span class="icon-configurations"></span>
                                 <span>ISE Cubes</span>
@@ -172,6 +182,20 @@
                         </li>
 
                         <li class="sidebar__drawer">
+                            <a tabindex="0" title="Guest Management">
+                                <span class="icon-too-slow"></span>
+                                <span>Guest Management</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                            </ul>
+                        </li>
+
+
+                        
+
+                        <li class="sidebar__drawer">
                             <a tabindex="0" title="Troubleshoot and Logging">
                                 <span class="icon-analysis"></span>
                                 <span>TShoot and Logs</span>
@@ -199,6 +223,8 @@
                                 <span>Contact Us</span>
                             </a>
                         </li>
+
+
                     </ul>
                 </nav>
              </div>
@@ -206,7 +232,7 @@
             <div class="section">
                 <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
                     <table class="table table--lined table--selectable">
-                    <h2> Authorization Profile</h2>
+                    <h2> Authorization Profiles</h2>
                         <thead>
                             <tr>
                                     <th class="hidden-md-down">ID </span></th>

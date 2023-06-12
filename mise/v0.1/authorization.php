@@ -1,10 +1,9 @@
 <?php include('includes/database.php'); ?>
 <?php include('tracker.php'); ?>
 
-
 <?php
   //Create the select query
-  $query ="SELECT * from deployments ORDER BY id";
+  $query ="SELECT * from authorization ORDER BY id";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -57,13 +56,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Dashboard</title>
+    <title>MISE &middot; Authorization Rules </title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"
         integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-    <script src="./public/js/styleguide.js"></script>
+    <script src="public/js/styleguide.js"></script>
 
 </head>
 
@@ -102,8 +101,8 @@
             <div class="row">
 
                 <!-- Sidebar -->
-                <nav class="col-lg-3 col-xl-2 sidebar hidden-md-down dbl-margin-top" role="navigation"
-                    style="max-width: 12%;">
+                <nav class="col-lg-3 col-xl-2 sidebar hidden-md-down dbl-margin-top" role="navigation" style="max-width: 12%;">
+
                     <div class="base-margin">
 
                         <div class="text-bold"></div>
@@ -228,27 +227,29 @@
 
                     </ul>
                 </nav>
-            </div>
-
-            <hr>
+             </div>
+             <hr>
             <div class="section">
                 <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
                     <table class="table table--lined table--selectable">
-                        <h2> ISE Cube Info</h2>
+                    <h2> Authorization Rules </h2>
                         <thead>
                             <tr>
- 
-                                <th class="hidden-lg-down">ID</th>
-                                <th class="hidden-lg-down">ISE FQDN</th>
-                                <th class="hidden-lg-down">Added Date</th>
-                                <th class="hidden-lg-down">Fetched</th>
-                                <th class="hidden-lg-down">Fetched Date</th>
-                                <th class="hidden-lg-down">Reachable</th>
-                                <th class="hidden-lg-down">Action</th>
-                                <th class="hidden-lg-down"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
+                                    <th class="hidden-md-down">ID </span></th>
+                                    <th class="hidden-md-down">Authorization Rule Name</th>
+                                    <th class="hidden-md-down">Source ISE</th>
+                                    <th class="hidden-md-down">Queued</th>
+                                    <th class="hidden-md-down">GET Code</th>
+                                    <th class="hidden-lg-down">POST Code</th>
+                                    <th class="hidden-lg-down">PUT Code</th>
+                                    <th class="hidden-md-down">Queue</th>
+                                    <th></th>
+                                    
+                                    <th></th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
                             <?php 
                             //Check if at least one row is found
                             if($result->num_rows > 0) {
@@ -257,14 +258,15 @@
                               //Display customer info
                               $output ='<tr>';
                               $output .='<td>'.$row['id'].'</td>';
-                              $output .='<td>'.$row['fqdn'].'</td>';
-                              $output .='<td>'.$row['time'].'</td>';
-                              $output .='<td>'.$row['fetched'].'</td>';
-                              $output .='<td>'.$row['fetchedon'].'</td>';
-                              $output .='<td>'.$row['reachable'].'</td>';
-                              $output .='<td><a href="verify_deployment.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Verify Deployment</a></td>';
-                              $output .='<td><a href="populate.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Populate</a></td>';
-                              $output .='</tr>';
+                              $output .='<td>'.$row['authorization'].'</td>';
+                              $output .='<td>'.$row['isename'].'</td>';
+                              $output .='<td>'.$row['queue'].'</td>';
+                              $output .='<td>'.$row['get_code'].'</td>';
+                              $output .='<td>'.$row['post_code'].'</td>';
+                              $output .='<td>'.$row['put_code'].'</td>';
+                              $output .='<td><a href="authorization_add_queue.php?id='.$row['id'].'" class="btn btn--success "style="color:white">+</a> <a href="authorization_remove_queue.php?id='.$row['id'].'" class="btn btn--success"style="color:white">-</a></td>';
+                              $output .='<td><a href="download_authorization.php?id='.$row['authorizationid'].'" class="btn btn--success" style="color:white">Download</a></td>';
+                              $output .='<td><a href="resync_authorization.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Resync</a></td>';
                               
                               //Echo output
                               echo $output;
@@ -273,39 +275,41 @@
                             echo "Sorry, no entries were found";
                           }
                           ?>
-
-
-
-
-
-                        </tbody>
-                    </table>
-                </div>
-                <footer class="footer">
-                    <div class="footer__links">
-                        <ul class="list list--inline">
-                            <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
-                                    target="_blank">Contacts</a></li>
-                            <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ"
-                                    target="_blank">Feedback</a>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a></li>
-                            <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site Map</a>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
-                                    target="_blank">Terms & Conditions</a></li>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
-                                    target="_blank">Privacy Statement</a></li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
-                                    target="_blank">Cookie Policy</a></li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
-                                    target="_blank">Trademarks</a></li>
-                        </ul>
+                            </tbody>
+                        </table>
                     </div>
-                </footer>
+
+                </div>
             </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer__links">
+                    <ul class="list list--inline">
+                        <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
+                                target="_blank">Contacts</a></li>
+                        <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ" target="_blank">Feedback</a>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a></li>
+                        <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site Map</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
+                                target="_blank">Terms & Conditions</a></li>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
+                                target="_blank">Privacy Statement</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
+                                target="_blank">Cookie Policy</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
+                                target="_blank">Trademarks</a></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
+    </div>
 </body>
 
 </html>

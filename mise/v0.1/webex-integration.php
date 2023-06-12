@@ -1,12 +1,24 @@
 <?php include('includes/database.php'); ?>
 <?php include('tracker.php'); ?>
 
-
 <?php
-  //Create the select query
-  $query ="SELECT * from deployments ORDER BY id";
-  //Get results
-  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if($_POST){
+    //Get variables from post array
+          $token = $_POST['token'];
+          $botid = $_POST['botid'];
+
+    
+    //Create customer query
+ 
+    $query ="UPDATE `webex` SET `token` = '$token' , `botid` = '$botid' WHERE `webex`.`id` = 1;";
+    //Run query
+    $mysqli->query($query);
+    
+    
+    $msg='Entry Added';
+    header('Location: webex-integration.php');
+    exit;
+    }
 ?>
 
 <!doctype html>
@@ -229,83 +241,55 @@
                     </ul>
                 </nav>
             </div>
-
-            <hr>
             <div class="section">
-                <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
-                    <table class="table table--lined table--selectable">
-                        <h2> ISE Cube Info</h2>
-                        <thead>
-                            <tr>
- 
-                                <th class="hidden-lg-down">ID</th>
-                                <th class="hidden-lg-down">ISE FQDN</th>
-                                <th class="hidden-lg-down">Added Date</th>
-                                <th class="hidden-lg-down">Fetched</th>
-                                <th class="hidden-lg-down">Fetched Date</th>
-                                <th class="hidden-lg-down">Reachable</th>
-                                <th class="hidden-lg-down">Action</th>
-                                <th class="hidden-lg-down"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php 
-                            //Check if at least one row is found
-                            if($result->num_rows > 0) {
-                            //Loop through results
-                            while($row = $result->fetch_assoc()){
-                              //Display customer info
-                              $output ='<tr>';
-                              $output .='<td>'.$row['id'].'</td>';
-                              $output .='<td>'.$row['fqdn'].'</td>';
-                              $output .='<td>'.$row['time'].'</td>';
-                              $output .='<td>'.$row['fetched'].'</td>';
-                              $output .='<td>'.$row['fetchedon'].'</td>';
-                              $output .='<td>'.$row['reachable'].'</td>';
-                              $output .='<td><a href="verify_deployment.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Verify Deployment</a></td>';
-                              $output .='<td><a href="populate.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Populate</a></td>';
-                              $output .='</tr>';
-                              
-                              //Echo output
-                              echo $output;
-                            }
-                          } else {
-                            echo "Sorry, no entries were found";
-                          }
-                          ?>
-
-
-
-
-
-                        </tbody>
-                    </table>
-                </div>
-                <footer class="footer">
-                    <div class="footer__links">
-                        <ul class="list list--inline">
-                            <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
-                                    target="_blank">Contacts</a></li>
-                            <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ"
-                                    target="_blank">Feedback</a>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a></li>
-                            <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site Map</a>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
-                                    target="_blank">Terms & Conditions</a></li>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
-                                    target="_blank">Privacy Statement</a></li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
-                                    target="_blank">Cookie Policy</a></li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
-                                    target="_blank">Trademarks</a></li>
-                        </ul>
-                    </div>
-                </footer>
+                <form role="form" method="post" action="webex-integration.php">
+                    <div class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 265px;">
+                        <h2 class=" subtitle">WebEX Bot Info</h2>
+                        <hr>
+                        <div class="section">
+                            <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                    <input name="token" type="password" value="11111111">
+                                    <label for="input-type-text">Token</label>
+                                </div>
+                            </div>
+                            <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                    <input name="botid" type="password" value="11111111">
+                                    <label for="input-type-text">BOT ID</label>
+                                </div>
+                                <input type="submit" class="btn btn--success" value="Update WEBEX Bot Details "
+                                    style="margin-top: 10px; color:white" />
+                            </div>
+                        </div>
+                </form>
             </div>
+            <footer class="footer">
+                <div class="footer__links">
+                    <ul class="list list--inline">
+                        <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
+                                target="_blank">Contacts</a></li>
+                        <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ" target="_blank">Feedback</a>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a>
+                        </li>
+                        <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site
+                                Map</a>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
+                                target="_blank">Terms & Conditions</a></li>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
+                                target="_blank">Privacy Statement</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
+                                target="_blank">Cookie Policy</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
+                                target="_blank">Trademarks</a></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
+    </div>
 </body>
 
 </html>

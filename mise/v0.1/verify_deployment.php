@@ -34,10 +34,14 @@ if (strpos($output, "version") !== false) {
     http_response_code(200);
     $alertClass = 'alert--success';
     $alertMessage = 'Deployment looks good, it is responding to API calls';
+    $query2 = "UPDATE deployments SET reachable='yes' WHERE id = $id";
+    $result2 = $mysqli->query($query2) or die($mysqli->error.__LINE__);
 } else {
     http_response_code(500);
     $alertClass = 'alert--error';
     $alertMessage = 'ISE deployment needs checking, check ERS and API Gateway Config';
+    $query3 = "UPDATE deployments SET reachable='no' WHERE id = $id";
+    $result3 = $mysqli->query($query3) or die($mysqli->error.__LINE__);
 }
 
 echo '<script>
@@ -48,4 +52,3 @@ echo '<script>
 </script>';
 
 ?>
-

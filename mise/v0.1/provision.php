@@ -129,6 +129,16 @@
                             </a>
                         </li>
                         <li class="sidebar__drawer">
+                            <a tabindex="0" title="Administration">
+                                <span class="icon-profile-settings"></span>
+                                <span>Administration</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="webex-integration.php">WEBEX Integration</a></li>
+                                <li class="sidebar__item"><a href="TBD">Email configurations</a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar__drawer">
                             <a tabindex="0" title="ISE Cubes">
                                 <span class="icon-configurations"></span>
                                 <span>ISE Cubes</span>
@@ -182,6 +192,21 @@
                                 <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
                             </ul>
                         </li>
+
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Guest Management">
+                                <span class="icon-too-slow"></span>
+                                <span>Guest Management</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                            </ul>
+                        </li>
+
+
+                        
+
                         <li class="sidebar__drawer">
                             <a tabindex="0" title="Troubleshoot and Logging">
                                 <span class="icon-analysis"></span>
@@ -210,6 +235,8 @@
                                 <span>Contact Us</span>
                             </a>
                         </li>
+
+
                     </ul>
                 </nav>
             </div>
@@ -230,7 +257,7 @@
                                     <input name="credentials" type="password">
                                     <label for="input-type-password">BASE64 Credentials</label>
                                 </div>
-                                <input type="submit" class="btn btn--primary" value="Add ISE Cube"
+                                <input type="submit" class="btn btn--success" value="Add ISE Cube"
                                     style="margin-top: 10px;" />
                             </div>
                         </div>

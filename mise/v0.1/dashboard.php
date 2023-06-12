@@ -1,22 +1,47 @@
 <?php include('includes/database.php'); ?>
 <?php include('tracker.php'); ?>
 
+
+
 <?php
-// Execute shell command to get RAM information
-$command = "free -m";
-$output = shell_exec($command);
-
-// Process the output to extract RAM details
-$lines = explode("\n", $output);
-$memoryLine = explode(" ", $lines[1]);
-$totalMemory = $memoryLine[9];
-$usedMemory = $memoryLine[8];
-$freeMemory = $memoryLine[10];
-
-// Display the RAM information
-
+  // Create the select query
+  $query = "SELECT COUNT(*) as cubes from deployments";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $cubes = $row['cubes'];
+  } else {
+    $cubes = 0; // Default value if no data is found
+  }
 ?>
 
+
+<?php
+  // Create the select query
+  $query = "SELECT COUNT(*) as cubes from deployments where reachable = 'yes'";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $cubes_reachable = $row['cubes'];
+  } else {
+    $cubes_reachable = 0; // Default value if no data is found
+  }
+?>
+
+<?php
+  // Create the select query
+  $query = "SELECT COUNT(*) as cubes FROM `deployments`  WHERE fetched = 'yes'";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $cubes_fetched = $row['cubes'];
+  } else {
+    $cubes_fetched = 0; // Default value if no data is found
+  }
+?>
 
 
 
@@ -139,6 +164,8 @@ $nad_value = round(($percentage_nad / $percentage_total) * 100);
 $policyset_value = round(($percentage_policyset / $percentage_total) * 100);
 $authentication_value = round(($percentage_authentication / $percentage_total) * 100);
 $authorization_value = round(($percentage_authorization / $percentage_total) * 100);
+$cube_value= round(($cubes_fetched / $cubes) * 100);
+$cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
 ?>
 
 
@@ -242,12 +269,23 @@ $authorization_value = round(($percentage_authorization / $percentage_total) * 1
                         <div></div>
 
                     </div>
+                    
                     <ul id="rootSidebar">
                         <li class="sidebar__item selected">
                             <a tabindex="0" title="Dashboard" href="dashboard.php">
                                 <span class="icon-home"></span>
                                 <span>Dashboard</span>
                             </a>
+                        </li>
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Administration">
+                                <span class="icon-profile-settings"></span>
+                                <span>Administration</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="webex-integration.php">WEBEX Integration</a></li>
+                                <li class="sidebar__item"><a href="TBD">Email configurations</a></li>
+                            </ul>
                         </li>
                         <li class="sidebar__drawer">
                             <a tabindex="0" title="ISE Cubes">
@@ -305,6 +343,20 @@ $authorization_value = round(($percentage_authorization / $percentage_total) * 1
                         </li>
 
                         <li class="sidebar__drawer">
+                            <a tabindex="0" title="Guest Management">
+                                <span class="icon-too-slow"></span>
+                                <span>Guest Management</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                            </ul>
+                        </li>
+
+
+                        
+
+                        <li class="sidebar__drawer">
                             <a tabindex="0" title="Troubleshoot and Logging">
                                 <span class="icon-analysis"></span>
                                 <span>TShoot and Logs</span>
@@ -342,13 +394,13 @@ $authorization_value = round(($percentage_authorization / $percentage_total) * 1
                         <div class="row">
                             <div class="col-xl-8">
                                 <div class="panel panel--loose panel--raised base-margin-bottom">
-                                    <h2 class="subtitle">Top ISE Cube logs</h2>
+                                    <h2 class="subtitle">ISE CUBES</h2>
                                     <hr>
                                     <div class="section">
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="gauge-container">
-                                                    <div class="gauge gauge--primary gauge--large" data-percentage="12">
+                                                    <div class="gauge gauge--primary gauge--large" data-percentage="<?php echo $cube_value; ?>">
                                                         <div class="gauge__circle">
                                                             <div class="mask full">
                                                                 <div class="fill"></div>
@@ -359,16 +411,16 @@ $authorization_value = round(($percentage_authorization / $percentage_total) * 1
                                                             </div>
                                                         </div>
                                                         <div class="gauge__inset">
-                                                            <div class="gauge__percentage"><?php echo $totalMemory; ?><sup
-                                                                    class="text-size-20">%</sup></div>
+                                                            <div class="gauge__percentage"><?php echo $cubes; ?><sup
+                                                                    class="text-size-30"></sup></div>
                                                         </div>
                                                     </div>
-                                                    <div class="gauge__label">This is static number , needs to change</div>
+                                                    <div class="gauge__label">ISE Deployments Registered</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="gauge-container">
-                                                    <div class="gauge gauge--primary gauge--large" data-percentage="42">
+                                                    <div class="gauge gauge--primary gauge--large" data-percentage="<?php echo $cubes_reachable_value; ?>">
                                                         <div class="gauge__circle">
                                                             <div class="mask full">
                                                                 <div class="fill"></div>
@@ -379,32 +431,31 @@ $authorization_value = round(($percentage_authorization / $percentage_total) * 1
                                                             </div>
                                                         </div>
                                                         <div class="gauge__inset">
-                                                            <div class="gauge__percentage">42<sup
+                                                            <div class="gauge__percentage"><?php echo $cubes_reachable_value; ?><sup
                                                                     class="text-size-20">%</sup></div>
                                                         </div>
                                                     </div>
-                                                    <div class="gauge__label">This is static number , needs to change</div>
+                                                    <div class="gauge__label">Reachable ISE Deployments</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="base-margin-bottom">
                                                     <div class="subheader no-margin">Total Number of Elements Pulled</div>
                                                     <div class="display-3"><?php echo $percentage_total; ?></div>
-                                                    <div class="text-small">total ytd</div>
                                                 </div>
                                                 <div class="progressbar progressbar--warning dbl-padding-bottom"
                                                     data-percentage="48">
                                                     <div class="progressbar__fill"></div>
                                                     <div class="progressbar__label">
-                                                        <b>$75k</b>
-                                                        <span class="text-right">This is static number , needs to change</span>
+                                                        <b>50%</b>
+                                                        <span class="text-right">Deployed Elements</span>
                                                     </div>
                                                 </div>
                                                 <div class="progressbar progressbar--warning" data-percentage="23">
                                                     <div class="progressbar__fill"></div>
                                                     <div class="progressbar__label">
                                                         <b>100</b>
-                                                        <span class="text-right">This is static number , needs to change</span>
+                                                        <span class="text-right">Guest Accounts Imported</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -525,7 +576,7 @@ $authorization_value = round(($percentage_authorization / $percentage_total) * 1
                             </div>
                             <div class="col-xl-4">
                                 <div class="panel panel--loose panel--raised">
-                                    <h2 class="subtitle">Your Daily Feed</h2>
+                                    <h2 class="subtitle">Deployment History</h2>
                                     <hr>
                                     <div class="timeline">
                                         <div class="timeline__item">
@@ -533,10 +584,10 @@ $authorization_value = round(($percentage_authorization / $percentage_total) * 1
                                             </div>
                                             <div class="timeline__content">
                                                 <div class="flex-center-vertical">
-                                                    <div class="text-bold flex-fluid">Monica Smith</div>
-                                                    <div class="text-small text-right">12m ago</div>
+                                                    <div class="text-bold flex-fluid">deployment_20230605_210808.json</div>
                                                 </div>
-                                                <div>Posted a new blog about next month's CSP conference in Boston.
+                                                <div>Comments Added: deploy sgt<br>
+                                                    Deployment Time: 2023-06-05 21:08:08.346781.
                                                 </div>
                                             </div>
                                         </div>
@@ -545,41 +596,20 @@ $authorization_value = round(($percentage_authorization / $percentage_total) * 1
                                             </div>
                                             <div class="timeline__content">
                                                 <div class="flex-center-vertical">
-                                                    <div class="text-bold flex-fluid">Alicia Johnson</div>
-                                                    <div class="text-small text-right">2h ago</div>
+                                                    <div class="text-bold flex-fluid">deployment_20230605_210808.json</div>
                                                 </div>
-                                                <div>Sent you a message.</div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                                    pulvinar accumsan leo, quis egestas quam luctus non. Aenean
-                                                    vulputate ullamcorper velit eu hendrerit.</p>
+                                                <div>Comments Added: sample deployment to ise-demo1 <br> Deployment Time: 2023-06-05 20:14:02.936139</div>
                                             </div>
                                         </div>
+
                                         <div class="timeline__item">
                                             <div class="timeline__icon">
                                             </div>
                                             <div class="timeline__content">
                                                 <div class="flex-center-vertical">
-                                                    <div class="text-bold flex-fluid">You</div>
-                                                    <div class="text-small text-right">8h ago</div>
+                                                    <div class="text-bold flex-fluid">deployment_20230605_201402.json</div>
                                                 </div>
-                                                <div>Sent a message to <a href="javascript:;">Alicia Johnson</a>.</div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                                    pulvinar accumsan leo, quis egestas quam luctus non. Aenean
-                                                    vulputate ullamcorper velit eu hendrerit.</p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline__item">
-                                            <div class="timeline__icon">
-                                            </div>
-                                            <div class="timeline__content">
-                                                <div class="flex-center-vertical">
-                                                    <div class="text-bold flex-fluid">You</div>
-                                                    <div class="text-small text-right">2d ago</div>
-                                                </div>
-                                                <div>Sent a message to <a href="javascript:;">Monica Smith</a>.</div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                                    pulvinar accumsan leo, quis egestas quam luctus non. Aenean
-                                                    vulputate ullamcorper velit eu hendrerit.</p>
+                                                <div>Comments Added: sample deployment to ise-demo1 <br>Deployment Time: 2023-06-05 20:14:02.936139</div>
                                             </div>
                                         </div>
                                     </div>
