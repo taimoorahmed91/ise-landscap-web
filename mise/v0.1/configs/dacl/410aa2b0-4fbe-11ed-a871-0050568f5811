@@ -1,0 +1,14 @@
+{
+  "DownloadableAcl" : {
+    "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+    "name" : "DENY_ALL_IPV6_TRAFFIC",
+    "description" : "Deny all ipv6 traffic",
+    "dacl" : "deny ipv6 any any",
+    "daclType" : "IPV6",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.157/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "type" : "application/json"
+    }
+  }
+}

@@ -322,4 +322,54 @@
       "type" : "application/json"
     }
   }
+}2023-06-12 22:36:14
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Rule name is already used in this policy table: Authentication Rule 1"
+}2023-06-12 22:44:50
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "340e51c3-b492-4248-8d86-b227f7ee20e3",
+      "name" : "Authentication Rule 1",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionOrBlock",
+        "isNegate" : false,
+        "children" : [ {
+          "link" : null,
+          "conditionType" : "ConditionAttributes",
+          "isNegate" : false,
+          "dictionaryName" : "Radius",
+          "attributeName" : "Called-Station-ID",
+          "operator" : "equals",
+          "dictionaryValue" : null,
+          "attributeValue" : "SSID-1"
+        }, {
+          "link" : null,
+          "conditionType" : "ConditionAttributes",
+          "isNegate" : false,
+          "dictionaryName" : "Radius",
+          "attributeName" : "Called-Station-ID",
+          "operator" : "equals",
+          "dictionaryValue" : null,
+          "attributeValue" : "SSID-4"
+        } ]
+      }
+    },
+    "identitySourceName" : "ADJoin",
+    "ifAuthFail" : "REJECT",
+    "ifUserNotFound" : "REJECT",
+    "ifProcessFail" : "DROP",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo1.taimoorlab.local/api/v1/policy/network-access/policy-set/68d2093d-25dd-4ab7-a522-5f0a54f429eb/authentication/340e51c3-b492-4248-8d86-b227f7ee20e3",
+      "type" : "application/json"
+    }
+  }
 }

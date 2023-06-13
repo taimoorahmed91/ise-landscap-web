@@ -1,0 +1,18 @@
+{
+    "authz": [
+        "Test Profile 1",
+        "Test Profile 2",
+        "Test Profile 3",
+        "Test Profile 4",
+        "Test Profile 5"
+    ],
+    "dacl": [
+        "Allow_DHCP_Only",
+        "DNS_Only",
+        "Internet_Only",
+        "Voice_only"
+    ],
+    "deployments": [
+        "10.52.13.89"
+    ]
+}

@@ -55,6 +55,7 @@
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"
         integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
     <script src="public/js/styleguide.js"></script>
+    <script src="public/js/sidebar.js"></script>
 
 </head>
 
@@ -126,7 +127,7 @@
                                 <li class="sidebar__item"><a href="ap.php">Allowed Protocols</a></li>
                                 <li class="sidebar__item"><a href="authz.php">Authorization Profiles</a></li>
                                 <li class="sidebar__item"><a href="dacl.php">Downloadbale ACL</a></li>
-                                <li class="sidebar__item"><a href="nsd.php">NAD Groups</a></li>
+                                <li class="sidebar__item"><a href="nad.php">NAD Groups</a></li>
                                 <li class="sidebar__item"><a href="sgt.php">Security Group TAG (SGT)</a></li>
                             </ul>
                         </li>

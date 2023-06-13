@@ -1,0 +1,14 @@
+{
+  "DownloadableAcl" : {
+    "id" : "d3f1c470-fc00-11ed-8452-22f9b49c511b",
+    "name" : "Allow_DHCP_Only",
+    "description" : "",
+    "dacl" : "permit udp any any eq 67\ndeny ip any any",
+    "daclType" : "IPV4",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.157/ers/config/downloadableacl/d3f1c470-fc00-11ed-8452-22f9b49c511b",
+      "type" : "application/json"
+    }
+  }
+}

@@ -70,4 +70,8 @@
       "type" : "application/json"
     }
   }
+}2023-06-12 22:44:50
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Rule name is already used in this policy table: Authorization Rule 2"
 }

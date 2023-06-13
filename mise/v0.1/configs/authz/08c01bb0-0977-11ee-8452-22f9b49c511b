@@ -1,0 +1,19 @@
+{
+  "AuthorizationProfile" : {
+    "id" : "08c01bb0-0977-11ee-8452-22f9b49c511b",
+    "name" : "Test Profile 5",
+    "description" : "",
+    "accessType" : "ACCESS_ACCEPT",
+    "authzProfileType" : "SWITCH",
+    "trackMovement" : false,
+    "agentlessPosture" : false,
+    "serviceTemplate" : false,
+    "easywiredSessionCandidate" : false,
+    "profileName" : "Cisco",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.157/ers/config/authorizationprofile/08c01bb0-0977-11ee-8452-22f9b49c511b",
+      "type" : "application/json"
+    }
+  }
+}

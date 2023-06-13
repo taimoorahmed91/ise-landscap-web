@@ -2,6 +2,70 @@
 <?php include('tracker.php'); ?>
 
 
+<?php
+  // Create the select query
+  $query = "SELECT name,comments,time from deployhistory ORDER BY id DESC limit 1 ";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $name1 = $row['name'];
+    $comments1 = $row['comments'];
+    $time1 = $row['time'];
+  } else {
+    $cubes = 0; // Default value if no data is found
+  }
+?>
+
+<?php
+  // Create the select query
+  $query = "SELECT name,comments,time from deployhistory ORDER BY id DESC limit 1 OFFSET 1 ";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $name2 = $row['name'];
+    $comments2 = $row['comments'];
+    $time2 = $row['time'];
+  } else {
+    $cubes = 0; // Default value if no data is found
+  }
+?>
+
+<?php
+  // Create the select query
+  $query = "SELECT name,comments,time from deployhistory ORDER BY id DESC limit 1 OFFSET 2";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $name3 = $row['name'];
+    $comments3 = $row['comments'];
+    $time3 = $row['time'];
+  } else {
+    $cubes = 0; // Default value if no data is found
+  }
+?>
+
+<?php
+  // Create the select query
+  $query = "SELECT name,comments,time from deployhistory ORDER BY id DESC limit 1  OFFSET 3";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $name4 = $row['name'];
+    $comments4 = $row['comments'];
+    $time4 = $row['time'];
+  } else {
+    $cubes = 0; // Default value if no data is found
+  }
+?>
+
+
+
+
+
 
 <?php
   // Create the select query
@@ -224,6 +288,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"
         integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
     <script src="public/js/styleguide.js"></script>
+    <script src="public/js/sidebar.js"></script>
 
 </head>
 
@@ -244,9 +309,13 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                         <span class="icon-cisco"></span>
                     </a>
                 </div>
+                
                 <div class="header-panel header-panel--right hidden-md-down">
-                    <a href="index.html" class="header-item" title="MISE Home"><span class="icon-home"></span></a>
+                    
+                    <a href="dashboard.php" class="header-item" title="MISE Home"><span class="icon-home"></span></a>
+                    
                     <div id="themeSwitcher" class="dropdown dropdown--left dropdown--offset-qtr header-item">
+                        
                         <a class="header-toolbar__link">Theme</a>
                         <div class="dropdown__menu">
                             <a id="theme-default" class="selected">Default</a>
@@ -279,12 +348,22 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                         </li>
                         <li class="sidebar__drawer">
                             <a tabindex="0" title="Administration">
-                                <span class="icon-profile-settings"></span>
+                                <span class="icon-admin"></span>
                                 <span>Administration</span>
                             </a>
                             <ul>
                                 <li class="sidebar__item"><a href="webex-integration.php">WEBEX Integration</a></li>
                                 <li class="sidebar__item"><a href="TBD">Email configurations</a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Users">
+                                <span class="icon-user"></span>
+                                <span>Users</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="add_user.php">Add User</a></li>
+                                <li class="sidebar__item"><a href="user.php">Existing Users</a></li>
                             </ul>
                         </li>
                         <li class="sidebar__drawer">
@@ -306,7 +385,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 <li class="sidebar__item"><a href="ap.php">Allowed Protocols</a></li>
                                 <li class="sidebar__item"><a href="authz.php">Authorization Profiles</a></li>
                                 <li class="sidebar__item"><a href="dacl.php">Downloadbale ACL</a></li>
-                                <li class="sidebar__item"><a href="nsd.php">NAD Groups</a></li>
+                                <li class="sidebar__item"><a href="nad.php">NAD Groups</a></li>
                                 <li class="sidebar__item"><a href="sgt.php">Security Group TAG (SGT)</a></li>
                             </ul>
                         </li>
@@ -395,6 +474,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                             <div class="col-xl-8">
                                 <div class="panel panel--loose panel--raised base-margin-bottom">
                                     <h2 class="subtitle">ISE CUBES</h2>
+
                                     <hr>
                                     <div class="section">
                                         <div class="row">
@@ -448,14 +528,14 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                                     <div class="progressbar__fill"></div>
                                                     <div class="progressbar__label">
                                                         <b>50%</b>
-                                                        <span class="text-right">Deployed Elements</span>
+                                                        <span class="text-right">Deployed Elements*</span>
                                                     </div>
                                                 </div>
                                                 <div class="progressbar progressbar--warning" data-percentage="23">
                                                     <div class="progressbar__fill"></div>
                                                     <div class="progressbar__label">
                                                         <b>100</b>
-                                                        <span class="text-right">Guest Accounts Imported</span>
+                                                        <span class="text-right">Guest Accounts Imported*</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -465,6 +545,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 </div>
                                 <div class="panel panel--loose panel--raised">
                                     <h2 class="subtitle">Policy Element Count</h2>
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-4">
@@ -584,10 +665,10 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                             </div>
                                             <div class="timeline__content">
                                                 <div class="flex-center-vertical">
-                                                    <div class="text-bold flex-fluid">deployment_20230605_210808.json</div>
+                                                    <div class="text-bold flex-fluid"><?php echo $name1; ?></div>
                                                 </div>
-                                                <div>Comments Added: deploy sgt<br>
-                                                    Deployment Time: 2023-06-05 21:08:08.346781.
+                                                <div>Comments Added: <?php echo $comments1; ?><br>
+                                                    Deployment Time: <?php echo $time1; ?>
                                                 </div>
                                             </div>
                                         </div>
@@ -596,20 +677,32 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                             </div>
                                             <div class="timeline__content">
                                                 <div class="flex-center-vertical">
-                                                    <div class="text-bold flex-fluid">deployment_20230605_210808.json</div>
+                                                    <div class="text-bold flex-fluid"><?php echo $name2; ?></div>
                                                 </div>
-                                                <div>Comments Added: sample deployment to ise-demo1 <br> Deployment Time: 2023-06-05 20:14:02.936139</div>
+                                                <div>Comments Added: <?php echo $comments2; ?> <br> Deployment Time: <?php echo $time2; ?></div>
                                             </div>
                                         </div>
+                                        <div class="timeline__item">
+                                            <div class="timeline__icon">
+                                            </div>
+                                            <div class="timeline__content">
+                                                <div class="flex-center-vertical">
+                                                    <div class="text-bold flex-fluid"><?php echo $name3; ?></div>
+                                                </div>
+                                                <div>Comments Added: <?php echo $comments3; ?> <br> Deployment Time: <?php echo $time3; ?></div>
+                                            </div>
+                                        </div>
+
+                                        
 
                                         <div class="timeline__item">
                                             <div class="timeline__icon">
                                             </div>
                                             <div class="timeline__content">
                                                 <div class="flex-center-vertical">
-                                                    <div class="text-bold flex-fluid">deployment_20230605_201402.json</div>
+                                                    <div class="text-bold flex-fluid"><?php echo $name4; ?></div>
                                                 </div>
-                                                <div>Comments Added: sample deployment to ise-demo1 <br>Deployment Time: 2023-06-05 20:14:02.936139</div>
+                                                <div>Comments Added: <?php echo $comments4; ?><br>Deployment Time: <?php echo $time4; ?></div>
                                             </div>
                                         </div>
                                     </div>
@@ -643,6 +736,8 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
             </footer>
         </div>
     </div>
+
+
 </body>
 
 </html>

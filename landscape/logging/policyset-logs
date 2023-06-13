@@ -6256,4 +6256,33 @@
       "type" : "application/json"
     }
   } ]
+}2023-06-12 21:20:59
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "8351b8b2-ceaf-46c5-9626-4dd93cbb6cf9",
+    "name" : "Zaid-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wired802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise-demo1.taimoorlab.local/api/v1/policy/network-access/policy-set/8351b8b2-ceaf-46c5-9626-4dd93cbb6cf9",
+      "type" : "application/json"
+    }
+  }
 }

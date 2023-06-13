@@ -11,12 +11,12 @@ var curGaugeTimer;
 var toastTimer;
 
 function doTabChange(id) {
-    var el = $('#'+id);
+    var el = $('#' + id);
     el.siblings().removeClass('active');
     var tabsId = id.substring(0, id.indexOf('-'));
-    $('body #'+tabsId+'-content > .tab-pane').removeClass('active');
+    $('body #' + tabsId + '-content > .tab-pane').removeClass('active');
     el.addClass('active');
-    $('body #'+id+'-content').addClass('active');
+    $('body #' + id + '-content').addClass('active');
 }
 function checkTheme() {
     var theme = getStorageData('cui-theme');
@@ -54,28 +54,28 @@ function switchTheme(theme) {
 }
 function copyHexToClipboard(title, hex) {
     clipboard.copy(hex);
-    showToast('<div>Copied <b style="color:'+hex+'">'+title+'</b> <span style="color:'+hex+'">'+hex+'</span> to clipboard</div>');
+    showToast('<div>Copied <b style="color:' + hex + '">' + title + '</b> <span style="color:' + hex + '">' + hex + '</span> to clipboard</div>');
 }
 function copyIconToClipboard(id) {
-    $('#'+id+' a').click(function() {
+    $('#' + id + ' a').click(function () {
         clipboard.copy($(this).attr('data-icon'));
-        showToast('<div>Copied <b>'+$(this).attr('data-icon')+'</b> to clipboard');
+        showToast('<div>Copied <b>' + $(this).attr('data-icon') + '</b> to clipboard');
     });
 }
 function getCssVar(alias) {
     return getComputedStyle(document.body).getPropertyValue(alias);
 }
 function buildSwatchGroup(id, alias, prefix) {
-    var el = $('body #'+id);
+    var el = $('body #' + id);
     if (el) {
         var colors = getCssVar(alias).split(',');
-        colors.forEach(function(color) {
-            var hex = getCssVar(prefix+color);
+        colors.forEach(function (color) {
+            var hex = getCssVar(prefix + color);
             var html = [
-                '<div id="swatch-'+color+'" class="swatch" data-balloon="Click to copy" data-balloon-pos="up" data-balloon-length="medium" onclick="copyHexToClipboard(\''+color+'\',\''+hex+'\')">',
-                    '<div class="swatch__color" style="background-color:'+hex+'"></div>',
-                    '<div class="swatch__title">'+color+'</div>',
-                    '<div class="swatch__hex">'+hex+'</div>',
+                '<div id="swatch-' + color + '" class="swatch" data-balloon="Click to copy" data-balloon-pos="up" data-balloon-length="medium" onclick="copyHexToClipboard(\'' + color + '\',\'' + hex + '\')">',
+                '<div class="swatch__color" style="background-color:' + hex + '"></div>',
+                '<div class="swatch__title">' + color + '</div>',
+                '<div class="swatch__hex">' + hex + '</div>',
                 '</div>'
             ].join('');
             el.append(html);
@@ -113,15 +113,15 @@ function setQueryParam(key, value) {
         var params = new URLSearchParams(window.location.search);
         params.set(key, value);
         var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?' + params.toString();
-        window.history.pushState({path:newUrl},'',newUrl);
+        window.history.pushState({ path: newUrl }, '', newUrl);
     }
 }
 function populateSearchEntries() {
     allEntries = [];
     var entries = $('#search-dictionary .searchable');
-    for (var ii=0;ii<entries.length;ii++) {
+    for (var ii = 0; ii < entries.length; ii++) {
         var retObj = {};
-        for (var yy=0;yy<entries[ii].attributes.length;yy++) {
+        for (var yy = 0; yy < entries[ii].attributes.length; yy++) {
             var attrObj = entries[ii].attributes[yy];
             if (attrObj.name === "data-ref") { retObj.ref = attrObj.value };
             if (attrObj.name === "data-depth") { retObj.depth = attrObj.value };
@@ -147,8 +147,8 @@ function removeClassWildcard($element, removals) {
     }
 
     var patt = new RegExp('\\s' +
-            removals.replace(/\*/g, '[A-Za-z0-9-_]+').split(' ').join('\\s|\\s') +
-            '\\s', 'g');
+        removals.replace(/\*/g, '[A-Za-z0-9-_]+').split(' ').join('\\s|\\s') +
+        '\\s', 'g');
 
     $element.each(function (i, it) {
         var cn = ' ' + it.className + ' ';
@@ -162,53 +162,53 @@ function removeClassWildcard($element, removals) {
 }
 function addCards(cnt) {
     $('body #grid').empty();
-    for (var ii=1;ii<=cnt;ii++) {
-        $('body #grid').append('<div class="panel panel--bordered"><h3 class="text-uppercase base-margin-bottom">Panel '+ii+'</h3><div class="flex"><div class="form-group form-group--inline"><div class="form-group__text"><input id="grid-card-cols" type="number" value="1"><label>Columns</label></div></div><div class="form-group form-group--inline"><div class="form-group__text"><input id="grid-card-rows" type="number" value="1"><label>Rows</label></div></div></div></div>');
+    for (var ii = 1; ii <= cnt; ii++) {
+        $('body #grid').append('<div class="panel panel--bordered"><h3 class="text-uppercase base-margin-bottom">Panel ' + ii + '</h3><div class="flex"><div class="form-group form-group--inline"><div class="form-group__text"><input id="grid-card-cols" type="number" value="1"><label>Columns</label></div></div><div class="form-group form-group--inline"><div class="form-group__text"><input id="grid-card-rows" type="number" value="1"><label>Rows</label></div></div></div></div>');
     }
     wireCards();
 }
 function wireAccordion() {
-    $('body .accordion > li > a').click(function() {
+    $('body .accordion > li > a').click(function () {
         $(this).parent().toggleClass('active');
     });
 }
 function wireScrollToTop() {
     $(window).scroll(function () {
-       if ($(this).scrollTop() > 100) {
-           $('#scroll-to-top').fadeIn(500);
-       } else {
-           $('#scroll-to-top').fadeOut(500);
-       }
-   });
-   $('#scroll-to-top').click(function () {
-       $("html, body").animate({
-           scrollTop: 0
-       }, 100);
-       return false;
-   });
+        if ($(this).scrollTop() > 100) {
+            $('#scroll-to-top').fadeIn(500);
+        } else {
+            $('#scroll-to-top').fadeOut(500);
+        }
+    });
+    $('#scroll-to-top').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 100);
+        return false;
+    });
 }
 function wireCards() {
-    $('body #grid .panel').click(function() {
+    $('body #grid .panel').click(function () {
         if ($(this).parent().hasClass('grid--selectable')) {
             $(this).toggleClass('selected');
         }
     });
-    $('body #grid-cards').change(function() {
+    $('body #grid-cards').change(function () {
         addCards($(this).val());
     });
-    $('body #grid .panel #grid-card-cols').click(function(e) {
+    $('body #grid .panel #grid-card-cols').click(function (e) {
         e.stopPropagation();
     });
-    $('body #grid .panel #grid-card-cols').change(function() {
+    $('body #grid .panel #grid-card-cols').change(function () {
         removeClassWildcard($(this).closest('.panel'), 'card--col-*');
-        $(this).closest('.panel').addClass('card card--col-'+$(this).val());
+        $(this).closest('.panel').addClass('card card--col-' + $(this).val());
     });
-    $('body #grid .panel #grid-card-rows').click(function(e) {
+    $('body #grid .panel #grid-card-rows').click(function (e) {
         e.stopPropagation();
     });
-    $('body #grid .panel #grid-card-rows').change(function() {
+    $('body #grid .panel #grid-card-rows').change(function () {
         removeClassWildcard($(this).closest('.panel'), 'card--row-*');
-        $(this).closest('.panel').addClass('card card--row-'+$(this).val());
+        $(this).closest('.panel').addClass('card card--row-' + $(this).val());
     });
 }
 function calcSearchWindowHeight() {
@@ -247,7 +247,7 @@ function startProgressAnimation() {
     }, 100);
 }
 function jumpTo(ref) {
-    document.location.href = "section-"+ref+".html#"+ref;
+    document.location.href = "section-" + ref + ".html#" + ref;
 }
 function doNav(url) {
     shouldHideSidebar();
@@ -265,7 +265,7 @@ function updateScrollSpy(activeElem) {
     if (scrollSpy) { scrollSpy.destroy(); }
     $('#subTabs').empty();
 
-    for (var ii=0;ii<allEntries.length;ii++) {
+    for (var ii = 0; ii < allEntries.length; ii++) {
         var entry = allEntries[ii];
         if (entry.depth == '2' && entry.name.toLowerCase() == activeElem.toLowerCase()) { // The header
             var anchor = entry.ref.substring(entry.ref.lastIndexOf('#'));
@@ -276,11 +276,11 @@ function updateScrollSpy(activeElem) {
             $('#subTabs').append('<li><a class="scrollLink" href="' + anchor + '" tabindex="0">' + entry.name + '</a>');
         }
     }
-    setTimeout(function() {
+    setTimeout(function () {
         scrollSpy = new Gumshoe('#subTabs a', { offset: 150 });
     }, 250);
 
-    $('#subTabs a.scrollLink').click(function(e) {
+    $('#subTabs a.scrollLink').click(function (e) {
         var el = $($(this).attr('href'));
         $('html,body').animate({
             scrollTop: el.offset().top - 120
@@ -290,26 +290,26 @@ function updateScrollSpy(activeElem) {
 function updateMainNav(selection) {
     $('#styleguideTabs > li.tab').removeClass('active');
     $('#styleguideTabs-content > .tab-pane').removeClass('active');
-    $('#styleguideTabs #styleguideTabs-'+selection).addClass('active');
-    $('#styleguideTabs-content #styleguideTabs-'+selection+'-content').addClass('active');
+    $('#styleguideTabs #styleguideTabs-' + selection).addClass('active');
+    $('#styleguideTabs-content #styleguideTabs-' + selection + '-content').addClass('active');
 }
 function updateMobileNav(selection) {
     $('#styleguideDropdown > .dropdown__menu > a').removeClass('selected');
-    $('#styleguideDropdown #styleguideDropdown-'+selection).addClass('selected');
+    $('#styleguideDropdown #styleguideDropdown-' + selection).addClass('selected');
     $('#styleguideDropdown input').val(selection);
 }
 
 function wireHomeNav() {
-    $('#mobilehome').on('click', function(e) {
+    $('#mobilehome').on('click', function (e) {
         e.stopPropagation();
         var el = $(this).find('input');
         if (!el.hasClass('disabled') && !el.attr('disabled') && !el.hasClass('readonly') && !el.attr('readonly')) {
             $(this).toggleClass('active');
         }
     });
-    $('#mobilehome > .dropdown__menu > a').on('click', function(e) {
+    $('#mobilehome > .dropdown__menu > a').on('click', function (e) {
         var target = e.target.id;
-        var selection = target.substring(target.lastIndexOf('-')+1);
+        var selection = target.substring(target.lastIndexOf('-') + 1);
         updateHomePageNav(selection);
         updateHomePageNavMobile(selection);
     });
@@ -317,13 +317,13 @@ function wireHomeNav() {
 function updateHomePageNav(selection) {
     $('#tabshome > li.tab').removeClass('active');
     $('#tabshome-content > .tab-pane').removeClass('active');
-    $('#tabshome-'+selection).addClass('active');
-    $('#tabshome-'+selection+'-content').addClass('active');
+    $('#tabshome-' + selection).addClass('active');
+    $('#tabshome-' + selection + '-content').addClass('active');
 }
 function updateHomePageNavMobile(selection) {
     $('#mobilehome > .dropdown__menu > a').removeClass('selected');
-    $('#mobilehome #mobilehome-'+selection).addClass('selected');
-    $('#mobilehome input').val($('#mobilehome #mobilehome-'+selection).text());
+    $('#mobilehome #mobilehome-' + selection).addClass('selected');
+    $('#mobilehome input').val($('#mobilehome #mobilehome-' + selection).text());
 }
 function checkUrlAndSetupPage(url) {
     if ((url.indexOf('index.html') !== -1) || (window.location.pathname === '\/')) { // Home page
@@ -339,14 +339,14 @@ function checkUrlAndSetupPage(url) {
     else if (url.lastIndexOf('#') != -1) { // Pattern page
         var anchor = url.substring(url.lastIndexOf('#') + 1);
         var str = _.split(anchor, '-')[1];
-        var str = str.toLowerCase().replace(/\b[a-z]/g, function(letter) {
+        var str = str.toLowerCase().replace(/\b[a-z]/g, function (letter) {
             return letter.toUpperCase();
         });
 
         updateMainNav(str);
         updateMobileNav(str);
 
-        $('#styleguideDropdown > .dropdown__menu > a').on('click', function(e) {
+        $('#styleguideDropdown > .dropdown__menu > a').on('click', function (e) {
             updateMainNav(e.target.text);
             updateScrollSpy(e.target.text);
             $('html,body').animate({
@@ -354,7 +354,7 @@ function checkUrlAndSetupPage(url) {
             }, 250);
         });
 
-        $('#styleguideTabs > li > a').on('click', function(e) {
+        $('#styleguideTabs > li > a').on('click', function (e) {
             updateMobileNav(e.target.innerText);
             updateScrollSpy(e.target.innerText);
             $('html,body').animate({
@@ -362,7 +362,7 @@ function checkUrlAndSetupPage(url) {
             }, 250);
         });
 
-        setTimeout(function() {
+        setTimeout(function () {
             // Now scroll to the appropriate anchor (if specified in the url)
             var el = document.getElementById(anchor);
             if (el !== null) {
@@ -385,7 +385,7 @@ function startPageAnimation(pattern) {
 function doGlobalSearch(searchStr, forceFlag) {
     var results = [];
     searchStr = searchStr.toLowerCase();
-    for (var ii=0;ii<allEntries.length;ii++) {
+    for (var ii = 0; ii < allEntries.length; ii++) {
         var entry = allEntries[ii];
         if (_.startsWith(entry.name.toLowerCase(), searchStr) || _.startsWith(entry.group.toLowerCase(), searchStr) || forceFlag) {
             results.push(entry);
@@ -396,12 +396,12 @@ function doGlobalSearch(searchStr, forceFlag) {
     if (results.length == 0) {
         str = '<a class="text-italic disabled">No results found for query&nbsp;<span class="text-bold">' + searchStr + '</span></a>';
     }
-    _.forEach(_.groupBy(results, 'category'), function(value, key) {
+    _.forEach(_.groupBy(results, 'category'), function (value, key) {
         str += '<div class="dropdown__group"><div class="dropdown__group-header">' + key + '</div>';
-        _.each(value, function(result) {
+        _.each(value, function (result) {
             if (result.group !== '') {
                 if (result.depth === "2") {
-                    str +='<a href="' + result.ref + '"><span class="text-capitalize">' + highlightString(result.group, searchStr) + '</span></a>';
+                    str += '<a href="' + result.ref + '"><span class="text-capitalize">' + highlightString(result.group, searchStr) + '</span></a>';
                 } else {
                     str += '<a href="' + result.ref + '"><span class="text-capitalize">';
                     str += (_.startsWith(result.group.toLowerCase(), searchStr)) ? highlightString(result.group, searchStr) : result.group;
@@ -418,7 +418,7 @@ function doGlobalSearch(searchStr, forceFlag) {
 }
 function searchIcons(icon) {
     var ret = [];
-    for (var ii=0;ii<allIcons.length;ii++) {
+    for (var ii = 0; ii < allIcons.length; ii++) {
         if (allIcons[ii].innerText.indexOf(icon) !== -1) {
             ret.push(allIcons[ii]);
         }
@@ -432,9 +432,9 @@ function setActiveSlide(slide, animation) {
     $(slide).siblings().removeClass('active');
     $(slide).parent().parent().find('.carousel__slide').removeClass('active slideInLeftSmall slideInRightSmall fadeIn');
     $(slide).addClass('active');
-    $(slide).parent().parent().find('#'+slide.id+'-content').addClass('active '+animation);
+    $(slide).parent().parent().find('#' + slide.id + '-content').addClass('active ' + animation);
 }
-function setIcons (icons) {
+function setIcons(icons) {
     var searchStr = $('#icon-search-input').val();
     if (searchStr !== '') {
         $('#icon-search-results').empty();
@@ -452,7 +452,7 @@ function setIcons (icons) {
     $('#icon-count').text(icons.length);
     $('#icon-total-count').text(allIcons.length);
 }
-function debounce (func, wait) {
+function debounce(func, wait) {
     var timeout;
     var context = this, args = arguments;
     clearTimeout(timeout);
@@ -460,17 +460,17 @@ function debounce (func, wait) {
         func.apply(context, args);
     }, wait || 0);
 }
-function openModal (id) {
-    $('#'+id).before('<div id="'+id+'-placeholder"></div>').detach().appendTo('body').removeClass('hide');
+function openModal(id) {
+    $('#' + id).before('<div id="' + id + '-placeholder"></div>').detach().appendTo('body').removeClass('hide');
 }
-function closeModal (id) {
-    $('#'+id).detach().prependTo(('#'+id+'-placeholder')).addClass('hide');
+function closeModal(id) {
+    $('#' + id).detach().prependTo(('#' + id + '-placeholder')).addClass('hide');
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
 
     // Wire the icon search
-    $('#icon-search-input').on('input', function() {
+    $('#icon-search-input').on('input', function () {
         var searchStr = $('#icon-search-input').val();
         if (searchStr !== '') {
             setIcons(searchIcons(searchStr));
@@ -481,31 +481,31 @@ $(document).ready(function() {
     });
 
     // Wire the global search
-    $('#search-kit').on('click', function() {
+    $('#search-kit').on('click', function () {
         if ($('#search-kit').val() === '') {
             doGlobalSearch('', true);
         }
     });
-    $('#search-kit').on('input', function() {
+    $('#search-kit').on('input', function () {
         doGlobalSearch($('#search-kit').val(), false);
     });
 
     // Wire the gauge reset button
-    $('#gauge-start').click(function() {
+    $('#gauge-start').click(function () {
         if (curGaugeTimer) { clearTimeout(curGaugeTimer); }
         curGaugeProgress = 0;
         startGaugeAnimation();
     });
 
     // Wire the progressbar reset button
-    $('#progressbar-start').click(function() {
+    $('#progressbar-start').click(function () {
         if (curProgressTimer) { clearTimeout(curProgressTimer); }
         curProgress = 0;
         startProgressAnimation();
     });
 
     // Wire the header sidebar toggle button
-    $('#sidebar-toggle').click(function() {
+    $('#sidebar-toggle').click(function () {
         $('#styleguideSidebar').toggleClass('sidebar--mini');
         $('#sidebar-toggle span:first-child').removeClass();
         if ($('#styleguideSidebar').hasClass('sidebar--mini')) {
@@ -515,42 +515,42 @@ $(document).ready(function() {
         }
     });
 
-    $('#mobile-sidebar-toggle').click(function() {
+    $('#mobile-sidebar-toggle').click(function () {
         $('#styleguideSidebar').removeClass('sidebar--mini');
         $('#styleguideSidebar').toggleClass('sidebar--hidden');
     });
 
     // Wire the sidebar drawer open/close toggles
-    $('#styleguideSidebar .sidebar__drawer > a').click(function(e) {
+    $('#styleguideSidebar .sidebar__drawer > a').click(function (e) {
         e.stopPropagation();
         $(this).parent().siblings().removeClass('sidebar__drawer--opened');
         $(this).parent().toggleClass('sidebar__drawer--opened');
     });
 
     // Wire the sidebar selected item
-    $('#styleguideSidebar .sidebar__item > a').click(function() {
+    $('#styleguideSidebar .sidebar__item > a').click(function () {
         $('#styleguideSidebar .sidebar__item').removeClass('sidebar__item--selected');
         $(this).parent().addClass('sidebar__item--selected');
     });
 
     // Wire the sidebar examples
-    $('body .sidebar__drawer > a').click(function() {
+    $('body .sidebar__drawer > a').click(function () {
         $(this).parent().toggleClass('sidebar__drawer--opened');
     });
-    $('body .sidebar__item > a').click(function() {
+    $('body .sidebar__item > a').click(function () {
         $(this).parent().siblings().removeClass('sidebar__item--selected');
         $(this).parent().addClass('sidebar__item--selected');
     });
 
     // Wire the button group examples
-    $('body .btn-group .btn').click(function() {
+    $('body .btn-group .btn').click(function () {
         $(this).siblings().removeClass('selected');
         $(this).addClass('selected');
     });
 
     // Wire the markup toggles
     $('body .markup').removeClass('active');
-    $('body .markup-toggle').click(function() {
+    $('body .markup-toggle').click(function () {
         $(this).parent().next().toggleClass('hide');
         $(this).parent().toggleClass('active');
 
@@ -563,7 +563,7 @@ $(document).ready(function() {
     });
 
     // Wire the markup copy to clipboard events
-    $('body .clipboard-toggle').click(function() {
+    $('body .clipboard-toggle').click(function () {
         clipboard.copy($(this).parent().parent().find('code.code-raw').text());
         showToast('Copied code to clipboard');
         $(this).addClass('text-bold').text('copied!');
@@ -572,7 +572,7 @@ $(document).ready(function() {
     copyIconToClipboard('icon-main-results');
 
     // Wire the tabs
-    $('body li.tab').click(function() {
+    $('body li.tab').click(function () {
         doTabChange(this.id);
         //$(this).siblings().removeClass('active');
         //var tabsId = this.id.substring(0, this.id.indexOf('-'));
@@ -582,24 +582,24 @@ $(document).ready(function() {
     });
 
     // Wire pagination
-    $('body ul.pagination > li > a').click(function() {
+    $('body ul.pagination > li > a').click(function () {
         var el = $(this).parent().siblings().find('.active');
         $(this).parent().siblings().removeClass('active');
         $(this).parent().addClass('active');
     });
 
     // Wire closeable alerts
-    $('body .alert .alert__close').click(function() {
+    $('body .alert .alert__close').click(function () {
         $(this).parent().addClass('hide');
     });
 
     // Wire the Card pattern examples
-    $('body a.panel').click(function() {
+    $('body a.panel').click(function () {
         $(this).toggleClass('selected');
     });
 
     // Wire the Advanced Grid example
-    $('body #grid-group').click(function() {
+    $('body #grid-group').click(function () {
         $(this).parent().find('#grid-group').removeClass('selected');
         var cls = 'grid--' + $(this).text();
         $('body .grid').removeClass('grid--3up');
@@ -609,15 +609,15 @@ $(document).ready(function() {
         $(this).addClass('selected');
     });
 
-    $('body #grid-cards').change(function() {
+    $('body #grid-cards').change(function () {
         addCards($(this).val());
     });
 
-    $('body #grid-gutters').change(function() {
-        $('body #grid').css('gridGap', $(this).val()+'px');
+    $('body #grid-gutters').change(function () {
+        $('body #grid').css('gridGap', $(this).val() + 'px');
     });
 
-    $('body #grid-selectable').change(function() {
+    $('body #grid-selectable').change(function () {
         $('body #grid').toggleClass('grid--selectable');
         $('body .grid .panel').removeClass('selected');
     });
@@ -625,10 +625,10 @@ $(document).ready(function() {
     addCards(15);
 
     // Wire the carousel examples
-    $('body .carousel__controls a.dot').click(function() {
+    $('body .carousel__controls a.dot').click(function () {
         setActiveSlide(this, 'fadeIn');
     });
-    $('body .carousel__controls a.back').click(function() {
+    $('body .carousel__controls a.back').click(function () {
         var last = $(this).parent().find('a.dot').last();
         var cur = $(this).parent().find('a.dot.active');
         var active = cur.prev();
@@ -637,7 +637,7 @@ $(document).ready(function() {
         }
         setActiveSlide(active[0], 'slideInLeftSmall');
     });
-    $('body .carousel__controls a.next').click(function() {
+    $('body .carousel__controls a.next').click(function () {
         var first = $(this).parent().find('a.dot').first();
         var cur = $(this).parent().find('a.dot.active');
         var active = cur.next();
@@ -656,14 +656,14 @@ $(document).ready(function() {
     wireScrollToTop();
 
     // Wire the dropdown examples
-    $('body .dropdown').not('.ignore').click(function(e) {
+    $('body .dropdown').not('.ignore').click(function (e) {
         e.stopPropagation();
         var el = $(this).find('input');
         if (!el.hasClass('disabled') && !el.attr('disabled') && !el.hasClass('readonly') && !el.attr('readonly')) {
             $(this).toggleClass('active');
         }
     });
-    $('body .dropdown:not(.ignore) .dropdown__menu a').click(function(e) {
+    $('body .dropdown:not(.ignore) .dropdown__menu a').click(function (e) {
         e.stopPropagation();
 
         var origVal = $(this).parent().parent().find('input').val();
@@ -681,13 +681,13 @@ $(document).ready(function() {
     });
 
     // Close dropdowns and open sidebar drawers on clicks outside the dropdowns
-    $(document).click(function() {
+    $(document).click(function () {
         $('body .dropdown').not('.ignore').removeClass('active');
         $('#styleguideSidebar .sidebar__drawer').removeClass('sidebar__drawer--opened');
     });
 
     // Wire the selectable tables
-    $('body .table.table--selectable tbody > tr').click(function() {
+    $('body .table.table--selectable tbody > tr').click(function () {
         $(this).toggleClass('active');
         var cb = $(this).find('td .checkbox input');
         if (cb) {
@@ -695,37 +695,37 @@ $(document).ready(function() {
         }
     });
     // Wire the table wells example
-    $('body #table-wells tbody > tr').click(function() {
+    $('body #table-wells tbody > tr').click(function () {
         $(this).find('td span.icon-chevron-up').removeClass('icon-chevron-up').addClass('icon-chevron-down');
         $(this).find('td span.icon-chevron-down').removeClass('icon-chevron-down').addClass('icon-chevron-up');
         $(this).next().toggleClass('hide');
     });
 
     // Wire the global modifiers
-    $('body #global-animation').change(function() {
+    $('body #global-animation').change(function () {
         $('body').toggleClass('cui--animated');
     });
-    $('body #global-headermargins').change(function() {
+    $('body #global-headermargins').change(function () {
         $('body').toggleClass('cui--headermargins');
     });
-    $('body #global-spacing').change(function() {
+    $('body #global-spacing').change(function () {
         $('body').toggleClass('cui--compressed');
     });
-    $('body #global-wide').change(function() {
+    $('body #global-wide').change(function () {
         $('body').toggleClass('cui--wide');
     });
-    $('body #global-sticky').change(function() {
+    $('body #global-sticky').change(function () {
         $('body').toggleClass('cui--sticky');
     });
 
     // Load the changelog
-    $.get('changelog.md', function(markdownContent) {
+    $.get('changelog.md', function (markdownContent) {
         var converter = new Markdown.Converter();
         $("#changelog-content").html(converter.makeHtml(markdownContent));
     });
 
     // Load the broadcast file (if it exists)
-    $.getJSON('broadcast.json', function(data) {
+    $.getJSON('broadcast.json', function (data) {
         if (data && data.text && data.text.length) {
             $("#broadcast-msg").html(data.text);
             $("#broadcast").toggleClass('hide');
@@ -740,7 +740,7 @@ $(document).ready(function() {
     checkUrlAndSetupPage(window.location.href);
 
     // Listen of window changes and close the sidebar if necessary
-    $(window).resize(function() {
+    $(window).resize(function () {
         shouldHideSidebar();
     });
 
@@ -750,3 +750,4 @@ $(document).ready(function() {
     populateSwatches();
     checkTheme();
 });
+

@@ -6051,4 +6051,19 @@
       }
     } ]
   }
-}
+}2023-06-12 21:20:57
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-allowedprotocols",
+    "messages" : [ {
+      "title" : "Allowed Protocols: Failed to create, please check the log for error.com.cisco.cpm.acs.bl.impl.config.exceptions.ObjectAlreadyExistsException: Object already exists in the database",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-demo1.taimoorlab.local/ers/config/allowedprotocols",
+      "type" : "application/xml"
+    }
+  }
+}2023-06-12 21:23:49

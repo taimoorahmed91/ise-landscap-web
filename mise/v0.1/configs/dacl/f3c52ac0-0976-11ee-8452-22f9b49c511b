@@ -1,0 +1,14 @@
+{
+  "DownloadableAcl" : {
+    "id" : "f3c52ac0-0976-11ee-8452-22f9b49c511b",
+    "name" : "Voice_only",
+    "description" : "",
+    "dacl" : "permit ip any any",
+    "daclType" : "IPV4",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.157/ers/config/downloadableacl/f3c52ac0-0976-11ee-8452-22f9b49c511b",
+      "type" : "application/json"
+    }
+  }
+}

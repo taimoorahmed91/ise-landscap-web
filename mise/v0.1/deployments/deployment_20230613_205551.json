@@ -1,0 +1,8 @@
+{
+    "authz": [
+        "UDN"
+    ],
+    "deployments": [
+        "ise32.taimoorlab.local"
+    ]
+}

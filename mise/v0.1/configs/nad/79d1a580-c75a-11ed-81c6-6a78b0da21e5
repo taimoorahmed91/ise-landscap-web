@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "79d1a580-c75a-11ed-81c6-6a78b0da21e5",
+    "name" : "Device Type#All Device Types#APIC",
+    "description" : "",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.157/ers/config/networkdevicegroup/79d1a580-c75a-11ed-81c6-6a78b0da21e5",
+      "type" : "application/json"
+    },
+    "othername" : "Device Type"
+  }
+}

@@ -7359,4 +7359,19 @@
       }
     } ]
   }
+}2023-06-12 21:20:58
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Resource Initialization Failed: Invalid JSON: Unrecognized field \"othername\" (Class network.NetworkDeviceGroup), not marked as ignorable\n ",
+      "type" : "ERROR",
+      "code" : "Application resource validation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise-demo1.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
 }

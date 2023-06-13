@@ -63,6 +63,7 @@
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"
         integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
     <script src="public/js/styleguide.js"></script>
+    <script src="public/js/sidebar.js"></script>
 
 </head>
 
@@ -310,6 +311,8 @@
             </footer>
         </div>
     </div>
+
+
 </body>
 
 </html>

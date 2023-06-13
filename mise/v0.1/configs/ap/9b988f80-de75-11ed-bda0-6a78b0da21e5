@@ -1,0 +1,29 @@
+{
+  "AllowedProtocols" : {
+    "id" : "9b988f80-de75-11ed-bda0-6a78b0da21e5",
+    "name" : "TACACS Protocol",
+    "description" : "",
+    "processHostLookup" : false,
+    "allowPapAscii" : true,
+    "allowChap" : false,
+    "allowMsChapV1" : false,
+    "allowMsChapV2" : false,
+    "allowEapMd5" : false,
+    "allowLeap" : false,
+    "allowEapTls" : false,
+    "allowEapTtls" : false,
+    "allowEapFast" : false,
+    "allowPeap" : false,
+    "allowTeap" : false,
+    "allowPreferredEapProtocol" : false,
+    "eapTlsLBit" : false,
+    "allowWeakCiphersForEap" : false,
+    "fiveG" : false,
+    "requireMessageAuth" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.157/ers/config/allowedprotocols/9b988f80-de75-11ed-bda0-6a78b0da21e5",
+      "type" : "application/json"
+    }
+  }
+}
