@@ -431,7 +431,16 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
                             </ul>
                         </li>
-
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Scheduler">
+                                <span class="icon-calendar"></span>
+                                <span>Scheduler</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="new_schedule.php">Create New</a></li>
+                                <li class="sidebar__item"><a href="schedule.php">View Existing</a></li>
+                            </ul>
+                        </li>
 
                         
 
@@ -461,6 +470,12 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                             <a tabindex="0" title="contact us" href="contact.php">
                                 <span class="icon-add-contact"></span>
                                 <span>Contact Us</span>
+                            </a>
+                        </li>
+                        <li class="sidebar__item selected">
+                            <a tabindex="0" title="make a wish" href="https://forms.office.com/r/ryRrW7BvQJ" target="_blank">
+                                <span class="icon-draw"></span>
+                                <span>Make a wish</span>
                             </a>
                         </li>
 
@@ -656,7 +671,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 </div>
                             </div>
                             <div class="col-xl-4">
-                                <div class="panel panel--loose panel--raised">
+                                <div class="panel panel--loose panel--raised base-margin-bottom ">
                                     <h2 class="subtitle">Deployment History</h2>
                                     <hr>
                                     <div class="timeline">
@@ -708,7 +723,35 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                     </div>
 
                                 </div>
+                                <div class="panel panel--loose panel--raised">
+                                    <h2 class="subtitle">Scheduler In progress</h2>
+                                    <hr>
+                                    <div class="timeline">
+                                        <div class="timeline__item">
+                                            <div class="timeline__icon">
+                                            </div>
+                                            <div class="timeline__content">
+                                                <div class="flex-center-vertical">
+                                                    <div class="text-bold flex-fluid"><?php echo $name1; ?></div>
+                                                </div>
+                                                <div>Comments Added: <?php echo $comments1; ?><br>
+                                                    Deployment Time: <?php echo $time1; ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+
+                                        
+
+                                        
+                                    </div>
+
+                                </div>
+                                
                             </div>
+                            
+                            
                         </div>
                     </div>
                 </div>

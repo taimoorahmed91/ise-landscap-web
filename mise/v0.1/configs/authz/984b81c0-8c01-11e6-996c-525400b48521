@@ -11,7 +11,7 @@
       },
       "rightHandSideAttribueValue" : {
         "AdvancedAttributeValueType" : "AttributeValue",
-        "value" : "url-redirect=https://ip:port/blockedportal/gateway?portal=23be8780-da68-447e-aec3-e159cfb2a288"
+        "value" : "url-redirect=https://ip:port/blockedportal/gateway?portal=df3f6b05-19a4-4665-aea7-ec375b752764"
       }
     } ],
     "accessType" : "ACCESS_ACCEPT",
@@ -23,7 +23,7 @@
     "profileName" : "Cisco",
     "link" : {
       "rel" : "self",
-      "href" : "https://10.52.13.157/ers/config/authorizationprofile/984b81c0-8c01-11e6-996c-525400b48521",
+      "href" : "https://ise32.taimoorlab.local/ers/config/authorizationprofile/984b81c0-8c01-11e6-996c-525400b48521",
       "type" : "application/json"
     }
   }

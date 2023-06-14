@@ -1,0 +1,20 @@
+{
+  "AuthorizationProfile" : {
+    "id" : "9f67f950-d017-11ed-a198-ae96a26dba0a",
+    "name" : "my_authz_tai",
+    "description" : "",
+    "accessType" : "ACCESS_ACCEPT",
+    "authzProfileType" : "SWITCH",
+    "trackMovement" : false,
+    "agentlessPosture" : false,
+    "serviceTemplate" : false,
+    "easywiredSessionCandidate" : false,
+    "daclName" : "my_dacl_tai",
+    "profileName" : "Cisco",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/authorizationprofile/9f67f950-d017-11ed-a198-ae96a26dba0a",
+      "type" : "application/json"
+    }
+  }
+}

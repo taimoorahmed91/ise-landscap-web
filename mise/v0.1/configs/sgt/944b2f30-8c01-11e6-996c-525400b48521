@@ -8,7 +8,7 @@
     "propogateToApic" : true,
     "link" : {
       "rel" : "self",
-      "href" : "https://10.52.13.157/ers/config/sgt/944b2f30-8c01-11e6-996c-525400b48521",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt/944b2f30-8c01-11e6-996c-525400b48521",
       "type" : "application/json"
     }
   }

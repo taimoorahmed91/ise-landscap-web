@@ -14,7 +14,7 @@
     "profileName" : "Cisco",
     "link" : {
       "rel" : "self",
-      "href" : "https://10.52.13.157/ers/config/authorizationprofile/982ef910-8c01-11e6-996c-525400b48521",
+      "href" : "https://ise32.taimoorlab.local/ers/config/authorizationprofile/982ef910-8c01-11e6-996c-525400b48521",
       "type" : "application/json"
     }
   }
