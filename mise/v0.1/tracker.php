@@ -1,5 +1,12 @@
 <?php include('includes/database.php'); ?>
 <?php
+session_start();
+
+$username = $_SESSION["username"];
+
+
+$role = $_SESSION["role"];
+
 
 // Get the current page URL
 $pageUrl = $_SERVER['PHP_SELF'];
@@ -38,7 +45,7 @@ $cookies = $_COOKIE;
 $timestamp = date('Y-m-d H:i:s');
 
 // Format the log entry
-$logEntry = $timestamp . " - Page: " . $pageUrl . " - IP: " . $ipAddress . " - User Agent: " . $userAgent . " - Referrer: " . $referrer . " - Session ID: " . $sessionId . " - HTTP Method: " . $httpMethod . " - Query Params: " . $queryParams . " - Server Name: " . $serverName . " - Server Port: " . $serverPort . " - Request URI: " . $requestUri . " - Cookies: " . json_encode($cookies) . "\n";
+$logEntry = $timestamp . " - Username: " . $username . " - Role: " . $role . " - Page: " . $pageUrl . " - IP: " . $ipAddress . " - User Agent: " . $userAgent . " - Referrer: " . $referrer . " - Session ID: " . $sessionId . " - HTTP Method: " . $httpMethod . " - Query Params: " . $queryParams . " - Server Name: " . $serverName . " - Server Port: " . $serverPort . " - Request URI: " . $requestUri . " - Cookies: " . json_encode($cookies) . "\n";
 
 // Append the log entry to a file
 file_put_contents("page_logs.txt", $logEntry, FILE_APPEND);

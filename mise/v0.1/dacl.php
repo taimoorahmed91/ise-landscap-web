@@ -2,6 +2,39 @@
 <?php include('tracker.php'); ?>
 
 <?php
+session_start();
+if (!isset($_SESSION["login"])) {
+    header("location: login.php");
+    exit();
+}
+
+// Check if the username and role are set in the session
+if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
+    // Handle the case when the username or role is not set (optional)
+    $username = "Unknown";
+    $role = "Unknown";
+} else {
+    // Get the username and role from the session
+    $username = $_SESSION["username"];
+    $role = $_SESSION["role"];
+}
+?>
+<?php
+  // Create the select query
+  $query = "SELECT name,comments,time from deployhistory ORDER BY id DESC limit 1 ";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $name1 = $row['name'];
+    $comments1 = $row['comments'];
+    $time1 = $row['time'];
+  } else {
+    $cubes = 0; // Default value if no data is found
+  }
+?>
+
+<?php
   //Create the select query
   $query ="SELECT * from dacl ORDER BY id";
   //Get results
@@ -66,7 +99,6 @@
     <script src="public/js/sidebar.js"></script>
 
 </head>
-
 <body class="cui">
     <nav class="header" id="styleguideheader" role="navigation">
         <div class="container-fluid">
@@ -84,15 +116,22 @@
                         <span class="icon-cisco"></span>
                     </a>
                 </div>
+                
                 <div class="header-panel header-panel--right hidden-md-down">
-                    <a href="index.html" class="header-item" title="MISE Home"><span class="icon-home"></span></a>
+                    
+                    <a href="dashboard.php" class="header-item" title="MISE Home" ><span class="icon-home" ></span></a>
+                    <a  class="header-item" title="MISE Home" ><span></span></a>
+                    <?php echo $username; ?> (<?php echo $role; ?>)
+                    
                     <div id="themeSwitcher" class="dropdown dropdown--left dropdown--offset-qtr header-item">
+                        
                         <a class="header-toolbar__link">Theme</a>
                         <div class="dropdown__menu">
                             <a id="theme-default" class="selected">Default</a>
                             <a id="theme-dark">Dark</a>
                         </div>
                     </div>
+                    <a href="logout.php" class="header-item" title="Logout">Logout</a>
                 </div>
             </div>
         </div>

@@ -85,15 +85,22 @@
                         <span class="icon-cisco"></span>
                     </a>
                 </div>
+                
                 <div class="header-panel header-panel--right hidden-md-down">
-                    <a href="index.html" class="header-item" title="MISE Home"><span class="icon-home"></span></a>
+                    
+                    <a href="dashboard.php" class="header-item" title="MISE Home" ><span class="icon-home" ></span></a>
+                    <a  class="header-item" title="MISE Home" ><span></span></a>
+                    <?php echo $username; ?> (<?php echo $role; ?>)
+                    
                     <div id="themeSwitcher" class="dropdown dropdown--left dropdown--offset-qtr header-item">
+                        
                         <a class="header-toolbar__link">Theme</a>
                         <div class="dropdown__menu">
                             <a id="theme-default" class="selected">Default</a>
                             <a id="theme-dark">Dark</a>
                         </div>
                     </div>
+                    <a href="logout.php" class="header-item" title="Logout">Logout</a>
                 </div>
             </div>
         </div>

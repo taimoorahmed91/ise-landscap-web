@@ -1,6 +1,44 @@
 <?php include('includes/database.php'); ?>
 <?php include('tracker.php'); ?>
 
+<?php
+session_start();
+if (!isset($_SESSION["login"])) {
+    header("location: login.php");
+    exit();
+}
+
+// Check if the username and role are set in the session
+if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
+    // Handle the case when the username or role is not set (optional)
+    $username = "Unknown";
+    $role = "Unknown";
+} else {
+    // Get the username and role from the session
+    $username = $_SESSION["username"];
+    $role = $_SESSION["role"];
+}
+?>
+
+
+
+<?php
+  // Create the select query
+  $query = "SELECT name,fqdn,action,every from scheduler WHERE scheduler = 'yes' ORDER by id desc LIMIT 1 ";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $name_scheduler = $row['name'];
+    $fqdn_scheduler = $row['fqdn'];
+    $action_scheduler = $row['action'];
+    $every_scheduler = $row['every'];
+  } else {
+    $cubes = 0; // Default value if no data is found
+  }
+?>
+
+
 
 <?php
   // Create the select query
@@ -312,7 +350,9 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                 
                 <div class="header-panel header-panel--right hidden-md-down">
                     
-                    <a href="dashboard.php" class="header-item" title="MISE Home"><span class="icon-home"></span></a>
+                    <a href="dashboard.php" class="header-item" title="MISE Home" ><span class="icon-home" ></span></a>
+                    <a  class="header-item" title="MISE Home" ><span></span></a>
+                    <?php echo $username; ?> (<?php echo $role; ?>)
                     
                     <div id="themeSwitcher" class="dropdown dropdown--left dropdown--offset-qtr header-item">
                         
@@ -322,6 +362,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                             <a id="theme-dark">Dark</a>
                         </div>
                     </div>
+                    <a href="logout.php" class="header-item" title="Logout">Logout</a>
                 </div>
             </div>
         </div>
@@ -732,10 +773,10 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                             </div>
                                             <div class="timeline__content">
                                                 <div class="flex-center-vertical">
-                                                    <div class="text-bold flex-fluid"><?php echo $name1; ?></div>
+                                                    <div class="text-bold flex-fluid">Scheduler Name: <?php echo $name_scheduler; ?></div>
                                                 </div>
-                                                <div>Comments Added: <?php echo $comments1; ?><br>
-                                                    Deployment Time: <?php echo $time1; ?>
+                                                <div>ISE Cube: <?php echo $fqdn_scheduler; ?> <>
+                                                    Action in progress: <?php echo $action_scheduler; ?> <br> Running Every: <?php echo $every_scheduler; ?> Hour(s)
                                                 </div>
                                             </div>
                                         </div>
