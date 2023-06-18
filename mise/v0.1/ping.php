@@ -20,6 +20,26 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
 }
 ?>
 
+<?php
+// Define variables
+$ipAddress = "";
+$fqdn = "";
+$result = "";
+
+// Check if form is submitted
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    // Retrieve user inputs
+    $ipAddress = $_POST["ipAddress"];
+    $fqdn = $_POST["fqdn"];
+
+    // Validate inputs (optional)
+    // You can perform additional validation if needed
+
+    // Execute ping command
+    $pingCommand = "ping -c 4 $fqdn"; // Modify the command according to your system
+    $result = shell_exec($pingCommand);
+}
+?>
 
 
 <!doctype html>
@@ -251,7 +271,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                 </nav>
             </div>
             <div class="section">
-                <form role="form" method="post" action="add_user.php">
+            <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                     <div class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 265px;">
                         <h2 class=" subtitle">Ping Test</h2>
                         <hr>
@@ -260,32 +280,24 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
 
                             <div class="form-group base-margin-bottom">
                                 <div class="form-group__text">
-                                    <input name="username" type="text" required >
-                                    <label for="input-type-text">Username</label>
+                                <input type="text" name="ipAddress" id="ipAddress" value="<?php echo $ipAddress; ?>"><br><br>
+                                    <label for="ipAddress">IP Address:</label>
                                 </div>
                             </div>
                             <div class="form-group base-margin-bottom">
                                 <div class="form-group__text">
-                                    <input name="password" type="password" required>
-                                    <label for="input-type-password">Password</label>
+                                <input type="text" name="fqdn" id="fqdn" value="<?php echo $fqdn; ?>"><br><br>
+                                    <label for="fqdn">FQDN:</label>
                                 </div>
-                                <div class="form-group base-margin-bottom">
-                                    <br>
-                            <label>User Role </label>
-        <select name="role">
-        <option value="Admin">Admin</option>
-        <option value="Operator">Operator</option>
-        <option value="ReadOnly">ReadOnly</option>
-        <option value="LogViewer" selected="selected" >LogViewer</option>
 
- 
-        </select>
-                            </div>
-                                <input type="submit" class="btn btn--success" value="Add User"
+                                <input type="submit" class="btn btn--success" value="Ping"
                                     style="margin-top: 10px;" />
+                                   
                             </div>
                         </div>
                 </form>
+                <h3>Ping Result:</h3>
+    <pre><?php echo $result; ?></pre>
             </div>
             <footer class="footer">
                 <div class="footer__links">
