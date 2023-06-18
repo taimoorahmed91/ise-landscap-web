@@ -2,6 +2,10 @@
 <?php include('tracker.php'); ?>
 
 <?php
+$relativeUrl = "/mise/v0.1/dashboard.php";
+header("refresh:30;url=$relativeUrl");
+?>
+<?php
 session_start();
 if (!isset($_SESSION["login"])) {
     header("location: login.php");
@@ -24,15 +28,16 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
 
 <?php
   // Create the select query
-  $query = "SELECT name,fqdn,action,every from scheduler WHERE scheduler = 'yes' ORDER by id desc LIMIT 1 ";
+  $query = "SELECT name,fqdn,action,frequency from scheduler WHERE scheduler = 'yes' ORDER by id desc LIMIT 1 ";
   // Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
   if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     $name_scheduler = $row['name'];
-    $fqdn_scheduler = $row['fqdn'];
-    $action_scheduler = $row['action'];
-    $every_scheduler = $row['every'];
+    $fqdn_scheduler = explode('/', $row['fqdn'])[1];
+    $action_scheduler = str_replace('.sh', '', $row['action']);
+    $every_scheduler = round($row['frequency'] / 3600);
+
   } else {
     $cubes = 0; // Default value if no data is found
   }

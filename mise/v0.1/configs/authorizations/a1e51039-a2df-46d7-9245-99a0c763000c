@@ -35,7 +35,7 @@
     "securityGroup" : null,
     "link" : {
       "rel" : "self",
-      "href" : "https://10.52.13.157/api/v1/policy/network-access/policy-set/c02eba9d-dafb-4ec0-9684-4e13f158ff47/authorization/a1e51039-a2df-46d7-9245-99a0c763000c",
+      "href" : "https://10.52.13.89/api/v1/policy/network-access/policy-set/c02eba9d-dafb-4ec0-9684-4e13f158ff47/authorization/a1e51039-a2df-46d7-9245-99a0c763000c",
       "type" : "application/json"
     }
   }

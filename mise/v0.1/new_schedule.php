@@ -49,12 +49,12 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
           $name = $_POST['name'];
           $fqdn  = $_POST['fqdn'];
           $action  = $_POST['action'];
-          $every  = $_POST['every'];
+          $frequency  = $_POST['frequency'];
     
    
     //Create customer query
-    $query ="INSERT INTO scheduler (name,fqdn,action,every)
-                VALUES ('$name','$fqdn','$action','$every')";
+    $query ="INSERT INTO scheduler (name,fqdn,action,frequency)
+                VALUES ('$name','$fqdn','$action','$frequency')";
     //Run query
     $mysqli->query($query);
     
@@ -317,9 +317,9 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                 while ($category = mysqli_fetch_array(
                         $all_policyset,MYSQLI_ASSOC)):;
             ?>
-                <option value="<?php echo $category["fqdn"];
-                    // The value we usually set is the primary key
-                ?>">
+                <option value="<?php echo $category["id"];?><?php echo "/";?><?php echo $category["fqdn"];?>">
+               
+                
                     <?php echo $category["fqdn"];
                         // To show the category name to the user
                     ?>
@@ -333,19 +333,15 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                             <div class="form-group base-margin-bottom">
                             <label>Schedule Action</label>
         <select name="action">
-        <option value="populate">Populate</option>
+        <option value="Populate.sh">Populate</option>
 
  
         </select>
                             </div>
                             <div class="form-group base-margin-bottom">
                             <label>Schedule Interval</label>
-        <select name="every">
-        <option value="1">Every 1 Hour</option>
-        <option value="3">Every 3 hours</option>
-        <option value="6">Every 6 hours</option>
-        <option value="9">Every 9 hours</option>
-        <option value="12">Every 12 hours</option>
+        <select name="frequency">
+        <option value="43200">Every 12 hours</option>
  
         </select>
                             </div>

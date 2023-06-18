@@ -47,7 +47,7 @@
     "securityGroup" : "BYOD",
     "link" : {
       "rel" : "self",
-      "href" : "https://10.52.13.157/api/v1/policy/network-access/policy-set/c02eba9d-dafb-4ec0-9684-4e13f158ff47/authorization/84e92c13-183c-45e5-a387-56f7234d1248",
+      "href" : "https://10.52.13.89/api/v1/policy/network-access/policy-set/c02eba9d-dafb-4ec0-9684-4e13f158ff47/authorization/84e92c13-183c-45e5-a387-56f7234d1248",
       "type" : "application/json"
     }
   }

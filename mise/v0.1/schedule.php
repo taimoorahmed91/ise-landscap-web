@@ -283,6 +283,8 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                                 <th class="hidden-lg-down">Deployment Name</th>
                                 <th class="hidden-lg-down">Action</th>
                                 <th class="hidden-lg-down">Interval</th>
+                                <th class="hidden-lg-down">Last Run Time</th>
+ 
                             </tr>
                         </thead>
                         <tbody>
@@ -295,9 +297,11 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                               $output ='<tr>';
                               $output .='<td>'.$row['id'].'</td>';
                               $output .='<td>'.$row['name'].'</td>';
-                              $output .='<td>'.$row['fqdn'].'</td>';
-                              $output .='<td>'.$row['action'].'</td>';
-                              $output .='<td>Every '.$row['every'].' hour</td>';
+                              $output .= '<td>'.explode('/', $row['fqdn'])[1].'</td>';
+                              $output .= '<td>' . explode('.', $row['action'], 2)[0] . '</td>';
+                              $output .= '<td>Every ' . ($row['frequency'] / 3600) . ' hour</td>';
+                              $output .='<td>'.$row['lastrun'].'</td>';
+
 
                               $output .='</tr>';
                               
