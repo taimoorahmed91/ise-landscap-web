@@ -33,6 +33,13 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
     $cubes = 0; // Default value if no data is found
   }
 ?>
+<?php
+
+if ($role !== "Admin") {
+    header("Location: 401.php");
+    exit(); // Make sure to exit the script after the redirect
+}
+?>
 
 <?php
   //Create the select query
@@ -283,6 +290,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                                 <th class="hidden-lg-down">Last Name</th>
                                 <th class="hidden-lg-down">Username</th>
                                 <th class="hidden-lg-down">Role</th>
+                                <th class="hidden-lg-down" ></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -298,6 +306,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                               $output .='<td>'.$row['last_name'].'</td>';
                               $output .='<td>'.$row['username'].'</td>';
                               $output .='<td>'.$row['role'].'</td>';
+                              $output .='<td><a href="delete_user.php?id='.$row['id'].'" class="btn btn--danger focus" >Delete</a></td>';
 
                               $output .='</tr>';
                               

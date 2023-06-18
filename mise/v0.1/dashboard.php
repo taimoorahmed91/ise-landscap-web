@@ -493,7 +493,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                         <li class="sidebar__drawer">
                             <a tabindex="0" title="Troubleshoot and Logging">
                                 <span class="icon-analysis"></span>
-                                <span>TShoot and Logs</span>
+                                <span>Loggings</span>
                             </a>
                             <ul>
                                 <li class="sidebar__item"><a href="ap-log.php">Allow Protocols</a></li>
@@ -504,6 +504,15 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 <li class="sidebar__item"><a href="policyset-log.php">Policy</a></li>
                                 <li class="sidebar__item"><a href="apache2.php">Apache Error</a></li>
                                 <li class="sidebar__item"><a href="apache.php">Apache Access</a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Troubleshoot">
+                                <span class="icon-tools"></span>
+                                <span>Troubleshoot</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="ping.php">Ping Test</a></li>
                             </ul>
                         </li>
                         <li class="sidebar__item selected">

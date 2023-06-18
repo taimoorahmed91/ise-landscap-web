@@ -302,8 +302,14 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                               $output .='<td>'.$row['fetched'].'</td>';
                               $output .='<td>'.$row['fetchedon'].'</td>';
                               $output .='<td>'.$row['reachable'].'</td>';
-                              $output .='<td><a href="verify_deployment.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Verify Deployment</a></td>';
-                              $output .='<td><a href="populate.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Populate</a></td>';
+                // Check if the role is "admin"
+                if ($role === "Admin") {
+                    $output .= '<td><a href="verify_deployment.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Verify Deployment</a></td>';
+                    $output .= '<td><a href="populate.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Populate</a></td>';
+                } else {
+                    $output .= '<td><span class="btn btn--success disabled " >Verify Deployment</span></td>';
+                    $output .= '<td><span class="btn btn--success disabled" >Populate</span></td>';
+                }
                               $output .='</tr>';
                               
                               //Echo output

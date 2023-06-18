@@ -33,7 +33,13 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
     $cubes = 0; // Default value if no data is found
   }
 ?>
+<?php
 
+if ($role !== "Admin") {
+    header("Location: 401.php");
+    exit(); // Make sure to exit the script after the redirect
+}
+?>
 <?php
 if ($_POST) {
     // Get variables from POST array
@@ -41,6 +47,7 @@ if ($_POST) {
     $last_name = $_POST['last_name'];
     $username = $_POST['username'];
     $password = $_POST['password'];
+    $role = $_POST['role'];
 
     // Check if the username already exists in the database
     $query = "SELECT COUNT(*) FROM users WHERE username = '$username'";
@@ -54,8 +61,8 @@ if ($_POST) {
         // Username doesn't exist, insert the data into the database
 
         // Create the insert query
-        $query = "INSERT INTO users (first_name, last_name, username, password)
-                  VALUES ('$first_name', '$last_name', '$username', '$password')";
+        $query = "INSERT INTO users (first_name, last_name, username, password, role)
+                  VALUES ('$first_name', '$last_name', '$username', '$password', '$role')";
 
         // Run the query
         $mysqli->query($query);
@@ -309,27 +316,39 @@ if ($_POST) {
                         <div class="section">
                         <div class="form-group base-margin-bottom">
                                 <div class="form-group__text">
-                                    <input name="first_name" type="text" >
+                                    <input name="first_name" type="text"  required>
                                     <label for="input-type-text">First Name</label>
                                 </div>
                             </div>
                             <div class="form-group base-margin-bottom">
                                 <div class="form-group__text">
-                                    <input name="last_name" type="text" >
+                                    <input name="last_name" type="text" required >
                                     <label for="input-type-text">Last Name</label>
                                 </div>
                             </div>
                             <div class="form-group base-margin-bottom">
                                 <div class="form-group__text">
-                                    <input name="username" type="text" >
+                                    <input name="username" type="text" required >
                                     <label for="input-type-text">Username</label>
                                 </div>
                             </div>
                             <div class="form-group base-margin-bottom">
                                 <div class="form-group__text">
-                                    <input name="password" type="password">
+                                    <input name="password" type="password" required>
                                     <label for="input-type-password">Password</label>
                                 </div>
+                                <div class="form-group base-margin-bottom">
+                                    <br>
+                            <label>User Role </label>
+        <select name="role">
+        <option value="Admin">Admin</option>
+        <option value="Operator">Operator</option>
+        <option value="ReadOnly">ReadOnly</option>
+        <option value="LogViewer" selected="selected" >LogViewer</option>
+
+ 
+        </select>
+                            </div>
                                 <input type="submit" class="btn btn--success" value="Add User"
                                     style="margin-top: 10px;" />
                             </div>
