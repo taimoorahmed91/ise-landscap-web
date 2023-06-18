@@ -491,7 +491,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                         
 
                         <li class="sidebar__drawer">
-                            <a tabindex="0" title="Troubleshoot and Logging">
+                            <a tabindex="0" title="Logging">
                                 <span class="icon-analysis"></span>
                                 <span>Loggings</span>
                             </a>
