@@ -9169,4 +9169,114 @@
       "type" : "application/json"
     }
   } ]
+}2023-06-18 22:10:55
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : false,
+    "id" : "2b0a553e-e985-4868-8ff3-228d6fd7b3e5",
+    "name" : "Taimoor-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wireless802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.6/api/v1/policy/network-access/policy-set/2b0a553e-e985-4868-8ff3-228d6fd7b3e5",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : true,
+    "id" : "a792b527-13e7-4a0f-b222-0b58c94e26b0",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 4,
+    "rank" : 1,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.6/api/v1/policy/network-access/policy-set/a792b527-13e7-4a0f-b222-0b58c94e26b0",
+      "type" : "application/json"
+    }
+  } ]
+}2023-06-18 22:13:56
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : true,
+    "id" : "070506e3-2bb0-4e33-96f1-19c808b2854e",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.92/api/v1/policy/network-access/policy-set/070506e3-2bb0-4e33-96f1-19c808b2854e",
+      "type" : "application/json"
+    }
+  } ]
+}2023-06-18 22:14:58
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : false,
+    "id" : "1a80dffc-06f5-4960-834c-39a408c55e72",
+    "name" : "Zaid-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wired802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.91/api/v1/policy/network-access/policy-set/1a80dffc-06f5-4960-834c-39a408c55e72",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : true,
+    "id" : "68d2093d-25dd-4ab7-a522-5f0a54f429eb",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 1,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.91/api/v1/policy/network-access/policy-set/68d2093d-25dd-4ab7-a522-5f0a54f429eb",
+      "type" : "application/json"
+    }
+  } ]
 }

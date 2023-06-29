@@ -7232,4 +7232,100 @@
       }
     } ]
   }
+}2023-06-18 22:10:48
+{
+  "SearchResult" : {
+    "total" : 2,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.6/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.6/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-18 22:13:50
+{
+  "SearchResult" : {
+    "total" : 2,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.92/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.92/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-18 22:14:51
+{
+  "SearchResult" : {
+    "total" : 3,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.91/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.91/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8972f170-0971-11ee-b5d0-2612d26369d2",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.91/ers/config/allowedprotocols/8972f170-0971-11ee-b5d0-2612d26369d2",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-06-25 15:47:21
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-allowedprotocols",
+    "messages" : [ {
+      "title" : "Allowed Protocols: Failed to create, please check the log for error.com.cisco.cpm.acs.bl.impl.config.exceptions.ObjectAlreadyExistsException: Object already exists in the database",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://172.17.30.6/ers/config/allowedprotocols",
+      "type" : "application/xml"
+    }
+  }
 }

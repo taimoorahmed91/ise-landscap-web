@@ -1,0 +1,14 @@
+{
+  "DownloadableAcl" : {
+    "id" : "76a28bf0-de1f-11ed-a016-eae22a150351",
+    "name" : "sample_18",
+    "description" : "sample_18 DACL",
+    "dacl" : "permit ip any any",
+    "daclType" : "IPV4",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.6/ers/config/downloadableacl/76a28bf0-de1f-11ed-a016-eae22a150351",
+      "type" : "application/json"
+    }
+  }
+}

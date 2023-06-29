@@ -430,7 +430,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                             <ul>
                                 <li class="sidebar__item"><a href="ap.php">Allowed Protocols</a></li>
                                 <li class="sidebar__item"><a href="authz.php">Authorization Profiles</a></li>
-                                <li class="sidebar__item"><a href="dacl.php">Downloadbale ACL</a></li>
+                                <li class="sidebar__item"><a href="dacl.php">Downloadable ACL</a></li>
                                 <li class="sidebar__item"><a href="nad.php">NAD Groups</a></li>
                                 <li class="sidebar__item"><a href="sgt.php">Security Group TAG (SGT)</a></li>
                             </ul>

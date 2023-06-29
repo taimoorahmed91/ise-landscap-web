@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "2962e4a0-d14c-11ed-a016-eae22a150351",
+    "name" : "Device Type#All Device Types#ASA",
+    "description" : "VPN Concentrator",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.6/ers/config/networkdevicegroup/2962e4a0-d14c-11ed-a016-eae22a150351",
+      "type" : "application/json"
+    },
+    "othername" : "Device Type"
+  }
+}

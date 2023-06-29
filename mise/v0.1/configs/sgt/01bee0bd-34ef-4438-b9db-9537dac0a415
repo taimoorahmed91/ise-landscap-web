@@ -1,0 +1,14 @@
+{
+  "Sgt" : {
+    "id" : "01bee0bd-34ef-4438-b9db-9537dac0a415",
+    "name" : "bcn_known_printer",
+    "value" : 16,
+    "generationId" : "0",
+    "propogateToApic" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.91/ers/config/sgt/01bee0bd-34ef-4438-b9db-9537dac0a415",
+      "type" : "application/json"
+    }
+  }
+}
