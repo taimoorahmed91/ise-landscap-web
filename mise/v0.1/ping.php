@@ -276,18 +276,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                         <h2 class=" subtitle">Ping Test</h2>
                         <hr>
                         <div class="section">
-
-
-                            <div class="form-group base-margin-bottom">
-                                <div class="form-group__text">
-                                <input type="text" name="ipAddress" id="ipAddress" value="<?php echo $ipAddress; ?>"><br><br>
-                                    <label for="ipAddress">IP Address:</label>
-                                </div>
-                            </div>
+                     
                             <div class="form-group base-margin-bottom">
                                 <div class="form-group__text">
                                 <input type="text" name="fqdn" id="fqdn" value="<?php echo $fqdn; ?>"><br><br>
-                                    <label for="fqdn">FQDN:</label>
+                                    <label for="fqdn">IP Address/FQDN:</label>
                                 </div>
 
                                 <input type="submit" class="btn btn--success" value="Ping"
