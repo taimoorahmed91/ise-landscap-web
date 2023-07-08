@@ -1,0 +1,14 @@
+{
+    "ap": [
+        "Default Device Admin"
+    ],
+    "authz": [
+        "Block_Wireless_Access"
+    ],
+    "dacl": [
+        "Allow_DHCP_Only"
+    ],
+    "deployments": [
+        "ise32.taimoorlab.local"
+    ]
+}

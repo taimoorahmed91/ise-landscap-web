@@ -1,0 +1,8 @@
+{
+    "dacl": [
+        "DNS_Only"
+    ],
+    "deployments": [
+        "ise32.taimoorlab.local"
+    ]
+}

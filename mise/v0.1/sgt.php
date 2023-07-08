@@ -302,9 +302,8 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                                     <th class="hidden-md-down">Name</th>
                                     <th class="hidden-md-down">Source ISE</th>
                                     <th class="hidden-md-down">Queued</th>
-                                    <th class="hidden-md-down">GET Code</th>
-                                    <th class="hidden-lg-down">POST Code</th>
-                                    <th class="hidden-lg-down">PUT Code</th>
+                                    <th class="hidden-md-down">Fetch</th>
+
                                     <th class="hidden-md-down">Queue</th>
                                     <th></th>
                                     
@@ -321,12 +320,22 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                               //Display customer info
                               $output ='<tr>';
                               $output .='<td>'.$row['id'].'</td>';
-                              $output .='<td>'.$row['sgt'].'</td>';
+                              $output .='<td> <a href="./configs/sgt/'.$row['sgtid'].'"">'.$row['sgt'].'</a></td>';
                               $output .='<td>'.$row['isename'].'</td>';
                               $output .='<td>'.$row['queue'].'</td>';
-                              $output .='<td>'.$row['get_code'].'</td>';
-                              $output .='<td>'.$row['post_code'].'</td>';
-                              $output .='<td>'.$row['put_code'].'</td>';
+                              /*$output .='<td>'.$row['get_code'].'</td>';*/
+                                // Check the value of get_code
+                                if ($row['get_code'] == "Response [200]") {
+                                    $output .= '<td>Success</td>';
+                                } elseif ($row['get_code'] == "Response [201]") {
+                                    $output .= '<td>Created</td>';
+                                } elseif ($row['get_code'] == "Response [500]") {
+                                    $output .= '<td>Already exists</td>';
+                                } elseif (preg_match('/^Response \[4[0-9]{2}\]$/', $row['get_code'])) {
+                                    $output .= '<td>Error</td>';
+                                } else {
+                                    $output .= '<td>'.$row['get_code'].'</td>';
+                                }
                               $output .='<td><a href="sgt_add_queue.php?id='.$row['id'].'" class="btn btn--success "style="color:white">+</a> <a href="sgt_remove_queue.php?id='.$row['id'].'" class="btn btn--success"style="color:white">-</a></td>';
                               $output .='<td><a href="download_sgt.php?id='.$row['sgtid'].'" class="btn btn--success" style="color:white">Download</a></td>';
                               $output .='<td><a href="resync_sgt.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Resync</a></td>';

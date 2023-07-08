@@ -1,0 +1,8 @@
+{
+    "authz": [
+        "NSP_Onboard"
+    ],
+    "deployments": [
+        "ise32.taimoorlab.local"
+    ]
+}

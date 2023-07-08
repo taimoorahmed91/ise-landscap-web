@@ -1,0 +1,8 @@
+{
+    "dacl": [
+        "Allow_DHCP_Only"
+    ],
+    "deployments": [
+        "ise32.taimoorlab.local"
+    ]
+}

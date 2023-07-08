@@ -8160,4 +8160,64 @@
       "type" : "application/xml"
     }
   }
+}2023-07-08 18:56:50
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of NSP_Onboard already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
+}2023-07-08 19:52:30
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of Block_Wireless_Access already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
+}2023-07-08 21:36:38
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of PermitAccess already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
+}2023-07-08 21:38:26
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of Block_Wireless_Access already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
 }

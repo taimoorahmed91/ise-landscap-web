@@ -46,14 +46,14 @@ $pageNumber = isset($_GET['page']) ? $_GET['page'] : 1;
 $offset = ($pageNumber - 1) * $rowsPerPage;
 
   //Create the select query
-  $query ="SELECT * FROM authorization ORDER BY id LIMIT $rowsPerPage OFFSET $offset";
+  $query ="SELECT * FROM authentication ORDER BY id LIMIT $rowsPerPage OFFSET $offset";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
 
 <?php
     // Calculate the total number of rows in the table
-    $totalCountQuery = "SELECT COUNT(*) as total FROM authorization";
+    $totalCountQuery = "SELECT COUNT(*) as total FROM authentication";
     $totalCountResult = $mysqli->query($totalCountQuery);
     $totalCount = $totalCountResult->fetch_assoc()['total'];
 
@@ -112,7 +112,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Authorization Rules </title>
+    <title>MISE &middot; Authentication Rules </title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 
@@ -296,11 +296,11 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
             <div class="section">
                 <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
                     <table class="table table--lined table--selectable">
-                    <h2> Authorization Rules </h2>
+                    <h2> Authentication Rules </h2>
                         <thead>
                             <tr>
                                     <th class="hidden-md-down">ID </span></th>
-                                    <th class="hidden-md-down">Authorization Rule Name</th>
+                                    <th class="hidden-md-down">Authentication Rule Name</th>
                                     <th class="hidden-md-down">Source ISE</th>
                                     <th class="hidden-md-down">Queued</th>
                                     <th class="hidden-md-down">Fetch</th>
@@ -321,8 +321,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                               //Display customer info
                               $output ='<tr>';
                               $output .='<td>'.$row['id'].'</td>';
-                              $output .='<td> <a href="./configs/authorizations/'.$row['authorizationid'].'"">'.$row['authorization'].'</a></td>';
-  
+                              $output .='<td> <a href="./configs/authentications/'.$row['authenticationid'].'"">'.$row['authentication'].'</a></td>';
                               $output .='<td>'.$row['isename'].'</td>';
                               $output .='<td>'.$row['queue'].'</td>';
                               /*$output .='<td>'.$row['get_code'].'</td>';*/
@@ -338,9 +337,9 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                                 } else {
                                     $output .= '<td>'.$row['get_code'].'</td>';
                                 }
-                              $output .='<td><a href="authorization_add_queue.php?id='.$row['id'].'" class="btn btn--success "style="color:white">+</a> <a href="authorization_remove_queue.php?id='.$row['id'].'" class="btn btn--success"style="color:white">-</a></td>';
-                              $output .='<td><a href="download_authorization.php?id='.$row['authorizationid'].'" class="btn btn--success" style="color:white">Download</a></td>';
-                              $output .='<td><a href="resync_authorization.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Resync</a></td>';
+                              $output .='<td><a href="authentication_add_queue.php?id='.$row['id'].'" class="btn btn--success "style="color:white">+</a> <a href="authentication_remove_queue.php?id='.$row['id'].'" class="btn btn--success"style="color:white">-</a></td>';
+                              $output .='<td><a href="download_authentication.php?id='.$row['authenticationid'].'" class="btn btn--success" style="color:white">Download</a></td>';
+                              $output .='<td><a href="resync_authentication.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Resync</a></td>';
                               
                               //Echo output
                               echo $output;

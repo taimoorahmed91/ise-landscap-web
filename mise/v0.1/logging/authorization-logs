@@ -74,4 +74,44 @@
 {
   "code" : "400",
   "message" : "Failed to handle API request - Network Access Authorization Rule : Rule name is already used in this policy table: Authorization Rule 2"
+}2023-07-08 22:21:40
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Default rule setting cannot be modified"
+}2023-07-08 22:26:06
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Default rule setting cannot be modified"
+}2023-07-08 22:29:01
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Default rule setting cannot be modified"
+}2023-07-08 22:51:27
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Rule name is already used in this policy table: Authorization VPN Network"
+}2023-07-08 22:53:46
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Rule name is already used in this policy table: Authorization VPN Network"
+}2023-07-08 23:00:18
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Rule name is already used in this policy table: Authorization VPN Network"
+}2023-07-08 23:02:13
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Rule name is already used in this policy table: Authorization VPN Network"
+}2023-07-08 23:03:47
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Rule name is already used in this policy table: Authorization VPN Network"
+}2023-07-08 23:04:23
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Default rule setting cannot be modified"
+}2023-07-08 23:05:00
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Rule name is already used in this policy table: Authorization VPN Network"
 }
