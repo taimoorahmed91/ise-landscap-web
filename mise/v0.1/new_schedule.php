@@ -115,7 +115,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Deploy</title>
+    <title>MISE &middot; Populate Schedule</title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 

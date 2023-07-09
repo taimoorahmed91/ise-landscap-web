@@ -452,8 +452,10 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 <span>Deployments</span>
                             </a>
                             <ul>
+                                <li class="sidebar__item"><a href="checkout.php">Queued</a></li>
                                 <li class="sidebar__item"><a href="checkout.php">Deploy</a></li>
                                 <li class="sidebar__item"><a href="deploy-history.php">Deployment History</a></li>
+                                <li class="sidebar__item"><a href="deployed_elements.php">Deployed Elements</a></li>
                             </ul>
                         </li>
                         <li class="sidebar__drawer">
@@ -483,8 +485,10 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 <span>Scheduler</span>
                             </a>
                             <ul>
-                                <li class="sidebar__item"><a href="new_schedule.php">Create New</a></li>
-                                <li class="sidebar__item"><a href="schedule.php">View Existing</a></li>
+                                <li class="sidebar__item"><a href="new_schedule.php">Create Populate Scheduler</a></li>
+                                <li class="sidebar__item"><a href="schedule.php">View Populate Scheduler</a></li>
+                                <li class="sidebar__item"><a href="new_deploy_schedule.php">Create Deploy Scheduler</a></li>
+                                <li class="sidebar__item"><a href="deploy_schedule.php">View Deploy Scheduler</a></li>
                             </ul>
                         </li>
 

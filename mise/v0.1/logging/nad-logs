@@ -10305,4 +10305,19 @@
       "type" : "application/xml"
     }
   }
+}2023-07-09 00:30:50
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Internal error.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
 }

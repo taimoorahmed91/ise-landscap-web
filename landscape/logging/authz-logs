@@ -8220,4 +8220,19 @@
       "type" : "application/xml"
     }
   }
+}2023-07-09 00:30:49
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of Block_Wireless_Access already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
 }

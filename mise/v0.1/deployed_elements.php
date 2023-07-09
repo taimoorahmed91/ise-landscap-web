@@ -1,8 +1,38 @@
 <?php include('includes/database.php'); ?>
 <?php include('tracker.php'); ?>
 
+<?php
+session_start();
+if (!isset($_SESSION["login"])) {
+    header("location: login.php");
+    exit();
+}
 
-
+// Check if the username and role are set in the session
+if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
+    // Handle the case when the username or role is not set (optional)
+    $username = "Unknown";
+    $role = "Unknown";
+} else {
+    // Get the username and role from the session
+    $username = $_SESSION["username"];
+    $role = $_SESSION["role"];
+}
+?>
+<?php
+  // Create the select query
+  $query = "SELECT name,comments,time from deployhistory ORDER BY id DESC limit 1 ";
+  // Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $name1 = $row['name'];
+    $comments1 = $row['comments'];
+    $time1 = $row['time'];
+  } else {
+    $cubes = 0; // Default value if no data is found
+  }
+?>
 
 <?php
 
@@ -16,14 +46,14 @@ $pageNumber = isset($_GET['page']) ? $_GET['page'] : 1;
 $offset = ($pageNumber - 1) * $rowsPerPage;
 
   //Create the select query
-  $query ="SELECT * FROM deployhistory ORDER BY id DESC LIMIT $rowsPerPage OFFSET $offset";
+  $query ="SELECT * FROM deploymentcode ORDER BY id LIMIT $rowsPerPage OFFSET $offset";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
 
 <?php
     // Calculate the total number of rows in the table
-    $totalCountQuery = "SELECT COUNT(*) as total FROM deployhistory";
+    $totalCountQuery = "SELECT COUNT(*) as total FROM deploymentcode";
     $totalCountResult = $mysqli->query($totalCountQuery);
     $totalCount = $totalCountResult->fetch_assoc()['total'];
 
@@ -79,17 +109,16 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Deployment History</title>
+    <title>MISE &middot; Deployed Elements</title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"
         integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-    <script src="./public/js/styleguide.js"></script>
+    <script src="public/js/styleguide.js"></script>
     <script src="public/js/sidebar.js"></script>
 
 </head>
-
 <body class="cui">
     <nav class="header" id="styleguideheader" role="navigation">
         <div class="container-fluid">
@@ -132,8 +161,8 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
             <div class="row">
 
                 <!-- Sidebar -->
-                <nav class="col-lg-3 col-xl-2 sidebar hidden-md-down dbl-margin-top" role="navigation"
-                    style="max-width: 12%;">
+                <nav class="col-lg-3 col-xl-2 sidebar hidden-md-down dbl-margin-top" role="navigation" style="max-width: 12%;">
+
                     <div class="base-margin">
 
                         <div class="text-bold"></div>
@@ -175,7 +204,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                             <ul>
                                 <li class="sidebar__item"><a href="ap.php">Allowed Protocols</a></li>
                                 <li class="sidebar__item"><a href="authz.php">Authorization Profiles</a></li>
-                                <li class="sidebar__item"><a href="dacl.php">Downloadbale ACL</a></li>
+                                <li class="sidebar__item"><a href="dacl.php">Downloadable ACL</a></li>
                                 <li class="sidebar__item"><a href="nad.php">NAD Groups</a></li>
                                 <li class="sidebar__item"><a href="sgt.php">Security Group TAG (SGT)</a></li>
                             </ul>
@@ -258,56 +287,58 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
 
                     </ul>
                 </nav>
-            </div>
-
-            <hr>
+             </div>
+             <hr>
             <div class="section">
                 <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
                     <table class="table table--lined table--selectable">
-                        <h2> Deployment History</h2>
+                    <h2>Deployed Elements </h2>
                         <thead>
                             <tr>
- 
-                                <th class="hidden-lg-down">ID</th>
-                                <th class="hidden-lg-down">File Name</th>
-                                <th class="hidden-lg-down">Deployed</th>
-                                <th class="hidden-lg-down">Comments</th>
- 
-                            </tr>
-                        </thead>
-                        <tbody>
+                                    <th class="hidden-md-down">ID </span></th>
+                                    <th class="hidden-md-down">Element Name</th>
+                                    <th class="hidden-md-down">Element Type</th>
+                                    <th class="hidden-md-down">Source ISE</th>
+                                    <th class="hidden-md-down">Destination ISE</th>
+
+                                    <th class="hidden-md-down">Error Message</th>
+                                    <th class="hidden-md-down">Time Stamp</th>
+                                    <th></th>
+                                    
+                                    <th></th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
                             <?php 
                             //Check if at least one row is found
                             if($result->num_rows > 0) {
                             //Loop through results
                             while($row = $result->fetch_assoc()){
-                             //Display customer info
-                            $output ='<tr>';
-                            $output .='<td>'.$row['id'].'</td>';
-                            $output .='<td> <a href="./'.$row['path'].'"">'.$row['name'].'</a></td>';
-                            $output .='<td>'.$row['comments'].'</td>';
-                            $output .='<td>'.$row['time'].'</td>';
-    
-                            $output .='</tr>';
-              
-              //Echo output
-              echo $output;;
+                              //Display customer info
+                              $output ='<tr>';
+                              $output .='<td>'.$row['id'].'</td>';
+                              $output .='<td>'.$row['element'].'</td>';
+                              $output .='<td>'.$row['type'].'</td>';
+                              $output .='<td>'.$row['srcise'].'</td>';
+                              $output .='<td>'.$row['dstise'].'</td>';
+                              $output .='<td>'.$row['output'].'</td>';
+                              $output .='<td>'.$row['time'].'</td>';
+                              
+
+
+
+                              
+                              //Echo output
+                              echo $output;
                             }
                           } else {
                             echo "Sorry, no entries were found";
                           }
                           ?>
-
-
-
-
-
-                        </tbody>
-                    </table>
-
-
-                    
-                    <div class="row">
+                            </tbody>
+                        </table>
+                        <div class="row">
     <div class="col-xl-6 half-margin-top">
         <ul class="pagination">
             <?php if ($pageNumber > 1): ?>
@@ -372,32 +403,39 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
         </ul>
     </div>
 </div>
-                </div>
-                <footer class="footer">
-                    <div class="footer__links">
-                        <ul class="list list--inline">
-                            <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
-                                    target="_blank">Contacts</a></li>
-                            <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ"
-                                    target="_blank">Feedback</a>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a></li>
-                            <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site Map</a>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
-                                    target="_blank">Terms & Conditions</a></li>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
-                                    target="_blank">Privacy Statement</a></li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
-                                    target="_blank">Cookie Policy</a></li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
-                                    target="_blank">Trademarks</a></li>
-                        </ul>
                     </div>
-                </footer>
+
+                </div>
             </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer__links">
+                    <ul class="list list--inline">
+                        <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
+                                target="_blank">Contacts</a></li>
+                        <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ" target="_blank">Feedback</a>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a></li>
+                        <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site Map</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
+                                target="_blank">Terms & Conditions</a></li>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
+                                target="_blank">Privacy Statement</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
+                                target="_blank">Cookie Policy</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
+                                target="_blank">Trademarks</a></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
+    </div>
 </body>
 
 </html>

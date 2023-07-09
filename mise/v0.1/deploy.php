@@ -3,7 +3,7 @@
 <?php
 
 
-$relativeUrl = "/mise/v0.1/checkout.php";
+$relativeUrl = "/mise/v0.1/deploy-history.php";
 header("refresh:0.1;url=$relativeUrl");
 // Script to fetch policyset authorization
 $query = "SELECT * FROM deployments WHERE marked = 'yes'";
@@ -12,7 +12,7 @@ $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 // Check if the query result is empty
 if ($result->num_rows > 0) {
     //header("refresh:10;url=http://10.48.30.213/landscape/checkout.php");
-    $relativeUrl = "/mise/v0.1/checkout.php";
+    $relativeUrl = "/mise/v0.1/deploy-history.php";
     header("refresh:0.1;url=$relativeUrl");
 
     // Fetch object array

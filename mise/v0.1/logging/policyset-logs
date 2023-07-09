@@ -9328,4 +9328,8 @@
       "type" : "application/json"
     }
   }
+}2023-07-09 00:30:51
+{
+  "code" : "400",
+  "message" : "Policy Set Name is duplicate: Zaid-Policy-Set"
 }

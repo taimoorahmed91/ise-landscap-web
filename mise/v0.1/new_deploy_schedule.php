@@ -1,35 +1,71 @@
 <?php include('includes/database.php'); ?>
 <?php include('tracker.php'); ?>
 
-
-
-
 <?php
+session_start();
+if (!isset($_SESSION["login"])) {
+    header("location: login.php");
+    exit();
+}
 
-// Define the number of rows per page
-$rowsPerPage = 10;
-
-// Calculate the current page number
-$pageNumber = isset($_GET['page']) ? $_GET['page'] : 1;
-
-// Calculate the offset
-$offset = ($pageNumber - 1) * $rowsPerPage;
-
-  //Create the select query
-  $query ="SELECT * FROM deployhistory ORDER BY id DESC LIMIT $rowsPerPage OFFSET $offset";
-  //Get results
+// Check if the username and role are set in the session
+if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
+    // Handle the case when the username or role is not set (optional)
+    $username = "Unknown";
+    $role = "Unknown";
+} else {
+    // Get the username and role from the session
+    $username = $_SESSION["username"];
+    $role = $_SESSION["role"];
+}
+?>
+<?php
+  // Create the select query
+  $query = "SELECT name,comments,time from deployhistory ORDER BY id DESC limit 1 ";
+  // Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+  if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $name1 = $row['name'];
+    $comments1 = $row['comments'];
+    $time1 = $row['time'];
+  } else {
+    $cubes = 0; // Default value if no data is found
+  }
 ?>
 
 <?php
-    // Calculate the total number of rows in the table
-    $totalCountQuery = "SELECT COUNT(*) as total FROM deployhistory";
-    $totalCountResult = $mysqli->query($totalCountQuery);
-    $totalCount = $totalCountResult->fetch_assoc()['total'];
 
-    // Calculate the total number of pages
-    $totalPages = ceil($totalCount / $rowsPerPage);
-    ?>
+  // Connect to database
+    $con = mysqli_connect("localhost","root","C1sc0123@","mise");
+     
+    // Get all the categories from category table
+    $sql = " SELECT * FROM deployments";
+    $all_policyset = mysqli_query($con,$sql);
+
+
+   if($_POST){
+    //Get variables from post array
+    
+          $name = $_POST['name'];
+          $time = $_POST['time'];
+          $comments = $_POST['comments'];
+    
+   
+    //Create customer query
+    $query ="INSERT INTO deployschedule (name,time,comments)
+                VALUES ('$name','$time','$comments')";
+    //Run query
+    $mysqli->query($query);
+    
+      $msg='Entry Added';
+   
+      header('Location: deploy_schedule.php');
+      exit;
+    
+    
+    }
+?>
 
 <!doctype html>
 <html lang="en">
@@ -79,7 +115,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Deployment History</title>
+    <title>MISE &middot; Deploy Schedule</title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 
@@ -259,145 +295,67 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                     </ul>
                 </nav>
             </div>
-
-            <hr>
             <div class="section">
-                <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
-                    <table class="table table--lined table--selectable">
-                        <h2> Deployment History</h2>
-                        <thead>
-                            <tr>
- 
-                                <th class="hidden-lg-down">ID</th>
-                                <th class="hidden-lg-down">File Name</th>
-                                <th class="hidden-lg-down">Deployed</th>
-                                <th class="hidden-lg-down">Comments</th>
- 
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php 
-                            //Check if at least one row is found
-                            if($result->num_rows > 0) {
-                            //Loop through results
-                            while($row = $result->fetch_assoc()){
-                             //Display customer info
-                            $output ='<tr>';
-                            $output .='<td>'.$row['id'].'</td>';
-                            $output .='<td> <a href="./'.$row['path'].'"">'.$row['name'].'</a></td>';
-                            $output .='<td>'.$row['comments'].'</td>';
-                            $output .='<td>'.$row['time'].'</td>';
-    
-                            $output .='</tr>';
-              
-              //Echo output
-              echo $output;;
-                            }
-                          } else {
-                            echo "Sorry, no entries were found";
-                          }
-                          ?>
+                <form role="form" method="post" action="new_deploy_schedule.php">
+                    <div class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 265px;">
+                        <h2 class=" subtitle">Create a Deployment Scheduler</h2>
+                        <hr>
+                        <div class="section">
+                            <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                    <input name="name" type="text" placeholder="Sample Name for your scheduler">
+                                    <label for="input-type-text">Scheduler Name</label>
+                                </div>
+                            </div>
 
 
+                            <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                    <input name="comments" type="text" placeholder="Sample comments for your scheduler">
+                                    <label for="input-type-text">Scheduler Comments</label>
+                                </div>
+                            </div>
+                            <div class="form-group base-margin-bottom">
+                            <label>Scheduled Time</label>
+                            <input type="datetime-local" name="time" id="time" step="60">
+                            </div>
 
 
+                            
+                        </div>
+                        </div>
+                    <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
+                    <input type="submit" class="btn btn--success" value="Add Sechdule" style="color:white" />
 
-                        </tbody>
-                    </table>
-
-
-                    
-                    <div class="row">
-    <div class="col-xl-6 half-margin-top">
-        <ul class="pagination">
-            <?php if ($pageNumber > 1): ?>
-                <li><a href="?page=1"><span class="icon-chevron-left-double"></span></a></li>
-                <li><a href="?page=<?php echo ($pageNumber - 1); ?>"><span class="icon-chevron-left"></span></a></li>
-            <?php else: ?>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-left-double"></span></a></li>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-left"></span></a></li>
-            <?php endif; ?>
-
-            <?php if ($totalPages <= 5): ?>
-                <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-                    <?php if ($i == $pageNumber): ?>
-                        <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                    <?php else: ?>
-                        <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                    <?php endif; ?>
-                <?php endfor; ?>
-            <?php else: ?>
-                <?php if ($pageNumber <= 3): ?>
-                    <?php for ($i = 1; $i <= 4; $i++): ?>
-                        <?php if ($i == $pageNumber): ?>
-                            <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php else: ?>
-                            <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php endif; ?>
-                    <?php endfor; ?>
-                    <li><span class="icon-more"></span></li>
-                    <li><a href="?page=<?php echo $totalPages; ?>"><?php echo $totalPages; ?></a></li>
-                <?php elseif ($pageNumber >= $totalPages - 2): ?>
-                    <li><a href="?page=1">1</a></li>
-                    <li><span class="icon-more"></span></li>
-                    <?php for ($i = $totalPages - 3; $i <= $totalPages; $i++): ?>
-                        <?php if ($i == $pageNumber): ?>
-                            <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php else: ?>
-                            <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php endif; ?>
-                    <?php endfor; ?>
-                <?php else: ?>
-                    <li><a href="?page=1">1</a></li>
-                    <li><span class="icon-more"></span></li>
-                    <?php for ($i = $pageNumber - 1; $i <= $pageNumber + 1; $i++): ?>
-                        <?php if ($i == $pageNumber): ?>
-                            <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php else: ?>
-                            <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php endif; ?>
-                    <?php endfor; ?>
-                    <li><span class="icon-more"></span></li>
-                    <li><a href="?page=<?php echo $totalPages; ?>"><?php echo $totalPages; ?></a></li>
-                <?php endif; ?>
-            <?php endif; ?>
-
-            <?php if ($pageNumber < $totalPages): ?>
-                <li><a href="?page=<?php echo ($pageNumber + 1); ?>"><span class="icon-chevron-right"></span></a></li>
-                <li><a href="?page=<?php echo $totalPages; ?>"><span class="icon-chevron-right-double"></span></a></li>
-            <?php else: ?>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-right"></span></a></li>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-right-double"></span></a></li>
-            <?php endif; ?>
-        </ul>
-    </div>
-</div>
-                </div>
-                <footer class="footer">
-                    <div class="footer__links">
-                        <ul class="list list--inline">
-                            <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
-                                    target="_blank">Contacts</a></li>
-                            <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ"
-                                    target="_blank">Feedback</a>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a></li>
-                            <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site Map</a>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
-                                    target="_blank">Terms & Conditions</a></li>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
-                                    target="_blank">Privacy Statement</a></li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
-                                    target="_blank">Cookie Policy</a></li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
-                                    target="_blank">Trademarks</a></li>
-                        </ul>
                     </div>
-                </footer>
+                </form>
             </div>
+            <footer class="footer">
+                <div class="footer__links">
+                    <ul class="list list--inline">
+                        <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
+                                target="_blank">Contacts</a></li>
+                        <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ" target="_blank">Feedback</a>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a>
+                        </li>
+                        <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site
+                                Map</a>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
+                                target="_blank">Terms & Conditions</a></li>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
+                                target="_blank">Privacy Statement</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
+                                target="_blank">Cookie Policy</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
+                                target="_blank">Trademarks</a></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
+    </div>
 </body>
 
 </html>

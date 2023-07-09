@@ -301,6 +301,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                             <tr>
                                     <th class="hidden-md-down">ID </span></th>
                                     <th class="hidden-md-down">Authorization Rule Name</th>
+                                    <th class="hidden-md-down">Policy Set</th>
                                     <th class="hidden-md-down">Source ISE</th>
                                     <th class="hidden-md-down">Queued</th>
                                     <th class="hidden-md-down">Fetch</th>
@@ -322,7 +323,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                               $output ='<tr>';
                               $output .='<td>'.$row['id'].'</td>';
                               $output .='<td> <a href="./configs/authorizations/'.$row['authorizationid'].'"">'.$row['authorization'].'</a></td>';
-  
+                              $output .='<td>'.$row['policyset'].'</td>';
                               $output .='<td>'.$row['isename'].'</td>';
                               $output .='<td>'.$row['queue'].'</td>';
                               /*$output .='<td>'.$row['get_code'].'</td>';*/

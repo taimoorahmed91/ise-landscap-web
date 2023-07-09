@@ -1,0 +1,26 @@
+{
+    "ap": [
+        "Default Device Admin"
+    ],
+    "authentication": [
+        "Authentication Rule 1"
+    ],
+    "authz": [
+        "Block_Wireless_Access"
+    ],
+    "dacl": [
+        "Voice_only"
+    ],
+    "deployments": [
+        "ise32.taimoorlab.local"
+    ],
+    "nad": [
+        "Device Type#All Device Types#ASA"
+    ],
+    "policyset": [
+        "Zaid-Policy-Set"
+    ],
+    "sgt": [
+        "bcn_known_printer"
+    ]
+}
