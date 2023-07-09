@@ -36,24 +36,17 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
 
 <?php
 
-// Define the number of rows per page
-$rowsPerPage = 10;
-
-// Calculate the current page number
-$pageNumber = isset($_GET['page']) ? $_GET['page'] : 1;
-
-// Calculate the offset
-$offset = ($pageNumber - 1) * $rowsPerPage;
+$name = $_GET['name'];
 
   //Create the select query
-  $query ="SELECT * FROM nad ORDER BY id LIMIT $rowsPerPage OFFSET $offset";
+  $query ="SELECT * FROM policyset WHERE policyset LIKE '%$name%' ORDER BY id";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
 
 <?php
     // Calculate the total number of rows in the table
-    $totalCountQuery = "SELECT COUNT(*) as total FROM nad";
+    $totalCountQuery = "SELECT COUNT(*) as total FROM policyset";
     $totalCountResult = $mysqli->query($totalCountQuery);
     $totalCount = $totalCountResult->fetch_assoc()['total'];
 
@@ -109,7 +102,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; NAD Groups </title>
+    <title>MISE &middot; Policy Sets </title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 
@@ -138,12 +131,11 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                     </a>
                 </div>
 
-
                 <div class="header-panel header-panel--center">
   <div class="form-group form-group--inline input--icon">
     <div class="form-group__text">
-      <form action="nad-search-result.php" method="GET"> <!-- Assuming the separate page is named "search-results.php" -->
-        <input type="search" name="name" placeholder="Search NAD Groups" style="width:320px">
+      <form action="policyset-search-result.php" method="GET"> <!-- Assuming the separate page is named "search-results.php" -->
+        <input type="search" name="name" placeholder="Search Policy Set Names" style="width:320px">
         <button type="submit" class="link" tabindex="-1">
           <span class="icon-search"></span>
         </button>
@@ -307,11 +299,11 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
             <div class="section">
                 <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
                     <table class="table table--lined table--selectable">
-                    <h2> NAD Groups</h2>
+                    <h2> Policy Sets </h2>
                         <thead>
                             <tr>
                                     <th class="hidden-md-down">ID </span></th>
-                                    <th class="hidden-md-down">Name</th>
+                                    <th class="hidden-md-down">Policy Set Name</th>
                                     <th class="hidden-md-down">Source ISE</th>
                                     <th class="hidden-md-down">Queued</th>
                                     <th class="hidden-md-down">Fetch</th>
@@ -332,7 +324,8 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                               //Display customer info
                               $output ='<tr>';
                               $output .='<td>'.$row['id'].'</td>';
-                              $output .='<td> <a href="./configs/nad/'.$row['nadid'].'"">'.$row['nad'].'</a></td>';
+                              $output .='<td> <a href="./configs/policyset/'.$row['policysetid'].'"">'.$row['policyset'].'</a></td>';
+                              
                               $output .='<td>'.$row['isename'].'</td>';
                               $output .='<td>'.$row['queue'].'</td>';
                               /*$output .='<td>'.$row['get_code'].'</td>';*/
@@ -348,9 +341,9 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                                 } else {
                                     $output .= '<td>'.$row['get_code'].'</td>';
                                 }
-                              $output .='<td><a href="nad_add_queue.php?id='.$row['id'].'" class="btn btn--success "style="color:white">+</a> <a href="nad_remove_queue.php?id='.$row['id'].'" class="btn btn--success"style="color:white">-</a></td>';
-                              $output .='<td><a href="download_nad.php?id='.$row['nadid'].'" class="btn btn--success" style="color:white">Download</a></td>';
-                              $output .='<td><a href="resync_nad.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Resync</a></td>';
+                              $output .='<td><a href="policyset_add_queue.php?id='.$row['id'].'" class="btn btn--success "style="color:white">+</a> <a href="policyset_remove_queue.php?id='.$row['id'].'" class="btn btn--success"style="color:white">-</a></td>';
+                              $output .='<td><a href="download_policyset.php?id='.$row['policysetid'].'" class="btn btn--success" style="color:white">Download</a></td>';
+                              $output .='<td><a href="resync_policyset.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Resync</a></td>';
                               
                               //Echo output
                               echo $output;
@@ -361,73 +354,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                           ?>
                             </tbody>
                         </table>
-
-                        
-                        <div class="row">
-    <div class="col-xl-6 half-margin-top">
-        <ul class="pagination">
-            <?php if ($pageNumber > 1): ?>
-                <li><a href="?page=1"><span class="icon-chevron-left-double"></span></a></li>
-                <li><a href="?page=<?php echo ($pageNumber - 1); ?>"><span class="icon-chevron-left"></span></a></li>
-            <?php else: ?>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-left-double"></span></a></li>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-left"></span></a></li>
-            <?php endif; ?>
-
-            <?php if ($totalPages <= 5): ?>
-                <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-                    <?php if ($i == $pageNumber): ?>
-                        <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                    <?php else: ?>
-                        <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                    <?php endif; ?>
-                <?php endfor; ?>
-            <?php else: ?>
-                <?php if ($pageNumber <= 3): ?>
-                    <?php for ($i = 1; $i <= 4; $i++): ?>
-                        <?php if ($i == $pageNumber): ?>
-                            <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php else: ?>
-                            <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php endif; ?>
-                    <?php endfor; ?>
-                    <li><span class="icon-more"></span></li>
-                    <li><a href="?page=<?php echo $totalPages; ?>"><?php echo $totalPages; ?></a></li>
-                <?php elseif ($pageNumber >= $totalPages - 2): ?>
-                    <li><a href="?page=1">1</a></li>
-                    <li><span class="icon-more"></span></li>
-                    <?php for ($i = $totalPages - 3; $i <= $totalPages; $i++): ?>
-                        <?php if ($i == $pageNumber): ?>
-                            <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php else: ?>
-                            <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php endif; ?>
-                    <?php endfor; ?>
-                <?php else: ?>
-                    <li><a href="?page=1">1</a></li>
-                    <li><span class="icon-more"></span></li>
-                    <?php for ($i = $pageNumber - 1; $i <= $pageNumber + 1; $i++): ?>
-                        <?php if ($i == $pageNumber): ?>
-                            <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php else: ?>
-                            <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php endif; ?>
-                    <?php endfor; ?>
-                    <li><span class="icon-more"></span></li>
-                    <li><a href="?page=<?php echo $totalPages; ?>"><?php echo $totalPages; ?></a></li>
-                <?php endif; ?>
-            <?php endif; ?>
-
-            <?php if ($pageNumber < $totalPages): ?>
-                <li><a href="?page=<?php echo ($pageNumber + 1); ?>"><span class="icon-chevron-right"></span></a></li>
-                <li><a href="?page=<?php echo $totalPages; ?>"><span class="icon-chevron-right-double"></span></a></li>
-            <?php else: ?>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-right"></span></a></li>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-right-double"></span></a></li>
-            <?php endif; ?>
-        </ul>
-    </div>
-</div>
+ 
                     </div>
 
                 </div>

@@ -140,6 +140,20 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                         <span class="icon-cisco"></span>
                     </a>
                 </div>
+
+                
+                <div class="header-panel header-panel--center">
+  <div class="form-group form-group--inline input--icon">
+    <div class="form-group__text">
+      <form action="authorization-search-result.php" method="GET"> <!-- Assuming the separate page is named "search-results.php" -->
+        <input type="search" name="name" placeholder="Search Authorization Rules" style="width:320px">
+        <button type="submit" class="link" tabindex="-1">
+          <span class="icon-search"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
                 
                 <div class="header-panel header-panel--right hidden-md-down">
                     

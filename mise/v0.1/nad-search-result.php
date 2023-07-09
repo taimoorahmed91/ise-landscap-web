@@ -36,17 +36,10 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
 
 <?php
 
-// Define the number of rows per page
-$rowsPerPage = 10;
-
-// Calculate the current page number
-$pageNumber = isset($_GET['page']) ? $_GET['page'] : 1;
-
-// Calculate the offset
-$offset = ($pageNumber - 1) * $rowsPerPage;
+$name = $_GET['name'];
 
   //Create the select query
-  $query ="SELECT * FROM nad ORDER BY id LIMIT $rowsPerPage OFFSET $offset";
+  $query ="SELECT * FROM nad WHERE nad LIKE '%$name%' ORDER BY id";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -363,71 +356,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                         </table>
 
                         
-                        <div class="row">
-    <div class="col-xl-6 half-margin-top">
-        <ul class="pagination">
-            <?php if ($pageNumber > 1): ?>
-                <li><a href="?page=1"><span class="icon-chevron-left-double"></span></a></li>
-                <li><a href="?page=<?php echo ($pageNumber - 1); ?>"><span class="icon-chevron-left"></span></a></li>
-            <?php else: ?>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-left-double"></span></a></li>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-left"></span></a></li>
-            <?php endif; ?>
 
-            <?php if ($totalPages <= 5): ?>
-                <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-                    <?php if ($i == $pageNumber): ?>
-                        <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                    <?php else: ?>
-                        <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                    <?php endif; ?>
-                <?php endfor; ?>
-            <?php else: ?>
-                <?php if ($pageNumber <= 3): ?>
-                    <?php for ($i = 1; $i <= 4; $i++): ?>
-                        <?php if ($i == $pageNumber): ?>
-                            <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php else: ?>
-                            <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php endif; ?>
-                    <?php endfor; ?>
-                    <li><span class="icon-more"></span></li>
-                    <li><a href="?page=<?php echo $totalPages; ?>"><?php echo $totalPages; ?></a></li>
-                <?php elseif ($pageNumber >= $totalPages - 2): ?>
-                    <li><a href="?page=1">1</a></li>
-                    <li><span class="icon-more"></span></li>
-                    <?php for ($i = $totalPages - 3; $i <= $totalPages; $i++): ?>
-                        <?php if ($i == $pageNumber): ?>
-                            <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php else: ?>
-                            <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php endif; ?>
-                    <?php endfor; ?>
-                <?php else: ?>
-                    <li><a href="?page=1">1</a></li>
-                    <li><span class="icon-more"></span></li>
-                    <?php for ($i = $pageNumber - 1; $i <= $pageNumber + 1; $i++): ?>
-                        <?php if ($i == $pageNumber): ?>
-                            <li class="active"><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php else: ?>
-                            <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php endif; ?>
-                    <?php endfor; ?>
-                    <li><span class="icon-more"></span></li>
-                    <li><a href="?page=<?php echo $totalPages; ?>"><?php echo $totalPages; ?></a></li>
-                <?php endif; ?>
-            <?php endif; ?>
-
-            <?php if ($pageNumber < $totalPages): ?>
-                <li><a href="?page=<?php echo ($pageNumber + 1); ?>"><span class="icon-chevron-right"></span></a></li>
-                <li><a href="?page=<?php echo $totalPages; ?>"><span class="icon-chevron-right-double"></span></a></li>
-            <?php else: ?>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-right"></span></a></li>
-                <li class="disabled"><a href="javascript:;"><span class="icon-chevron-right-double"></span></a></li>
-            <?php endif; ?>
-        </ul>
-    </div>
-</div>
                     </div>
 
                 </div>
