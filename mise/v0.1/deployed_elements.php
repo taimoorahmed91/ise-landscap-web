@@ -46,7 +46,7 @@ $pageNumber = isset($_GET['page']) ? $_GET['page'] : 1;
 $offset = ($pageNumber - 1) * $rowsPerPage;
 
   //Create the select query
-  $query ="SELECT * FROM deploymentcode ORDER BY id LIMIT $rowsPerPage OFFSET $offset";
+  $query ="SELECT * FROM deploymentcode ORDER BY id DESC LIMIT $rowsPerPage OFFSET $offset";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>

@@ -17032,4 +17032,19 @@
       "type" : "application/xml"
     }
   }
+}2023-07-09 14:30:03
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-sgt",
+    "messages" : [ {
+      "title" : "Tag with this name already exists. SGT with entered tag value already exists. ",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/sgt",
+      "type" : "application/xml"
+    }
+  }
 }

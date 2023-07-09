@@ -1,0 +1,17 @@
+{
+    "ap": [
+        "Default Device Admin"
+    ],
+    "authz": [
+        "Block_Wireless_Access"
+    ],
+    "dacl": [
+        "sample_18"
+    ],
+    "deployments": [
+        "ise32.taimoorlab.local"
+    ],
+    "sgt": [
+        "Contractors"
+    ]
+}

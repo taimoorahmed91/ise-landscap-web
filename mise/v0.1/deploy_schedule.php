@@ -282,7 +282,9 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                                 <th class="hidden-lg-down">Scheduler Name</th>
                                 <th class="hidden-lg-down">Time</th>
                                 <th class="hidden-lg-down">Comments</th>
-
+                                <th class="hidden-lg-down">Running</th>
+                                <th class="hidden-lg-down">Executed</th>
+                                <th class="hidden-lg-down" ></th>
  
                             </tr>
                         </thead>
@@ -298,6 +300,9 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                               $output .='<td>'.$row['name'].'</td>';
                               $output .='<td>'.$row['time'].'</td>';
                               $output .='<td>'.$row['comments'].'</td>';
+                              $output .='<td>'.$row['now'].'</td>';
+                              $output .='<td>'.$row['run'].'</td>';
+                              $output .='<td><a href="delete_schedule.php?id='.$row['id'].'" class="btn btn--danger focus" >Delete</a></td>';
 
 
 

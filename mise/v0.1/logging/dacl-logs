@@ -9141,4 +9141,19 @@
       "type" : "application/xml"
     }
   }
+}2023-07-09 14:30:01
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:sample_18' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
 }
