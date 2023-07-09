@@ -132,8 +132,23 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </nav>
+    
     <div class="content content--alt">
         <div class="container-fluid">
+        <div class="panel panel--loose panel--secondary dbl-padding">
+    <div class="row">
+        <div class="col-md-8">
+            <h4 class="no-margin">Welcome to</h4>
+            <h1 class="display-0">
+                <span class="text-primary">Cisco</span><span>MISE</span>
+            </h1>
+            <p class="lead">Your solution to multiple ISE Deployments</p>
+        </div>
+        <div class="col-md-4">
+            <img src="public/img/iheartcisco.png">
+        </div>
+    </div>
+</div>
 
             <div class="section">
                 <form role="form" method="post" action="">
