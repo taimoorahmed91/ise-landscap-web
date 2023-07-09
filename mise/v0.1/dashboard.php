@@ -492,7 +492,19 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                             </ul>
                         </li>
 
-                        
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Repository">
+                                <span class="icon-folder"></span>
+                                <span>Repository</span>
+                            </a>
+                            <ul>
+                                <li class="sidebar__item"><a href="repo-new.php">Create new</a></li>
+                                <li class="sidebar__item"><a href="repo-view.php">View</a></li>
+                            </ul>
+                        </li>
+
+
+
 
                         <li class="sidebar__drawer">
                             <a tabindex="0" title="Logging">
