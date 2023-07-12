@@ -489,6 +489,8 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 <li class="sidebar__item"><a href="schedule.php">View Populate Scheduler</a></li>
                                 <li class="sidebar__item"><a href="new_deploy_schedule.php">Create Deploy Scheduler</a></li>
                                 <li class="sidebar__item"><a href="deploy_schedule.php">View Deploy Scheduler</a></li>
+                                <li class="sidebar__item"><a href="create_backup_schedule.php">Create Backup Schedule</a></li>
+                                <li class="sidebar__item"><a href="backup-schedule.php">View Backup Schedule</a></li>
                             </ul>
                         </li>
 
@@ -498,7 +500,17 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 <span>Repository</span>
                             </a>
                             <ul>
-                               <li class="sidebar__item"><a href="repo-view.php">View</a></li>
+                               <li class="sidebar__item"><a href="repo-view.php">Manage</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="sidebar__drawer">
+                            <a tabindex="0" title="Certificate Management">
+                                <span class="icon-lock"></span>
+                                <span>Certificate Management</span>
+                            </a>
+                            <ul>
+                               <li class="sidebar__item"><a href="csr.php">Manage</a></li>
                             </ul>
                         </li>
 

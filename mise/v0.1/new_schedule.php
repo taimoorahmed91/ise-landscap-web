@@ -48,13 +48,17 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
     //Get variables from post array
           $name = $_POST['name'];
           $fqdn  = $_POST['fqdn'];
-          $action  = $_POST['action'];
-          $frequency  = $_POST['frequency'];
+          $hours  = $_POST['hours'];
+          $nextrun  = $_POST['nextrun'];
     
    
     //Create customer query
-    $query ="INSERT INTO scheduler (name,fqdn,action,frequency)
-                VALUES ('$name','$fqdn','$action','$frequency')";
+    //$query ="INSERT INTO actionschedule (name,fqdn,hours,nextrun,action)
+      //          VALUES ('$name','$fqdn','$hours','$nextrun','populate')";
+
+$query = "INSERT INTO actionschedule (name, fqdn, hours, nextrun, action)
+VALUES ('$name', '$fqdn', '$hours', DATE_FORMAT('$nextrun', '%Y-%m-%d %H:%i:%s'), 'populate')";
+
     //Run query
     $mysqli->query($query);
     
@@ -330,20 +334,20 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
             ?>
         </select>
                             </div>
+ 
                             <div class="form-group base-margin-bottom">
-                            <label>Schedule Action</label>
-        <select name="action">
-        <option value="Populate.sh">Populate</option>
-
+                            <label>Schedule Interval</label>
+        <select name="hours">
+        <option value="24">Every 24 hours</option>
+        <option value="12">Every 12 hours</option>
+        <option value="6">Every 6 hours</option>
  
         </select>
                             </div>
+                            
                             <div class="form-group base-margin-bottom">
-                            <label>Schedule Interval</label>
-        <select name="frequency">
-        <option value="43200">Every 12 hours</option>
- 
-        </select>
+                            <label>Scheduled Time</label>
+                            <input type="datetime-local" name="nextrun" id="time" step="60">
                             </div>
 
 

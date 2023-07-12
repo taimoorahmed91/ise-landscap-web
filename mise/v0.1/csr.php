@@ -2,6 +2,29 @@
 <?php include('tracker.php'); ?>
 
 <?php
+	//Assign get variable
+
+	
+	//Create customer select query
+	$query ="SELECT * FROM repo";
+    $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+	if($result = $mysqli->query($query)){
+		//Fetch object array
+		while($row = $result->fetch_assoc()) {
+			$name = $row['name'];
+			$path = $row['path'];
+			$uname = $row['uname'];
+			$password = $row['password'];
+
+		}
+		//Free Result set
+		$result->close();
+	}
+?>
+
+
+
+<?php
 session_start();
 if (!isset($_SESSION["login"])) {
     header("location: login.php");
@@ -34,12 +57,78 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
   }
 ?>
 
+
 <?php
-  //Create the select query
-  $query ="SELECT * from actionschedule ORDER BY id";
-  //Get results
-  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Check if the form submitted is for CSR generation
+    if (isset($_POST['generateCSR'])) {
+        // Retrieve the form parameters
+        $commonName = $_POST['commonName'];
+        $organization = $_POST['organization'];
+        $organizationalUnit = $_POST['organizationalUnit'];
+        $country = $_POST['country'];
+        $state = $_POST['state'];
+        $city = $_POST['city'];
+        $email = $_POST['email'];
+        $san = $_POST['san'];
+
+        // Generate the CSR
+        $dn = [
+            'commonName' => $commonName,
+            'organizationName' => $organization,
+            'organizationalUnitName' => $organizationalUnit,
+            'countryName' => $country,
+            'stateOrProvinceName' => $state,
+            'localityName' => $city,
+            'emailAddress' => $email
+        ];
+
+        // Add Subject Alternative Names (SAN)
+        if (!empty($san)) {
+            $san = explode(',', $san);
+            $san = array_map('trim', $san);
+            $san = array_filter($san);
+            if (!empty($san)) {
+                $san = ['subjectAltName' => 'DNS:' . implode(', DNS:', $san)];
+                $dn = array_merge($dn, $san);
+            }
+        }
+
+        $privkey = openssl_pkey_new();
+        $csr = openssl_csr_new($dn, $privkey, ['digest_alg' => 'sha256']);
+
+        // Output the CSR
+        $csrText = "";
+        openssl_csr_export($csr, $csrText);
+
+
+
+        // Move the CSR and private key to /etc/apache2/ssl
+        $sslPath = '/etc/apache2/ssl/';
+        file_put_contents($sslPath . 'csr_request.csr', $csr);
+        openssl_pkey_export($privkey, $privateKey);
+        file_put_contents($sslPath . 'private_key.key', $privateKey);
+    } elseif (isset($_POST['uploadCert'])) {
+        // Handle the uploaded certificate
+        $uploadedCert = $_FILES['certificate']['tmp_name'];
+
+        // Convert p7b to PEM format
+        $certPath = 'signed_certificate.p7b';
+        $pemPath = 'signed_certificate.pem';
+
+        file_put_contents($certPath, file_get_contents($uploadedCert));
+        exec("openssl pkcs7 -print_certs -in {$certPath} -out {$pemPath}");
+
+        // Move the converted certificate to /etc/apache2/ssl
+        $sslPath = '/etc/apache2/ssl/';
+        rename($pemPath, $sslPath . 'signed_certificate.pem');
+
+        // Display a success message
+        echo "Signed certificate uploaded and converted to PEM format.";
+    }
+}
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -89,7 +178,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Schedule</title>
+    <title>MISE &middot; Certificate Management</title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 
@@ -269,84 +358,140 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                     </ul>
                 </nav>
             </div>
-
-            <hr>
             <div class="section">
-                <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
-                    <table class="table table--lined table--selectable">
-                        <h2> Schedules</h2>
-                        <thead>
-                            <tr>
- 
-                                <th class="hidden-lg-down">ID</th>
-                                <th class="hidden-lg-down">Scheduler Name</th>
-                                <th class="hidden-lg-down">Deployment Name</th>
-                                <th class="hidden-lg-down">Interval</th>
-                                <th class="hidden-lg-down">Last Run Time</th>
-                                <th class="hidden-lg-down">Next Run Time</th>
-                                <th class="hidden-lg-down"></th>
- 
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php 
-                            //Check if at least one row is found
-                            if($result->num_rows > 0) {
-                            //Loop through results
-                            while($row = $result->fetch_assoc()){
-                              //Display customer info
-                              $output ='<tr>';
-                              $output .='<td>'.$row['id'].'</td>';
-                              $output .='<td>'.$row['name'].'</td>';
-                              $output .= '<td>'.explode('/', $row['fqdn'])[1].'</td>';
-                              $output .= '<td>Every ' . ($row['hours']) . ' hours</td>';
-                              $output .='<td>'.$row['lastrun'].'</td>';
-                              $output .='<td>'.$row['nextrun'].'</td>';
-                              $output .='<td><a href="delete_populate_schedule.php?id='.$row['id'].'" class="btn btn--danger focus" >Delete</a></td>';
+            <div class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 265px;">
+    <?php
+        echo "<h3>Generated CSR:</h3>";
+        echo "<pre>" . htmlspecialchars($csrText) . "</pre>";
+    ?>
+</div>
+            <form method="POST" action="" enctype="multipart/form-data">
+                    <div class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 265px;">
+                        <h2 class=" subtitle">Certificate Management</h2>
+                        <hr>
+                        <div class="section">
+  
 
-                              $output .='</tr>';
-                              
-                              //Echo output
-                              echo $output;
-                            }
-                          } else {
-                            echo "Sorry, no entries were found";
-                          }
-                          ?>
+                            <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                <input type="text" name="commonName" required><br><br>
+                                <label for="commonName">Common Name:</label>
 
+                                </div>
+                            </div>
 
-
-
-
-                        </tbody>
-                    </table>
-                    
-                </div>
-                <footer class="footer">
-                    <div class="footer__links">
-                        <ul class="list list--inline">
-                            <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
-                                    target="_blank">Contacts</a></li>
-                            <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ"
-                                    target="_blank">Feedback</a>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a></li>
-                            <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site Map</a>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
-                                    target="_blank">Terms & Conditions</a></li>
-                            </li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
-                                    target="_blank">Privacy Statement</a></li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
-                                    target="_blank">Cookie Policy</a></li>
-                            <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
-                                    target="_blank">Trademarks</a></li>
-                        </ul>
-                    </div>
-                </footer>
-            </div>
+                            <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                <input type="text" name="organization" required><br><br>
+        <label for="organization">Organization:</label>
         </div>
+                            </div>
+
+
+        <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                <input type="text" name="organizationalUnit"><br><br>
+        <label for="organizationalUnit">Organizational Unit:</label>
+        </div>
+                            </div>
+
+
+        <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                <input type="text" name="country" required><br><br>
+        <label for="country">Country:</label>
+        </div>
+                            </div>
+
+        <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                <input type="text" name="state" required><br><br>
+        <label for="state">State:</label>
+        </div>
+                            </div>
+
+
+        <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                <input type="text" name="city" required><br><br>
+        <label for="city">City:</label>
+        </div>
+                            </div>
+
+
+        <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                <input type="email" name="email" required><br><br>
+        <label for="email">Email:</label>
+
+        </div>
+                            </div>
+
+
+        <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                <input type="text" name="san"><br><br>
+        <label for="san">Subject Alternative Names (comma-separated):</label>
+                                </div>
+                            </div>
+
+
+
+
+ 
+  
+
+                                <input type="submit"  name="generateCSR" value="Generate CSR"
+                                    style="margin-top: 10px; " />
+                                    <br>
+                                    <br>
+                                    
+
+                        </div>
+                </form>
+                <form method="POST" action=""  enctype="multipart/form-data">
+       
+        <input type="file"  name="certificate" required style="color: white;">
+<br><br>
+
+
+        <input type="submit"  name="uploadCert" value="Upload Certificate" >
+
+    </form>
+            </div>
+
+
+            
+
+            <footer class="footer">
+                <div class="footer__links">
+                    <ul class="list list--inline">
+                        <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
+                                target="_blank">Contacts</a></li>
+                        <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ" target="_blank">Feedback</a>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a>
+                        </li>
+                        <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site
+                                Map</a>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
+                                target="_blank">Terms & Conditions</a></li>
+                        </li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
+                                target="_blank">Privacy Statement</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
+                                target="_blank">Cookie Policy</a></li>
+                        <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
+                                target="_blank">Trademarks</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
+
