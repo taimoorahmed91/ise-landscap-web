@@ -2,51 +2,6 @@
 <?php include('tracker.php'); ?>
 
 <?php
-	//Assign get variable
-
-	
-	//Create customer select query
-	$query ="SELECT * FROM repo";
-    $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
-	if($result = $mysqli->query($query)){
-		//Fetch object array
-		while($row = $result->fetch_assoc()) {
-			$name = $row['name'];
-			$path = $row['path'];
-			$uname = $row['uname'];
-			$password = $row['password'];
-
-		}
-		//Free Result set
-		$result->close();
-	}
-?>
-
-<?php
-  if($_POST){
-    //Get variables from post array
-          $name = $_POST['name'];
-          $path = $_POST['path'];
-          $uname = $_POST['uname'];
-          $password = $_POST['password'];
-          
-          
-
-    
-    //Create customer query
- 
-    $query ="UPDATE `repo` SET `name` = '$name' , `path` = '$path' , `uname` = '$uname' , `password` = '$password'   WHERE `id` = 1;";
-    //Run query
-    $mysqli->query($query);
-    
-    
-    $msg='Entry Added';
-    header('Location: repo-view.php');
-    exit;
-    }
-?>
-
-<?php
 session_start();
 if (!isset($_SESSION["login"])) {
     header("location: login.php");
@@ -77,6 +32,13 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
   } else {
     $cubes = 0; // Default value if no data is found
   }
+?>
+
+<?php
+  //Create the select query
+  $query ="SELECT * from actionschedule where action ='backup' ORDER BY id";
+  //Get results
+  $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
 
 <!doctype html>
@@ -127,7 +89,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Repository</title>
+    <title>MISE &middot; Backup Schedule</title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 
@@ -307,74 +269,82 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                     </ul>
                 </nav>
             </div>
+
+            <hr>
             <div class="section">
-                <form role="form" method="post" action="repo-view.php">
-                    <div class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 265px;">
-                        <h2 class=" subtitle">Repository</h2>
-                        <hr>
-                        <div class="section">
-                            <div class="form-group base-margin-bottom">
-                                <div class="form-group__text">
-                                    <input name="name" type="text" value="<?php echo $name; ?>">
-                                    <label for="input-type-text">Name</label>
-                                </div>
-                            </div>
-                            <div class="form-group base-margin-bottom">
-                                <div class="form-group__text">
-                                    <input name="path" type="text" value="<?php echo $path; ?>">
-                                    <label for="input-type-text">Path</label>
-                                </div>
-                            </div>
-                            <div class="form-group base-margin-bottom">
-                                <div class="form-group__text">
-                                    <input name="uname" type="text" value="<?php echo $uname; ?>">
-                                    <label for="input-type-text">Username</label>
-                                </div>
-                            </div>
-                            <div class="form-group base-margin-bottom">
-                                <div class="form-group__text">
-                                    <input name="password" type="password" value="<?php echo $password; ?>">
-                                    <label for="input-type-text">Password</label>
-                                </div>
-                            </div>
+                <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
+                    <table class="table table--lined table--selectable">
+                        <h2> Schedules</h2>
+                        <thead>
+                            <tr>
+ 
+                                <th class="hidden-lg-down">ID</th>
+                                <th class="hidden-lg-down">Scheduler Name</th>
+                                <th class="hidden-lg-down">Interval</th>
+                                <th class="hidden-lg-down">Last Run Time</th>
+                                <th class="hidden-lg-down">Next Run Time</th>
+                                <th class="hidden-lg-down"></th>
+ 
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php 
+                            //Check if at least one row is found
+                            if($result->num_rows > 0) {
+                            //Loop through results
+                            while($row = $result->fetch_assoc()){
+                              //Display customer info
+                              $output ='<tr>';
+                              $output .='<td>'.$row['id'].'</td>';
+                              $output .='<td>'.$row['name'].'</td>';
+                              $output .= '<td>Every ' . ($row['hours']) . ' hours</td>';
+                              $output .='<td>'.$row['lastrun'].'</td>';
+                              $output .='<td>'.$row['nextrun'].'</td>';
+                              $output .='<td><a href="delete_populate_schedule.php?id='.$row['id'].'" class="btn btn--danger focus" >Delete</a></td>';
 
-                                <input type="submit" class="btn btn--success" value="Update Repository "
-                                    style="margin-top: 10px; color:white" />
-                                    <br>
-                                    <br>
-                                    <a href="repo-test.php" class="btn btn--success" style="color:white">Test Repository</a>
+                              $output .='</tr>';
+                              
+                              //Echo output
+                              echo $output;
+                            }
+                          } else {
+                            echo "Sorry, no entries were found";
+                          }
+                          ?>
 
-                        </div>
-                </form>
-            </div>
-            <footer class="footer">
-                <div class="footer__links">
-                    <ul class="list list--inline">
-                        <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
-                                target="_blank">Contacts</a></li>
-                        <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ" target="_blank">Feedback</a>
-                        </li>
-                        <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a>
-                        </li>
-                        <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site
-                                Map</a>
-                        </li>
-                        <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
-                                target="_blank">Terms & Conditions</a></li>
-                        </li>
-                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
-                                target="_blank">Privacy Statement</a></li>
-                        <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
-                                target="_blank">Cookie Policy</a></li>
-                        <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
-                                target="_blank">Trademarks</a></li>
-                    </ul>
+
+
+
+
+                        </tbody>
+                    </table>
+                    
                 </div>
-            </footer>
+                <footer class="footer">
+                    <div class="footer__links">
+                        <ul class="list list--inline">
+                            <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html"
+                                    target="_blank">Contacts</a></li>
+                            <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ"
+                                    target="_blank">Feedback</a>
+                            </li>
+                            <li><a href="https://www.cisco.com/c/en/us/about/help.html" target="_blank">Help</a></li>
+                            <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site Map</a>
+                            </li>
+                            <li><a href="https://www.cisco.com/c/en/us/about/legal/terms-conditions.html"
+                                    target="_blank">Terms & Conditions</a></li>
+                            </li>
+                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html"
+                                    target="_blank">Privacy Statement</a></li>
+                            <li><a href="https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies"
+                                    target="_blank">Cookie Policy</a></li>
+                            <li><a href="https://www.cisco.com/c/en/us/about/legal/trademarks.html"
+                                    target="_blank">Trademarks</a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
         </div>
-    </div>
-
-
 </body>
 
 </html>

@@ -36,7 +36,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
 
 <?php
   //Create the select query
-  $query ="SELECT * from actionschedule ORDER BY id";
+  $query ="SELECT * from actionschedule where action ='populate' ORDER BY id";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -89,7 +89,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Schedule</title>
+    <title>MISE &middot; Populate Schedule</title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 

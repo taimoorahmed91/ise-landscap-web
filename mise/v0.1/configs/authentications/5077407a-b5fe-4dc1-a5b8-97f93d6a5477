@@ -6,7 +6,7 @@
       "id" : "5077407a-b5fe-4dc1-a5b8-97f93d6a5477",
       "name" : "ASA VPN RADIUS",
       "hitCounts" : 1,
-      "rank" : 0,
+      "rank" : 1,
       "state" : "enabled",
       "condition" : {
         "link" : null,

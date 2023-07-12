@@ -1,0 +1,14 @@
+{
+  "DownloadableAcl" : {
+    "id" : "45a06e30-1a03-11ee-a198-ae96a26dba0a",
+    "name" : "DNS_Only",
+    "description" : "",
+    "dacl" : "permit IP any any",
+    "daclType" : "IPV4",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/45a06e30-1a03-11ee-a198-ae96a26dba0a",
+      "type" : "application/json"
+    }
+  }
+}

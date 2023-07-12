@@ -2,27 +2,27 @@
   "version" : "1.0.0",
   "response" : {
     "default" : false,
-    "id" : "fa6e47a3-fe9f-47e5-a853-df82e93ff1c5",
-    "name" : "ASA-VPN",
+    "id" : "6b302e7b-0c90-4c38-b36e-50a894fa5b6d",
+    "name" : "Webinar Policy Set",
     "description" : null,
     "hitCounts" : 0,
-    "rank" : 4,
+    "rank" : 0,
     "state" : "enabled",
     "condition" : {
       "link" : null,
       "conditionType" : "ConditionAttributes",
       "isNegate" : false,
-      "dictionaryName" : "DEVICE",
-      "attributeName" : "Device Type",
+      "dictionaryName" : "Network Access",
+      "attributeName" : "Protocol",
       "operator" : "equals",
       "dictionaryValue" : null,
-      "attributeValue" : "All Device Types#ASA"
+      "attributeValue" : "RADIUS"
     },
     "serviceName" : "Default Network Access",
     "isProxy" : false,
     "link" : {
       "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/fa6e47a3-fe9f-47e5-a853-df82e93ff1c5",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/6b302e7b-0c90-4c38-b36e-50a894fa5b6d",
       "type" : "application/json"
     }
   }

@@ -1,0 +1,14 @@
+{
+  "DownloadableAcl" : {
+    "id" : "45febad0-1a03-11ee-a198-ae96a26dba0a",
+    "name" : "Internet_Only",
+    "description" : "",
+    "dacl" : "permit udp any any eq 67\ndeny ip any any",
+    "daclType" : "IPV4",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/ers/config/downloadableacl/45febad0-1a03-11ee-a198-ae96a26dba0a",
+      "type" : "application/json"
+    }
+  }
+}

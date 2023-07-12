@@ -9361,4 +9361,294 @@
       "type" : "application/json"
     }
   }
+}2023-07-12 18:01:44
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : false,
+    "id" : "6b302e7b-0c90-4c38-b36e-50a894fa5b6d",
+    "name" : "Webinar Policy Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Network Access",
+      "attributeName" : "Protocol",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "RADIUS"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/6b302e7b-0c90-4c38-b36e-50a894fa5b6d",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "b35c7c59-070e-43ec-b9d3-3ab84bf60e4c",
+    "name" : "Zaid-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 1,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wired802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/b35c7c59-070e-43ec-b9d3-3ab84bf60e4c",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "68868b3f-3254-45a3-822a-0803f4eed86c",
+    "name" : "Emmanuel-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 2,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wired802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/68868b3f-3254-45a3-822a-0803f4eed86c",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "2fc07c49-3fcb-4d4b-a52f-bfed6da23226",
+    "name" : "WSA-Admin",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 3,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "DEVICE",
+      "attributeName" : "Device Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "All Device Types#Proxy"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/2fc07c49-3fcb-4d4b-a52f-bfed6da23226",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "fa6e47a3-fe9f-47e5-a853-df82e93ff1c5",
+    "name" : "ASA-VPN",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 4,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "DEVICE",
+      "attributeName" : "Device Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "All Device Types#ASA"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/fa6e47a3-fe9f-47e5-a853-df82e93ff1c5",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : true,
+    "id" : "caa880cc-67c8-4840-9ed4-95747cb291b8",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 5,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/caa880cc-67c8-4840-9ed4-95747cb291b8",
+      "type" : "application/json"
+    }
+  } ]
+}2023-07-12 18:22:39
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : false,
+    "id" : "6b302e7b-0c90-4c38-b36e-50a894fa5b6d",
+    "name" : "Webinar Policy Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Network Access",
+      "attributeName" : "Protocol",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "RADIUS"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/6b302e7b-0c90-4c38-b36e-50a894fa5b6d",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "b35c7c59-070e-43ec-b9d3-3ab84bf60e4c",
+    "name" : "Zaid-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 1,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wired802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/b35c7c59-070e-43ec-b9d3-3ab84bf60e4c",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "68868b3f-3254-45a3-822a-0803f4eed86c",
+    "name" : "Emmanuel-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 2,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wired802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/68868b3f-3254-45a3-822a-0803f4eed86c",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "2fc07c49-3fcb-4d4b-a52f-bfed6da23226",
+    "name" : "WSA-Admin",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 3,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "DEVICE",
+      "attributeName" : "Device Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "All Device Types#Proxy"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/2fc07c49-3fcb-4d4b-a52f-bfed6da23226",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "fa6e47a3-fe9f-47e5-a853-df82e93ff1c5",
+    "name" : "ASA-VPN",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 4,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "DEVICE",
+      "attributeName" : "Device Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "All Device Types#ASA"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/fa6e47a3-fe9f-47e5-a853-df82e93ff1c5",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : true,
+    "id" : "caa880cc-67c8-4840-9ed4-95747cb291b8",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 5,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/caa880cc-67c8-4840-9ed4-95747cb291b8",
+      "type" : "application/json"
+    }
+  } ]
 }

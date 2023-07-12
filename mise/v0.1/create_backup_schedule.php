@@ -2,51 +2,6 @@
 <?php include('tracker.php'); ?>
 
 <?php
-	//Assign get variable
-
-	
-	//Create customer select query
-	$query ="SELECT * FROM repo";
-    $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
-	if($result = $mysqli->query($query)){
-		//Fetch object array
-		while($row = $result->fetch_assoc()) {
-			$name = $row['name'];
-			$path = $row['path'];
-			$uname = $row['uname'];
-			$password = $row['password'];
-
-		}
-		//Free Result set
-		$result->close();
-	}
-?>
-
-<?php
-  if($_POST){
-    //Get variables from post array
-          $name = $_POST['name'];
-          $path = $_POST['path'];
-          $uname = $_POST['uname'];
-          $password = $_POST['password'];
-          
-          
-
-    
-    //Create customer query
- 
-    $query ="UPDATE `repo` SET `name` = '$name' , `path` = '$path' , `uname` = '$uname' , `password` = '$password'   WHERE `id` = 1;";
-    //Run query
-    $mysqli->query($query);
-    
-    
-    $msg='Entry Added';
-    header('Location: repo-view.php');
-    exit;
-    }
-?>
-
-<?php
 session_start();
 if (!isset($_SESSION["login"])) {
     header("location: login.php");
@@ -77,6 +32,43 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
   } else {
     $cubes = 0; // Default value if no data is found
   }
+?>
+
+<?php
+
+  // Connect to database
+    $con = mysqli_connect("localhost","root","C1sc0123@","mise");
+     
+    // Get all the categories from category table
+    $sql = " SELECT * FROM deployments";
+    $all_policyset = mysqli_query($con,$sql);
+
+
+   if($_POST){
+    //Get variables from post array
+          $name = $_POST['name'];
+          $fqdn  = $_POST['fqdn'];
+          $hours  = $_POST['hours'];
+          $nextrun  = $_POST['nextrun'];
+    
+   
+    //Create customer query
+    //$query ="INSERT INTO actionschedule (name,fqdn,hours,nextrun,action)
+      //          VALUES ('$name','$fqdn','$hours','$nextrun','populate')";
+
+$query = "INSERT INTO actionschedule (name, fqdn, hours, nextrun, action)
+VALUES ('$name', '$fqdn', '$hours', DATE_FORMAT('$nextrun', '%Y-%m-%d %H:%i:%s'), 'backup')";
+
+    //Run query
+    $mysqli->query($query);
+    
+      $msg='Entry Added';
+   
+      header('Location: backup-schedule.php');
+      exit;
+    
+    
+    }
 ?>
 
 <!doctype html>
@@ -127,7 +119,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Repository</title>
+    <title>MISE &middot; Backup Schedule</title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 
@@ -308,43 +300,42 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                 </nav>
             </div>
             <div class="section">
-                <form role="form" method="post" action="repo-view.php">
+                <form role="form" method="post" action="create_backup_schedule.php">
                     <div class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 265px;">
-                        <h2 class=" subtitle">Repository</h2>
+                        <h2 class=" subtitle">Create a scheduler</h2>
                         <hr>
                         <div class="section">
                             <div class="form-group base-margin-bottom">
                                 <div class="form-group__text">
-                                    <input name="name" type="text" value="<?php echo $name; ?>">
-                                    <label for="input-type-text">Name</label>
+                                    <input name="name" type="text" placeholder="Sample Name for your scheduler">
+                                    <label for="input-type-text">Scheduler Name</label>
                                 </div>
                             </div>
+                           
+ 
                             <div class="form-group base-margin-bottom">
-                                <div class="form-group__text">
-                                    <input name="path" type="text" value="<?php echo $path; ?>">
-                                    <label for="input-type-text">Path</label>
-                                </div>
+                            <label>Schedule Interval</label>
+        <select name="hours">
+        <option value="24">Every 24 hours</option>
+        <option value="12">Every 12 hours</option>
+        <option value="6">Every 6 hours</option>
+ 
+        </select>
                             </div>
+                            
                             <div class="form-group base-margin-bottom">
-                                <div class="form-group__text">
-                                    <input name="uname" type="text" value="<?php echo $uname; ?>">
-                                    <label for="input-type-text">Username</label>
-                                </div>
-                            </div>
-                            <div class="form-group base-margin-bottom">
-                                <div class="form-group__text">
-                                    <input name="password" type="password" value="<?php echo $password; ?>">
-                                    <label for="input-type-text">Password</label>
-                                </div>
+                            <label>Scheduled Time</label>
+                            <input type="datetime-local" name="nextrun" id="time" step="60">
                             </div>
 
-                                <input type="submit" class="btn btn--success" value="Update Repository "
-                                    style="margin-top: 10px; color:white" />
-                                    <br>
-                                    <br>
-                                    <a href="repo-test.php" class="btn btn--success" style="color:white">Test Repository</a>
 
+                            
                         </div>
+                        </div>
+                    <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
+                    <input type="submit" class="btn btn--success" value="Add Sechdule" style="color:white" />
+
+                    </div>
                 </form>
             </div>
             <footer class="footer">
@@ -373,8 +364,6 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
             </footer>
         </div>
     </div>
-
-
 </body>
 
 </html>

@@ -6,7 +6,7 @@
     "name" : "Zaid-Policy-Set",
     "description" : null,
     "hitCounts" : 0,
-    "rank" : 0,
+    "rank" : 1,
     "state" : "enabled",
     "condition" : {
       "link" : null,

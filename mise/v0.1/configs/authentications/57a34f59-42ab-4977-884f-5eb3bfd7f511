@@ -3,20 +3,20 @@
   "response" : {
     "rule" : {
       "default" : true,
-      "id" : "9d411596-ce98-49a5-a819-70c860d6f08b",
+      "id" : "57a34f59-42ab-4977-884f-5eb3bfd7f511",
       "name" : "Default",
       "hitCounts" : 0,
-      "rank" : 2,
+      "rank" : 0,
       "state" : "enabled",
       "condition" : null
     },
-    "identitySourceName" : "DenyAccess",
+    "identitySourceName" : "All_User_ID_Stores",
     "ifAuthFail" : "REJECT",
     "ifUserNotFound" : "REJECT",
     "ifProcessFail" : "DROP",
     "link" : {
       "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/fa6e47a3-fe9f-47e5-a853-df82e93ff1c5/authentication/9d411596-ce98-49a5-a819-70c860d6f08b",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/6b302e7b-0c90-4c38-b36e-50a894fa5b6d/authentication/57a34f59-42ab-4977-884f-5eb3bfd7f511",
       "type" : "application/json"
     }
   }
