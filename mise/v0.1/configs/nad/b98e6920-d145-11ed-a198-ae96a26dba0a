@@ -5,7 +5,7 @@
     "description" : "This is lab equipment",
     "link" : {
       "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/b98e6920-d145-11ed-a198-ae96a26dba0a",
+      "href" : "https://172.17.30.2/ers/config/networkdevicegroup/b98e6920-d145-11ed-a198-ae96a26dba0a",
       "type" : "application/json"
     },
     "othername" : "LAB"

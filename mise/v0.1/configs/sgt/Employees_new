@@ -1,0 +1,15 @@
+{
+  "Sgt" : {
+    "id" : "93ad6890-8c01-11e6-996c-525400b48521",
+    "name" : "Employees",
+    "description" : "Employee Security Group",
+    "value" : 41,
+    "generationId" : "0",
+    "propogateToApic" : true,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/ers/config/sgt/93ad6890-8c01-11e6-996c-525400b48521",
+      "type" : "application/json"
+    }
+  }
+}

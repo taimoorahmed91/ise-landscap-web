@@ -8250,4 +8250,49 @@
       "type" : "application/xml"
     }
   }
-}
+}2023-07-28 09:37:18
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of Block_Wireless_Access already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.52.13.157/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
+}2023-07-28 09:37:18
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of Test Profile 3 already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.52.13.157/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
+}2023-07-28 09:37:21
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of Block_Wireless_Access already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://ise32.taimoorlab.local/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
+}2023-07-28 09:37:21

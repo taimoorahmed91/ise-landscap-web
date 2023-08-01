@@ -35,7 +35,7 @@
     "ifProcessFail" : "DROP",
     "link" : {
       "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/caa880cc-67c8-4840-9ed4-95747cb291b8/authentication/a435fca2-37b5-4f50-8fc4-873d88cfcf33",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/caa880cc-67c8-4840-9ed4-95747cb291b8/authentication/a435fca2-37b5-4f50-8fc4-873d88cfcf33",
       "type" : "application/json"
     }
   }

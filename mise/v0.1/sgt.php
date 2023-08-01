@@ -320,7 +320,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
 
                                     <th class="hidden-md-down">Queue</th>
                                     <th></th>
-                                    
+                                    <th></th>
                                     <th></th>
 
                                 </tr>
@@ -353,6 +353,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                               $output .='<td><a href="sgt_add_queue.php?id='.$row['id'].'" class="btn btn--success "style="color:white">+</a> <a href="sgt_remove_queue.php?id='.$row['id'].'" class="btn btn--success"style="color:white">-</a></td>';
                               $output .='<td><a href="download_sgt.php?id='.$row['sgtid'].'" class="btn btn--success" style="color:white">Download</a></td>';
                               $output .='<td><a href="resync_sgt.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Resync</a></td>';
+                              $output .='<td><a href="edit_sgt.php?id='.$row['sgtid'].'" class="btn btn--success" style="color:white">Edit</a></td>';
                               
                               //Echo output
                               echo $output;

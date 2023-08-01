@@ -5,7 +5,7 @@
     "description" : "Testing Lab",
     "link" : {
       "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/ers/config/networkdevicegroup/a507f1a0-d155-11ed-a198-ae96a26dba0a",
+      "href" : "https://172.17.30.2/ers/config/networkdevicegroup/a507f1a0-d155-11ed-a198-ae96a26dba0a",
       "type" : "application/json"
     },
     "othername" : "LAB"
