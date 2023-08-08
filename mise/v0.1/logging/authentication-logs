@@ -422,4 +422,170 @@
       "type" : "application/json"
     }
   }
+}2023-08-08 17:23:39
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Invalid Rank for rule.: ASA VPN RADIUS. Rank=1. Must be in range between 0 and 0"
+}2023-08-08 17:31:18
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "28586909-4701-47e4-a84f-dcfc5100ab96",
+      "name" : "Authentication Rule 1",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionOrBlock",
+        "isNegate" : false,
+        "children" : [ {
+          "link" : null,
+          "conditionType" : "ConditionAttributes",
+          "isNegate" : false,
+          "dictionaryName" : "Radius",
+          "attributeName" : "Called-Station-ID",
+          "operator" : "equals",
+          "dictionaryValue" : null,
+          "attributeValue" : "SSID-1"
+        }, {
+          "link" : null,
+          "conditionType" : "ConditionAttributes",
+          "isNegate" : false,
+          "dictionaryName" : "Radius",
+          "attributeName" : "Called-Station-ID",
+          "operator" : "equals",
+          "dictionaryValue" : null,
+          "attributeValue" : "SSID-4"
+        } ]
+      }
+    },
+    "identitySourceName" : "ADJoin",
+    "ifAuthFail" : "REJECT",
+    "ifUserNotFound" : "REJECT",
+    "ifProcessFail" : "DROP",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/6b302e7b-0c90-4c38-b36e-50a894fa5b6d/authentication/28586909-4701-47e4-a84f-dcfc5100ab96",
+      "type" : "application/json"
+    }
+  }
+}2023-08-08 17:35:36
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Rule name is already used in this policy table: Authentication Rule 1"
+}2023-08-08 17:36:54
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Rule name is already used in this policy table: Authentication Rule 1"
+}2023-08-08 17:37:04
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Rule name is already used in this policy table: Authentication Rule 1"
+}2023-08-08 17:38:03
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Rule name is already used in this policy table: Authentication Rule 1"
+}2023-08-08 17:38:17
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "989409cc-7abb-4a13-bc59-5877c3e61a71",
+      "name" : "Authentication Rule 1",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionOrBlock",
+        "isNegate" : false,
+        "children" : [ {
+          "link" : null,
+          "conditionType" : "ConditionAttributes",
+          "isNegate" : false,
+          "dictionaryName" : "Radius",
+          "attributeName" : "Called-Station-ID",
+          "operator" : "equals",
+          "dictionaryValue" : null,
+          "attributeValue" : "SSID-1"
+        }, {
+          "link" : null,
+          "conditionType" : "ConditionAttributes",
+          "isNegate" : false,
+          "dictionaryName" : "Radius",
+          "attributeName" : "Called-Station-ID",
+          "operator" : "equals",
+          "dictionaryValue" : null,
+          "attributeValue" : "SSID-4"
+        } ]
+      }
+    },
+    "identitySourceName" : "ADJoin",
+    "ifAuthFail" : "REJECT",
+    "ifUserNotFound" : "REJECT",
+    "ifProcessFail" : "DROP",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/6b302e7b-0c90-4c38-b36e-50a894fa5b6d/authentication/989409cc-7abb-4a13-bc59-5877c3e61a71",
+      "type" : "application/json"
+    }
+  }
+}2023-08-08 17:40:27
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Rule name is already used in this policy table: Authentication Rule 1"
+}2023-08-08 17:42:11
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "cb01935a-77a5-4002-8c43-d38626ca96f0",
+      "name" : "Authentication Rule 1",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionOrBlock",
+        "isNegate" : false,
+        "children" : [ {
+          "link" : null,
+          "conditionType" : "ConditionAttributes",
+          "isNegate" : false,
+          "dictionaryName" : "Radius",
+          "attributeName" : "Called-Station-ID",
+          "operator" : "equals",
+          "dictionaryValue" : null,
+          "attributeValue" : "SSID-1"
+        }, {
+          "link" : null,
+          "conditionType" : "ConditionAttributes",
+          "isNegate" : false,
+          "dictionaryName" : "Radius",
+          "attributeName" : "Called-Station-ID",
+          "operator" : "equals",
+          "dictionaryValue" : null,
+          "attributeValue" : "SSID-4"
+        } ]
+      }
+    },
+    "identitySourceName" : "ADJoin",
+    "ifAuthFail" : "REJECT",
+    "ifUserNotFound" : "REJECT",
+    "ifProcessFail" : "DROP",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/fa6e47a3-fe9f-47e5-a853-df82e93ff1c5/authentication/cb01935a-77a5-4002-8c43-d38626ca96f0",
+      "type" : "application/json"
+    }
+  }
+}2023-08-08 17:43:30
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Invalid Rank for rule.: Authentication Rule 5. Rank=4. Must be in range between 0 and 3"
 }

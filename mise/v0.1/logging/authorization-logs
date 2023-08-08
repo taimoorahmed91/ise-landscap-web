@@ -114,4 +114,124 @@
 {
   "code" : "400",
   "message" : "Failed to handle API request - Network Access Authorization Rule : Rule name is already used in this policy table: Authorization VPN Network"
+}2023-08-08 17:23:40
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "7c42129e-912b-45d1-a54b-a8233da2514f",
+      "name" : "Authorization VPN Network",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "ADJoin",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Users/networks"
+      }
+    },
+    "profile" : [ "PermitAccess" ],
+    "securityGroup" : "Employees",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/6b302e7b-0c90-4c38-b36e-50a894fa5b6d/authorization/7c42129e-912b-45d1-a54b-a8233da2514f",
+      "type" : "application/json"
+    }
+  }
+}2023-08-08 17:26:20
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "292d448e-37ad-4e70-9843-c53f8c12ca6b",
+      "name" : "Authorization Rule 1",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "ADJoin",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Users/networks"
+      }
+    },
+    "profile" : [ "WSA_Admin" ],
+    "securityGroup" : null,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/6b302e7b-0c90-4c38-b36e-50a894fa5b6d/authorization/292d448e-37ad-4e70-9843-c53f8c12ca6b",
+      "type" : "application/json"
+    }
+  }
+}2023-08-08 17:44:46
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "14d579fa-085c-4399-bf35-13bd62988888",
+      "name" : "Authorization VPN Network",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "ADJoin",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Users/networks"
+      }
+    },
+    "profile" : [ "PermitAccess" ],
+    "securityGroup" : "Employees",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/2fc07c49-3fcb-4d4b-a52f-bfed6da23226/authorization/14d579fa-085c-4399-bf35-13bd62988888",
+      "type" : "application/json"
+    }
+  }
+}2023-08-08 17:46:56
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "02791dbd-322c-4cb9-9a87-9858ebade0b4",
+      "name" : "Authorization VPN Network",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "ADJoin",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Users/networks"
+      }
+    },
+    "profile" : [ "PermitAccess" ],
+    "securityGroup" : "Employees",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/b35c7c59-070e-43ec-b9d3-3ab84bf60e4c/authorization/02791dbd-322c-4cb9-9a87-9858ebade0b4",
+      "type" : "application/json"
+    }
+  }
 }

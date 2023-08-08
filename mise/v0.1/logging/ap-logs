@@ -8667,4 +8667,604 @@
       "type" : "application/xml"
     }
   }
+}2023-08-08 16:38:18
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-08-08 16:42:21
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-08-08 16:49:00
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-08-08 16:53:51
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-08-08 16:55:02
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-08-08 17:03:50
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-08-08 17:06:24
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-08-08 17:11:35
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-08-08 17:17:28
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-08-08 17:21:27
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+      "name" : "TACACS Protocol",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/9644e3c0-0a2c-11ee-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+      "name" : "ap_sample",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/4398ce00-f5ca-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+      "name" : "sample3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/85fbd9a0-f5c9-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+      "name" : "sample_ap_2",
+      "description" : "sample_ap_2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/allowedprotocols/50eb8bf0-e464-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
 }
