@@ -319,7 +319,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
 
                                     <th class="hidden-md-down">Queue</th>
                                     <th></th>
-                                    
+                                    <th></th>
                                     <th></th>
 
                                 </tr>
@@ -352,6 +352,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                               $output .='<td><a href="authz_add_queue.php?id='.$row['id'].'" class="btn btn--success "style="color:white">+</a> <a href="authz_remove_queue.php?id='.$row['id'].'" class="btn btn--success"style="color:white">-</a></td>';
                               $output .='<td><a href="download_authz.php?id='.$row['authzid'].'" class="btn btn--success" style="color:white">Download</a></td>';
                               $output .='<td><a href="resync_authz.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Resync</a></td>';
+                              $output .='<td><a href="edit_authz.php?id='.$row['authzid'].'" class="btn btn--success" style="color:white">Edit</a></td>';
                               
                               //Echo output
                               echo $output;

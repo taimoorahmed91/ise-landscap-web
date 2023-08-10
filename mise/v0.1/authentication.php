@@ -321,7 +321,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
 
                                     <th class="hidden-md-down">Queue</th>
                                     <th></th>
-                                    
+                                    <th></th>
                                     <th></th>
 
                                 </tr>
@@ -355,6 +355,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                               $output .='<td><a href="authentication_add_queue.php?id='.$row['id'].'" class="btn btn--success "style="color:white">+</a> <a href="authentication_remove_queue.php?id='.$row['id'].'" class="btn btn--success"style="color:white">-</a></td>';
                               $output .='<td><a href="download_authentication.php?id='.$row['authenticationid'].'" class="btn btn--success" style="color:white">Download</a></td>';
                               $output .='<td><a href="resync_authentication.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Resync</a></td>';
+                              $output .='<td><a href="edit_authentication.php?id='.$row['authenticationid'].'" class="btn btn--success" style="color:white">Edit</a></td>';
                               
                               //Echo output
                               echo $output;

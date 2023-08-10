@@ -72,7 +72,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MISE &middot; Edit SGT</title>
+    <title>MISE &middot; Edit NAD Group</title>
 
     <link rel="stylesheet" href="css/cui-standard.min.css">
 
@@ -254,11 +254,11 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
             <div class="section">
 
             <?php
-$folder = 'sgt'; // Set the folder name to 'SGT'
+$folder = 'nad'; // Set the folder name to 'allowed protocols'
 
 function getFileLocation($folder, $fileName) {
     $baseDir = '/var/www/html/mise/v0.1/configs/';
-    return $baseDir . 'sgt/' . $fileName;
+    return $baseDir . 'nad/' . $fileName;
 }
 
 // Check if the 'id' parameter exists in the URL
@@ -278,7 +278,7 @@ if (isset($_GET['id'])) {
             ?>
 <form role="form" method="post" action="">
     <div class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 265px;">
-        <h2 class="subtitle">Edit SGT File</h2>
+        <h2 class="subtitle">Edit NAD File</h2>
         <hr>
         <div class="section">
             <textarea name="file_contents" rows="<?php echo $rows; ?>" cols="100%"><?php echo htmlspecialchars($file_contents); ?></textarea>
@@ -307,7 +307,7 @@ if (isset($_GET['id'])) {
                                     // Save the edited contents to the new file
                                     if (file_put_contents($new_file_path, $file_contents) !== false) {
                                         // Insert the file name into the database table
-                                        $sql = "INSERT INTO sgt (sgt,sgtid,isename) VALUES ('$new_file_name','$new_file_name','MISE')";
+                                        $sql = "INSERT INTO nad (nad,nadid,isename) VALUES ('$new_file_name','$new_file_name','MISE')";
                                         if ($mysqli->query($sql) === TRUE) {
                                             echo "<p>File has been successfully saved as: " . htmlspecialchars($new_file_name) . "</p>";
                                         } else {

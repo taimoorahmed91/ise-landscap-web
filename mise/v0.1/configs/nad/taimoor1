@@ -1,14 +1,13 @@
 {
-  "Sgt" : {
-    "id" : "fafdfdb5-0b8b-462a-8f66-7beaa6cb9c7b",
-    "name" : "Staging_clients",
-    "value" : 171,
-    "generationId" : "0",
-    "propogateToApic" : false,
+  "NetworkDeviceGroup" : {
+    "id" : "79d1a580-c75a-11ed-81c6-6a78b0da21e5",
+    "name" : "Device Type#All Device Types#APIC",
+    "description" : "",
     "link" : {
-      "rel" : "self",
-      "href" : "https://172.17.30.91/ers/config/sgt/fafdfdb5-0b8b-462a-8f66-7beaa6cb9c7b",
+      "rel" : "se1lf",
+      "href" : "https://10.52.13.89/ers/config/networkdevicegroup/79d1a580-c75a-11ed-81c6-6a78b0da21e5",
       "type" : "application/json"
-    }
+    },
+    "othername" : "Device Type"
   }
 }
