@@ -588,4 +588,50 @@
 {
   "code" : "400",
   "message" : "Failed to handle API - Network Access Authentication Rule : Invalid Rank for rule.: Authentication Rule 5. Rank=4. Must be in range between 0 and 3"
+}2023-08-10 18:01:04
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : One of Authentication Rule Options contains illegal value, allowed values are: REJECT, DROP, CONTINUE"
+}2023-08-10 18:03:40
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "afbd0df4-6e4b-4e6a-93a1-3bc0d37149e9",
+      "name" : "Dot1X",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionOrBlock",
+        "isNegate" : false,
+        "children" : [ {
+          "link" : null,
+          "conditionType" : "ConditionReference",
+          "isNegate" : false,
+          "name" : "Wired_802.1X",
+          "id" : "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+          "description" : "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
+        }, {
+          "link" : null,
+          "conditionType" : "ConditionReference",
+          "isNegate" : false,
+          "name" : "Wireless_802.1X",
+          "id" : "883d379e-e873-4e42-a019-55e64ac31fcf",
+          "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+        } ]
+      }
+    },
+    "identitySourceName" : "All_User_ID_Stores",
+    "ifAuthFail" : "REJECT",
+    "ifUserNotFound" : "REJECT",
+    "ifProcessFail" : "DROP",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/policy-set/68868b3f-3254-45a3-822a-0803f4eed86c/authentication/afbd0df4-6e4b-4e6a-93a1-3bc0d37149e9",
+      "type" : "application/json"
+    }
+  }
 }

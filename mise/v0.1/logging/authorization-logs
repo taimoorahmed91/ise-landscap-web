@@ -234,4 +234,16 @@
       "type" : "application/json"
     }
   }
+}2023-08-10 17:54:52
+{
+  "message" : "rule, may not be null",
+  "code" : 400
+}2023-08-10 17:58:41
+{
+  "message" : "rule, may not be null",
+  "code" : 400
+}2023-08-10 18:01:05
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Invalid Rank for rule.: Profiled Non Cisco IP Phones. Rank=2. Must be in range between 0 and 1"
 }
