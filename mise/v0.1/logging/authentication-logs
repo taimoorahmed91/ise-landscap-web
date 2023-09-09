@@ -634,4 +634,12 @@
       "type" : "application/json"
     }
   }
+}2023-09-06 07:50:04
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Authentication rule result DenyAccess doesn't exist"
+}2023-09-06 07:50:10
+{
+  "code" : "400",
+  "message" : "Failed to handle API - Network Access Authentication Rule : Authentication rule result DenyAccess doesn't exist"
 }

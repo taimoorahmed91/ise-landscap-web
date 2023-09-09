@@ -1,0 +1,17 @@
+{
+    "ap": [
+        "TACACS Protocol"
+    ],
+    "authentication": [
+        "Default"
+    ],
+    "deployments": [
+        "10.52.13.89",
+        "ise32.taimoorlab.local",
+        "172.17.30.6"
+    ],
+    "nad": [
+        "IPSEC#Is IPSEC Device#Yes",
+        "Location#All Locations"
+    ]
+}

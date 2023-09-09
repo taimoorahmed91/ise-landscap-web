@@ -1,0 +1,34 @@
+{
+  "version" : "1.0.0",
+  "response" : {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/condition/2fccf7d6-d6b1-469d-a681-b85a6c247472",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionOrBlock",
+    "isNegate" : false,
+    "children" : [ {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-1"
+    }, {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-4"
+    } ],
+    "name" : "taimoor_condition",
+    "id" : "2fccf7d6-d6b1-469d-a681-b85a6c247472",
+    "description" : null
+  }
+}

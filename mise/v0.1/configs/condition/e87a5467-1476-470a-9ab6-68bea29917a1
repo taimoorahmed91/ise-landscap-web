@@ -1,0 +1,20 @@
+{
+  "version" : "1.0.0",
+  "response" : {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/condition/e87a5467-1476-470a-9ab6-68bea29917a1",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Cisco",
+    "attributeName" : "Cisco-5g-serving-network-name",
+    "operator" : "startsWith",
+    "dictionaryValue" : null,
+    "attributeValue" : "5G:",
+    "name" : "5G",
+    "id" : "e87a5467-1476-470a-9ab6-68bea29917a1",
+    "description" : "A condition to match 5G"
+  }
+}

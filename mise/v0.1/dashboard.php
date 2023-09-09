@@ -433,6 +433,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 <li class="sidebar__item"><a href="dacl.php">Downloadable ACL</a></li>
                                 <li class="sidebar__item"><a href="nad.php">NAD Groups</a></li>
                                 <li class="sidebar__item"><a href="sgt.php">Security Group TAG (SGT)</a></li>
+                                <li class="sidebar__item"><a href="condition.php">Conditions</a></li>
                             </ul>
                         </li>
                         <li class="sidebar__drawer">

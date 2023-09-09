@@ -1,0 +1,20 @@
+{
+  "version" : "1.0.0",
+  "response" : {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/condition/08906eb8-02f8-4254-98e6-8397caf0808f",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "WirelessWebAuth",
+    "name" : "WLC_Web_Authentication",
+    "id" : "08906eb8-02f8-4254-98e6-8397caf0808f",
+    "description" : "A condition to match requests for web authentication from wireless LAN controllers, according to the corresponding Web Authentication attributes defined in the device profile."
+  }
+}
