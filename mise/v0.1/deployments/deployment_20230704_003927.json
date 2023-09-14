@@ -1,9 +1,0 @@
-{
-    "dacl": [
-        "DNS_Only",
-        "Internet_Only"
-    ],
-    "deployments": [
-        "ise32.taimoorlab.local"
-    ]
-}

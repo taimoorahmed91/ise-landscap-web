@@ -1,20 +1,12 @@
 {
-  "version" : "1.0.0",
-  "response" : {
-    "link" : {
-      "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/condition/5a70b542-1f18-4586-b4a4-eeb61e18e331",
-      "type" : "application/json"
-    },
-    "conditionType" : "LibraryConditionAttributes",
-    "isNegate" : false,
-    "dictionaryName" : "Session",
-    "attributeName" : "PostureStatus",
-    "operator" : "equals",
-    "dictionaryValue" : null,
-    "attributeValue" : "NonCompliant",
-    "name" : "Non_Compliant_Devices",
-    "id" : "5a70b542-1f18-4586-b4a4-eeb61e18e331",
-    "description" : "Default condition for non-compliant devices"
-  }
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Session",
+    "attributeName": "PostureStatus",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "NonCompliant",
+    "name": "Non_Compliant_Devices",
+    "id": "5a70b542-1f18-4586-b4a4-eeb61e18e331",
+    "description": "Default condition for non-compliant devices"
 }

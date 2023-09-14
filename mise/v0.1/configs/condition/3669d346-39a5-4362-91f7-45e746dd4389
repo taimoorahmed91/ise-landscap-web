@@ -1,0 +1,25 @@
+{
+    "conditionType": "LibraryConditionAndBlock",
+    "isNegate": false,
+    "children": [
+        {
+            "link": null,
+            "conditionType": "ConditionReference",
+            "isNegate": false,
+            "name": "Wired_802.1X",
+            "id": "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+            "description": "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
+        },
+        {
+            "link": null,
+            "conditionType": "ConditionReference",
+            "isNegate": false,
+            "name": "Wired_802.1X",
+            "id": "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+            "description": "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
+        }
+    ],
+    "name": "Wireless_802.1B",
+    "id": "3669d346-39a5-4362-91f7-45e746dd4389",
+    "description": null
+}

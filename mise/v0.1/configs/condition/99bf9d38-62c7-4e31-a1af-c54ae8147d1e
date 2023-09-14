@@ -1,20 +1,12 @@
 {
-  "version" : "1.0.0",
-  "response" : {
-    "link" : {
-      "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/condition/99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
-      "type" : "application/json"
-    },
-    "conditionType" : "LibraryConditionAttributes",
-    "isNegate" : false,
-    "dictionaryName" : "Normalised Radius",
-    "attributeName" : "RadiusFlowType",
-    "operator" : "equals",
-    "dictionaryValue" : null,
-    "attributeValue" : "Wired802_1x",
-    "name" : "Wired_802.1X",
-    "id" : "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
-    "description" : "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
-  }
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Normalised Radius",
+    "attributeName": "RadiusFlowType",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "Wired802_1x",
+    "name": "Wired_802.1X",
+    "id": "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+    "description": "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
 }

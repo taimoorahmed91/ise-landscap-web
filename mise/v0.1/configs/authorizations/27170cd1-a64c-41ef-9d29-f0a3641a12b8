@@ -2,7 +2,7 @@
     "rule": {
         "default": false,
         "name": "Authorization VPN Network",
-        "hitCounts": 19,
+        "hitCounts": 0,
         "rank": 0,
         "state": "enabled",
         "condition": {

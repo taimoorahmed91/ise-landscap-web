@@ -1,8 +1,0 @@
-{
-    "authentication": [
-        "ASA VPN RADIUS"
-    ],
-    "deployments": [
-        "ise32.taimoorlab.local"
-    ]
-}

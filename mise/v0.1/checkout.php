@@ -57,6 +57,11 @@ $query_nad = "SELECT * FROM nad WHERE queue = 'yes'";
 $result_nad = $mysqli->query($query_nad) or die($mysqli->error.__LINE__);
 
 
+// Query for Cond
+$query_cond = "SELECT * FROM cond WHERE queue = 'yes'";
+$result_cond = $mysqli->query($query_cond) or die($mysqli->error.__LINE__);
+
+
 // Query for policysets
 $query_policyset = "SELECT * FROM policyset WHERE queue = 'yes'";
 $result_policyset = $mysqli->query($query_policyset) or die($mysqli->error.__LINE__);
@@ -552,6 +557,41 @@ $result_authorization = $mysqli->query($query_authorization) or die($mysqli->err
                               $output ='<tr>';
                               $output .='<td>'.$row['id'].'</td>';
                               $output .='<td>'.$row['authorization'].'</td>';
+                              $output .='<td>'.$row['isename'].'</td>';
+
+                              
+                              //Echo output
+                              echo $output;
+                            }
+                          } else {
+                            echo "Sorry, no entries were found";
+                          }
+                          ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <div  class="panel panel--loose panel--raised base-margin-bottom" style="padding-left: 235px;"> 
+                    <table class="table table--lined table--selectable">
+                    <h2> Library Condition</h2>
+                        <thead>
+                            <tr>
+                                    <th class="hidden-md-down">ID </span></th>
+                                    <th class="hidden-md-down">Name</th>
+                                    <th class="hidden-md-down">Source ISE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <?php 
+                            //Check if at least one row is found
+                            if($result_cond->num_rows > 0) {
+                            //Loop through results
+                            while($row = $result_cond->fetch_assoc()){
+                              //Display customer info
+                              $output ='<tr>';
+                              $output .='<td>'.$row['id'].'</td>';
+                              $output .='<td>'.$row['cond'].'</td>';
                               $output .='<td>'.$row['isename'].'</td>';
 
                               

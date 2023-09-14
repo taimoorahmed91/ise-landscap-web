@@ -1,0 +1,89 @@
+2023-09-14 17:52:16
+{
+  "message" : "request has bad input format in the body",
+  "code" : 400
+}2023-09-14 17:55:20
+{
+  "message" : "request has bad input format in the body",
+  "code" : 400
+}2023-09-14 19:21:20
+{
+  "message" : "name, must match \"^[\\w\\-\\ ]+$\"",
+  "code" : 400
+}2023-09-14 19:29:04
+{
+  "message" : "name, must match \"^[\\w\\-\\ ]+$\"",
+  "code" : 400
+}2023-09-14 19:30:08
+{
+  "message" : "name, must match \"^[\\w\\-\\ ]+$\"",
+  "code" : 400
+}2023-09-14 19:32:06
+{
+  "message" : "name, must match \"^[\\w\\-\\ ]+$\"",
+  "code" : 400
+}2023-09-14 19:33:58
+{
+  "version" : "1.0.0",
+  "response" : {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/4ff1968d-c208-4a98-aecb-305e9baba853",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless802_1x",
+    "name" : "Wireless_8021X",
+    "id" : "4ff1968d-c208-4a98-aecb-305e9baba853",
+    "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+  }
+}2023-09-14 19:35:12
+{
+  "code" : "400",
+  "message" : "Failed to handle API resource request: This name is already used"
+}2023-09-14 19:36:53
+{
+  "version" : "1.0.0",
+  "response" : {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/614bba92-b2e7-45a1-9602-61f4db97dd08",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless802_1x",
+    "name" : "taimoor",
+    "id" : "614bba92-b2e7-45a1-9602-61f4db97dd08",
+    "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+  }
+}2023-09-14 19:38:53
+{
+  "message" : "name, must match \"^[\\w\\-\\ ]+$\"",
+  "code" : 400
+}2023-09-14 19:40:30
+{
+  "message" : "name, must match \"^[\\w\\-\\ ]+$\"",
+  "code" : 400
+}2023-09-14 19:55:37
+{
+  "message" : "name, must match \"^[\\w\\-\\ ]+$\"",
+  "code" : 400
+}2023-09-14 19:55:55
+{
+  "message" : "name, must match \"^[\\w\\-\\ ]+$\"",
+  "code" : 400
+}2023-09-14 19:57:02
+{
+  "message" : "name, must match \"^[\\w\\-\\ ]+$\"",
+  "code" : 400
+}

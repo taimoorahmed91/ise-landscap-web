@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Normalised Radius",
+    "attributeName": "RadiusFlowType",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "Wireless802_1x",
+    "name": "Wireless_802-1X",
+    "id": "e9838cda-fb8c-4f6c-bd65-6a26a032e729",
+    "description": "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+}

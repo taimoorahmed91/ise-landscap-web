@@ -2,7 +2,7 @@
 <?php include('tracker.php'); ?>
 
 <?php
-$scripts = array("dacl_data", "nad_data", "ap_data", "authz_data", "sgt_data", "policyset_data");
+$scripts = array("dacl_data", "nad_data", "ap_data", "authz_data", "sgt_data", "policyset_data", "condition_data");
 
 
 $relativeUrl = "/mise/v0.1/deployments.php";

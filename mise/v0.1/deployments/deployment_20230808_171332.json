@@ -1,8 +1,0 @@
-{
-    "deployments": [
-        "ise32.taimoorlab.local"
-    ],
-    "policyset": [
-        "ASA-VPN"
-    ]
-}

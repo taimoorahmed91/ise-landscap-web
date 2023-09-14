@@ -1,20 +1,12 @@
 {
-  "version" : "1.0.0",
-  "response" : {
-    "link" : {
-      "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/condition/106812f5-45b7-4069-8f0a-1ea2a5c9172e",
-      "type" : "application/json"
-    },
-    "conditionType" : "LibraryConditionAttributes",
-    "isNegate" : false,
-    "dictionaryName" : "CERTIFICATE",
-    "attributeName" : "Subject Alternative Name",
-    "operator" : "equals",
-    "dictionaryValue" : "Radius",
-    "attributeValue" : "Calling-Station-ID",
-    "name" : "MAC_in_SAN",
-    "id" : "106812f5-45b7-4069-8f0a-1ea2a5c9172e",
-    "description" : "Default condition for BYOD flow for any device that has passed the NSP process"
-  }
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "CERTIFICATE",
+    "attributeName": "Subject Alternative Name",
+    "operator": "equals",
+    "dictionaryValue": "Radius",
+    "attributeValue": "Calling-Station-ID",
+    "name": "MAC_in_SAN",
+    "id": "106812f5-45b7-4069-8f0a-1ea2a5c9172e",
+    "description": "Default condition for BYOD flow for any device that has passed the NSP process"
 }

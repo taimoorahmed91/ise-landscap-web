@@ -1,8 +1,0 @@
-{
-    "deployments": [
-        "ise32.taimoorlab.local"
-    ],
-    "nad": [
-        "Device Type#All Device Types#ASA"
-    ]
-}

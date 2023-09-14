@@ -1,20 +1,12 @@
 {
-  "version" : "1.0.0",
-  "response" : {
-    "link" : {
-      "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/condition/3bd6e844-a44f-4206-9a0f-0b28a1e0e9e3",
-      "type" : "application/json"
-    },
-    "conditionType" : "LibraryConditionAttributes",
-    "isNegate" : false,
-    "dictionaryName" : "Radius",
-    "attributeName" : "NAS-Port-Type",
-    "operator" : "equals",
-    "dictionaryValue" : null,
-    "attributeValue" : "Wireless - IEEE 802.11",
-    "name" : "Wireless_Access",
-    "id" : "3bd6e844-a44f-4206-9a0f-0b28a1e0e9e3",
-    "description" : "Default condition used to match any authentication request from Cisco Wireless LAN Controller."
-  }
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Radius",
+    "attributeName": "NAS-Port-Type",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "Wireless - IEEE 802.11",
+    "name": "Wireless_Access",
+    "id": "3bd6e844-a44f-4206-9a0f-0b28a1e0e9e3",
+    "description": "Default condition used to match any authentication request from Cisco Wireless LAN Controller."
 }

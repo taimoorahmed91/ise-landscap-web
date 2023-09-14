@@ -1,20 +1,12 @@
 {
-  "version" : "1.0.0",
-  "response" : {
-    "link" : {
-      "rel" : "self",
-      "href" : "https://ise32.taimoorlab.local/api/v1/policy/network-access/condition/02c2309e-3e99-4d4f-a2a4-3e60202ec28d",
-      "type" : "application/json"
-    },
-    "conditionType" : "LibraryConditionAttributes",
-    "isNegate" : false,
-    "dictionaryName" : "Normalised Radius",
-    "attributeName" : "RadiusFlowType",
-    "operator" : "equals",
-    "dictionaryValue" : null,
-    "attributeValue" : "WiredMAB",
-    "name" : "Wired_MAB",
-    "id" : "02c2309e-3e99-4d4f-a2a4-3e60202ec28d",
-    "description" : "A condition to match MAC Authentication Bypass service based authentication requests from switches, according to the corresponding MAB attributes defined in the device profile."
-  }
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Normalised Radius",
+    "attributeName": "RadiusFlowType",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "WiredMAB",
+    "name": "Wired_MAB",
+    "id": "02c2309e-3e99-4d4f-a2a4-3e60202ec28d",
+    "description": "A condition to match MAC Authentication Bypass service based authentication requests from switches, according to the corresponding MAB attributes defined in the device profile."
 }

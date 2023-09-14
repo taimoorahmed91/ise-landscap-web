@@ -351,7 +351,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                                     $output .= '<td>'.$row['get_code'].'</td>';
                                 }
                               $output .='<td><a href="cond_add_queue.php?id='.$row['id'].'" class="btn btn--success "style="color:white">+</a> <a href="cond_remove_queue.php?id='.$row['id'].'" class="btn btn--success"style="color:white">-</a></td>';
-                              $output .='<td><a href="download_cond.php?id='.$row['daclid'].'" class="btn btn--success" style="color:white">Download</a></td>';
+                              $output .='<td><a href="download_cond.php?id='.$row['condid'].'" class="btn btn--success" style="color:white">Download</a></td>';
                               $output .='<td><a href="resync_cond.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Resync</a></td>';
                               $output .='<td><a href="edit_cond.php?id='.$row['condid'].'" class="btn btn--success" style="color:white">Edit</a></td>';
                               
