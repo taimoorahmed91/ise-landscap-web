@@ -6252,4 +6252,916 @@
     "id" : "e9838cda-fb8c-4f6c-bd65-6a26a032e729",
     "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
   } ]
+}2023-09-15 19:34:05
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/883d379e-e873-4e42-a019-55e64ac31fcf",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless802_1x",
+    "name" : "Wireless_802.1X",
+    "id" : "883d379e-e873-4e42-a019-55e64ac31fcf",
+    "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/cee0c6f9-7d95-490e-bca1-8d21670529ce",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "WiredWebAuth",
+    "name" : "Switch_Web_Authentication",
+    "id" : "cee0c6f9-7d95-490e-bca1-8d21670529ce",
+    "description" : "A condition to match requests for web authentication from switches, according to the corresponding Web Authentication attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/02c2309e-3e99-4d4f-a2a4-3e60202ec28d",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "WiredMAB",
+    "name" : "Wired_MAB",
+    "id" : "02c2309e-3e99-4d4f-a2a4-3e60202ec28d",
+    "description" : "A condition to match MAC Authentication Bypass service based authentication requests from switches, according to the corresponding MAB attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wired802_1x",
+    "name" : "Wired_802.1X",
+    "id" : "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+    "description" : "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/61bc2ce9-1282-484b-bede-f2ce5b29da23",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "WirelessMAB",
+    "name" : "Wireless_MAB",
+    "id" : "61bc2ce9-1282-484b-bede-f2ce5b29da23",
+    "description" : "A condition to match MAC Authentication Bypass service based authentication requests from wireless LAN controllers, according to the corresponding MAB attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/08906eb8-02f8-4254-98e6-8397caf0808f",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "WirelessWebAuth",
+    "name" : "WLC_Web_Authentication",
+    "id" : "08906eb8-02f8-4254-98e6-8397caf0808f",
+    "description" : "A condition to match requests for web authentication from wireless LAN controllers, according to the corresponding Web Authentication attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/bace1b77-7d2b-4f23-a452-c4fa95df2f4b",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Session",
+    "attributeName" : "PostureStatus",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Unknown",
+    "name" : "Compliance_Unknown_Devices",
+    "id" : "bace1b77-7d2b-4f23-a452-c4fa95df2f4b",
+    "description" : "Default condition for unknown compliance devices"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/f7fb54a5-378e-4951-96d9-1840f8c249b2",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAndBlock",
+    "isNegate" : false,
+    "children" : [ {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Service-Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Outbound"
+    }, {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "NAS-Port-Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Ethernet"
+    } ],
+    "name" : "Catalyst_Switch_Local_Web_Authentication",
+    "id" : "f7fb54a5-378e-4951-96d9-1840f8c249b2",
+    "description" : "Default condition used to match authentication requests for Local Web Authentication from Cisco Catalyst Switches"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/3bd6e844-a44f-4206-9a0f-0b28a1e0e9e3",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Radius",
+    "attributeName" : "NAS-Port-Type",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless - IEEE 802.11",
+    "name" : "Wireless_Access",
+    "id" : "3bd6e844-a44f-4206-9a0f-0b28a1e0e9e3",
+    "description" : "Default condition used to match any authentication request from Cisco Wireless LAN Controller."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/69f717b5-3c70-4a49-98ed-d47c947131b2",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "EndPoints",
+    "attributeName" : "BYODRegistration",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Yes",
+    "name" : "BYOD_is_Registered",
+    "id" : "69f717b5-3c70-4a49-98ed-d47c947131b2",
+    "description" : "Default condition for BYOD flow for any device that has passed the NSP process"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/32ee26b1-5442-4c16-8c85-de18ca7c58bc",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Network Access",
+    "attributeName" : "EapAuthentication",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "EAP-MSCHAPv2",
+    "name" : "EAP-MSCHAPv2",
+    "id" : "32ee26b1-5442-4c16-8c85-de18ca7c58bc",
+    "description" : "Default condition for BYOD Onboarding flow"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/e87a5467-1476-470a-9ab6-68bea29917a1",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Cisco",
+    "attributeName" : "Cisco-5g-serving-network-name",
+    "operator" : "startsWith",
+    "dictionaryValue" : null,
+    "attributeValue" : "5G:",
+    "name" : "5G",
+    "id" : "e87a5467-1476-470a-9ab6-68bea29917a1",
+    "description" : "A condition to match 5G"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/7c3d54fe-7d29-4c57-afd1-d943d93e5050",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Network Access",
+    "attributeName" : "EapAuthentication",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "EAP-TLS",
+    "name" : "EAP-TLS",
+    "id" : "7c3d54fe-7d29-4c57-afd1-d943d93e5050",
+    "description" : "Default condition for BYOD flow for any device that has passed the NSP process"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/ab19729c-21d0-4ab6-9a5e-1a6dbfb3c642",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Network Access",
+    "attributeName" : "UseCase",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Guest Flow",
+    "name" : "Guest_Flow",
+    "id" : "ab19729c-21d0-4ab6-9a5e-1a6dbfb3c642",
+    "description" : "Default condition for guest flow"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/106812f5-45b7-4069-8f0a-1ea2a5c9172e",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "CERTIFICATE",
+    "attributeName" : "Subject Alternative Name",
+    "operator" : "equals",
+    "dictionaryValue" : "Radius",
+    "attributeValue" : "Calling-Station-ID",
+    "name" : "MAC_in_SAN",
+    "id" : "106812f5-45b7-4069-8f0a-1ea2a5c9172e",
+    "description" : "Default condition for BYOD flow for any device that has passed the NSP process"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/e13837fd-1021-4228-a924-c140fa333d90",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Network Access",
+    "attributeName" : "AuthenticationStatus",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "AuthenticationPassed",
+    "name" : "Network_Access_Authentication_Passed",
+    "id" : "e13837fd-1021-4228-a924-c140fa333d90",
+    "description" : "Default condition used for basic Network Access requiring that authentication was successful."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/5a70b542-1f18-4586-b4a4-eeb61e18e331",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Session",
+    "attributeName" : "PostureStatus",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "NonCompliant",
+    "name" : "Non_Compliant_Devices",
+    "id" : "5a70b542-1f18-4586-b4a4-eeb61e18e331",
+    "description" : "Default condition for non-compliant devices"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/a4d100c1-9017-4227-a939-fdaa79e5aa12",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Session",
+    "attributeName" : "PostureStatus",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Compliant",
+    "name" : "Compliant_Devices",
+    "id" : "a4d100c1-9017-4227-a939-fdaa79e5aa12",
+    "description" : "Default condition for compliant devices"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/e959381e-7b9f-4475-a263-2c4df1cd8631",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "EndPoints",
+    "attributeName" : "LogicalProfile",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "IP-Phones",
+    "name" : "Non_Cisco_Profiled_Phones",
+    "id" : "e959381e-7b9f-4475-a263-2c4df1cd8631",
+    "description" : "Default condition used to match Non Cisco IP Phones"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/c93d3fef-6980-436b-9722-bf79e1c62f94",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAndBlock",
+    "isNegate" : false,
+    "children" : [ {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Service-Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Outbound"
+    }, {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "NAS-Port-Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Ethernet"
+    } ],
+    "name" : "Switch_Local_Web_Authentication",
+    "id" : "c93d3fef-6980-436b-9722-bf79e1c62f94",
+    "description" : "A condition to match authentication requests for Local Web Authentication from Cisco Catalyst Switches"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/2fccf7d6-d6b1-469d-a681-b85a6c247472",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionOrBlock",
+    "isNegate" : false,
+    "children" : [ {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-1"
+    }, {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-4"
+    } ],
+    "name" : "taimoor_condition",
+    "id" : "2fccf7d6-d6b1-469d-a681-b85a6c247472",
+    "description" : null
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/a01a99bb-98a9-46df-b7d6-8735ffa522ae",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless802_1x",
+    "name" : "Wirele",
+    "id" : "a01a99bb-98a9-46df-b7d6-8735ffa522ae",
+    "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/3669d346-39a5-4362-91f7-45e746dd4389",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAndBlock",
+    "isNegate" : false,
+    "children" : [ {
+      "link" : null,
+      "conditionType" : "ConditionReference",
+      "isNegate" : false,
+      "name" : "Wired_802.1X",
+      "id" : "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+      "description" : "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
+    }, {
+      "link" : null,
+      "conditionType" : "ConditionReference",
+      "isNegate" : false,
+      "name" : "Wired_802.1X",
+      "id" : "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+      "description" : "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
+    } ],
+    "name" : "Wireless_802.1B",
+    "id" : "3669d346-39a5-4362-91f7-45e746dd4389",
+    "description" : null
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/e9838cda-fb8c-4f6c-bd65-6a26a032e729",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless802_1x",
+    "name" : "Wireless_802-1X",
+    "id" : "e9838cda-fb8c-4f6c-bd65-6a26a032e729",
+    "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/4ff1968d-c208-4a98-aecb-305e9baba853",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless802_1x",
+    "name" : "Wireless_8021X",
+    "id" : "4ff1968d-c208-4a98-aecb-305e9baba853",
+    "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+  } ]
+}2023-09-17 16:48:15
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/883d379e-e873-4e42-a019-55e64ac31fcf",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless802_1x",
+    "name" : "Wireless_802.1X",
+    "id" : "883d379e-e873-4e42-a019-55e64ac31fcf",
+    "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/cee0c6f9-7d95-490e-bca1-8d21670529ce",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "WiredWebAuth",
+    "name" : "Switch_Web_Authentication",
+    "id" : "cee0c6f9-7d95-490e-bca1-8d21670529ce",
+    "description" : "A condition to match requests for web authentication from switches, according to the corresponding Web Authentication attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/02c2309e-3e99-4d4f-a2a4-3e60202ec28d",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "WiredMAB",
+    "name" : "Wired_MAB",
+    "id" : "02c2309e-3e99-4d4f-a2a4-3e60202ec28d",
+    "description" : "A condition to match MAC Authentication Bypass service based authentication requests from switches, according to the corresponding MAB attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wired802_1x",
+    "name" : "Wired_802.1X",
+    "id" : "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+    "description" : "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/61bc2ce9-1282-484b-bede-f2ce5b29da23",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "WirelessMAB",
+    "name" : "Wireless_MAB",
+    "id" : "61bc2ce9-1282-484b-bede-f2ce5b29da23",
+    "description" : "A condition to match MAC Authentication Bypass service based authentication requests from wireless LAN controllers, according to the corresponding MAB attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/08906eb8-02f8-4254-98e6-8397caf0808f",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "WirelessWebAuth",
+    "name" : "WLC_Web_Authentication",
+    "id" : "08906eb8-02f8-4254-98e6-8397caf0808f",
+    "description" : "A condition to match requests for web authentication from wireless LAN controllers, according to the corresponding Web Authentication attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/bace1b77-7d2b-4f23-a452-c4fa95df2f4b",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Session",
+    "attributeName" : "PostureStatus",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Unknown",
+    "name" : "Compliance_Unknown_Devices",
+    "id" : "bace1b77-7d2b-4f23-a452-c4fa95df2f4b",
+    "description" : "Default condition for unknown compliance devices"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/f7fb54a5-378e-4951-96d9-1840f8c249b2",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAndBlock",
+    "isNegate" : false,
+    "children" : [ {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Service-Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Outbound"
+    }, {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "NAS-Port-Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Ethernet"
+    } ],
+    "name" : "Catalyst_Switch_Local_Web_Authentication",
+    "id" : "f7fb54a5-378e-4951-96d9-1840f8c249b2",
+    "description" : "Default condition used to match authentication requests for Local Web Authentication from Cisco Catalyst Switches"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/3bd6e844-a44f-4206-9a0f-0b28a1e0e9e3",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Radius",
+    "attributeName" : "NAS-Port-Type",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless - IEEE 802.11",
+    "name" : "Wireless_Access",
+    "id" : "3bd6e844-a44f-4206-9a0f-0b28a1e0e9e3",
+    "description" : "Default condition used to match any authentication request from Cisco Wireless LAN Controller."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/69f717b5-3c70-4a49-98ed-d47c947131b2",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "EndPoints",
+    "attributeName" : "BYODRegistration",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Yes",
+    "name" : "BYOD_is_Registered",
+    "id" : "69f717b5-3c70-4a49-98ed-d47c947131b2",
+    "description" : "Default condition for BYOD flow for any device that has passed the NSP process"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/32ee26b1-5442-4c16-8c85-de18ca7c58bc",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Network Access",
+    "attributeName" : "EapAuthentication",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "EAP-MSCHAPv2",
+    "name" : "EAP-MSCHAPv2",
+    "id" : "32ee26b1-5442-4c16-8c85-de18ca7c58bc",
+    "description" : "Default condition for BYOD Onboarding flow"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/e87a5467-1476-470a-9ab6-68bea29917a1",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Cisco",
+    "attributeName" : "Cisco-5g-serving-network-name",
+    "operator" : "startsWith",
+    "dictionaryValue" : null,
+    "attributeValue" : "5G:",
+    "name" : "5G",
+    "id" : "e87a5467-1476-470a-9ab6-68bea29917a1",
+    "description" : "A condition to match 5G"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/7c3d54fe-7d29-4c57-afd1-d943d93e5050",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Network Access",
+    "attributeName" : "EapAuthentication",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "EAP-TLS",
+    "name" : "EAP-TLS",
+    "id" : "7c3d54fe-7d29-4c57-afd1-d943d93e5050",
+    "description" : "Default condition for BYOD flow for any device that has passed the NSP process"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/ab19729c-21d0-4ab6-9a5e-1a6dbfb3c642",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Network Access",
+    "attributeName" : "UseCase",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Guest Flow",
+    "name" : "Guest_Flow",
+    "id" : "ab19729c-21d0-4ab6-9a5e-1a6dbfb3c642",
+    "description" : "Default condition for guest flow"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/106812f5-45b7-4069-8f0a-1ea2a5c9172e",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "CERTIFICATE",
+    "attributeName" : "Subject Alternative Name",
+    "operator" : "equals",
+    "dictionaryValue" : "Radius",
+    "attributeValue" : "Calling-Station-ID",
+    "name" : "MAC_in_SAN",
+    "id" : "106812f5-45b7-4069-8f0a-1ea2a5c9172e",
+    "description" : "Default condition for BYOD flow for any device that has passed the NSP process"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/e13837fd-1021-4228-a924-c140fa333d90",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Network Access",
+    "attributeName" : "AuthenticationStatus",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "AuthenticationPassed",
+    "name" : "Network_Access_Authentication_Passed",
+    "id" : "e13837fd-1021-4228-a924-c140fa333d90",
+    "description" : "Default condition used for basic Network Access requiring that authentication was successful."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/5a70b542-1f18-4586-b4a4-eeb61e18e331",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Session",
+    "attributeName" : "PostureStatus",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "NonCompliant",
+    "name" : "Non_Compliant_Devices",
+    "id" : "5a70b542-1f18-4586-b4a4-eeb61e18e331",
+    "description" : "Default condition for non-compliant devices"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/a4d100c1-9017-4227-a939-fdaa79e5aa12",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Session",
+    "attributeName" : "PostureStatus",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Compliant",
+    "name" : "Compliant_Devices",
+    "id" : "a4d100c1-9017-4227-a939-fdaa79e5aa12",
+    "description" : "Default condition for compliant devices"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/e959381e-7b9f-4475-a263-2c4df1cd8631",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "EndPoints",
+    "attributeName" : "LogicalProfile",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "IP-Phones",
+    "name" : "Non_Cisco_Profiled_Phones",
+    "id" : "e959381e-7b9f-4475-a263-2c4df1cd8631",
+    "description" : "Default condition used to match Non Cisco IP Phones"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/c93d3fef-6980-436b-9722-bf79e1c62f94",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAndBlock",
+    "isNegate" : false,
+    "children" : [ {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Service-Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Outbound"
+    }, {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "NAS-Port-Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Ethernet"
+    } ],
+    "name" : "Switch_Local_Web_Authentication",
+    "id" : "c93d3fef-6980-436b-9722-bf79e1c62f94",
+    "description" : "A condition to match authentication requests for Local Web Authentication from Cisco Catalyst Switches"
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/2fccf7d6-d6b1-469d-a681-b85a6c247472",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionOrBlock",
+    "isNegate" : false,
+    "children" : [ {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-1"
+    }, {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-4"
+    } ],
+    "name" : "taimoor_condition",
+    "id" : "2fccf7d6-d6b1-469d-a681-b85a6c247472",
+    "description" : null
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/a01a99bb-98a9-46df-b7d6-8735ffa522ae",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless802_1x",
+    "name" : "Wirele",
+    "id" : "a01a99bb-98a9-46df-b7d6-8735ffa522ae",
+    "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/3669d346-39a5-4362-91f7-45e746dd4389",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAndBlock",
+    "isNegate" : false,
+    "children" : [ {
+      "link" : null,
+      "conditionType" : "ConditionReference",
+      "isNegate" : false,
+      "name" : "Wired_802.1X",
+      "id" : "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+      "description" : "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
+    }, {
+      "link" : null,
+      "conditionType" : "ConditionReference",
+      "isNegate" : false,
+      "name" : "Wired_802.1X",
+      "id" : "99bf9d38-62c7-4e31-a1af-c54ae8147d1e",
+      "description" : "A condition to match 802.1X based authentication requests from switches, according to the corresponding 802.1x attributes defined in the device profile."
+    } ],
+    "name" : "Wireless_802.1B",
+    "id" : "3669d346-39a5-4362-91f7-45e746dd4389",
+    "description" : null
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/e9838cda-fb8c-4f6c-bd65-6a26a032e729",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless802_1x",
+    "name" : "Wireless_802-1X",
+    "id" : "e9838cda-fb8c-4f6c-bd65-6a26a032e729",
+    "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+  }, {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/condition/4ff1968d-c208-4a98-aecb-305e9baba853",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "Normalised Radius",
+    "attributeName" : "RadiusFlowType",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "Wireless802_1x",
+    "name" : "Wireless_8021X",
+    "id" : "4ff1968d-c208-4a98-aecb-305e9baba853",
+    "description" : "A condition to match 802.1X based authentication requests from wireless LAN controllers, according to the corresponding 802.1x attributes defined in the device profile."
+  } ]
 }

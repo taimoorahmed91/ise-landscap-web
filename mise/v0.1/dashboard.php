@@ -457,6 +457,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                                 <li class="sidebar__item"><a href="checkout.php">Deploy</a></li>
                                 <li class="sidebar__item"><a href="deploy-history.php">Deployment History</a></li>
                                 <li class="sidebar__item"><a href="deployed_elements.php">Deployed Elements</a></li>
+                                <li class="sidebar__item"><a href="coa_history.php">CoA History</a></li>
                             </ul>
                         </li>
                         <li class="sidebar__drawer">
@@ -466,7 +467,7 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                             </a>
                             <ul>
                                 <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
-                                <li class="sidebar__item"><a href="TBD.php">TBD</a></li>
+                                <li class="sidebar__item"><a href="send_coa.php">CoA</a></li>
                             </ul>
                         </li>
 
