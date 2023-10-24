@@ -12165,4 +12165,301 @@
       }
     } ]
   }
+}2023-09-25 19:23:41
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9e05bc20-c8c2-11ed-b4d2-72762f04cc59",
+      "name" : "Device Type#All Device Types#ASA",
+      "description" : "VPN Concentrator",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/9e05bc20-c8c2-11ed-b4d2-72762f04cc59",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "0aef3a20-da37-11ed-a198-ae96a26dba0a",
+      "name" : "Device Type#All Device Types#Proxy",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/0aef3a20-da37-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b98e6920-d145-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB",
+      "description" : "This is lab equipment",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/b98e6920-d145-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "c59aab70-d145-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB#BRU",
+      "description" : "This is lab in BRU Lab for testing on Sun",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/c59aab70-d145-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "a507f1a0-d155-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB#KRK",
+      "description" : "Testing Lab",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/a507f1a0-d155-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "99f333e0-d143-11ed-a198-ae96a26dba0a",
+      "name" : "Location#All Locations#Krakow",
+      "description" : "Krakow Location",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/99f333e0-d143-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-10-09 09:03:05
+{
+  "SearchResult" : {
+    "total" : 11,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9e05bc20-c8c2-11ed-b4d2-72762f04cc59",
+      "name" : "Device Type#All Device Types#ASA",
+      "description" : "VPN Concentrator",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/9e05bc20-c8c2-11ed-b4d2-72762f04cc59",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "0aef3a20-da37-11ed-a198-ae96a26dba0a",
+      "name" : "Device Type#All Device Types#Proxy",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/0aef3a20-da37-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b98e6920-d145-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB",
+      "description" : "This is lab equipment",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/b98e6920-d145-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "c59aab70-d145-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB#BRU",
+      "description" : "This is lab in BRU Lab for testing on Sun",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/c59aab70-d145-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "a507f1a0-d155-11ed-a198-ae96a26dba0a",
+      "name" : "LAB#LAB#KRK",
+      "description" : "Testing Lab",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/a507f1a0-d155-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "99f333e0-d143-11ed-a198-ae96a26dba0a",
+      "name" : "Location#All Locations#Krakow",
+      "description" : "Krakow Location",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://172.17.30.2/ers/config/networkdevicegroup/99f333e0-d143-11ed-a198-ae96a26dba0a",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-10-09 09:19:17
+{
+  "SearchResult" : {
+    "total" : 9,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.89/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "79d1a580-c75a-11ed-81c6-6a78b0da21e5",
+      "name" : "Device Type#All Device Types#APIC",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.89/ers/config/networkdevicegroup/79d1a580-c75a-11ed-81c6-6a78b0da21e5",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "3954de90-f9ba-11ed-a092-ee0f5c196340",
+      "name" : "Device Type#All Device Types#Cisco_UCS_CIMC",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.89/ers/config/networkdevicegroup/3954de90-f9ba-11ed-a092-ee0f5c196340",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "c4076a30-557c-11ee-adc2-72b796c94ac6",
+      "name" : "Device Type#All Device Types#Firewalls",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.89/ers/config/networkdevicegroup/c4076a30-557c-11ee-adc2-72b796c94ac6",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "fabbbaf0-f9b4-11ed-a092-ee0f5c196340",
+      "name" : "Device Type#All Device Types#Nexus",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.89/ers/config/networkdevicegroup/fabbbaf0-f9b4-11ed-a092-ee0f5c196340",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.89/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.89/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.89/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.52.13.89/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
 }

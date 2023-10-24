@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "c4076a30-557c-11ee-adc2-72b796c94ac6",
+    "name" : "Device Type#All Device Types#Firewalls",
+    "description" : "",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.89/ers/config/networkdevicegroup/c4076a30-557c-11ee-adc2-72b796c94ac6",
+      "type" : "application/json"
+    },
+    "othername" : "Device Type"
+  }
+}

@@ -11834,4 +11834,410 @@
       "type" : "application/json"
     }
   } ]
+}2023-09-25 19:23:56
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : false,
+    "id" : "6b302e7b-0c90-4c38-b36e-50a894fa5b6d",
+    "name" : "Webinar Policy Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Network Access",
+      "attributeName" : "Protocol",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "RADIUS"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/6b302e7b-0c90-4c38-b36e-50a894fa5b6d",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "b35c7c59-070e-43ec-b9d3-3ab84bf60e4c",
+    "name" : "Zaid-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 1,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wired802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/b35c7c59-070e-43ec-b9d3-3ab84bf60e4c",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "68868b3f-3254-45a3-822a-0803f4eed86c",
+    "name" : "Emmanuel-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 2,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wired802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/68868b3f-3254-45a3-822a-0803f4eed86c",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "2fc07c49-3fcb-4d4b-a52f-bfed6da23226",
+    "name" : "WSA-Admin",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 3,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "DEVICE",
+      "attributeName" : "Device Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "All Device Types#Proxy"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/2fc07c49-3fcb-4d4b-a52f-bfed6da23226",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "fa6e47a3-fe9f-47e5-a853-df82e93ff1c5",
+    "name" : "ASA-VPN",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 4,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "DEVICE",
+      "attributeName" : "Device Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "All Device Types#ASA"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/fa6e47a3-fe9f-47e5-a853-df82e93ff1c5",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : true,
+    "id" : "caa880cc-67c8-4840-9ed4-95747cb291b8",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 5,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/caa880cc-67c8-4840-9ed4-95747cb291b8",
+      "type" : "application/json"
+    }
+  } ]
+}2023-10-09 09:03:18
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : false,
+    "id" : "6b302e7b-0c90-4c38-b36e-50a894fa5b6d",
+    "name" : "Webinar Policy Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Network Access",
+      "attributeName" : "Protocol",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "RADIUS"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/6b302e7b-0c90-4c38-b36e-50a894fa5b6d",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "b35c7c59-070e-43ec-b9d3-3ab84bf60e4c",
+    "name" : "Zaid-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 1,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wired802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/b35c7c59-070e-43ec-b9d3-3ab84bf60e4c",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "68868b3f-3254-45a3-822a-0803f4eed86c",
+    "name" : "Emmanuel-Policy-Set",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 2,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Normalised Radius",
+      "attributeName" : "RadiusFlowType",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "Wired802_1x"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/68868b3f-3254-45a3-822a-0803f4eed86c",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "2fc07c49-3fcb-4d4b-a52f-bfed6da23226",
+    "name" : "WSA-Admin",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 3,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "DEVICE",
+      "attributeName" : "Device Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "All Device Types#Proxy"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/2fc07c49-3fcb-4d4b-a52f-bfed6da23226",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "fa6e47a3-fe9f-47e5-a853-df82e93ff1c5",
+    "name" : "ASA-VPN",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 4,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "DEVICE",
+      "attributeName" : "Device Type",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "All Device Types#ASA"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/fa6e47a3-fe9f-47e5-a853-df82e93ff1c5",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : true,
+    "id" : "caa880cc-67c8-4840-9ed4-95747cb291b8",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 5,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://172.17.30.2/api/v1/policy/network-access/policy-set/caa880cc-67c8-4840-9ed4-95747cb291b8",
+      "type" : "application/json"
+    }
+  } ]
+}2023-10-09 09:19:31
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : false,
+    "id" : "7abd4318-82da-420e-8e1a-decb87bc117c",
+    "name" : "Test_Cosentino",
+    "description" : null,
+    "hitCounts" : 12,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "contains",
+      "dictionaryValue" : null,
+      "attributeValue" : "Cosentino"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.89/api/v1/policy/network-access/policy-set/7abd4318-82da-420e-8e1a-decb87bc117c",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "18ff74df-0e66-4d71-b7c5-dd05be7b7beb",
+    "name" : "test",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 1,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "3gpp",
+      "attributeName" : "3gpp-3GPP-Authorization-Reference",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "dasda"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.89/api/v1/policy/network-access/policy-set/18ff74df-0e66-4d71-b7c5-dd05be7b7beb",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "b40e143e-bc70-4c5b-99ff-1d44cf4f1ffc",
+    "name" : "dasdas",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 2,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionReference",
+      "isNegate" : false,
+      "name" : "Switch_Local_Web_Authentication",
+      "id" : "18d626b1-f0d2-4f79-97f5-bcb1c0ae4396",
+      "description" : "A condition to match authentication requests for Local Web Authentication from Cisco Catalyst Switches"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.89/api/v1/policy/network-access/policy-set/b40e143e-bc70-4c5b-99ff-1d44cf4f1ffc",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "26ba9942-f469-4ad7-8ea8-07345baa2d43",
+    "name" : "KAUST",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 3,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionReference",
+      "isNegate" : false,
+      "name" : "Switch_Local_Web_Authentication",
+      "id" : "18d626b1-f0d2-4f79-97f5-bcb1c0ae4396",
+      "description" : "A condition to match authentication requests for Local Web Authentication from Cisco Catalyst Switches"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.89/api/v1/policy/network-access/policy-set/26ba9942-f469-4ad7-8ea8-07345baa2d43",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : true,
+    "id" : "c02eba9d-dafb-4ec0-9684-4e13f158ff47",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 34182,
+    "rank" : 4,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.52.13.89/api/v1/policy/network-access/policy-set/c02eba9d-dafb-4ec0-9684-4e13f158ff47",
+      "type" : "application/json"
+    }
+  } ]
 }

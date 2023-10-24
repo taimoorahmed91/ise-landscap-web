@@ -8,7 +8,7 @@
     "propogateToApic" : false,
     "link" : {
       "rel" : "self",
-      "href" : "https://172.17.30.2/ers/config/sgt/92adf9f0-8c01-11e6-996c-525400b48521",
+      "href" : "https://10.52.13.89/ers/config/sgt/92adf9f0-8c01-11e6-996c-525400b48521",
       "type" : "application/json"
     }
   }

@@ -5,7 +5,7 @@
     "description" : "Is this a RADIUS over IPSEC Device",
     "link" : {
       "rel" : "self",
-      "href" : "https://172.17.30.2/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+      "href" : "https://10.52.13.89/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
       "type" : "application/json"
     },
     "othername" : "IPSEC"
