@@ -307,7 +307,7 @@ if (isset($_GET['id'])) {
                                     // Save the edited contents to the new file
                                     if (file_put_contents($new_file_path, $file_contents) !== false) {
                                         // Insert the file name into the database table
-                                        $sql = "INSERT INTO nad (nad,nadid,isename) VALUES ('$new_file_name','$new_file_name','MISE')";
+                                        $sql = "INSERT INTO policyset (policyset,policysetid,isename) VALUES ('$new_file_name','$new_file_name','MISE')";
                                         if ($mysqli->query($sql) === TRUE) {
                                             echo "<p>File has been successfully saved as: " . htmlspecialchars($new_file_name) . "</p>";
                                         } else {

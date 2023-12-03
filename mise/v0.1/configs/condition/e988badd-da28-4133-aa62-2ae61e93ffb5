@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Network Access",
+    "attributeName": "UseCase",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "Guest Flow",
+    "name": "Guest_Flow",
+    "id": "e988badd-da28-4133-aa62-2ae61e93ffb5",
+    "description": "Default condition for guest flow"
+}

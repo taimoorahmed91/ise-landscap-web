@@ -1,0 +1,82 @@
+{
+  "AllowedProtocols" : {
+    "id" : "90205080-9206-11ee-b5c3-6eda27fcb501",
+    "name" : "Protocol_list_3",
+    "description" : "",
+    "eapTls" : {
+      "allowEapTlsAuthOfExpiredCerts" : false,
+      "eapTlsEnableStatelessSessionResume" : false
+    },
+    "peap" : {
+      "allowPeapEapMsChapV2" : true,
+      "allowPeapEapMsChapV2PwdChange" : true,
+      "allowPeapEapMsChapV2PwdChangeRetries" : 1,
+      "allowPeapEapGtc" : false,
+      "allowPeapEapTls" : true,
+      "allowPeapEapTlsAuthOfExpiredCerts" : false,
+      "requireCryptobinding" : false,
+      "allowPeapV0" : false
+    },
+    "eapFast" : {
+      "allowEapFastEapMsChapV2" : true,
+      "allowEapFastEapMsChapV2PwdChange" : true,
+      "allowEapFastEapMsChapV2PwdChangeRetries" : 1,
+      "allowEapFastEapGtc" : true,
+      "allowEapFastEapGtcPwdChange" : true,
+      "allowEapFastEapGtcPwdChangeRetries" : 1,
+      "allowEapFastEapTls" : true,
+      "allowEapFastEapTlsAuthOfExpiredCerts" : false,
+      "eapFastUsePacs" : true,
+      "eapFastUsePacsTunnelPacTtl" : 90,
+      "eapFastUsePacsTunnelPacTtlUnits" : "DAYS",
+      "eapFastUsePacsUseProactivePacUpdatePrecentage" : 10,
+      "eapFastUsePacsAllowAnonymProvisioning" : false,
+      "eapFastUsePacsAllowAuthenProvisioning" : false,
+      "eapFastUsePacsAllowMachineAuthentication" : false,
+      "eapFastUsePacsStatelessSessionResume" : false,
+      "eapFastEnableEAPChaining" : false
+    },
+    "eapTtls" : {
+      "eapTtlsPapAscii" : true,
+      "eapTtlsChap" : true,
+      "eapTtlsMsChapV1" : true,
+      "eapTtlsMsChapV2" : true,
+      "eapTtlsEapMd5" : true,
+      "eapTtlsEapMsChapV2" : true,
+      "eapTtlsEapMsChapV2PwdChange" : true,
+      "eapTtlsEapMsChapV2PwdChangeRetries" : 1
+    },
+    "teap" : {
+      "allowTeapEapMsChapV2" : true,
+      "allowTeapEapMsChapV2PwdChange" : true,
+      "allowTeapEapMsChapV2PwdChangeRetries" : 3,
+      "allowTeapEapTls" : true,
+      "allowTeapEapTlsAuthOfExpiredCerts" : false,
+      "acceptClientCertDuringTunnelEst" : true,
+      "enableEapChaining" : false,
+      "allowDowngradeMsk" : true
+    },
+    "processHostLookup" : true,
+    "allowPapAscii" : true,
+    "allowChap" : false,
+    "allowMsChapV1" : false,
+    "allowMsChapV2" : false,
+    "allowEapMd5" : true,
+    "allowLeap" : false,
+    "allowEapTls" : true,
+    "allowEapTtls" : true,
+    "allowEapFast" : true,
+    "allowPeap" : true,
+    "allowTeap" : true,
+    "allowPreferredEapProtocol" : false,
+    "eapTlsLBit" : false,
+    "allowWeakCiphersForEap" : false,
+    "fiveG" : false,
+    "requireMessageAuth" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/ers/config/allowedprotocols/90205080-9206-11ee-b5c3-6eda27fcb501",
+      "type" : "application/json"
+    }
+  }
+}

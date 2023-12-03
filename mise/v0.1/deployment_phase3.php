@@ -36,7 +36,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
 
 <?php
   //Create the select query
-  $query ="SELECT * from deployments ORDER BY id";
+  $query ="SELECT * from deployments WHERE reachable ='yes' ORDER BY id";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>

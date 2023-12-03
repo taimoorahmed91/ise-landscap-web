@@ -12462,4 +12462,686 @@
       }
     } ]
   }
-}
+}2023-11-23 00:47:29
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 16:43:24
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 16:51:55
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 17:16:11
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 17:47:48
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 18:03:30
+2023-12-03 18:03:30
+2023-12-03 18:03:31
+2023-12-03 18:03:31
+2023-12-03 18:05:09
+{
+  "SearchResult" : {
+    "total" : 10,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "91136310-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/91136310-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "916ca6a0-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/916ca6a0-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "91ce75b0-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_4",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/91ce75b0-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92276b20-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_5",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/92276b20-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 19:27:35
+2023-12-03 19:27:36
+2023-12-03 19:41:16
+{
+  "SearchResult" : {
+    "total" : 7,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "509d5960-9212-11ee-ac0b-3e89f8111d25",
+      "name" : "Device Type#All Device Types#NAD_Group_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/509d5960-9212-11ee-ac0b-3e89f8111d25",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50f9d140-9212-11ee-ac0b-3e89f8111d25",
+      "name" : "Device Type#All Device Types#NAD_Group_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/50f9d140-9212-11ee-ac0b-3e89f8111d25",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 19:46:20
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Group with this name already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.76/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-12-03 19:46:20
+2023-12-03 19:55:01
+{
+  "SearchResult" : {
+    "total" : 10,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "91136310-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/91136310-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "916ca6a0-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/916ca6a0-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "91ce75b0-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_4",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/91ce75b0-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92276b20-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "Device Type#All Device Types#NAD_Group_5",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/92276b20-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 20:25:19
+{
+  "SearchResult" : {
+    "total" : 8,
+    "resources" : [ {
+      "id" : "70c79c30-8bff-11e6-996c-525400b48521",
+      "name" : "Device Type#All Device Types",
+      "description" : "All Device Types",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/70c79c30-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "509d5960-9212-11ee-ac0b-3e89f8111d25",
+      "name" : "Device Type#All Device Types#NAD_Group_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/509d5960-9212-11ee-ac0b-3e89f8111d25",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "50f9d140-9212-11ee-ac0b-3e89f8111d25",
+      "name" : "Device Type#All Device Types#NAD_Group_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/50f9d140-9212-11ee-ac0b-3e89f8111d25",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "eefc7df0-9214-11ee-ac0b-3e89f8111d25",
+      "name" : "Device Type#All Device Types#NAD_Group_5",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/eefc7df0-9214-11ee-ac0b-3e89f8111d25",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70d4bb90-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device",
+      "description" : "Is this a RADIUS over IPSEC Device",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/70d4bb90-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70f40360-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#No",
+      "description" : "Device is not IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/70f40360-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70e07b60-8bff-11e6-996c-525400b48521",
+      "name" : "IPSEC#Is IPSEC Device#Yes",
+      "description" : "Device is IPSEC Type",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "70836740-8bff-11e6-996c-525400b48521",
+      "name" : "Location#All Locations",
+      "description" : "All Locations",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/networkdevicegroup/70836740-8bff-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 20:29:14
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Group with this name already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.76/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-12-03 20:29:15
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-networkdevicegroup",
+    "messages" : [ {
+      "title" : "Failed to create Network Device Group. Group with this name already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.76/ers/config/networkdevicegroup",
+      "type" : "application/xml"
+    }
+  }
+}2023-12-03 20:29:15

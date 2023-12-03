@@ -1,0 +1,13 @@
+{
+  "NetworkDeviceGroup" : {
+    "id" : "e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+    "name" : "Device Type#All Device Types#NAD_Group_1",
+    "description" : "",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/ers/config/networkdevicegroup/e23798d0-91fa-11ee-b5c3-6eda27fcb501",
+      "type" : "application/json"
+    },
+    "othername" : "Device Type"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Sgt" : {
+    "id" : "0bb7bb0a-3d61-44c2-94b2-cc11917be5b6",
+    "name" : "SGT_Stream3",
+    "value" : 18,
+    "generationId" : "0",
+    "propogateToApic" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/ers/config/sgt/0bb7bb0a-3d61-44c2-94b2-cc11917be5b6",
+      "type" : "application/json"
+    }
+  }
+}

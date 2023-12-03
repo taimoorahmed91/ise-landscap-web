@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Network Access",
+    "attributeName": "EapAuthentication",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "EAP-TLS",
+    "name": "EAP-TLS",
+    "id": "76e48923-138c-4fd3-8281-c39a39bd47ca",
+    "description": "Default condition for BYOD flow for any device that has passed the NSP process"
+}

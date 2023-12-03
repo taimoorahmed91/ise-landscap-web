@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Cisco",
+    "attributeName": "Cisco-5g-serving-network-name",
+    "operator": "startsWith",
+    "dictionaryValue": null,
+    "attributeValue": "5G:",
+    "name": "5G",
+    "id": "4cbef5c3-89c9-4911-960f-f674d8f4dadb",
+    "description": "A condition to match 5G"
+}

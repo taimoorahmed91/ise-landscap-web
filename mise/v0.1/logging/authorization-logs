@@ -254,4 +254,218 @@
 {
   "message" : "rule, may not be null",
   "code" : 400
+}2023-12-03 18:03:42
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "76265020-6293-4db7-a867-cfcfd2f67bad",
+      "name" : "Authorization Rule 2",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "AD",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Group Policy/Networks/DC1"
+      }
+    },
+    "profile" : [ "AuthZ_profile_1" ],
+    "securityGroup" : "SGT_Stream1",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/policy-set/97d94df3-7723-4b22-9001-9c244e2c812b/authorization/76265020-6293-4db7-a867-cfcfd2f67bad",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 18:03:42
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "64477a65-afa2-4e67-a3fd-e35cbc32710d",
+      "name" : "Authorization Rule 3",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "AD",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Group Policy/Networks/DC1"
+      }
+    },
+    "profile" : [ "AuthZ_profile_1" ],
+    "securityGroup" : "SGT_Stream1",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/policy-set/97d94df3-7723-4b22-9001-9c244e2c812b/authorization/64477a65-afa2-4e67-a3fd-e35cbc32710d",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 18:03:43
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "59710c75-99f2-45b9-84b7-00bc1d54cabc",
+      "name" : "Authorization Rule 4",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "AD",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Group Policy/Networks/DC1"
+      }
+    },
+    "profile" : [ "AuthZ_profile_1" ],
+    "securityGroup" : "SGT_Stream1",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/policy-set/97d94df3-7723-4b22-9001-9c244e2c812b/authorization/59710c75-99f2-45b9-84b7-00bc1d54cabc",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 18:03:55
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "51521a9d-d543-41cb-84a2-7846a103553f",
+      "name" : "Authorization Rule 5",
+      "hitCounts" : 0,
+      "rank" : 0,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "AD",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Group Policy/Networks/DC1"
+      }
+    },
+    "profile" : [ "AuthZ_profile_1" ],
+    "securityGroup" : "SGT_Stream1",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/policy-set/97d94df3-7723-4b22-9001-9c244e2c812b/authorization/51521a9d-d543-41cb-84a2-7846a103553f",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 19:46:24
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "18302aff-60de-4081-8610-4f3f6c4589ac",
+      "name" : "Authorization Rule 3",
+      "hitCounts" : 0,
+      "rank" : 2,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "AD",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Group Policy/Networks/DC1"
+      }
+    },
+    "profile" : [ "AuthZ_profile_1" ],
+    "securityGroup" : "SGT_Stream1",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.76/api/v1/policy/network-access/policy-set/0563fc32-7b2c-41e3-b948-b2f60ac5987e/authorization/18302aff-60de-4081-8610-4f3f6c4589ac",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 19:46:24
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "8ccf2286-4a6b-401d-9a8b-dacab0f656f4",
+      "name" : "Authorization Rule 2",
+      "hitCounts" : 0,
+      "rank" : 3,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "AD",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Group Policy/Networks/DC1"
+      }
+    },
+    "profile" : [ "AuthZ_profile_1" ],
+    "securityGroup" : "SGT_Stream1",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.76/api/v1/policy/network-access/policy-set/0563fc32-7b2c-41e3-b948-b2f60ac5987e/authorization/8ccf2286-4a6b-401d-9a8b-dacab0f656f4",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 19:46:25
+{
+  "version" : "1.0.0",
+  "response" : {
+    "rule" : {
+      "default" : false,
+      "id" : "2df4dc81-b522-42d8-8949-37942d2931be",
+      "name" : "Authorization Rule 1",
+      "hitCounts" : 0,
+      "rank" : 4,
+      "state" : "enabled",
+      "condition" : {
+        "link" : null,
+        "conditionType" : "ConditionAttributes",
+        "isNegate" : false,
+        "dictionaryName" : "AD",
+        "attributeName" : "ExternalGroups",
+        "operator" : "equals",
+        "dictionaryValue" : null,
+        "attributeValue" : "taimoorlab.local/Group Policy/Networks/DC1"
+      }
+    },
+    "profile" : [ "AuthZ_profile_1" ],
+    "securityGroup" : "SGT_Stream1",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.76/api/v1/policy/network-access/policy-set/0563fc32-7b2c-41e3-b948-b2f60ac5987e/authorization/2df4dc81-b522-42d8-8949-37942d2931be",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 20:29:21
+{
+  "code" : "400",
+  "message" : "Failed to handle API request - Network Access Authorization Rule : Rule name is already used in this policy table: Authorization Rule 1"
 }

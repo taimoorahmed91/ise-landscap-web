@@ -1,0 +1,23 @@
+{
+  "AuthorizationProfile" : {
+    "id" : "8f2e0140-9206-11ee-b5c3-6eda27fcb501",
+    "name" : "AuthZ_profile_4",
+    "description" : "",
+    "accessType" : "ACCESS_ACCEPT",
+    "authzProfileType" : "SWITCH",
+    "vlan" : {
+      "nameID" : "AD_Corp",
+      "tagID" : 1
+    },
+    "trackMovement" : false,
+    "agentlessPosture" : false,
+    "serviceTemplate" : false,
+    "easywiredSessionCandidate" : false,
+    "profileName" : "Cisco",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/ers/config/authorizationprofile/8f2e0140-9206-11ee-b5c3-6eda27fcb501",
+      "type" : "application/json"
+    }
+  }
+}

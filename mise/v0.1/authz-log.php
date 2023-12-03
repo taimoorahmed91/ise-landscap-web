@@ -17,7 +17,7 @@
     </style>
 </head>
 <body>
-    <h1>AUTHZ Error Logs</h1>
+    <h1>AUTHZ Logs</h1>
 
     <?php
 

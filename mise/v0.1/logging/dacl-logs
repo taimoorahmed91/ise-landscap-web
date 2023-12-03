@@ -11967,4 +11967,674 @@
       }
     } ]
   }
-}
+}2023-10-24 16:36:08
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DNS_Only' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://172.17.30.2/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2023-10-24 16:45:21
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DNS_Only' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://172.17.30.2/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2023-11-23 00:47:28
+{
+  "SearchResult" : {
+    "total" : 4,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-11-23 15:32:23
+2023-11-23 15:33:35
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DNS_Only' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.75/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2023-12-03 16:43:23
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+      "name" : "DNS_Only",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 16:51:54
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+      "name" : "DNS_Only",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 17:08:09
+2023-12-03 17:16:10
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+      "name" : "DNS_Only",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 17:47:47
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+      "name" : "DNS_Only",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 18:03:24
+2023-12-03 18:03:24
+2023-12-03 18:03:25
+2023-12-03 18:03:25
+2023-12-03 18:05:08
+{
+  "SearchResult" : {
+    "total" : 10,
+    "resources" : [ {
+      "id" : "c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8d7777a0-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8d7777a0-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8dbff250-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8dbff250-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8dfd9790-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_4",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8dfd9790-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8e3d5fb0-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_5",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8e3d5fb0-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+      "name" : "DNS_Only",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 19:27:31
+2023-12-03 19:27:32
+2023-12-03 19:41:15
+{
+  "SearchResult" : {
+    "total" : 6,
+    "resources" : [ {
+      "id" : "4e5e3ed0-9212-11ee-ac0b-3e89f8111d25",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/4e5e3ed0-9212-11ee-ac0b-3e89f8111d25",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4ea8dc60-9212-11ee-ac0b-3e89f8111d25",
+      "name" : "DACL_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/4ea8dc60-9212-11ee-ac0b-3e89f8111d25",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 19:46:14
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DACL_1' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.76/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2023-12-03 19:46:15
+2023-12-03 19:54:59
+{
+  "SearchResult" : {
+    "total" : 10,
+    "resources" : [ {
+      "id" : "c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8d7777a0-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8d7777a0-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8dbff250-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8dbff250-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8dfd9790-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_4",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8dfd9790-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8e3d5fb0-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_5",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8e3d5fb0-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+      "name" : "DNS_Only",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 20:25:18
+{
+  "SearchResult" : {
+    "total" : 5,
+    "resources" : [ {
+      "id" : "4e5e3ed0-9212-11ee-ac0b-3e89f8111d25",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/4e5e3ed0-9212-11ee-ac0b-3e89f8111d25",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.76/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2023-12-03 20:29:10
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DACL_1' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.76/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2023-12-03 20:29:11
+2023-12-03 20:29:11

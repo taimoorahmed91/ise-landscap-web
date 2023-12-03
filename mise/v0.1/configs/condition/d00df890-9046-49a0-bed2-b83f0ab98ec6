@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "DEVICE",
+    "attributeName": "Device Type",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "All Device Types#NAD_Group_1",
+    "name": "Condition_3",
+    "id": "d00df890-9046-49a0-bed2-b83f0ab98ec6",
+    "description": null
+}

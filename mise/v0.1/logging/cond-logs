@@ -86,4 +86,84 @@
 {
   "message" : "name, must match \"^[\\w\\-\\ ]+$\"",
   "code" : 400
+}2023-12-03 18:03:34
+{
+  "version" : "1.0.0",
+  "response" : {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/condition/8ab52cc2-569a-496c-bb28-93c74da675e7",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "DEVICE",
+    "attributeName" : "Device Type",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "All Device Types#NAD_Group_1",
+    "name" : "Condition_2",
+    "id" : "8ab52cc2-569a-496c-bb28-93c74da675e7",
+    "description" : ""
+  }
+}2023-12-03 18:03:34
+{
+  "version" : "1.0.0",
+  "response" : {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/condition/d00df890-9046-49a0-bed2-b83f0ab98ec6",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "DEVICE",
+    "attributeName" : "Device Type",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "All Device Types#NAD_Group_1",
+    "name" : "Condition_3",
+    "id" : "d00df890-9046-49a0-bed2-b83f0ab98ec6",
+    "description" : ""
+  }
+}2023-12-03 18:03:35
+{
+  "version" : "1.0.0",
+  "response" : {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/condition/ddd0c5b2-7444-4b24-bb15-94a860d90ad4",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "DEVICE",
+    "attributeName" : "Device Type",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "All Device Types#NAD_Group_1",
+    "name" : "Condition_4",
+    "id" : "ddd0c5b2-7444-4b24-bb15-94a860d90ad4",
+    "description" : ""
+  }
+}2023-12-03 18:03:35
+{
+  "version" : "1.0.0",
+  "response" : {
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/condition/8245fcf1-161e-4c7a-9f82-e7a21e27d76e",
+      "type" : "application/json"
+    },
+    "conditionType" : "LibraryConditionAttributes",
+    "isNegate" : false,
+    "dictionaryName" : "DEVICE",
+    "attributeName" : "Device Type",
+    "operator" : "equals",
+    "dictionaryValue" : null,
+    "attributeValue" : "All Device Types#NAD_Group_1",
+    "name" : "Condition_5",
+    "id" : "8245fcf1-161e-4c7a-9f82-e7a21e27d76e",
+    "description" : ""
+  }
 }

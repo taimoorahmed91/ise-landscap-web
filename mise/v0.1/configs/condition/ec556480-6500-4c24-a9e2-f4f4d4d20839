@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "CERTIFICATE",
+    "attributeName": "Subject Alternative Name",
+    "operator": "equals",
+    "dictionaryValue": "Radius",
+    "attributeValue": "Calling-Station-ID",
+    "name": "MAC_in_SAN",
+    "id": "ec556480-6500-4c24-a9e2-f4f4d4d20839",
+    "description": "Default condition for BYOD flow for any device that has passed the NSP process"
+}

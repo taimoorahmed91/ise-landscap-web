@@ -8297,3 +8297,59 @@
   }
 }2023-07-28 09:37:21
 2023-10-09 09:24:11
+2023-12-03 18:03:25
+2023-12-03 18:03:26
+2023-12-03 18:03:26
+2023-12-03 18:03:27
+2023-12-03 19:27:32
+2023-12-03 19:27:34
+2023-12-03 19:46:15
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of AuthZ_profile_1 already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.76/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
+}2023-12-03 19:46:16
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of AuthZ_profile_2 already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.76/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
+}2023-12-03 19:46:16
+2023-12-03 19:46:17
+2023-12-03 19:46:18
+2023-12-03 20:29:11
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-authorizationprofile",
+    "messages" : [ {
+      "title" : "a profile by the name of AuthZ_profile_1 already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.76/ers/config/authorizationprofile",
+      "type" : "application/xml"
+    }
+  }
+}2023-12-03 20:29:12
+2023-12-03 20:29:12
