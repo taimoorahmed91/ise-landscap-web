@@ -293,10 +293,7 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                                 </div>
                             </div>
                             <div class="form-group base-margin-bottom">
-                                <div class="form-group__text">
-                                    <input name="credentials" type="password">
-                                    <label for="input-type-password">BASE64 Credentials</label>
-                                </div>
+
                                 <input type="submit" class="btn btn--success" value="Add ISE Cube"
                                     style="margin-top: 10px;" />
                             </div>

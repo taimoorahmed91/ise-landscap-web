@@ -12638,3 +12638,110 @@
   }
 }2023-12-03 20:29:11
 2023-12-03 20:29:11
+2023-12-03 23:35:36
+2023-12-03 23:35:37
+2023-12-03 23:35:38
+2023-12-03 23:35:38
+2023-12-03 23:35:38
+2023-12-03 23:35:50
+2023-12-03 23:35:51
+2023-12-03 23:35:51
+2023-12-03 23:35:52
+2023-12-03 23:35:52
+2023-12-09 00:10:59
+{
+  "SearchResult" : {
+    "total" : 10,
+    "resources" : [ {
+      "id" : "c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/c4c23ee0-91fa-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8d7777a0-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8d7777a0-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8dbff250-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8dbff250-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8dfd9790-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_4",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8dfd9790-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "8e3d5fb0-9206-11ee-b5c3-6eda27fcb501",
+      "name" : "DACL_5",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/8e3d5fb0-9206-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+      "name" : "DNS_Only",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/b42cb840-8a15-11ee-b5c3-6eda27fcb501",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}

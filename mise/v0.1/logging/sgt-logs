@@ -21843,4 +21843,187 @@
       "type" : "application/xml"
     }
   }
+}2023-12-03 23:35:44
+2023-12-03 23:35:57
+2023-12-09 00:11:12
+{
+  "SearchResult" : {
+    "total" : 20,
+    "resources" : [ {
+      "id" : "934557f0-8c01-11e6-996c-525400b48521",
+      "name" : "Auditors",
+      "description" : "Auditor Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/934557f0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "935d4cc0-8c01-11e6-996c-525400b48521",
+      "name" : "BYOD",
+      "description" : "BYOD Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/935d4cc0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9370d4c0-8c01-11e6-996c-525400b48521",
+      "name" : "Contractors",
+      "description" : "Contractor Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/9370d4c0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "93837260-8c01-11e6-996c-525400b48521",
+      "name" : "Developers",
+      "description" : "Developer Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/93837260-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "93ad6890-8c01-11e6-996c-525400b48521",
+      "name" : "Employees",
+      "description" : "Employee Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/93ad6890-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "93c66ed0-8c01-11e6-996c-525400b48521",
+      "name" : "Guests",
+      "description" : "Guest Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/93c66ed0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "93e1bf00-8c01-11e6-996c-525400b48521",
+      "name" : "Network_Services",
+      "description" : "Network Services Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/93e1bf00-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "93f91790-8c01-11e6-996c-525400b48521",
+      "name" : "PCI_Servers",
+      "description" : "PCI Servers Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/93f91790-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "940facd0-8c01-11e6-996c-525400b48521",
+      "name" : "Point_of_Sale_Systems",
+      "description" : "Point of Sale Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/940facd0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9423aa00-8c01-11e6-996c-525400b48521",
+      "name" : "Production_Servers",
+      "description" : "Production Servers Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/9423aa00-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9437a730-8c01-11e6-996c-525400b48521",
+      "name" : "Production_Users",
+      "description" : "Production User Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/9437a730-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "944b2f30-8c01-11e6-996c-525400b48521",
+      "name" : "Quarantined_Systems",
+      "description" : "Quarantine Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/944b2f30-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "81362a96-5638-454d-9e12-c4f07556ee68",
+      "name" : "SGT_Stream1",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/81362a96-5638-454d-9e12-c4f07556ee68",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "334de1b2-eba8-4391-83bb-fa3216781e44",
+      "name" : "SGT_Stream2",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/334de1b2-eba8-4391-83bb-fa3216781e44",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "0bb7bb0a-3d61-44c2-94b2-cc11917be5b6",
+      "name" : "SGT_Stream3",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/0bb7bb0a-3d61-44c2-94b2-cc11917be5b6",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "5602cab5-c5b8-48f7-b7ef-465b391bde0c",
+      "name" : "SGT_Stream4",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/5602cab5-c5b8-48f7-b7ef-465b391bde0c",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "b436612a-de25-41a9-ad9e-195d93d3d2a6",
+      "name" : "SGT_Stream5",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/b436612a-de25-41a9-ad9e-195d93d3d2a6",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "94621290-8c01-11e6-996c-525400b48521",
+      "name" : "Test_Servers",
+      "description" : "Test Servers Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/94621290-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "947832a0-8c01-11e6-996c-525400b48521",
+      "name" : "TrustSec_Devices",
+      "description" : "TrustSec Devices Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/947832a0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92adf9f0-8c01-11e6-996c-525400b48521",
+      "name" : "Unknown",
+      "description" : "Unknown Security Group",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.75/ers/config/sgt/92adf9f0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    } ]
+  }
 }

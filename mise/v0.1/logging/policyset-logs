@@ -13021,4 +13021,439 @@
       "type" : "application/json"
     }
   }
+}2023-12-03 23:35:44
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "e670141b-7637-48bd-8370-ce0b9d3de685",
+    "name" : "New Policy Set 1",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-1"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.77/api/v1/policy/network-access/policy-set/e670141b-7637-48bd-8370-ce0b9d3de685",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 23:35:46
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "2629fb6d-0ad3-42a7-932f-cad48f4c3cc9",
+    "name" : "New Policy Set 2",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 1,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-2"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.77/api/v1/policy/network-access/policy-set/2629fb6d-0ad3-42a7-932f-cad48f4c3cc9",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 23:35:47
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "fabbd98c-ee59-4072-bd80-9d2325b0653a",
+    "name" : "New Policy Set 3",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 2,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-3"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.77/api/v1/policy/network-access/policy-set/fabbd98c-ee59-4072-bd80-9d2325b0653a",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 23:35:48
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "9867d934-0deb-4954-9457-3160c44dfb64",
+    "name" : "New Policy Set 4",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 3,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-4"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.77/api/v1/policy/network-access/policy-set/9867d934-0deb-4954-9457-3160c44dfb64",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 23:35:49
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "58eec903-7e93-438c-9236-c5e6b54b6ad6",
+    "name" : "New Policy Set 5",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 4,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-5"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.77/api/v1/policy/network-access/policy-set/58eec903-7e93-438c-9236-c5e6b54b6ad6",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 23:35:58
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "5850cffe-a6ed-475f-806a-6588d65e8243",
+    "name" : "New Policy Set 1",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-1"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.78/api/v1/policy/network-access/policy-set/5850cffe-a6ed-475f-806a-6588d65e8243",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 23:36:00
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "d1e3ff83-c84c-4214-ab31-869778e5044e",
+    "name" : "New Policy Set 2",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 1,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-2"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.78/api/v1/policy/network-access/policy-set/d1e3ff83-c84c-4214-ab31-869778e5044e",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 23:36:01
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "60ede0c4-dc22-4751-96e1-6e8977470650",
+    "name" : "New Policy Set 3",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 2,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-3"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.78/api/v1/policy/network-access/policy-set/60ede0c4-dc22-4751-96e1-6e8977470650",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 23:36:02
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "74f7e91e-5199-4bdb-815b-8952802d4c40",
+    "name" : "New Policy Set 4",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 3,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-4"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.78/api/v1/policy/network-access/policy-set/74f7e91e-5199-4bdb-815b-8952802d4c40",
+      "type" : "application/json"
+    }
+  }
+}2023-12-03 23:36:03
+{
+  "version" : "1.0.0",
+  "response" : {
+    "default" : false,
+    "id" : "31236459-7301-4055-bdff-a2297f241c54",
+    "name" : "New Policy Set 5",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 4,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-5"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.78/api/v1/policy/network-access/policy-set/31236459-7301-4055-bdff-a2297f241c54",
+      "type" : "application/json"
+    }
+  }
+}2023-12-09 00:11:17
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : false,
+    "id" : "b600ce20-e5a5-4bd7-8583-0e1ef49c2eec",
+    "name" : "New Policy Set 1",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-1"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/policy-set/b600ce20-e5a5-4bd7-8583-0e1ef49c2eec",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "c7dbe4dd-6021-478b-86f7-0f093666bce3",
+    "name" : "New Policy Set 2",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 1,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-2"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/policy-set/c7dbe4dd-6021-478b-86f7-0f093666bce3",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "ce5dfdb3-c46a-4a49-9dab-320664b7b741",
+    "name" : "New Policy Set 3",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 2,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-3"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/policy-set/ce5dfdb3-c46a-4a49-9dab-320664b7b741",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "817f975c-9cbc-455e-b940-f865f9fe31c4",
+    "name" : "New Policy Set 4",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 3,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-4"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/policy-set/817f975c-9cbc-455e-b940-f865f9fe31c4",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : false,
+    "id" : "1e4d4f48-d92e-460e-8a4c-1c014b3c7a4f",
+    "name" : "New Policy Set 5",
+    "description" : null,
+    "hitCounts" : 0,
+    "rank" : 4,
+    "state" : "enabled",
+    "condition" : {
+      "link" : null,
+      "conditionType" : "ConditionAttributes",
+      "isNegate" : false,
+      "dictionaryName" : "Radius",
+      "attributeName" : "Called-Station-ID",
+      "operator" : "equals",
+      "dictionaryValue" : null,
+      "attributeValue" : "SSID-5"
+    },
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/policy-set/1e4d4f48-d92e-460e-8a4c-1c014b3c7a4f",
+      "type" : "application/json"
+    }
+  }, {
+    "default" : true,
+    "id" : "1e08c19a-81c3-4040-a989-709edb99bcd6",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 5,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.75/api/v1/policy/network-access/policy-set/1e08c19a-81c3-4040-a989-709edb99bcd6",
+      "type" : "application/json"
+    }
+  } ]
 }

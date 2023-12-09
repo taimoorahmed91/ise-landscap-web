@@ -420,6 +420,8 @@ $cubes_reachable_value = round(($cubes_reachable / $cubes) * 100);
                             <ul>
                                 <li class="sidebar__item"><a href="provision.php">Add New</a></li>
                                 <li class="sidebar__item"><a href="deployments.php">View Existing</a></li>
+                                <li class="sidebar__item"><a href="nodes.php">Nodes Info</a></li>
+                                <li class="sidebar__item"><a href="credentials.php">Credential Manager</a></li>
                             </ul>
                         </li>
                         <li class="sidebar__drawer">
