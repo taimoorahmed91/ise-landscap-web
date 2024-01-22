@@ -1,0 +1,53 @@
+{
+  "AuthorizationProfile" : {
+    "id" : "ccc73410-950b-11ee-85b1-f24ba061691a",
+    "name" : "UDN",
+    "description" : "Default profile used for UDN.",
+    "advancedAttributes" : [ {
+      "leftHandSideDictionaryAttribue" : {
+        "AdvancedAttributeValueType" : "AdvancedDictionaryAttribute",
+        "dictionaryName" : "Cisco",
+        "attributeName" : "cisco-av-pair"
+      },
+      "rightHandSideAttribueValue" : {
+        "AdvancedAttributeValueType" : "AdvancedDictionaryAttribute",
+        "dictionaryName" : "UDN",
+        "attributeName" : "Private-group-id"
+      }
+    }, {
+      "leftHandSideDictionaryAttribue" : {
+        "AdvancedAttributeValueType" : "AdvancedDictionaryAttribute",
+        "dictionaryName" : "Cisco",
+        "attributeName" : "cisco-av-pair"
+      },
+      "rightHandSideAttribueValue" : {
+        "AdvancedAttributeValueType" : "AdvancedDictionaryAttribute",
+        "dictionaryName" : "UDN",
+        "attributeName" : "Private-group-name"
+      }
+    }, {
+      "leftHandSideDictionaryAttribue" : {
+        "AdvancedAttributeValueType" : "AdvancedDictionaryAttribute",
+        "dictionaryName" : "Cisco",
+        "attributeName" : "cisco-av-pair"
+      },
+      "rightHandSideAttribueValue" : {
+        "AdvancedAttributeValueType" : "AdvancedDictionaryAttribute",
+        "dictionaryName" : "UDN",
+        "attributeName" : "Private-group-owner"
+      }
+    } ],
+    "accessType" : "ACCESS_ACCEPT",
+    "authzProfileType" : "SWITCH",
+    "trackMovement" : false,
+    "agentlessPosture" : false,
+    "serviceTemplate" : false,
+    "easywiredSessionCandidate" : false,
+    "profileName" : "Cisco",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.79/ers/config/authorizationprofile/ccc73410-950b-11ee-85b1-f24ba061691a",
+      "type" : "application/json"
+    }
+  }
+}

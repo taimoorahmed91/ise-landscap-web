@@ -1,0 +1,29 @@
+{
+    "conditionType": "LibraryConditionAndBlock",
+    "isNegate": false,
+    "children": [
+        {
+            "link": null,
+            "conditionType": "ConditionAttributes",
+            "isNegate": false,
+            "dictionaryName": "Radius",
+            "attributeName": "Service-Type",
+            "operator": "equals",
+            "dictionaryValue": null,
+            "attributeValue": "Outbound"
+        },
+        {
+            "link": null,
+            "conditionType": "ConditionAttributes",
+            "isNegate": false,
+            "dictionaryName": "Radius",
+            "attributeName": "NAS-Port-Type",
+            "operator": "equals",
+            "dictionaryValue": null,
+            "attributeValue": "Ethernet"
+        }
+    ],
+    "name": "Switch_Local_Web_Authentication",
+    "id": "c2f025e2-48c6-49c1-aa42-86c2021cf6de",
+    "description": "A condition to match authentication requests for Local Web Authentication from Cisco Catalyst Switches"
+}

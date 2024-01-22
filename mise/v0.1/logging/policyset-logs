@@ -13456,4 +13456,65 @@
       "type" : "application/json"
     }
   } ]
+}2024-01-16 19:47:10
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : true,
+    "id" : "f28bc33f-8148-4221-b871-c008e8bf66f4",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.78/api/v1/policy/network-access/policy-set/f28bc33f-8148-4221-b871-c008e8bf66f4",
+      "type" : "application/json"
+    }
+  } ]
+}2024-01-16 20:04:49
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : true,
+    "id" : "b3976fa4-e294-4461-8d09-c7aebf86d47e",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.79/api/v1/policy/network-access/policy-set/b3976fa4-e294-4461-8d09-c7aebf86d47e",
+      "type" : "application/json"
+    }
+  } ]
+}2024-01-22 18:47:39
+2024-01-22 18:55:00
+{
+  "version" : "1.0.0",
+  "response" : [ {
+    "default" : true,
+    "id" : "b3976fa4-e294-4461-8d09-c7aebf86d47e",
+    "name" : "Default",
+    "description" : "Default policy set",
+    "hitCounts" : 0,
+    "rank" : 0,
+    "state" : "enabled",
+    "condition" : null,
+    "serviceName" : "Default Network Access",
+    "isProxy" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.79/api/v1/policy/network-access/policy-set/b3976fa4-e294-4461-8d09-c7aebf86d47e",
+      "type" : "application/json"
+    }
+  } ]
 }

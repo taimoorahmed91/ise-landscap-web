@@ -290,36 +290,41 @@ if (isset($_GET['id'])) {
             <div class="form-group base-margin-bottom">
                 <input type="submit" class="btn btn--success" name="save_btn" value="Save">
             </div>
-                        <?php
-                        if (isset($_POST['save_btn'])) {
-                            $file_contents = $_POST['file_contents'];
-                            $file_path = $_POST['file_path'];
-                            $new_file_name = $_POST['new_file_name'];
 
-                            if (empty($file_contents) || empty($file_path) || empty($new_file_name)) {
-                                echo "<p>Error: Please fill all fields.</p>";
-                            } else {
-                                $new_file_path = getFileLocation($folder, $new_file_name);
 
-                                if (file_exists($new_file_path)) {
-                                    echo "<p>Error: A file with the same name already exists. Please choose a different name.</p>";
-                                } else {
-                                    // Save the edited contents to the new file
-                                    if (file_put_contents($new_file_path, $file_contents) !== false) {
-                                        // Insert the file name into the database table
-                                        $sql = "INSERT INTO cond (cond,condid,isename) VALUES ('$new_file_name','$new_file_name','MISE')";
-                                        if ($mysqli->query($sql) === TRUE) {
-                                            echo "<p>File has been successfully saved as: " . htmlspecialchars($new_file_name) . "</p>";
-                                        } else {
-                                            echo "<p>Error: Unable to save the file name to the database.</p>";
-                                        }
-                                    } else {
-                                        echo "<p>Error: Unable to save the file. Please check the file path and permissions.</p>";
-                                    }
-                                }
-                            }
-                        }
-                        ?>
+
+
+
+            <?php
+if (isset($_GET['id'])) {
+    $id = escapeshellarg($_GET['id']); // Escape the argument for security
+
+    // Command to run the Python script with the ID
+    $command = "sudo -S python3 /root/ise-landscape/mise/id_src_dst_compare.py $id";
+
+    // Clear and turn off output buffering to ensure real-time capture
+    while (ob_get_level()) {
+        ob_end_clean();
+    }
+
+    // Execute the command and capture the output
+    $output = shell_exec($command);
+
+    // Display the output
+    echo "<pre>$output</pre>";
+
+    // Flush system output buffer
+    flush();
+} else {
+    echo "No ID provided.";
+}
+
+// Debug: Check if there's any error
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+?>
+
                     </div>
                 </div>
             </form>

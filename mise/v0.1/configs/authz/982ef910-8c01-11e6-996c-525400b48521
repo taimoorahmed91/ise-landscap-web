@@ -14,7 +14,7 @@
     "profileName" : "Cisco",
     "link" : {
       "rel" : "self",
-      "href" : "https://10.48.30.75/ers/config/authorizationprofile/982ef910-8c01-11e6-996c-525400b48521",
+      "href" : "https://10.48.30.79/ers/config/authorizationprofile/982ef910-8c01-11e6-996c-525400b48521",
       "type" : "application/json"
     }
   }

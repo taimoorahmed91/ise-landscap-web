@@ -39,10 +39,11 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
     //Get variables from post array
           $fqdn = $_POST['fqdn'];
           $credentials = $_POST['credentials'];
+          $name = $_POST['name'];
     
     //Create customer query
-    $query ="INSERT INTO deployments (credentials,fqdn)
-                VALUES ('$credentials','$fqdn')";
+    $query ="INSERT INTO deployments (name,credentials,fqdn)
+                VALUES ('$name','$credentials','$fqdn')";
     //Run query
     $mysqli->query($query);
     
@@ -286,6 +287,12 @@ if (!isset($_SESSION["username"]) || !isset($_SESSION["role"])) {
                         <h2 class=" subtitle">ISE Cube Info</h2>
                         <hr>
                         <div class="section">
+                            <div class="form-group base-margin-bottom">
+                                <div class="form-group__text">
+                                    <input name="name" type="text" value="ise1">
+                                    <label for="input-type-text">Deployment Name</label>
+                                </div>
+                            </div>
                             <div class="form-group base-margin-bottom">
                                 <div class="form-group__text">
                                     <input name="fqdn" type="text" value="ise.sample.com">

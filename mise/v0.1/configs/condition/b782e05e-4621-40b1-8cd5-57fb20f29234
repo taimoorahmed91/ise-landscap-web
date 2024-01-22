@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Normalised Radius",
+    "attributeName": "RadiusFlowType",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "WiredWebAuth",
+    "name": "Switch_Web_Authentication",
+    "id": "b782e05e-4621-40b1-8cd5-57fb20f29234",
+    "description": "A condition to match requests for web authentication from switches, according to the corresponding Web Authentication attributes defined in the device profile."
+}

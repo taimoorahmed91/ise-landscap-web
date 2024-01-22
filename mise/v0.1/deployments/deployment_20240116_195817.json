@@ -1,0 +1,29 @@
+{
+    "ap": [
+        "Protocol_list_2",
+        "Protocol_list_3",
+        "Protocol_list_4",
+        "Protocol_list_1"
+    ],
+    "authz": [
+        "AuthZ_profile_1",
+        "AuthZ_profile_4",
+        "AuthZ_profile_3",
+        "AuthZ_profile_2"
+    ],
+    "dacl": [
+        "DACL_4",
+        "DACL_3",
+        "DACL_2",
+        "DACL_1"
+    ],
+    "deployments": [
+        "10.48.30.214"
+    ],
+    "sgt": [
+        "SGT_Stream1",
+        "SGT_Stream2",
+        "SGT_Stream3",
+        "SGT_Stream4"
+    ]
+}

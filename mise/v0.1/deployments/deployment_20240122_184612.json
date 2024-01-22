@@ -1,0 +1,8 @@
+{
+    "dacl": [
+        "PERMIT_ALL_IPV4_TRAFFIC"
+    ],
+    "deployments": [
+        "10.48.30.78"
+    ]
+}

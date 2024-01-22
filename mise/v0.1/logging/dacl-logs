@@ -12744,4 +12744,244 @@
       }
     } ]
   }
+}2024-01-16 19:46:58
+{
+  "SearchResult" : {
+    "total" : 4,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.78/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.78/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.78/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.78/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2024-01-16 19:58:08
+2024-01-16 19:58:09
+2024-01-16 19:58:10
+2024-01-16 19:58:10
+2024-01-16 20:00:35
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DACL_1' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.214/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2024-01-16 20:00:36
+2024-01-16 20:04:40
+{
+  "SearchResult" : {
+    "total" : 4,
+    "resources" : [ {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2024-01-16 20:09:48
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DACL_1' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.214/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2024-01-16 20:09:50
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DACL_2' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.214/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2024-01-16 20:09:50
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DACL_3' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.214/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
+}2024-01-16 20:09:55
+2024-01-16 20:09:57
+2024-01-16 20:09:58
+2024-01-16 20:10:03
+2024-01-16 20:10:04
+2024-01-16 20:10:04
+2024-01-22 18:46:12
+2024-01-22 18:54:50
+{
+  "SearchResult" : {
+    "total" : 7,
+    "resources" : [ {
+      "id" : "4005e700-b4ab-11ee-949d-ce15bcc88a81",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/4005e700-b4ab-11ee-949d-ce15bcc88a81",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4043da60-b4ab-11ee-949d-ce15bcc88a81",
+      "name" : "DACL_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/4043da60-b4ab-11ee-949d-ce15bcc88a81",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "407d39e0-b4ab-11ee-949d-ce15bcc88a81",
+      "name" : "DACL_3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/407d39e0-b4ab-11ee-949d-ce15bcc88a81",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.79/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2024-01-22 18:57:04
+{
+  "ERSResponse" : {
+    "operation" : "POST-create-downloadableacl",
+    "messages" : [ {
+      "title" : "com.cisco.cpm.nsf.api.exceptions.NSFEntitySaveFailed$DuplicateEntity: com.cisco.epm.pap.api.exceptions.DuplicateResourceException: Resource Name 'NAC Group:NAC:dAcls:DACL_1' already exists.",
+      "type" : "ERROR",
+      "code" : "CRUD operation exception"
+    } ],
+    "link" : {
+      "rel" : "related",
+      "href" : "https://10.48.30.79/ers/config/downloadableacl",
+      "type" : "application/xml"
+    }
+  }
 }

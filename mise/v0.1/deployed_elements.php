@@ -324,6 +324,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                               $output .='<td>'.$row['dstise'].'</td>';
                               $output .='<td>'.$row['output'].'</td>';
                               $output .='<td>'.$row['time'].'</td>';
+                              $output .='<td><a href="compare_element.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Compare</a></td>';
                               
 
 

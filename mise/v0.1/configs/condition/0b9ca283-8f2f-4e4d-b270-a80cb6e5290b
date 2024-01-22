@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Network Access",
+    "attributeName": "EapAuthentication",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "EAP-MSCHAPv2",
+    "name": "EAP-MSCHAPv2",
+    "id": "0b9ca283-8f2f-4e4d-b270-a80cb6e5290b",
+    "description": "Default condition for BYOD Onboarding flow"
+}

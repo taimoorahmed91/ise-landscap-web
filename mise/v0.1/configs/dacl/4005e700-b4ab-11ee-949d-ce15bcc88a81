@@ -1,0 +1,14 @@
+{
+  "DownloadableAcl" : {
+    "id" : "4005e700-b4ab-11ee-949d-ce15bcc88a81",
+    "name" : "DACL_1",
+    "description" : "",
+    "dacl" : "permit ip any any",
+    "daclType" : "IPV4",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.79/ers/config/downloadableacl/4005e700-b4ab-11ee-949d-ce15bcc88a81",
+      "type" : "application/json"
+    }
+  }
+}

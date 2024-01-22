@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "EndPoints",
+    "attributeName": "LogicalProfile",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "IP-Phones",
+    "name": "Non_Cisco_Profiled_Phones",
+    "id": "66381d8b-1294-4d6b-8164-c3b0ae3c5200",
+    "description": "Default condition used to match Non Cisco IP Phones"
+}
