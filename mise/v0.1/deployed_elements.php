@@ -46,7 +46,7 @@ $pageNumber = isset($_GET['page']) ? $_GET['page'] : 1;
 $offset = ($pageNumber - 1) * $rowsPerPage;
 
   //Create the select query
-  $query ="SELECT * FROM deploymentcode ORDER BY id DESC LIMIT $rowsPerPage OFFSET $offset";
+  $query ="SELECT * FROM deploymentcode ORDER BY id  LIMIT $rowsPerPage OFFSET $offset";
   //Get results
   $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -298,7 +298,7 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                                     <th class="hidden-md-down">ID </span></th>
                                     <th class="hidden-md-down">Element Name</th>
                                     <th class="hidden-md-down">Element Type</th>
-                                    <th class="hidden-md-down">Source ISE</th>
+                                   
                                     <th class="hidden-md-down">Destination ISE</th>
 
                                     <th class="hidden-md-down">Error Message</th>
@@ -320,12 +320,12 @@ $offset = ($pageNumber - 1) * $rowsPerPage;
                               $output .='<td>'.$row['id'].'</td>';
                               $output .='<td>'.$row['element'].'</td>';
                               $output .='<td>'.$row['type'].'</td>';
-                              $output .='<td>'.$row['srcise'].'</td>';
+                             
                               $output .='<td>'.$row['dstise'].'</td>';
                               $output .='<td>'.$row['output'].'</td>';
                               $output .='<td>'.$row['time'].'</td>';
                               $output .='<td><a href="compare_element.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Compare</a></td>';
-                              
+                              $output .='<td><a href="put_element.php?id='.$row['id'].'" class="btn btn--success" style="color:white">Override</a></td>';
 
 
 
