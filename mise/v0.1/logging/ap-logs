@@ -10525,4 +10525,82 @@ Successful2023-12-03 17:41:18
       "type" : "application/xml"
     }
   }
+}2024-01-26 21:40:00
+{
+  "SearchResult" : {
+    "total" : 8,
+    "resources" : [ {
+      "id" : "926901b0-8c01-11e6-996c-525400b48521",
+      "name" : "Default Device Admin",
+      "description" : "Default Allowed Protocol Service Device Admin",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/allowedprotocols/926901b0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "92613980-8c01-11e6-996c-525400b48521",
+      "name" : "Default Network Access",
+      "description" : "Default Allowed Protocol Service",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/allowedprotocols/92613980-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "99338ff0-b4a9-11ee-ad34-8a61e6461dda",
+      "name" : "Protocol_list_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/allowedprotocols/99338ff0-b4a9-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9980c590-b4a9-11ee-ad34-8a61e6461dda",
+      "name" : "Protocol_list_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/allowedprotocols/9980c590-b4a9-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "99bc6f00-b4a9-11ee-ad34-8a61e6461dda",
+      "name" : "Protocol_list_3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/allowedprotocols/99bc6f00-b4a9-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9a0314f0-b4a9-11ee-ad34-8a61e6461dda",
+      "name" : "Protocol_list_4",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/allowedprotocols/9a0314f0-b4a9-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "ef7096b0-b4a9-11ee-ad34-8a61e6461dda",
+      "name" : "Protocol_list_5",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/allowedprotocols/ef7096b0-b4a9-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "223cc580-ba42-11ee-ad34-8a61e6461dda",
+      "name" : "allowall",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/allowedprotocols/223cc580-ba42-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    } ]
+  }
 }

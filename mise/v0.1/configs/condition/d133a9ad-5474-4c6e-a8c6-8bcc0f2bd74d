@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Session",
+    "attributeName": "PostureStatus",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "Unknown",
+    "name": "Compliance_Unknown_Devices",
+    "id": "d133a9ad-5474-4c6e-a8c6-8bcc0f2bd74d",
+    "description": "Default condition for unknown compliance devices"
+}

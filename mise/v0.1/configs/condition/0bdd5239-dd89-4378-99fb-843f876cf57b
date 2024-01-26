@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Session",
+    "attributeName": "PostureStatus",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "NonCompliant",
+    "name": "Non_Compliant_Devices",
+    "id": "0bdd5239-dd89-4378-99fb-843f876cf57b",
+    "description": "Default condition for non-compliant devices"
+}

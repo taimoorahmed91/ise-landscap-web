@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Radius",
+    "attributeName": "NAS-Port-Type",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "Wireless - IEEE 802.11",
+    "name": "Wireless_Access",
+    "id": "83c51482-9c0e-45f1-ab61-1902a87992c5",
+    "description": "Default condition used to match any authentication request from Cisco Wireless LAN Controller."
+}

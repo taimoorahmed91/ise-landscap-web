@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Normalised Radius",
+    "attributeName": "RadiusFlowType",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "WirelessWebAuth",
+    "name": "WLC_Web_Authentication",
+    "id": "9a012c1e-e4da-4ad7-9124-cefb516de87f",
+    "description": "A condition to match requests for web authentication from wireless LAN controllers, according to the corresponding Web Authentication attributes defined in the device profile."
+}

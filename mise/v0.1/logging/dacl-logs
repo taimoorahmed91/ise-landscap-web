@@ -12984,4 +12984,105 @@
       "type" : "application/xml"
     }
   }
+}2024-01-26 21:39:57
+{
+  "SearchResult" : {
+    "total" : 9,
+    "resources" : [ {
+      "id" : "963e1db0-b4a9-11ee-ad34-8a61e6461dda",
+      "name" : "DACL_1",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/downloadableacl/963e1db0-b4a9-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9685fc20-b4a9-11ee-ad34-8a61e6461dda",
+      "name" : "DACL_2",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/downloadableacl/9685fc20-b4a9-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "96c3a160-b4a9-11ee-ad34-8a61e6461dda",
+      "name" : "DACL_3",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/downloadableacl/96c3a160-b4a9-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "97025810-b4a9-11ee-ad34-8a61e6461dda",
+      "name" : "DACL_4",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/downloadableacl/97025810-b4a9-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "ee20e530-b4a9-11ee-ad34-8a61e6461dda",
+      "name" : "DACL_5",
+      "description" : "",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/downloadableacl/ee20e530-b4a9-11ee-ad34-8a61e6461dda",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "9825aa40-8c01-11e6-996c-525400b48521",
+      "name" : "DENY_ALL_IPV4_TRAFFIC",
+      "description" : "Deny all ipv4 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/downloadableacl/9825aa40-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "410aa2b0-4fbe-11ed-a871-0050568f5811",
+      "name" : "DENY_ALL_IPV6_TRAFFIC",
+      "description" : "Deny all ipv6 traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/downloadableacl/410aa2b0-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "982498d0-8c01-11e6-996c-525400b48521",
+      "name" : "PERMIT_ALL_IPV4_TRAFFIC",
+      "description" : "Allow all ipv4 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/downloadableacl/982498d0-8c01-11e6-996c-525400b48521",
+        "type" : "application/json"
+      }
+    }, {
+      "id" : "4108f500-4fbe-11ed-a871-0050568f5811",
+      "name" : "PERMIT_ALL_IPV6_TRAFFIC",
+      "description" : "Allow all ipv6 Traffic",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.48.30.214/ers/config/downloadableacl/4108f500-4fbe-11ed-a871-0050568f5811",
+        "type" : "application/json"
+      }
+    } ]
+  }
+}2024-01-26 23:07:59
+{
+  "DownloadableAcl" : {
+    "id" : "963e1db0-b4a9-11ee-ad34-8a61e6461dda",
+    "name" : "DACL_1",
+    "description" : "",
+    "dacl" : "permit ip any any",
+    "daclType" : "IPV4",
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.214/ers/config/downloadableacl/963e1db0-b4a9-11ee-ad34-8a61e6461dda",
+      "type" : "application/json"
+    }
+  }
 }

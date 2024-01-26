@@ -1,0 +1,79 @@
+{
+  "AllowedProtocols" : {
+    "id" : "223cc580-ba42-11ee-ad34-8a61e6461dda",
+    "name" : "allowall",
+    "description" : "",
+    "eapTls" : {
+      "allowEapTlsAuthOfExpiredCerts" : true,
+      "eapTlsEnableStatelessSessionResume" : false
+    },
+    "peap" : {
+      "allowPeapEapMsChapV2" : true,
+      "allowPeapEapMsChapV2PwdChange" : true,
+      "allowPeapEapMsChapV2PwdChangeRetries" : 1,
+      "allowPeapEapGtc" : true,
+      "allowPeapEapGtcPwdChange" : false,
+      "allowPeapEapGtcPwdChangeRetries" : 1,
+      "allowPeapEapTls" : true,
+      "allowPeapEapTlsAuthOfExpiredCerts" : true,
+      "requireCryptobinding" : false,
+      "allowPeapV0" : true
+    },
+    "eapFast" : {
+      "allowEapFastEapMsChapV2" : true,
+      "allowEapFastEapMsChapV2PwdChange" : false,
+      "allowEapFastEapMsChapV2PwdChangeRetries" : 0,
+      "allowEapFastEapGtc" : true,
+      "allowEapFastEapGtcPwdChange" : false,
+      "allowEapFastEapGtcPwdChangeRetries" : 0,
+      "allowEapFastEapTls" : true,
+      "allowEapFastEapTlsAuthOfExpiredCerts" : false,
+      "eapFastUsePacs" : false,
+      "eapFastDontUsePacsAcceptClientCert" : false,
+      "eapFastDontUsePacsAllowMachineAuthentication" : false,
+      "eapFastEnableEAPChaining" : false
+    },
+    "eapTtls" : {
+      "eapTtlsPapAscii" : true,
+      "eapTtlsChap" : true,
+      "eapTtlsMsChapV1" : true,
+      "eapTtlsMsChapV2" : true,
+      "eapTtlsEapMd5" : true,
+      "eapTtlsEapMsChapV2" : true,
+      "eapTtlsEapMsChapV2PwdChange" : false,
+      "eapTtlsEapMsChapV2PwdChangeRetries" : 0
+    },
+    "teap" : {
+      "allowTeapEapMsChapV2" : true,
+      "allowTeapEapMsChapV2PwdChange" : true,
+      "allowTeapEapMsChapV2PwdChangeRetries" : 3,
+      "allowTeapEapTls" : true,
+      "allowTeapEapTlsAuthOfExpiredCerts" : false,
+      "acceptClientCertDuringTunnelEst" : true,
+      "enableEapChaining" : false,
+      "allowDowngradeMsk" : true
+    },
+    "processHostLookup" : true,
+    "allowPapAscii" : true,
+    "allowChap" : true,
+    "allowMsChapV1" : true,
+    "allowMsChapV2" : true,
+    "allowEapMd5" : true,
+    "allowLeap" : true,
+    "allowEapTls" : true,
+    "allowEapTtls" : true,
+    "allowEapFast" : true,
+    "allowPeap" : true,
+    "allowTeap" : true,
+    "allowPreferredEapProtocol" : false,
+    "eapTlsLBit" : true,
+    "allowWeakCiphersForEap" : true,
+    "fiveG" : false,
+    "requireMessageAuth" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.48.30.214/ers/config/allowedprotocols/223cc580-ba42-11ee-ad34-8a61e6461dda",
+      "type" : "application/json"
+    }
+  }
+}

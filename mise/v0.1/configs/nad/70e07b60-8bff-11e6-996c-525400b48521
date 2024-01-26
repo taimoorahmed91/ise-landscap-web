@@ -5,7 +5,7 @@
     "description" : "Device is IPSEC Type",
     "link" : {
       "rel" : "self",
-      "href" : "https://10.48.30.79/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
+      "href" : "https://10.48.30.214/ers/config/networkdevicegroup/70e07b60-8bff-11e6-996c-525400b48521",
       "type" : "application/json"
     },
     "othername" : "IPSEC"

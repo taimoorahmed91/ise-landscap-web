@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "Network Access",
+    "attributeName": "AuthenticationStatus",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "AuthenticationPassed",
+    "name": "Network_Access_Authentication_Passed",
+    "id": "e8edc1bc-dca5-4e00-a233-e1edc7ab98ca",
+    "description": "Default condition used for basic Network Access requiring that authentication was successful."
+}

@@ -1,0 +1,12 @@
+{
+    "conditionType": "LibraryConditionAttributes",
+    "isNegate": false,
+    "dictionaryName": "EndPoints",
+    "attributeName": "BYODRegistration",
+    "operator": "equals",
+    "dictionaryValue": null,
+    "attributeValue": "Yes",
+    "name": "BYOD_is_Registered",
+    "id": "2ae9fbe1-6cbe-4b55-96c6-bd1f7da07093",
+    "description": "Default condition for BYOD flow for any device that has passed the NSP process"
+}
